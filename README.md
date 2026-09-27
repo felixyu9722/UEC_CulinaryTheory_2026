@@ -1,5 +1,4 @@
 # 2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
-## 高一全套 20 课·800 题精选题库与智能互动答题总系统
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?style=for-the-badge&logo=github)](https://felixyu9722.github.io/UEC_CulinaryTheory_2026/)
 [![Questions](https://img.shields.io/badge/Total%20Questions-800%20Items-blue?style=for-the-badge)](https://felixyu9722.github.io/UEC_CulinaryTheory_2026/)
