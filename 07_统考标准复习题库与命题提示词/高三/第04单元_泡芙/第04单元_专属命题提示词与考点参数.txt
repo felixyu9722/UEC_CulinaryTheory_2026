@@ -1,0 +1,48 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高三 第04单元｜泡芙 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高三（Senior Three）
+• 单元：第04单元 泡芙（Choux Pastry / Pâte à Choux）
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 泡芙生面糊独特的“烫面糊化（Gelatinization）”生化机理：
+   - 水/牛奶、油脂（黄油）、盐糖混合彻底煮沸（100℃，油脂完全熔化分散）；
+   - 一次性冲入高筋面粉（或中筋面粉），小火持续快速翻拌炒透；
+   - 核心机理：面粉淀粉颗粒在 75~80℃ 高温下剧烈吸水膨胀发生彻底糊化（Gelatinization），破坏晶体结构释放支链淀粉，吸收面粉自身重量 2~3 倍的水分形成高黏稠凝胶基质；
+   - 判定标准：锅底形成一层薄薄的半透明白色粉膜（Pan coating），面团成光滑不粘锅的抱团球状。
+2. 蛋液加入量与“倒三角流变学（V-shape test）”标准：
+   - 烫面团必须降温至 55~60℃（低于 60℃ 避免蛋液蛋白质烫熟结块）；
+   - 少量多次加入室温打散全蛋液，充分乳化搅匀；
+   - 判定标准：捞起刮刀，面糊呈光滑细腻有光泽的倒三角形垂落（宽约 3~4cm，边缘整齐），停留数秒缓缓下坠；面糊过干膨胀不足内部无空腔，面糊过稀入炉流淌无法成型。
+3. 纯物理水蒸气爆裂与中空网膜定型热工原理：
+   - 泡芙配方中无任何酵母或化学泡打粉，完全依靠“高水分产生的水蒸气压力”进行纯物理膨胀；
+   - 入炉前期（190~200℃ 高温）：糊化淀粉与油脂网膜迅速包裹大量水分；内部水分剧烈沸腾汽化，体积瞬间膨胀 1600 倍，高压蒸汽向外猛烈推挤，将面团撑成一个巨大中空气囊；
+   - 入炉后期（160~170℃ 降温烘干）：高温使面筋蛋白质变性凝固、淀粉彻底失水固化，形成支撑空洞的坚硬金黄外壳；
+   - 【绝对红线】：烘烤前 20 分钟严禁打开烤箱炉门！外界冷空气涌入会导致炉内水蒸气分压骤降，脆弱的未熟骨架瞬间被外界大气压压塌碎裂，造成不可逆坍塌。
+4. 典型后厨生产事故与排查（Troubleshooting）：
+   - 泡芙出炉后严重塌陷扁平如死饼（烘烤时间不足骨架未彻底脱水硬化、中途开炉门散失蒸汽负压坍塌、淀粉烫面不充分糊化吸水不足）；
+   - 泡芙膨胀极小内部实心无空腔（烫面温度不够未达糊化点、蛋液加入过少面糊过干硬、烤炉温度过低无法快速产生高压蒸汽）；
+   - 泡芙表面开裂粗糙或倾斜变形（面糊挤出有尖角未抹平、底火过旺受热不均）。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，法式专业教科书质感）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional culinary science textbook infographic, 16:9 aspect ratio, 4k. Two-section diagram illustrating '泡芙烫面淀粉糊化与物理蒸汽膨胀空腔形成图' (Choux Pastry Starch Gelatinization & Steam-Driven Hollow Expansion Physics). Top section: Chemical stage of starch gelatinization at 75-80°C in copper pan forming pan coating, followed by cooling to 60°C and egg incorporation showing iconic smooth V-shaped ribbon hanging from silicone spatula. Bottom section: Four-stage timeline of choux baking in oven (Initial Heat -> Steam Pressure Expansion expanding 1600x -> Gluten Protein Coagulation & Starch Setting -> Golden Crisp Hollow Shell with large interior cavity). Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text prominently larger than English.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional culinary school food science textbook infographic, 16:9 aspect ratio, 4k. Two-panel comparative failure diagnosis diagram illustrating '泡芙烘烤中途开门坍塌与流变学缺陷诊断图' (Choux Pastry Oven Door Steam Collapse & Batter Consistency Failure). Left panel '事故案例：烘烤中途开炉门导致严重坍塌' (Failure: Premature Oven Door Opening & Catastrophic Collapse) showing deflated wrinkled soggy choux pastries collapsed flat like pancakes on baking sheet, blue downward cold air arrows and escaping steam clouds with red warning icon (烘烤前20分钟严禁开门). Right panel '事故案例：面糊过稀流淌与扁平无腔' (Failure: Over-hydrated Runny Batter & No Interior Hollow) showing cross-section of flat heavy choux with wet gummy dough core inside due to excessive egg addition. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text noticeably larger than English, 16:9.

@@ -1,0 +1,46 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高三 第01单元｜饼干 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高三（Senior Three）
+• 单元：第01单元 饼干（Cookies & Biscuits）
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 饼干四大基础成型分类与流变学特征：
+   - 挤花饼干（Bagged / Piped Cookies，如罗密亚、曲奇）：软质面糊，依赖黄油可塑性（18~20℃）打发截留微气孔；面糊必须兼具可挤出性与保形性。
+   - 切片/冷藏饼干（Icebox / Refrigerator Cookies，如蔓越莓饼干）：较高油脂含量面团，整形成条状冷藏（0~4℃）使黄油固化定型后再均匀切片。
+   - 擀压饼干（Rolled / Cut-out Cookies，如糖霜饼干、姜饼）：中等硬度面团，冷藏松弛后擀平至均匀厚度（3~5mm），用模具压印切割。
+   - 滴落饼干（Drop Cookies，如美式巧克力软曲奇）：较软面糊用冰淇淋勺或勺子挖取滴落于烤盘，烘烤中受热重力扩展坍平。
+2. 延展率（Spread Ratio）微观生化与热力学决定因子：
+   - 延展率定义：饼干直径（Width）与厚度（Thickness）的比值（W/T）。
+   - 促进延展因子（Spread Promoters）：细砂糖（颗粒粗、受热熔化液化）、高油脂（熔化软化）、小苏打（碱性环境提高面筋溶解度使面糊软化流淌）、低筋面粉（微弱面筋束缚）、高烤盘涂油量、较低炉温（延长熔融流动时间）。
+   - 抑制延展/保持花纹因子（Spread Retarders）：糖粉（含微量防结块玉米淀粉、溶解迅速不产生流动液滴）、低脂配方、高筋面粉（强面筋网膜收缩）、酸性膨松剂、高温快烤（表层蛋白质快速热凝固锁定形态）、冷藏面团充分松弛水合。
+3. 水分迁移与脆度/软度热工机理：
+   - 酥脆型饼干：烘烤将中心水分降低至 <3%~5%，出炉冷却过程中多余湿气散失，淀粉与糖形成玻璃态脆硬骨架。
+   - 柔软耐嚼型饼干（Chewy Cookies）：使用转化糖/红糖（高果糖吸湿保水）、高水分蛋液、缩短烘烤时间保留内部 6%~8% 水分。
+4. 典型后厨生产事故与排查（Troubleshooting）：
+   - 挤花曲奇入炉花纹彻底融化坍塌消失（黄油过度软化或高速打发过热、使用颗粒粗砂未用糖粉、烤盘温热、面粉拌入不足）；
+   - 饼干质地死硬不酥（低筋粉加入后过度画圈搅拌出筋、油脂用量过低、烘烤过度失水）；
+   - 饼干中心发软不脆（面坯过厚、烘烤时间不足、出炉未充分冷却即密封包装导致余热水汽回潮）。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，独中统考现代专业教科书质感）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional culinary science textbook infographic, 16:9 aspect ratio, 4k. Two-section diagram illustrating '饼干四大成型工艺与延展率影响因素平衡图' (Cookie Forming Methods & Spread Ratio Balance Matrix). Top section: Four cookie forming methods side-by-side (挤花饼干 Piped Cookies, 切片冷藏饼干 Icebox Cookies, 擀压压模饼干 Rolled Cookies, 滴落饼干 Drop Cookies) with dough rheology indicators. Bottom section: Spread Ratio balance beam (延展率物理天平) showing Spread Promoters on left (Coarse Sugar, High Fat, Low Oven Temp) vs Spread Retarders on right (Powdered Sugar, Strong Flour, High Oven Temp). Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text prominently larger than English.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional culinary school food science textbook infographic, 16:9 aspect ratio, 4k. Two-panel comparative failure diagnosis diagram illustrating '挤花曲奇花纹坍塌与形态缺陷诊断图' (Piped Cookie Spread Failure & Troubleshooting Case Analysis). Left panel '事故案例：花纹完全融化坍塌平摊' (Failure: Severe Pattern Melting & Over-spread) showing cookie dough completely flattened into an oily greasy puddle with lost ridges, annotated with red error tags (黄油过度软化, 粗砂糖融化延展, 烤盘温热). Right panel '标准工艺：立体清晰立体曲奇' (Master Standard: Crisp Defined Fluted Ridges) showing perfectly piped Viennese swirl butter cookie with sharp defined edges, light golden crisp rim, and porous airy cross-section. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text noticeably larger than English, 16:9.

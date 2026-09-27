@@ -1,0 +1,47 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高三 第02单元｜胶冻类西点 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高三（Senior Three）
+• 单元：第02单元 胶冻类西点（Jellies, Mousses & Bavarian Creams）
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 胶冻西点四大核心胶体来源与相变热力学：
+   - 动物明胶/吉利丁（Gelatin）：提取自猪皮/牛骨胶原蛋白，热可逆凝胶。熔点 25~35℃（人体口腔温度融化，产生极致口溶感）；凝固点 10~15℃。不可煮沸（>65℃ 胶原多肽水解失活）；以 Bloom 强度值标定（140~250 Bloom）。
+   - 植物琼脂/洋菜（Agar-agar）：红藻提取半乳聚糖，熔点高达 85~95℃（常温不融化），凝固点 32~40℃；质地硬脆脆裂、缺乏弹性与口溶感。
+   - 植物果胶（Pectin）：高甲氧基果胶（HM，需高糖 55~65% 与低 pH 2.8~3.5 凝胶）vs 低甲氧基果胶（LM，需二价钙离子凝胶）。
+   - 卡拉胶/吉利T（Carrageenan / Jelly T Powder）：介于琼脂与明胶之间，透明度高，40~45℃ 凝固。
+2. 经典胶冻西点架构与混合流变学：
+   - 果冻（Jelly）：纯果汁/风味液体 + 凝胶剂。
+   - 慕斯（Mousse）：基底蛋黄英式蛋奶酱（Crème Anglaise）或果泥 + 吉利丁液 + 打发淡奶油（六分发，流线状）/ 意式蛋白霜。
+   - 混合温控生死线：吉利丁果泥基底必须降温至 28~32℃ 方可与打发淡奶油翻拌；若高于 35℃ 鲜奶油乳脂融化消泡出水；若低于 20℃ 吉利丁局部凝结成硬颗粒结块。
+3. 生物酶解禁忌与灭活机理：
+   - 生鲜热带水果（菠萝、猕猴桃、木瓜、无花果）富含蛋白水解酶（Bromelain 菠萝蛋白酶、Papain 木瓜蛋白酶）；
+   - 生果泥加入吉利丁，蛋白酶水解明胶多肽链，导致彻底无法凝固；
+   - 必须提前将鲜果泥加热沸腾至 85℃ 以上持续 1~2 分钟，使酶分子彻底变性失活，冷却后再加入吉利丁。
+4. 典型后厨生产事故与排查（Troubleshooting）：
+   - 慕斯粗糙带有橡胶硬颗粒（吉利丁融化不完全，或基底过凉倒入冷奶油瞬间受冻结块）；
+   - 慕斯出水塌陷（淡奶油打发过度油水分离，或基底温度过高烫化乳脂）；
+   - 菠萝慕斯冷藏多日依然是流淌液体（使用生鲜菠萝未高温灭酶）。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，法式专业教科书质感）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional culinary science textbook infographic, 16:9 aspect ratio, 4k. Two-section diagram illustrating '三大西点胶体热力学相变与口感网膜微观图' (Gelatin vs Agar vs Pectin Thermodynamic & Rheological Matrix). Top section: Phase transition temperature bar chart comparing Gelatin (Melting 28-35°C mouth-melting, Gelation 15°C), Agar-agar (Melting 85-95°C heat-resistant, Gelation 35°C), and Pectin (HM Acid-Sugar vs LM Calcium). Bottom section: Microscopic polymer network diagrams showing flexible elastic triple-helix gelatin network vs rigid brittle agar carbohydrate mesh. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text prominently larger than English.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional culinary school food science textbook infographic, 16:9 aspect ratio, 4k. Two-panel comparative failure diagnosis diagram illustrating '慕斯胶体失效与蛋白酶水解事故诊断图' (Mousse Gelation Failure & Bromelain Enzyme Hydrolysis Case Analysis). Left panel '事故案例：生鲜菠萝慕斯完全未凝固出水' (Failure: Raw Pineapple Mousse Liquefied & Collapsed) showing liquefied yellow curdled mousse oozing out of cake ring onto dessert plate, red warning callout showing active Bromelain protease enzymes slicing gelatin protein strands like scissors. Right panel '事故案例：基底温差过大导致吉利丁胶粒结块' (Failure: Cold Cream Shock Causing Rubbery Gelatin Lumps) showing grainy mousse cross-section with translucent chewy rubbery lumps. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text noticeably larger than English, 16:9.

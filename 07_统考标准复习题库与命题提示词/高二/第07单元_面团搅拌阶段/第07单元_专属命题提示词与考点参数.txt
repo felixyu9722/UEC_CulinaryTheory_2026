@@ -1,0 +1,44 @@
+================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高二 第07单元｜面团搅拌阶段 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高二（Senior Two）
+• 单元：第07单元 面团搅拌阶段
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 面团搅拌六大连续流变学阶段微观物理演变：
+   - 阶段一：拾起阶段（Pick-up stage / 法: Frasage）—— 干湿原料低速混匀，无弹性，表面湿烂粘手，呈散碎粗糙糊状；
+   - 阶段二：卷起/清缸阶段（Clean-up stage）—— 面筋初步形成水合网架，面团抱聚成团并将搅拌缸内壁面粉全部黏附带净，缸壁光洁；此阶段为加入软化黄油的唯一黄金窗口期（“后油法”）；
+   - 阶段三：扩展阶段（Development stage）—— 面筋网络大量交联扩展，面团表面由粗糙转为光滑紧致，拉开薄膜较厚且破洞裂口呈粗糙锯齿状（适合甜面包、小餐包）；
+   - 阶段四：完全扩展阶段 / 手套膜（Final development stage）—— 面筋完全扩展达到弹性与延展性巅峰平衡，能拉出薄如蝉翼、半透明、指纹清晰可见的手套膜，指尖戳破圆洞边缘光滑圆润无毛刺（适合吐司、方包）；
+   - 阶段五：过度搅拌阶段（Overmixed stage）—— 机械剪切力强行拉断二硫键，面温飙升，面筋断裂开始吐水析出，表面发亮变黏软烂；
+   - 阶段六：破坏断裂阶段（Break-down stage）—— 面筋网络彻底粉碎液化，面团化为黏稀胶水状流体，不可逆报废。
+2. 关键生化机理与量化控制标准：
+   - “后油法（Late Fat Addition）”生化机理：油脂疏水性油膜会率先包裹麦谷蛋白与醇溶蛋白颗粒，阻断水分子渗透水合；必须待清缸成团后再投入油脂；
+   - 搅拌出缸面温控制：普通甜软面包严格控制在 26℃~28℃；硬欧/法棍严格控制在 22℃~24℃；
+   - 冰水计算与摩擦升温控制：搅拌钩机械做功转化为摩擦热（Friction Factor），夏季必须采用冰水或冰屑控温。
+3. 典型后厨生产事故与排查（Troubleshooting）：
+   - 早期加油导致搅拌时间超长且无法起筋、高速过打导致面团出水断筋化稀；
+   - 未用冰水导致出缸面温超标（>32℃）引发面筋早产发酵变软发酸。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，独中统考专业教科书风格）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional Chinese baking science textbook infographic, 16:9 aspect ratio, 4k. Title in large bold Simplified Chinese: '面团搅拌六大物理演变阶段与手套膜检测标准' (Six Stages of Dough Mixing & Windowpane Test Standards). Six continuous sequential panels with bold Chinese titles and smaller English sub-labels: 1. '拾起阶段' (Pick-up: 干湿混合湿烂粘手); 2. '卷起清缸阶段' (Clean-up: 成团清缸，加入黄油最佳窗口); 3. '扩展阶段' (Development: 膜较厚且破洞呈锯齿状); 4. '完全扩展手套膜阶段' (Final Development: 薄如蝉翼透光手套膜，破洞边缘光滑圆润); 5. '过度搅拌阶段' (Overmixed: 剪切断筋面团吐水变黏); 6. '破坏断裂阶段' (Break-down: 面筋彻底粉碎化为稀糊). Technical circular close-up of the translucent windowpane test in center. Chinese text prominently larger than English, 16:9.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional Chinese commercial bakery troubleshooting infographic, 16:9 aspect ratio. Two-panel comparative failure diagnosis diagram illustrating '面团打发过度断筋与后油法标准工艺对比图' (Dough Over-mixing Breakdown vs Post-Butter Method Mastery). Left panel '错误操作灾难：打发过度断筋' (Disaster: High-Speed Overmixing): mixer spinning at high speed for 20 minutes without ice water, dough temperature 34C, gluten disulphide bonds destroyed, dough weeping wet sticky liquefied mess, bread loaf collapsed with dense gummy core. Right panel '专业操作：后油法与透光手套膜' (Master Technique: Post-Butter Addition & Windowpane): adding butter at clean-up stage, controlled 26C dough temperature, translucent windowpane membrane, tall golden fluffy loaf with silky crumb. Technical cutaway annotations, bold Simplified Chinese titles with smaller English sub-labels, Chinese text prominently larger than English, 16:9.

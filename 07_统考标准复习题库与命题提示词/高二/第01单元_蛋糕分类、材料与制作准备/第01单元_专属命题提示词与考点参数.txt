@@ -1,0 +1,46 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高二 第01单元｜蛋糕分类、材料与制作准备 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高二（Senior Two）
+• 单元：第01单元 蛋糕分类、材料与制作准备
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 蛋糕三大基础分类与流变学特征：
+   - 面糊类蛋糕（Batter-type / Shortened）：高油脂，糖油拌合法截留空气 + 化学膨松剂，比重大（SG 0.75~0.85），磅蛋糕/重油蛋糕。
+   - 乳沫类蛋糕（Foam-type / Unshortened）：极低脂或无脂，全蛋海绵蛋糕（Génoise，38~40℃加温打发）与纯蛋白天使蛋糕（Angel Food，塔塔粉调pH弱酸性，韧性高雪白）。
+   - 戚风类蛋糕（Chiffon）：分蛋法，植物油蛋黄糊 + 蛋白霜折叠翻拌，低温不结晶硬化，高比容柔韧。
+2. 蛋糕制作核心材料功能四大象限：
+   - 强韧剂（面粉面筋蛋白、全蛋/蛋清蛋白质热凝固、淀粉糊化）；
+   - 柔顺剂（糖反水合削弱面筋、油脂润滑起酥、蛋黄卵磷脂乳化）；
+   - 润湿剂（水、奶、果汁、蛋液游离水）；
+   - 干燥剂（面粉、淀粉、可可粉、脱脂奶粉）。
+3. 后厨制作前准备规范（Mise en Place）与关键控制点（CCP）：
+   - 烤箱预热（Preheat）热工原理与假熟/塌陷预防；
+   - 模具准备与材质选择（阳极铝模 vs 防粘模具）；
+   - 材料同温化（黄油可塑性温区 18~22℃ vs 冰冷蛋液 4℃ 导致破乳分离 Curdling）；
+   - 烘焙百分比投料与精准称量。
+4. 典型后厨生产事故（Troubleshooting）：
+   - 油水分离破乳、未预热入炉沉淀胶质布丁死面层、戚风使用防粘模具滑落塌腰、出炉未震模回缩。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，法式/华文独中现代专业教科书质感）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，视觉层级约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional culinary science textbook infographic, 16:9 aspect ratio, 4k. Two-section diagram illustrating '蛋糕三大流变学分类与原料功能平衡图' (Cake Rheological Classification and Functional Balance Matrix). Top section: Batter-type, Foam-type, and Chiffon cakes with physical crumb structure and specific gravity. Bottom section: Four-quadrant ingredient function matrix (Tougheners, Tenderizers, Moisteners, Driers). Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text prominently larger than English.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional culinary school food science textbook infographic, 16:9 aspect ratio, 4k. Two-panel comparative failure diagnosis diagram illustrating '后厨蛋糕生产事故诊断图' (Commercial Kitchen Cake Baking Failure Case Analysis). Left panel: Pound Cake Emulsion Failure (curdled batter, collapsed oily sunken cake with thick dark dense unbaked rubbery pudding layer). Right panel: Chiffon Cake Structural Collapse (hourglass waist collapse in nonstick pan, slippery slide marks, deeply sunken top crater). Red warning badges, technical annotations in bold Simplified Chinese with English sub-labels, Chinese text prominently larger than English.

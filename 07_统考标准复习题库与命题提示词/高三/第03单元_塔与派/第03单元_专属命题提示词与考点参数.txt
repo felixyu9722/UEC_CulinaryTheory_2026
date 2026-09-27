@@ -1,0 +1,45 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高三 第03单元｜塔与派 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高三（Senior Three）
+• 单元：第03单元 塔与派（Tarts, Pies & Pastries）
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 法式塔皮三大经典面团分类与起酥力学：
+   - 脆酥皮（Pâte Brisée / Flaky Pie Dough）：冷藏固态黄油切成豌豆大小颗粒（Pea-sized），与面粉快速搓拌保留不规则油粒；水油分层，烘烤时水分汽化推开面皮形成层状酥脆酥皮（Flaky）。
+   - 甜酥皮（Pâte Sucrée / Sweet Tart Dough）：糖油拌合法或揉光法，糖粉 + 黄油打散乳化，面粉被油脂完全包裹隔绝水合；质地紧密如同饼干般酥松（Short/Crumbly）。
+   - 沙化甜面团（Pâte Sablée / Sanded Tart Dough）：沙化法（Sablage），极细黄油与低粉搓成细腻沙粒状再加蛋液，起酥度极高，入口即融。
+2. 盲烤（Blind Baking）工序与热力学防变形控制：
+   - 盲烤定义：在不加湿润馅料的情况下单独烘烤生塔壳/派皮。
+   - 防鼓底与防缩腰操作：派皮入模后用叉子在底部戳孔（Docking，排气排汽）；铺耐高温烘焙纸，填满重石（Baking Beans / 陶瓷压石或生大豆）；
+   - 两段式烘烤法：180℃ 压石盲烤 15~20 分钟使侧壁面筋与淀粉定型；移除烘焙纸与重石，刷一层薄纯蛋黄液（Egg Wash Seal）回烤 3~5 分钟，利用蛋黄蛋白质热凝固形成防水透明密封膜，彻底阻断湿性内馅渗透。
+3. “湿软底（Soggy Bottom）”成因与烘焙力学：
+   - 湿性馅料（如水果派、卡士达馅）水分在烘烤中向下迁移渗入生面皮；
+   - 底火温度不足（<160℃）或烤盘导热性差，面皮底部淀粉未能在水汽渗入前及时糊化硬化成壳，形成半生黏软胶层。
+4. 典型后厨生产事故与排查（Troubleshooting）：
+   - 塔皮入炉后严重回缩滑塌出模具（揉面过度产生强韧面筋、松弛时间不足即擀开入模、未盲烤压石）；
+   - 派底湿软软烂（Soggy Bottom）（未预先盲烤、未刷蛋液密封、底火过低、水果馅料出水过多未勾芡预煮）；
+   - 塔皮出炉后易碎裂散架（黄油用量过高或粉类颗粒未被充分水合黏结）。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，法式专业教科书质感）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional culinary science textbook infographic, 16:9 aspect ratio, 4k. Two-section diagram illustrating '法式塔派面团三大分类与沙化起酥结构图' (French Tart Dough Classification: Pâte Brisée, Pâte Sucrée, Pâte Sablée & Blind Baking Mechanics). Top section: Cross-sectional microstructural comparison of Flaky dough (Pâte Brisée with discrete pea-sized butter pockets creating steam-lifted flaky layers) vs Shortbread crust (Pâte Sablée with sand-like butter coating preventing gluten formation for crumbly texture). Bottom section: Blind Baking engineering diagram showing docked pie crust lined with parchment paper and ceramic baking beans preventing shrinkage, followed by golden egg-wash waterproofing seal. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text prominently larger than English.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional culinary school food science textbook infographic, 16:9 aspect ratio, 4k. Two-panel comparative failure diagnosis diagram illustrating '塔派烘烤成型失败与底壳湿软缺陷诊断图' (Tart Crust Shrinkage & Soggy Bottom Failure Analysis). Left panel '事故案例：塔皮严重缩腰滑脱塌陷' (Failure: Severe Tart Shell Shrinkage & Wall Collapse) showing fluted tart crust shrunken down to half height away from perforated metal tart ring, annotated with red error tags (揉面过度起筋, 缺少冷藏松弛, 未盲烤压石). Right panel '事故案例：水果派底部未熟湿软烂面' (Failure: Severe Soggy Bottom & Leaking Filling) showing slice of fruit pie with soggy grey unbaked gummy bottom crust soaked in runny juice. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text noticeably larger than English, 16:9.

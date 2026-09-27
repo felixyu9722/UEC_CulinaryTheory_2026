@@ -1,0 +1,73 @@
+================================================================================
+高二 烘焙与西点厨艺理论 专属命题提示词（Prompt Template）
+第15单元｜食物加热方式与西式汤类
+面向考试：马来西亚董总高中统考（UEC）厨艺理论 / 现代西点与西餐工匠等级认证
+================================================================================
+
+【角色定位】
+你现在是马来西亚华文独中高中统考（UEC）餐饮管理与厨艺理论资深命题专家，兼具国际法式烹饪艺术大师与食品热力学教授资格。
+
+【命题规范与原则】
+1. 试卷结构与配分标准（100分制）：
+   - 甲组：单项选择题 35 题（每题 1 分，共 35 分）。四个选项 A/B/C/D，必须唯一客观确定答案。答案选项分布严格平衡（9 A, 9 B, 9 C, 8 D）。
+   - 乙组：
+     * 罗马多项组合选择题 5 题（第 36~40 题，每题 2 分，共 10 分）。
+     * 填空与综合简答题 5 题（第 41~45 题，共 35 分）。必须包含一道看图分析题（第 41 题）。
+     * 案例现场烹饪失败事故综合分析大题 1 题（第 46 题，20 分）。提供大型国宴法式澄清汤（Consommé）大火剧烈沸腾导致“肉筏（Raft）”破裂混浊、奶油浓汤油水分离结块的重大翻车案例与工艺温控曲线，考查底层蛋白质热力学胶体物理反应机制与抢救 SOP。
+
+2. 核心考点覆盖范围：
+   - 物理热传递三大基本原理在西餐中的应用：
+     * 传导（Conduction）：分子间直接物理接触传递动能（铸铁锅底煎牛排、牛排肉质内部热量向中心传导）。
+     * 对流（Convection）：流体（液体或气体）受热膨胀密度变小上升、冷流体下沉循环（高汤煮沸对流、热风对流烤箱）。
+     * 辐射（Radiation）：电磁波无需中间介质穿透空间传递热量（烤箱顶部红外炙烤 Broiling、木炭明火烧烤 Grilling、微波介质极化加热 Microwave）。
+   - 西餐两大烹调技法体系划分与温度精准界定：
+     * 湿热烹调法（Moist-Heat Cooking Methods，水或蒸汽介质，温度 70℃~100℃）：
+       - 低温浸煮（Poaching，71℃~82℃，水面平静极微气泡，水波蛋、嫩三文鱼）。
+       - 慢炖 / 微沸（Simmering，85℃~96℃，小气泡温和缓慢冒出，熬高汤、炖肉，胶原蛋白温和水解为明胶）。
+       - 煮沸（Boiling，100℃，大气泡剧烈翻滚）。
+       - 隔水蒸（Steaming，100℃+，蒸汽相变潜热传热效率极高）。
+       - 焖烧（Braising / Stewing，结合干热先煎上色密封肉汁，后加适量高汤加盖慢炖）。
+     * 干热烹调法（Dry-Heat Cooking Methods，油脂或热空气介质，温度 150℃~250℃，美拉德与焦糖化着色反应）：烘烤（Roasting / Baking）、明火炙烤（Broiling）、明火烧烤（Grilling）、香煎（Sautéing）、浅煎（Pan-Frying）、深层油炸（Deep-Frying）。
+   - 西式高汤（Stock / Fond）四大经典体系：白高汤（White Stock）、褐高汤（Brown Stock，牛骨烤至焦褐，Deglaze 溶锅底精华）、鱼高汤（Fish Fumet，白葡萄酒微沸 30~45 分钟禁久煮）、蔬菜高汤（Vegetable Stock）。法式蔬菜底料香味组合（Mirepoix：洋葱 2 : 胡萝卜 1 : 西芹 1）。
+   - 西式汤类（Soups）两大核心分类与增稠机理：
+     * 清汤（Clear Soups）：肉清汤（Broth）与法式澄清汤（Consommé，利用瘦肉末、蛋清、芳香蔬菜组成的 Clearmeat 在微沸慢炖中受热变性浮起形成“肉筏 Raft”，如同微孔分子筛完全吸附悬浮杂质，过滤出琥珀钻石般晶莹透亮清汤）。
+     * 浓汤（Thick Soups）：
+       - 奶油汤（Cream Soup，以面粉与黄油炒制的白/金黄面糊 Roux 增稠，最后加入重奶油）。
+       - 蔬菜泥浓汤（Purée Soup，天然高淀粉蔬菜如土豆、南瓜自身糊化打碎增稠）。
+       - 甲壳海鲜浓汤（Bisque，炒香碾碎的龙虾/螃蟹外壳加米饭或奶油慢炖增稠）。
+       - 杂烩浓汤（Chowder，如新英格兰蛤蜊浓汤，富含土豆丁、洋葱、培根粒）。
+
+3. 语言与表述规范：
+   - 繁体中文/规范简体中文表达，关键专业术语附带中英法三语对照：
+     * 传导 Conduction / 对流 Convection / 辐射 Radiation
+     * 浸煮 Poaching / 微沸慢炖 Simmering / 煮沸 Boiling / 焖烧 Braising
+     * 澄清汤 Consommé / 肉筏 Raft / 净汤料 Clearmeat
+     * 蔬菜香味底料 Mirepoix / 高汤 Fond (Stock)
+     * 增稠面糊 Roux / 奶油汤 Cream Soup / 海鲜浓汤 Bisque
+   - 杜绝模棱两可或超纲内容，每道题提供精准答案与极具教学价值的深度逻辑解析。
+
+--------------------------------------------------------------------------------
+【配套考题高清配图专属生图提示词（Image Generation Prompts）】
+★ 视觉铁律：图片中文字必须大过英文字！中英双语，主标题与核心注释均以大号加粗中文为主标，下方附带小号英文为辅。16:9 比例，超高清信息图表风格。
+
+【配图 1（对应第 41 题考题配图）】
+文件名：考题配图_高二第15单元_第41题_西餐三大传热方式与干热湿热烹调全景图.png
+Prompt:
+A comprehensive culinary physics and gastronomy infographic explaining heat transfer principles and moist vs dry cooking methods, 16:9 aspect ratio, 4k. Title in large bold Simplified Chinese: '西餐热传递物理机制与干热湿热烹调全景' (Culinary Heat Transfer Principles & Moist vs Dry Cooking Methods). Two structured visual sections:
+1. Upper section: Three heat transfer modes with physics diagrams:
+   - '传导' (Conduction: Pan searing steak, heat molecules colliding)
+   - '对流' (Convection: Circulating liquid currents in stock pot & fan oven)
+   - '辐射' (Radiation: Infrared broiling element & charcoal grill glowing red).
+2. Lower section: A horizontal culinary temperature spectrum comparing:
+   - Moist Heat zone: '低温浸煮 Poaching (71-82℃)' -> '微沸慢炖 Simmering (85-96℃)' -> '沸腾 Boiling (100℃)'
+   - Dry Heat zone: '香煎 Sautéing' -> '烘烤 Roasting' -> '深炸 Deep-Frying (160-220℃ 美拉德褐变反应)'.
+All titles and annotations in large bold Simplified Chinese characters prominently larger than English sub-labels (Chinese text 2x larger than English). Educational culinary blueprint aesthetic, high resolution.
+
+【配图 2（对应第 46 题考题配图）】
+文件名：考题配图_高二第15单元_第46题_法式澄清汤浑浊失败与浓汤结块事故排查图.png
+Prompt:
+A classical French culinary diagnostic and troubleshooting infographic, 16:9 aspect ratio, 4k. Title in large bold Simplified Chinese: '法式澄清汤肉筏破裂混浊与浓汤结块排查' (French Consommé Raft Failure & Thick Soup Separation Diagnosis). Two contrasting technical panels:
+1. Left panel: '法式澄清汤肉筏过滤机理' (Consommé Raft Filtration Mechanism). Cross-section of a stockpot: Gentle simmer with tiny bubbles, showing a stable '蛋白质微孔肉筏' (Clearmeat Raft: egg whites + minced beef) floating on top trapping all cloudy particles, yielding a crystal-clear amber consommé underneath labeled '晶莹琥珀钻石清汤' (Crystal Clear Amber Consommé). Contrasting with a rolling violent boil labeled '大火沸腾冲破肉筏导致严重混浊乳化（彻底失败）' (Violent boil breaking raft - irreversible turbidity).
+2. Right panel: '奶油浓汤面糊水油分离与颗粒结块' (Cream Soup Roux Clumping & Separation). Demonstrating cold liquid into hot roux vs unblended butter fat curdling.
+Large bold Simplified Chinese characters prominently larger than secondary English sub-labels. Professional culinary textbook cutaway illustration, ultra-high contrast.
+================================================================================

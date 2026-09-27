@@ -1,0 +1,32 @@
+# Binary and large document formats
+*.docx
+*.pptx
+*.pdf
+*.rar
+*.zip
+*.7z
+*.tmp
+*.db
+
+# Media assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local backup / dump directories
+AI 生成图片/
+backup_lessons_2_to_5/
+yu 01 新增资料/
+高一校内 - 测验题目/
+简报及信息图生成/
+work/qa_word/

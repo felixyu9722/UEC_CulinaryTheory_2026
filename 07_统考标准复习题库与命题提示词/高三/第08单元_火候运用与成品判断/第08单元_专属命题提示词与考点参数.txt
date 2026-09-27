@@ -1,0 +1,44 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高三 第08单元｜火候运用与成品判断 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高三（Senior Three）
+• 单元：第08单元 火候运用与成品判断（Heat Control, Thermal Transfer & Doneness Judgement）
+• 对应教材与国际标准：独中高中厨艺课纲 / 国际现代烹饪物理热力学标准
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. “火候”两大基本要素与三大热传导方式：
+   - 火候两大基石：火力（Heat Intensity，大火/中火/小火）与受热时间（Duration）；
+   - 三大热传递方式：传导（Conduction，直接接触分子碰撞，如铁锅煎牛排）、对流（Convection，流体介质循环，如风炉热风/炖汤水流）、辐射（Radiation，电磁波射线，如红外烤箱/木炭明火）；实际烹调多为复合传热。
+2. 油温分级实用仪表盘与适用工艺：
+   - 温油锅（三四成热，90℃~120℃）：油面平静无烟，插竹筷微量小气泡；适合上浆肉类滑油、干果软炸；
+   - 热油锅（五六成热，130℃~160℃）：油面泛微波微冒青烟；适合炝锅炒菜、一般煎炸；
+   - 旺油锅（七八成热，170℃~200℃）：青烟直上油波翻滚，插竹筷剧烈大泡；适合二次复炸吐油脆皮、急火爆炒、高温定型。
+3. “锅气（Wok Hei）”微观物理与雾化燃烧科学：
+   - 极限锅温（>200℃~250℃）阻止水分外溢；
+   - 几秒内触发急速美拉德反应与焦糖化反应释放复杂吡嗪香气；
+   - 抛锅时细微油滴雾化（Aerosolization）在锅边缘遇高温空气剧烈裂解燃烧，产生独特木炭微细熏香附着食材。
+4. 中心温度熟度判断（Core Temperature）与假熟排查：
+   - 食品安全红线：禽肉中心温度 ≥74℃，碎肉/肉饼 ≥71℃，整块牛肉 Medium 57℃~60℃，鱼肉 55℃~60℃；
+   - 典型事故：火急外焦内生（表层脱水焦糖化发黑，中心依然冰冷带血，缺乏间接温和热传导）。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，现代烹饪热力学权威教科书质感）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional culinary physics textbook infographic, 16:9 aspect ratio, 4k. Two-section diagram illustrating '烹饪三大热传导方式与油温分级辨识仪表盘图' (Three Modes of Heat Transfer & Oil Temperature Scale Infographic). Top section: Three heat transfer engineering schematics (Conduction direct contact sear, Convection fluid circulation, Radiation infrared heat rays) with food examples. Bottom section: Chinese oil temperature gauge (三四成温油 90-120°C for velveting, 五六成热油 130-160°C for stir-fry, 七八成旺油 170-200°C for flash crisping) featuring bamboo chopstick bubble indicator and visual oil surface ripple. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text prominently larger than English.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional culinary school food science textbook infographic, 16:9 aspect ratio, 4k. Two-panel comparative failure diagnosis diagram illustrating '锅气微细油雾燃烧机理与煎烤外焦内生故障诊断图' (Wok Hei Aerosolization Physics & External Charring Internal Rawness Failure Analysis). Left panel '科学机理：抛锅油雾雾化微爆与锅气生成' (Master Science: Thermal Aerosolization & Wok Hei Pyrolysis) showing thermal imaging cross-section of carbon steel wok with droplets of oil aerosolizing at rim and catching brief flame creating smoky aroma compounds. Right panel '事故案例：火候过急导致牛排外焦内生假熟' (Failure: Surface Charring with Uncooked Raw Center) showing thick steak with black charred bitter crust but completely cold raw purplish core with thermal gradient arrows showing thermal conduction lag. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text noticeably larger than English, 16:9.

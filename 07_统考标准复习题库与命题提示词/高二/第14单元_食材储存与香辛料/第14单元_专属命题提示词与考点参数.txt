@@ -1,0 +1,78 @@
+================================================================================
+高二 烘焙与西点厨艺理论 专属命题提示词（Prompt Template）
+第14单元｜食材储存与香辛料
+面向考试：马来西亚董总高中统考（UEC）厨艺理论 / 现代西点与西餐工匠等级认证
+================================================================================
+
+【角色定位】
+你现在是马来西亚华文独中高中统考（UEC）餐饮管理与厨艺理论资深命题专家，兼具国际西餐行政总厨与食品仓储物流管理师资格。
+
+【命题规范与原则】
+1. 试卷结构与配分标准（100分制）：
+   - 甲组：单项选择题 35 题（每题 1 分，共 35 分）。四个选项 A/B/C/D，必须唯一客观确定答案。答案选项分布严格平衡（9 A, 9 B, 9 C, 8 D）。
+   - 乙组：
+     * 罗马多项组合选择题 5 题（第 36~40 题，每题 2 分，共 10 分）。
+     * 填空与综合简答题 5 题（第 41~45 题，共 35 分）。必须包含一道看图分析题（第 41 题）。
+     * 案例现场仓储重大交叉污染与香料失效事故分析大题 1 题（第 46 题，20 分）。提供冷库生熟颠倒摆放导致生鸡血水滴入熟食提拉米苏、香料受潮霉变引发集体中毒索赔的案例与温度台账，考查底层物化机理与整改 SOP。
+
+2. 核心考点覆盖范围：
+   - 西餐后厨三大核心仓储管理与环境物理参数：
+     * 干货仓储（Dry Storage）：温度 10℃~21℃，相对湿度 50%~60%，离地离墙至少 15cm，避光通风防虫害。
+     * 冷藏储存（Refrigerated Storage）：温度 0℃~4℃，严格遵循“自上而下按熟化温度由低到高垂直分层法则”（即食熟食/点心 → 洗净蔬果 → 生海鲜/生牛肉块 → 生猪肉/碎肉 → 最底层生禽肉）。
+     * 冷冻储存（Frozen Storage）：温度 ≤ -18℃，密封防冻烧（Freezer Burn）。
+     * 库房周转制度：先进先出（FIFO）与先到期先出（FEFO）。
+     * 食品标签法制规范（Labeling）：品名、制作/分装日期、保质到期日、责任人姓名及八大过敏原标识。
+   - 西餐经典香草（Herbs）全谱系植物学特征与经典搭配：
+     * 迷迭香（Rosemary）：针叶、浓烈松木芳香、耐受长时间高温炖烤，烤羊排、烤土豆。
+     * 百里香（Thyme）：小叶、清新草本微柠檬香，法式香草束（Bouquet Garni）核心，高汤、炖肉、烤禽肉。
+     * 罗勒（Basil）：甜罗勒，丁香茴香复合清甜香，热敏性极高不耐长时间高温加热（出锅前放），青酱（Pesto）、经典番茄罗勒沙拉。
+     * 牛至 / 披萨草（Oregano）：浓郁微苦辛辣，披萨、意面红酱、希腊沙拉。
+     * 欧芹 / 巴西里（Parsley）：平叶法式欧芹（Italian Flat Leaf，风味浓郁用于调味）与卷叶欧芹（Curly Parsley，耐泡用于盘饰）。
+     * 龙蒿（Tarragon）：浓烈茴香/甘草香，法式贝亚恩斯酱（Béarnaise Sauce）灵魂。
+     * 鼠尾草（Sage）：天鹅绒灰绿叶，微苦樟脑香，煎猪肉排、禽肉填料、黄油南瓜意面。
+     * 月桂叶（Bay Leaf）：干燥叶片慢炖释放醇厚木质香，出锅必须捞出弃用。
+     * 法式经典香草束（Bouquet Garni：百里香 + 月桂叶 + 欧芹茎，棉绳捆扎，方便熬汤后整束取出）。
+   - 西餐经典香辛料（Spices）植物学来源、精油挥发性与应用：
+     * 胡椒家族（黑胡椒、白胡椒、绿胡椒、红胡椒的成熟度与加工差异）。
+     * 肉豆蔻（Nutmeg）：白酱（Béchamel）、土豆泥与奶油菠菜的灵魂调料。
+     * 藏红花（Saffron）：世界上最昂贵香料，番红花雌蕊柱头，赋予西班牙海鲜饭（Paella）与马赛鱼汤（Bouillabaisse）金黄明亮色泽与特有药草香。
+     * 香料储存原则：整粒完整香料（Whole Spices）耐储存，研磨粉状香料精油挥发极快易氧化结块。
+
+3. 语言与表述规范：
+   - 繁体中文/规范简体中文表达，关键专业术语附带中英法三语对照：
+     * 先进先出法 FIFO (First-In, First-Out)
+     * 香草 Herbs / 香料 Spices
+     * 迷迭香 Rosemary (Romarin)
+     * 百里香 Thyme (Thym)
+     * 罗勒 Basil (Basilic)
+     * 欧芹 Parsley (Persil)
+     * 法式香草束 Bouquet Garni
+     * 藏红花 Saffron (Safran)
+     * 肉豆蔻 Nutmeg (Muscade)
+   - 杜绝模棱两可或超纲内容，每道题提供精准答案与极具教学价值的深度逻辑解析。
+
+--------------------------------------------------------------------------------
+【配套考题高清配图专属生图提示词（Image Generation Prompts）】
+★ 视觉铁律：图片中文字必须大过英文字！中英双语，主标题与核心注释均以大号加粗中文为主标，下方附带小号英文为辅。16:9 比例，超高清信息图表风格。
+
+【配图 1（对应第 41 题考题配图）】
+文件名：考题配图_高二第14单元_第41题_西餐冷库垂直分层摆放法则与香草香料图谱.png
+Prompt:
+A professional culinary science textbook infographic showing commercial walk-in refrigerator vertical storage hierarchy and classical culinary herbs, 16:9 aspect ratio, 4k. Title in large bold Simplified Chinese: '西餐冷库垂直分层储存法则与经典香草图谱' (Cold Storage Vertical Hierarchy & Classical Culinary Herbs). Two visual panels:
+1. Left panel: '冷库五层货架分层法则' (Five-Tier Cold Storage Hierarchy). From top to bottom:
+   - Tier 1 (Top): '即食熟食与西点蛋糕' (Ready-to-eat & Pastries)
+   - Tier 2: '洗净果蔬' (Washed Produce)
+   - Tier 3: '生海鲜与整块生牛肉' (Raw Seafood & Whole Beef Cuts)
+   - Tier 4: '生猪肉与生碎肉' (Raw Pork & Ground Meat)
+   - Tier 5 (Bottom): '生家禽鸡鸭肉' (Raw Poultry: Chicken/Turkey).
+2. Right panel: '西餐八大经典新鲜香草' (Eight Classical Culinary Fresh Herbs). High-resolution photorealistic fresh sprigs with large bold Chinese labels: '迷迭香 (Rosemary)', '百里香 (Thyme)', '罗勒 (Basil)', '牛至 (Oregano)', '欧芹 (Parsley)', '龙蒿 (Tarragon)', '鼠尾草 (Sage)', '月桂叶 (Bay Leaf)'.
+All titles and annotations in large bold Simplified Chinese prominently larger than English sub-labels (Chinese text 2x larger than English). Clean commercial kitchen aesthetic, high contrast.
+
+【配图 2（对应第 46 题考题配图）】
+文件名：考题配图_高二第14单元_第46题_冷库生熟颠倒滴落污染与香料氧化失效案例排查图.png
+Prompt:
+A commercial food safety and sensory quality troubleshooting infographic, 16:9 aspect ratio, 4k. Title in large bold Simplified Chinese: '冷库生熟倒置滴落污染与香辛料变质排查' (Cold Storage Raw-over-Cooked Cross-Contamination & Spice Degradation). Two diagnostic panels:
+1. Left panel: '生熟倒置致命滴落事故' (Deadly Raw-Over-Cooked Inversion). Cutaway of a refrigerator shelf showing raw dripping chicken thighs placed above a tray of uncovered tiramisu, raw pink blood drips landing directly onto the ready-to-eat cake, marked with red biohazard arrows and a giant red rejection cross. Annotated in bold Chinese '生鸡血水滴入即食蛋糕（致命交叉污染）' (Raw chicken drip onto RTE cake - Lethal Contamination).
+2. Right panel: '粉状香料受潮氧化结块' (Ground Spice Moisture Oxidation). Fresh green vs oxidized brown dull dried herbs, and ground spices clumped with mold.
+Bold Simplified Chinese characters prominently larger than secondary English sub-labels. Professional HACCP accident investigation report layout, crisp and dramatic.
+================================================================================

@@ -1,0 +1,43 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高二 第04单元｜出炉处理与蛋糕失败分析 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高二（Senior Two）
+• 单元：第04单元 出炉处理与蛋糕失败分析
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 蛋糕出炉关键后处理工序的食品物理学机理：
+   - 出炉震模（Shocking）：出炉立即自 10cm 高度水平轻震模具。机理：震破封闭微气囊孔壁连通气孔，瞬间排出内部滞留的高温过饱和水蒸气，消除冷却时水蒸气凝结成液态水所造成的相变体积骤缩与微负压吸力，从根源杜绝收腰与回塌；
+   - 倒扣冷却（Inverting）：戚风、天使蛋糕出炉震模后必须在 5 秒内迅速倒扣。机理：热蛋糕出炉时淀粉糊化凝胶与蛋白质变性网架尚未发生老化回生刚化，质地极为柔软娇嫩；正置承受巨大向下自重重力会导致下层孔壁压垮；倒扣利用反向重力拉伸网架，使多孔骨架在悬挂延伸状态下完全冷却固化；
+   - 彻底冷却脱模时效：必须待中心温度降至 25~30℃（常温完全冷却，约 60~90 分钟）方可徒手或脱模刀脱模，热脱模必致组织撕裂与外表塌陷。
+2. 蛋糕八大核心缺陷（Troubleshooting Matrix）底层物理化学与配方失衡机理：
+   - 塌陷凹顶（Sunken Center）：未熟假熟、面糊比重过低（充气过多骨架薄弱）、出炉未震模未倒扣、中途猛开烤箱门骤冷；
+   - 漏斗收腰（Hourglass Waist）：使用特氟龙等防粘模具面糊无法攀爬抓壁、出炉未倒扣、蛋白打发过度或翻拌严重消泡、低粉起筋过度强力收缩；
+   - 爆顶开裂（Cracked Volcano Dome）：底火或面火过高、入模量超 80%、蛋白打至干性过度硬脆、泡打粉过量；
+   - 底部凹陷缩底（Sunken Bottom）：底火过高导致底部过快膨胀推空、或底火严重不足淀粉未熟、模具底部垫纸产生封闭空气囊；
+   - 隧道孔空洞（Tunneling）：面粉起筋过度拉伸断裂、泡打粉结块未过筛局部暴沸、入模后未震出大粗泡；
+   - 胶质死面布丁层（Dense Gummy Pudding Layer）：翻拌严重消泡水粉沉淀、融化黄油温度过低（<40℃）析出沉底、蛋黄糊与蛋白霜比重温差悬殊未混匀；
+   - 掉渣干硬粗糙（Dry Crumbly Texture）：烘焙温度过低烘烤时间拖长水分过度蒸发、糖油比例不足、面粉筋度过高；
+   - 表皮湿黏脱皮（Sticky Surface Skin）：出炉表面未彻底脱水、趁热密封包裹保鲜膜水汽凝结回渗。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，独中统考专业教科书风格）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional Chinese culinary science textbook infographic, 16:9 aspect ratio. Title in large bold Simplified Chinese: '蛋糕出炉震模排气与倒扣悬挂定型力学机理图' (Cake Shocking & Inverting Mechanics). Top section '出炉震模排气' (Shocking: Vapor Release): Comparing '未震模' (Without Shocking: steam condenses into water, negative vacuum crushes side walls) vs '执行震模' (With Shocking: tapping pan from 10cm, inertia ruptures membranes, superheated steam vents out, pressure equalized). Bottom section '倒扣悬挂定型' (Inverting: Gravity Suspension & Retrogradation): Comparing '正置冷却' (Upright: weak starch gel crushed under downward self-weight) vs '倒扣冷却' (Inverted: pan upside down on wire rack, gravity stretches sponge network while starch crystallizes into rigid framework, locking tall crumb). Technical labels in bold Simplified Chinese with smaller English subtitles, Chinese text prominently larger than English, 16:9.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional Chinese pastry diagnostic matrix showing cross-sections of 8 common cake baking failures in a 2x4 neat grid, 16:9 aspect ratio. Main title in large bold Simplified Chinese: '蛋糕烘焙常见八大缺陷剖面与故障排查矩阵' (Common Cake Baking Failures: Diagnostic Matrix). 8 panels with prominent bold Chinese labels and smaller English sub-labels: 1. '中心下陷 / 凹顶' (Sunken Center: 未熟假熟或减糖过量); 2. '漏斗收腰' (Hourglass Waist: 防粘模具或未倒扣); 3. '爆顶开裂' (Cracked Volcano Dome: 底火面火过高或装模过满); 4. '底部缩底' (Sunken Bottom: 底火过高或油纸起皱积气); 5. '隧道空洞' (Tunneling Holes: 面粉起筋或剧烈画圈); 6. '胶质布丁死面层' (Dense Pudding Layer: 严重消泡或冷黄油沉底); 7. '干硬掉渣' (Dry Crumbly: 低温烘烤过久或糖油匮乏); 8. '表皮湿黏脱皮' (Sticky Wet Skin: 未彻底脱水或趁热包裹保鲜膜). Clean clinical laboratory layout, hyper-realistic cake cross-section textures, Chinese text prominently larger than English, 16:9.

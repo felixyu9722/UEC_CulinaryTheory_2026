@@ -1,0 +1,112 @@
+﻿{
+    "穆斯林奶油霜":  {
+                   "Meaning":  "卡士达酱与软化黄油充分乳化搅打，常用于法式草莓蛋糕",
+                   "En":  "Mousseline cream",
+                   "Fr":  "Crème mousseline"
+               },
+    "甜酥面团":  {
+                 "Meaning":  "法式经典甜塔皮，质地酥脆如饼干",
+                 "En":  "Sweet shortcrust",
+                 "Fr":  "Pâte sucrée"
+             },
+    "准备就绪":  {
+                 "Meaning":  "专业厨房与烘焙操作前所有工具材料称量到位的最高准则",
+                 "En":  "Everything in its place",
+                 "Fr":  "Mise en place"
+             },
+    "手指饼干":  {
+                 "Meaning":  "分蛋打发的法式长条海绵饼干，提拉米苏与夏洛特围边",
+                 "En":  "Ladyfingers",
+                 "Fr":  "Biscuits à la cuillère"
+             },
+    "法式卡士达酱":  {
+                   "Meaning":  "牛奶、蛋黄、糖与淀粉加热煮沸浓稠的法式点心万能内馅",
+                   "En":  "Pastry cream",
+                   "Fr":  "Crème pâtissière"
+               },
+    "蛋白霜":  {
+                "Meaning":  "蛋白加糖搅打充气形成的泡沫体系（法式、意式、瑞士）",
+                "En":  "Meringue",
+                "Fr":  "Meringue"
+            },
+    "泡芙面糊":  {
+                 "Meaning":  "经典法式烫面面糊，依靠烘烤时水蒸气膨胀中空",
+                 "En":  "Choux pastry",
+                 "Fr":  "Pâte à choux"
+             },
+    "荷兰酱":  {
+                "Meaning":  "法式五大母酱之一，温热澄清黄油与蛋黄在酸性介质下温热乳化",
+                "En":  "Hollandaise sauce",
+                "Fr":  "Sauce Hollandaise"
+            },
+    "全蛋打发蛋糕":  {
+                   "Meaning":  "热那亚海绵蛋糕，全蛋隔水加温至40℃高速打发充气",
+                   "En":  "Sponge cake",
+                   "Fr":  "Génoise"
+               },
+    "白面糊":  {
+                "Meaning":  "等量面粉与黄油以小火炒熟不着色，白酱的增稠基础",
+                "En":  "White roux",
+                "Fr":  "Roux blanc"
+            },
+    "意式蛋白霜":  {
+                  "Meaning":  "将118℃-121℃热糖浆冲入打发蛋白中，杀菌且结构极稳定",
+                  "En":  "Italian meringue",
+                  "Fr":  "Meringue italienne"
+              },
+    "褐面糊":  {
+                "Meaning":  "面粉与黄油炒至深褐色，焦香味浓，增稠力减半但风味深厚",
+                "En":  "Brown roux",
+                "Fr":  "Roux brun"
+            },
+    "砂质酥面团":  {
+                  "Meaning":  "搓砂法制作的极酥松塔皮，含较多黄油与糖粉",
+                  "En":  "Sablée dough",
+                  "Fr":  "Pâte sablée"
+              },
+    "镜面淋面":  {
+                 "Meaning":  "含吉利丁、糖浆与巧克力的光亮淋面，冷冻慕斯披覆",
+                 "En":  "Mirror glaze",
+                 "Fr":  "Glaçage miroir"
+             },
+    "甘纳许":  {
+                "Meaning":  "煮沸淡奶油与优质巧克力乳化混合的丝滑巧克力酱",
+                "En":  "Ganache",
+                "Fr":  "Ganache"
+            },
+    "瑞士蛋白霜":  {
+                  "Meaning":  "蛋白与糖隔水加热至50℃-60℃使糖完全溶解后再高速打发",
+                  "En":  "Swiss meringue",
+                  "Fr":  "Meringue suisse"
+              },
+    "外交官奶油霜":  {
+                   "Meaning":  "卡士达酱混合打发淡奶油与吉利丁，口感轻盈顺滑",
+                   "En":  "Diplomat cream",
+                   "Fr":  "Crème diplomate"
+               },
+    "贝夏梅尔白酱":  {
+                   "Meaning":  "法式五大母酱之一，白面糊（Roux）注入热牛奶煮稠",
+                   "En":  "Béchamel sauce",
+                   "Fr":  "Sauce Béchamel"
+               },
+    "法式蛋白霜":  {
+                  "Meaning":  "生蛋白直接分次加细砂糖打发，适合混入面糊或烘干",
+                  "En":  "French meringue",
+                  "Fr":  "Meringue française"
+              },
+    "千层酥皮":  {
+                 "Meaning":  "面团与黄油反复折叠包裹形成的千层起酥面皮",
+                 "En":  "Puff pastry",
+                 "Fr":  "Pâte feuilletée"
+             },
+    "淡黄面糊":  {
+                 "Meaning":  "面粉与黄油炒至淡金黄色，产生坚果香气，金黄酱汁基础",
+                 "En":  "Blond roux",
+                 "Fr":  "Roux blond"
+             },
+    "烫面":  {
+               "Meaning":  "水、油、粉加热糊化成的熟面团，泡芙的核心基础",
+               "En":  "Panade",
+               "Fr":  "Panade"
+           }
+}

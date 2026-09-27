@@ -1,0 +1,157 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）官方标准复习题库
+高一 第01课、第03课、第05课 考题专属配图通用图片提示词
+（真实后厨设备与实物摄影版）
+================================================================================
+
+【文档核心定位与研发背景】
+本文件为 2026 年马来西亚华文独中高中统考厨艺科（烘焙理论与实务）高一专属教研配图工程规范。
+针对高一期末与统考模拟卷中权重最高的第01课（烘焙概论）、第03课（中式面食与烘焙食品分类）、第05课（烘焙设备）三套命题配图，专门制定“真实后厨设备与实物摄影版（Realistic Commercial Kitchen & Food Defect Photography Edition）”通用生图提示词手册。
+旨在彻底摆脱传统 AI 生成中文字体畸变、插画卡通化、缺乏真实感的弊病，提供可在 Midjourney v6、Stable Diffusion XL、DALL-E 3、Imagen 3、Flux.1 等主流 AI 引擎中直接复制使用的高精度写实摄影提示词（Master Prompts）及标准简体汉字版面排版工程规范。
+
+================================================================================
+第一部分：真实后厨实物摄影版核心生成铁律与参数规范
+================================================================================
+
+1. 真实摄影质感法则（Hyper-Realistic Commercial Photography）：
+   • 必须采用商业产品摄影与食品科学纪实摄影风格，严禁任何卡通（Cartoon）、手绘（Illustration）、动漫（Anime）或低质 3D 渲染质感；
+   • 摄影参数关键词必须包含：Commercial kitchen environment, Hasselblad H6D-100c, 50mm / 85mm f/2.8 lens, natural stainless steel specular highlights, dramatic kitchen lighting, 8k resolution, photorealistic, sharp focus；
+   • 物料细节要求：面粉粉尘、不锈钢拉丝纹理、高温蒸汽冷凝水雾、烘烤焦化美拉德色泽等微观肌理必须真实可辨。
+
+2. 汉字零畸变与中英层级规范（Zero Font-Distortion Standard）：
+   • 汉字绝对规范：全套图谱所有汉字必须采用 Windows 工业标准高保真字体（如“微软雅黑 Microsoft YaHei”或“黑体 SimHei”），字形规范端正，严禁异体字、笔画残缺或乱码；
+   • 中文字体显著占优：标题及正文中文字号必须为英文字号的 1.3 倍至 1.6 倍，中文字体加粗（Bold），英文字体常规（Regular），中文居上或主导，英文置下辅助说明；
+   • 排版方式推荐：建议采用“AI 纯实景摄影素材生成 + 矢量排版引擎图文混排”的分步架构，以保证图像真实感与汉字字形 100% 绝对精准。
+
+3. 通用负面提示词（Universal Negative Prompts，适用于 SD / Flux 等）：
+   "cartoon, anime, 3d render, plastic look, fake food, distorted text, incorrect chinese characters, blurry, low resolution, bad anatomy, out of frame, oversaturated, deformed oven, miniature model, watermark, signature, stock photo watermark"
+
+================================================================================
+第二部分：三大专属配图通用生图提示词深度拆解与工程参数
+================================================================================
+
+--------------------------------------------------------------------------------
+【配图一】：高一 第01课｜第41题《商用烤箱热力学传递与烘焙工艺对比图鉴（实物版）》
+--------------------------------------------------------------------------------
+• 对应考题：丙组 第41题（7分读图大题：热风对流烤箱 vs 耐火石板层炉传导机制与质构差异）
+• 推荐画幅比例：16:9 宽屏（1920 × 1080）
+• 视觉结构：双栏对比式（左侧：热风对流烤箱实物；右侧：耐火石板层炉实物）
+
+【素材 1-A：商用热风对流烤箱（风炉）实拍提示词】
+• 核心考点：强制热对流传热、均匀热风、多层同时烘烤、水分快速蒸发、适合饼干/可颂/马卡龙。
+• 英文 Master Prompt（直接用于生图）：
+  "A professional commercial convection oven in a busy luxury bakery kitchen, shot on Hasselblad H6D-100c, 50mm lens. Stainless steel heavy-duty body, double-pane tempered glass door wide open revealing the interior chamber. Clearly visible large rear circular convection fan with circular heating elements behind stainless steel baffles. Three stainless steel wire racks inside holding baking trays loaded with golden brown flaky French croissants and macarons. Warm internal halogen lighting casting a beautiful glow. Steam and heat haze faintly rising from the oven chamber. Chefs in clean white uniforms working in the background softly blurred (shallow depth of field, f/2.8). Sharp focus on the convection fan and glossy pastries, hyper-realistic, commercial kitchen photography, 8k resolution, ultra-detailed."
+• 中文提示词拆解与考点标注：
+  - 主体设备：商业不锈钢热风对流烤箱（风炉），双层钢化玻璃门打开，内胆不锈钢拉丝材质；
+  - 内部构造：后置强力圆形对流循环风机及环形电热管清晰可见，多层不锈钢烤架；
+  - 烘烤物料：烤盘上整齐陈列着金黄酥脆的法式牛角可颂与马卡龙，色泽均匀无死角；
+  - 环境氛围：星级西点后厨实景，背景厨师白衣虚焦，暖色卤素炉灯，轻微热浪与水汽；
+  - 摄影品质：商业级食品摄影，浅景深，50mm镜头，8k超清，微观焦化纹理清晰。
+
+【素材 1-B：商用耐火石板层炉（平炉）实拍提示词】
+• 核心考点：耐火石板接触式热传导、面底火分控、高压蒸汽系统、烤炉起发（Oven Spring）、适合硬欧包/法棍。
+• 英文 Master Prompt（直接用于生图）：
+  "A heavy-duty commercial artisan deck oven with authentic cordierite stone deck in an authentic European bakery kitchen, cinematic photography. The heavy steel and glass oven door is lifted upward, intense billows of hot steam gushing outward from the dark glowing oven chamber. Directly on the thick refractory stone slab hearth are rustic sourdough boules and French baguettes baking to a deep mahogany brown blistered crust with dramatic sharp blooming cuts (ears). Digital temperature dual-display gauge showing top heat 245°C and bottom heat 215°C, analog steam pressure gauge. Warm golden fire glow from inside the oven illuminating the white flour dusting on the loaves. Dramatic contrast, crisp focus on the stone deck and bubbling crust blisters, hyper-realistic, professional culinary documentary style, 8k."
+• 中文提示词拆解与考点标注：
+  - 主体设备：重型商用耐火石板平炉，门板向上掀开，炉膛内可见25mm厚耐火堇青石板；
+  - 关键过程：高压蒸汽发生器工作，滚滚热蒸汽向外剧烈喷涌；
+  - 烘烤物料：直接接触石板烘烤的酸种欧包与法棍，表皮呈现深红棕色薄脆气泡硬壳，割口爆裂开花（Ear）；
+  - 仪表参数：数显温控仪表清晰显示“面火 245℃、底火 215℃”，配备高压蒸汽压力表；
+  - 摄影品质：电影级后厨光影，冷暖高对比度，超高清展现石板质感与欧包麦香脆壳。
+
+【图文一体化生成专用复合提示词（Composite Prompt）】：
+  "A side-by-side educational split-screen graphic showcasing two commercial baking ovens, 16:9 ratio, dark slate background (#0F172A). Left side: Real commercial convection oven with hot air convection fan and multi-rack croissants. Right side: Real stone deck oven with steam billows and sourdough breads on stone hearth. Clean modern card containers with rounded corners, vibrant cyan and amber accent borders. Large, bold, standard Simplified Chinese titles: '热风对流烤箱（风炉）' and '耐火石板层炉（平炉）', subtitles in small English text. Bottom bar with golden summary takeaway. Ultra-crisp typography, zero font distortion, high-end technical culinary textbook aesthetics, 8k."
+
+--------------------------------------------------------------------------------
+【配图二】：高一 第03课｜情景案例《中式面食两大经典生产缺陷与理化破坏诊断图（实物版）》
+--------------------------------------------------------------------------------
+• 对应考题：丁组 第46题（20分后厨真实生产事故案例诊断与主厨SOP决策题）
+• 推荐画幅比例：16:9 宽屏（1920 × 1080）
+• 视觉结构：双栏事故对比式（左侧：小笼包开盖缩顶死面；右侧：酥饼高温混酥漏油剖面）
+
+【素材 2-A：事故一 鲜肉小笼包急骤开笼缩顶塌陷实拍提示词】
+• 核心考点：关火未焖锅骤然开盖、内外温差剧变、水蒸气急剧冷凝、微负压压塌气囊骨架、冷凝水滴砸死皮。
+• 英文 Master Prompt（直接用于生图）：
+  "Macro authentic food failure photography of commercial Chinese dim sum kitchen. An open traditional round bamboo steamer basket with thick steam billowing out into cold kitchen air. Inside, six pork steamed buns (baozi) suffering catastrophic structural collapse and wrinkling defect (缩顶). The pleated tops are deeply sunken and deflated, smooth white surface ruined into shriveled, rubbery, translucent dead dough patches caused by cold condensation water drops dripping onto them. Cross section reveals gummy dense unrisen dough texture. Stainless steel kitchen counter, dim sum chef's hand lifting bamboo lid in background. High detail macro lens photography, shallow depth of field, dramatic realistic kitchen lighting, hyper-realistic, 8k."
+• 中文提示词拆解与考点标注：
+  - 场景物料：港式早茶点心车间，传统竹蒸笼被一把掀开，滚滚蒸汽涌入冷空气中；
+  - 缺陷特写：笼内6粒小笼包全部发生严重缩顶塌陷，褶皱深凹萎缩，表面雪白光滑感荡然无存；
+  - 理化病理：表皮局部因冷凝水滴砸落呈现半透明水浸状“死面”硬块，切开内部气孔被压扁成死面黏团；
+  - 构图光影：微距微观对焦在塌陷包子顶部的褶皱与水滴痕迹，高清晰度还原真实后厨翻车实况。
+
+【素材 2-B：事故二 中式层酥高温操作混酥与漏油实拍提示词】
+• 核心考点：室温>34℃油脂熔化、可塑性丧失、干油酥液化游离、水油皮破损互溶、混酥无分层、烤盘大面积渗油。
+• 英文 Master Prompt（直接用于生图）：
+  "Macro authentic food defect photography of failed Chinese laminated flaky pastry (Chuju crisp / egg yolk pastry). A commercial aluminum baking sheet covered in grease with a pool of melted, charred golden oil leaking around the baked pastries. In the center, one freshly baked failed flaky pastry sliced cleanly in half: the cross section shows completely ruined lamination (混酥) with zero distinct flaking layers, fused together into a dense, oily, gummy, doughy dark mass. The filling is dry and shrunken with juices leaked out and burned on the tray. Harsh realistic overhead commercial bakery lights reflecting on the greasy baking tray. Macro 85mm lens, tack sharp details on the oily dense cross section and burnt oil residues, photorealistic, 8k resolution."
+• 中文提示词拆解与考点标注：
+  - 场景物料：商业烘烤出炉后的铝合金烤盘，盘面上大面积汪着金黄焦糊的渗漏液态油脂；
+  - 缺陷特写：正中央一块切成两半的烘烤酥饼，剖面清晰可见“层次彻底粘连融合（混酥）”；
+  - 理化病理：完全看不到水油皮与油酥的层层分层，变成死硬、吸油沉重的面疙瘩，内馅缩瘪干瘪；
+  - 摄影质感：顶光真实反射烤盘上的油渍与焦斑，85mm微距镜头，切面死面与油润颗粒细节毕现。
+
+【图文一体化生成专用复合提示词（Composite Prompt）】：
+  "A dual-panel culinary failure diagnostic infographic, 16:9 ratio, dark tech background (#0F172A). Left card: Real collapsed and shriveled steamed buns in bamboo steamer with red warning header '后厨事故案例一：包子开笼塌陷与死面缩顶'. Right card: Real sliced flaky pastry showing ruined lamination and leaked oil on baking sheet with amber warning header '后厨事故案例二：层酥高温操作混酥与漏油'. Bold pristine Simplified Chinese typography clearly larger than English subtitles. Detailed technical callout boxes explaining thermodynamics, pressure differentials, and chef standard operating procedures (SOP). High-resolution scientific culinary exam poster, 8k."
+
+--------------------------------------------------------------------------------
+【配图三】：高一 第05课｜第41题《商用烘焙三大核心设备工程原理与流变学控制图鉴（实物版）》
+--------------------------------------------------------------------------------
+• 对应考题：丙组 第41题（7分三大设备工程原理与流变学读图大题）
+• 推荐画幅比例：16:9 宽屏（1920 × 1080）
+• 视觉结构：三栏并列式（Part 1 搅拌系统；Part 2 烘烤系统；Part 3 醒发系统）
+
+【素材 3-A：商业行星立式搅拌机与三大搅拌头实拍提示词】
+• 核心考点：公转加自转、钩状揉面、桨状油糖拌合乳化、球形打蛋网高速充气。
+• 英文 Master Prompt（直接用于生图）：
+  "A professional commercial floor-model planetary mixer in an upscale bakery kitchen, clean stainless steel and white cast iron finish. On a clean stainless steel prep table in front of the mixer are its three standard commercial metal attachments neatly displayed: a heavy spiral dough hook, a wide flat beater paddle, and a large balloon wire whisk. The metal surfaces have realistic brushed steel reflections. A baker in apron is working in the soft-focus background next to a flour bin and stainless cooling racks. Warm directional studio lighting, 50mm lens photography, tack sharp focus on the three mixing heads, commercial equipment catalog style, hyper-realistic, 8k."
+• 中文提示词拆解与考点标注：
+  - 主体设备：商业大型立式行星搅拌机，白色铸铁重机身与不锈钢搅拌缸；
+  - 配件陈列：台面上整齐并列排放三大标准配件：重型不锈钢揉面螺旋钩、宽体桨状/扇形拌合桨、密集球形打蛋网；
+  - 材质细节：金属拉丝质感真实，反光细腻，背景带后厨面粉袋与不锈钢凉网架；
+  - 摄影风格：专业工业设备图鉴实拍，对焦在三款搅拌头的不同结构构造上。
+
+【素材 3-B：商业耐火石板平炉与热对流烤箱实拍提示词】
+• 英文 Master Prompt（直接用于生图）：
+  "A split photographic comparison of two commercial baking ovens side-by-side in a master bakery. On one side, a stone deck oven with its heavy steel hatch raised, golden artisan sourdough loaves resting directly on glowing cordierite stone with billowing high-pressure steam mist. On the other side, a multi-tier commercial convection oven with glass doors, showing a high-speed rear blower fan and rows of golden croissants baking evenly on perforated sheet pans. Warm oven interior lights, atmospheric heat hazes, cinematic photography, hyper-realistic details of stone texture and stainless vents, 8k."
+• 中文提示词拆解与考点标注：
+  - 平炉与风炉实景双拼：左侧石板平炉掀开喷出白汽，石板上躺着割口挺拔的乡村欧包；右侧风炉透视窗可见高速风扇与密密麻麻金黄可颂；
+  - 对比意图：直观体现“石板接触蓄热传导+蒸汽”与“高速强制热风多维对流”的工程实景。
+
+【素材 3-C：商业微电脑智能冷藏醒发箱实拍提示词】
+• 核心考点：双模温湿度智能控制、0℃~4℃低温休眠、28℃~38℃/75%~85%最终高湿醒发、无人值守夜间排产。
+• 英文 Master Prompt（直接用于生图）：
+  "A tall commercial double-door stainless steel retarder-proofer cabinet in a high-volume bakery kitchen. Through the large clear glass doors with interior LED illumination, full-height rolling rack carts holding dozens of trays of perfectly proofed croissant and brioche doughs are visible, showing smooth plump rising dough without any condensation blisters or dry crusting. A glowing blue digital touchscreen control panel on the right door frame clearly displays: 'Phase: PROOFING | Temp: 38°C | Humidity: 85% RH | Timer: 01:45:00'. Stainless steel body on caster wheels, spotless bakery floor, ultra-sharp 4k commercial photography, hyper-realistic."
+• 中文提示词拆解与考点标注：
+  - 主体设备：高大双门不锈钢微电脑冷藏醒发箱，双透视大玻璃门，内置LED温和照明；
+  - 内部生胚：醒发车满载数十层完美膨胀的牛角与布里欧面胚，表皮光滑无水滴冷凝水泡，亦无干裂；
+  - 液晶仪表：箱体右侧蓝色数显微电脑触控屏，清晰显示“醒发阶段 | 温度 38℃ | 湿度 85% RH | 倒计时”；
+  - 摄影品质：专业设备工业纪实摄影，不锈钢拉丝质感高保真。
+
+【图文一体化生成专用复合提示词（Composite Prompt）】：
+  "A comprehensive three-column industrial bakery machinery engineering infographic, 16:9 ratio, dark tech slate background (#0F172A). Column 1: Commercial planetary mixer with dough hook, paddle, wire whisk, with blue header 'Part 1 搅拌：行星立式搅拌系统'. Column 2: Commercial stone deck oven and convection oven with amber header 'Part 2 烘烤：商业平炉 vs 风炉系统'. Column 3: Commercial digital retarder proofer with green header 'Part 3 醒发：智能冷藏醒发系统'. Standard pristine Simplified Chinese typography prominently larger than English tech labels. Clean data cards, rounded corners, crisp rheology parameters. High-end food engineering textbook diagram, 8k."
+
+================================================================================
+第三部分：各主流 AI 绘图平台实操参数与二次微调指令速查
+================================================================================
+
+1. Midjourney (v6.0 / v6.1) 参数设置：
+   • 推荐后缀：`--ar 16:9 --style raw --v 6.0 --q 2 --s 250`
+   • 说明：`--style raw` 能够有效压制过度的艺术滤镜修饰，增强设备与后厨场景的机械纪实摄影感；`--s 250` 保持精准构图不跑偏。
+
+2. Stable Diffusion XL / SD3 / Flux.1 推荐参数：
+   • Sampler: DPM++ 2M Karras 或 Euler A
+   • Steps: 35~45 步
+   • CFG Scale: 6.5 ~ 7.5
+   • Resolution: 1344 × 768 或 1536 × 864（按 16:9 比例生成后通过放大算法超分至 4K / 8K）。
+
+3. 独中统考考题专用微调指令库（Prompt Variations for Exam Paper Extension）：
+   • 如需突出“设备过搅断筋面团烂泥”实况：
+     在搅拌机提示词中追加："a severely over-kneaded, torn, gooey, liquefied dough puddle adhering to the bowl bottom like sticky slurry, internal temp 35C, rheological breakdown."
+   • 如需突出“醒发箱湿度过高水泡流泪”实况：
+     在醒发箱提示词中追加："excessive condensation dripping from steel ceiling, large droplets hitting bread dough surface causing blistered soggy wet skin, weeping blisters."
+   • 如需突出“平炉不加蒸汽的法棍缺陷”实况：
+     在平炉提示词中追加："a failed baguette baked without steam, dull pale-grey rough thick leathery crust, no ear formation, flat expansion."
+
+================================================================================
+【结语与归档索引】
+本通用图片提示词手册已严格按照马来西亚华文独中高中统考（UEC）厨艺科考纲要求，与高一第01课、第03课、第05课之题库试卷深度绑定，并与各自目录下的 `_实物版.png` 原生高清考题配图实现 100% 呼应互证。教师与命题小组可直接复用本提示词快速拓展 B 卷或衍生新题库！
+================================================================================

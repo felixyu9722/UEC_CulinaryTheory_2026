@@ -1,0 +1,1289 @@
+﻿================================================================================
+2026年统考高二厨艺（蛋糕、面包与西餐理论）全15单元 20页简报与信息图提示词汇编（典藏学术图鉴统一标杆版）
+================================================================================
+
+【NotebookLM 黄金生成规范说明（母版视觉统一、突破15页限制与消除同质化新版）】
+• 典藏学术图鉴统一母版（Master Visual Identity System）：
+  彻底消除生成时的风格漂移与随机滤镜！全套课件与信息图统一锁定“西式烘焙食品分类标杆风格”——16:9 画布、象牙米白羊皮纸底色（#FAF7F2）、双细金棕边框（#8C7355）、四角古典菱形（◇）、左右双栏 6 大黄金模块（分子拆解、烧杯天平配比、时间轴、2×4 双语实物矩阵、Ideal vs Flawed 对决、三线控制表）及底部统一通栏标识。
+• 突破 15 页限制核心指令：
+  NotebookLM 默认生成 Slide Deck 时存在 12-15 页上限压缩。本提示词专门加入了【分镜头脚本模式（Script Mode）】指令，强制其按 Slide 1 到 Slide 20 逐页输出独立内容，绝不压缩合并！
+• 彻底破除同质化：
+  每课提示词已深度绑定该课专属知识点与真实课本核心考点，杜绝千篇一律的通用模板。
+• 使用方法：
+  直接将本课讲义上传至 NotebookLM，然后复制对应课时的【一、简报提示词】或【二、信息图提示词】发送即可！
+
+--------------------------------------------------------------------------------
+
+【课时 1】第1单元｜蛋糕分类、材料与制作准备
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第1单元｜蛋糕分类、材料与制作准备》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第1单元｜蛋糕分类、材料与制作准备》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：烘焙科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第1单元｜蛋糕分类、材料与制作准备》、现实后厨场景设问、课前直觉思考、核心学习目标：系统掌握该课题的物理化学变化、量化参数与实操核心标准。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（本课专业核心词汇、工艺参数与品质标准；国际法文/英文烹饪词汇）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——涵盖课纲：蛋糕分类、蛋糕制作材料、制作前准备工作。
+- Slide 4: 【原料/工具理化特性解析】——面糊类蛋糕（Batter-type Cake）：油脂比例较明显，常利用油脂与糖拌打及化学膨松剂，例如磅蛋糕。
+- Slide 5: 【微观分子状态与水合/反应机理】——乳沫类蛋糕（Foam-type Cake）：主要利用打发蛋液形成气泡，例如海绵蛋糕和天使蛋糕。
+- Slide 6: 【能量传递与热力学变化规律】——戚风蛋糕（Chiffon Cake）：把含油蛋黄面糊与蛋白霜结合，兼具柔润和轻盈组织。
+- Slide 7: 【物理相变与组织质构演变】——面粉建立骨架；鸡蛋形成泡沫、乳化并受热凝固；糖提供甜味、柔化、保湿和稳定部分泡沫；油脂增加柔润并限制面筋；液体溶解材料并帮助淀粉糊化；膨松剂产生气体；盐调味。
+- Slide 8: 【化学反应与风味生成机制】——预热烤箱（Preheat）。
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——让需要同温的材料达到适合温度。
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：严格遵循时间、温度与烘焙百分比标准。；处理烤模、烘焙纸和工作台。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——部分反应在混合后立即开始；如果完成面糊后才找烤模或预热，气泡可能流失、面糊温度改变，造成体积和组织不稳定。
+- Slide 12: 【类别横向对比与不同工艺流派演变】——戚风蛋糕为什么不能单纯归为一般油脂面糊蛋糕？
+- Slide 13: 【商业厨房专业设备选用与操作要领】——深化学习：先看结构来源，再给蛋糕分类
+- Slide 14: 【工业化量产与传统手作之异同】——制作前的“Mise en Place”
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——预备工作（mise en place）不仅是把材料摆出来，还包括：
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——核对配方版本、份量及烤模容量。
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——常见结构与形态缺陷排查：原因剖析与紧急工艺补救
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——面糊类蛋糕油脂微观截留空气囊（Air Entrapment in Lipid Crystals）；乳沫类全蛋与蛋白气液界面张力降低起泡（Foam Lamellae Formation）；戚风类蛋黄卵磷脂乳化面糊与蛋白霜折叠相容性（Colloidal Compatibility）；预热阶段烤箱壁热辐射平衡（Radiant Heat Equilibrium）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——面糊类 (面粉100%, 油脂50-80%, 糖80-100%, 蛋50-80%) | 乳沫海绵 (全蛋150-200%, 糖100%, 面粉100%) | 戚风 (蛋清200%, 蛋黄100%, 油50%, 糖120%, 面粉100%)。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——物料精准 Mise en Place (称量/去杂/分蛋) -> 烤箱与烤模预先准备 (涂油撒粉或阳极免油) -> 核心搅拌 (油糖打发/全蛋打发/分蛋打发) -> 面糊快速入模 (轻震排气) -> 恒温烘焙熟化 (160-180℃) -> 出炉定型。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（重油磅蛋糕 (Pound Cake)、经典海绵蛋糕 (Genoise Sponge)、原味戚风蛋糕 (Chiffon Cake)、纯白天使蛋糕 (Angel Food Cake)、浓郁布朗尼 (Chocolate Brownie)、法式玛德琳 (Madeleine)、美式红丝绒蛋糕 (Red Velvet Cake)、重乳酪芝士蛋糕 (New York Cheesecake)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：三大蛋糕典范：磅蛋糕顶部高耸自然爆裂开花、组织细腻温润；海绵蛋糕气孔绵密均匀充满弹性；戚风蛋糕高耸蓬松轻盈如云朵、倒扣完全平整无收腰。
+       - 缺陷反面（Flawed Defect）：准备疏漏引发缺陷：面糊拌好才预热烤箱导致常温消泡出炉死面；戚风蛋糕模具错误涂抹防粘油脂导致烘烤滑落塌陷成布丁坑。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 制作前准备 SOP | 打面之前必须完成烤箱预热与模具处理 | 防止面糊完成后面临停滞，杜绝微气孔逸散与化学膨松剂失效 |
+       | 戚风专用模具铁律 | 必须使用未涂油的阳极活底铝模 | 提供面糊抓壁向上攀爬的物理附着力，防止出炉后回缩倒塌 |
+       | 材料温度平衡控制 | 所有物料提前回温至 20℃ 同温状态 | 防止冰冷蛋液激化融化油脂导致水油分离破乳 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：烘焙科学 - 蛋糕烘焙科学     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting air cell entrapment in plastic lipid crystal matrices of batter cakes, protein foam interfacial tension reduction in sponge cakes, colloidal folding compatibility between yolk-emulsified batter and meringue in chiffon cakes, and radiant thermal cavity equilibrium.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Batter-type (Flour 100%, Fat 50-80%, Sugar 80-100%, Egg 50-80%) | Sponge (Egg 150-200%, Sugar 100%, Flour 100%) | Chiffon (Egg White 200%, Yolk 100%, Oil 50%, Sugar 120%, Flour 100%).
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Mise en place (precision scaling & egg separation) -> Oven preheating and pan preparation -> Core mixing (creaming/sponge/chiffon) -> Rapid panning and gentle de-airing -> Steady baking (160-180°C) -> Structural setting.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: Pound Cake, Genoise Sponge, Chiffon Cake, Angel Food Cake, Chocolate Brownie, Madeleine, Red Velvet Cake, New York Cheesecake.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Tri-Category Excellence: Pound cake with classic high bloom burst, moist velvety crumb; Sponge cake with resilient springiness; Chiffon towering with cloud-like lightness and zero waist-shrinkage) vs 'FLAWED DEFECT' (Preparation Flaw Failure: unheated oven causing room-temp batter deflation into rubbery slab; greasing chiffon pan causing severe sidewall slippage collapse).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：烘焙科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 2】第2单元｜蛋糕搅拌法与蛋白打发
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第2单元｜蛋糕搅拌法与蛋白打发》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第2单元｜蛋糕搅拌法与蛋白打发》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：烘焙科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第2单元｜蛋糕搅拌法与蛋白打发》、现实后厨场景设问、课前直觉思考、核心学习目标：掌握三大主流蛋糕搅拌法的充气核心机制，精准控制翻拌动作以最大化保留面糊微气孔。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（糖油拌合法 Creaming method (法: Sablage/Crémer)；全蛋海绵打发 Genoise method；分蛋戚风法 Chiffon method；切拌/翻拌 Folding (法: Macaroner/Enrober)；法文专有名词：Crémer (糖油搅打乳化充气)；Génoise (热那亚全蛋海绵蛋糕)；Macaroner (马卡龙压拌排气)）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——涵盖课纲：蛋糕搅拌法、蛋白打发阶段。
+- Slide 4: 【原料/工具理化特性解析】——糖油拌合法（Creaming Method）：把可塑油脂与糖拌打，形成细小气泡，再分次加蛋和粉类。
+- Slide 5: 【微观分子状态与水合/反应机理】——面粉油脂拌合法（Flour-batter Method）：先把部分面粉与油脂混合，再加入液体，控制面筋并形成细致组织。
+- Slide 6: 【能量传递与热力学变化规律】——全蛋打发法（Whole-egg Foam Method）：把全蛋与糖打发，依赖蛋泡沫提供体积。
+- Slide 7: 【物理相变与组织质构演变】——分蛋法（Separated-egg Method）：蛋黄面糊与蛋白霜分别制作后翻拌。
+- Slide 8: 【化学反应与风味生成机制】——融化法（Melted Method）：融化油脂与其他材料混合，常用于特定重型或湿润蛋糕。
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——粗泡阶段（Foamy Stage）：大气泡明显。
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：全蛋打发隔水加热温度 38℃–40℃；海绵蛋糕面糊最佳入炉比重 0.40–0.45；戚风蛋糕面糊入炉比重 0.45–0.50。；湿性发泡／软性尖峰（Soft Peak）：提起打蛋器，尖峰弯曲。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——中性发泡（Medium Peak）：尖峰较稳但仍有柔性。
+- Slide 12: 【类别横向对比与不同工艺流派演变】——干性发泡／硬性尖峰（Stiff Peak）：尖峰直立；继续过度搅打会变粗糙、失去光泽。
+- Slide 13: 【商业厨房专业设备选用与操作要领】——三、翻拌（Folding）
+- Slide 14: 【工业化量产与传统手作之异同】——翻拌的目的，是把两种不同密度的混合物均匀结合，同时尽量保留气泡。先取少量蛋白霜调整面糊密度，再分次翻拌，通常较容易均匀。
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——蛋白盆有油、糖加入时机不当、面糊温差太大、面粉搅拌过久、翻拌不足或过度，都会造成组织问题。
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——面糊仍有明显蛋白霜白块，为什么不能为了保气就停止翻拌？
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——现象: 海绵蛋糕出炉硬如橡胶且组织孔洞粗大 -> 显微/物理原因: 加入面粉后画圈过度搅拌导致严重消泡起筋，或全蛋未充分加温打发 -> 主厨救治方案: 严格控制全蛋打发终点，粉类过筛后用刮刀以轻柔翻拌手法在1分钟内混匀
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——油糖拌打法空气截留微晶网络（Creaming Method Air Pockets）；海绵蛋糕全蛋温热打发降低表面张力（Warm Whisking 38-43℃）；蛋白霜多肽链展开与气液界面变性吸附（Interfacial Protein Adsorption）；面粉投入后机械剪切断裂消泡与面筋产生（Gluten Development vs Deflation）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——油糖拌打 (黄油:糖 ≈ 1:1) | 湿性发泡 (蛋白+糖, 弯钩状, 水分较高) | 偏干性发泡 (直立小尖角, 蛋白霜体积达 6-8 倍)。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——打蛋盆彻底脱脂脱水 -> 蛋白打发四阶段 (鱼眼泡 -> 细密泡沫分次加糖 -> 湿性弯钩 -> 偏干性直立角) -> 蛋黄糊预乳化 -> 1/3 蛋白霜与蛋黄糊轻柔翻拌预混合 -> 全部翻拌切拌均匀 (严禁画圈打圈) -> 立即烘烤。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（油糖打发羽毛状膏体 (Creamed Butter Texture)、温热打发全蛋稠膏 (Ribbon-Stage Whole Egg)、湿性发泡软弯钩蛋白 (Soft-Peak Meringue)、干性发泡直立尖角蛋白 (Stiff-Peak Meringue)、法式硅胶翻拌刮刀 (Professional Pastry Spatula)、多线不锈钢打蛋球 (Balloon Wire Whisk)、八寸戚风生面糊 (Chiffon Aerated Batter)、热那亚海绵生面糊 (Genoise Whipped Batter)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：丝滑微气泡与不消泡：蛋白霜如珍珠般柔亮洁白、拉起直立尖角微颤不倒；切拌翻拌后面糊浓稠光润、体积饱满无大气泡爆裂声、无生粉疙瘩。
+       - 缺陷反面（Flawed Defect）：画圈消泡与打发过度：顺时针疯狂画圈搅拌导致脆弱蛋白气囊瞬间破裂消泡出水变成稀汤；蛋白打过头呈干棉花豆腐渣状导致无法混匀结块。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 全蛋打发温水浴 | 蛋液隔水加温至 38℃–43℃ 打发 | 大幅降低蛋黄蛋清表面张力，使充气起泡速率与微气孔细腻度倍增 |
+       | 蛋白打发阶段识别 | 戚风蛋糕选用 9 分发坚挺微弯钩 | 提供最佳炉内热胀伸展性，防止打至完全干硬导致蛋糕出炉开裂 |
+       | 切拌手法翻拌规范 | 橡皮刮刀沿盆底 2 点切向 8 点划弧翻拌 | 利用翻折将比重不同的面糊融为一体，最大限度保留微细充气量 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：烘焙科学 - 蛋糕烘焙科学     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting creaming method air mechanical entrapment into plastic fat crystals, whole egg surface tension reduction at 38-43°C warm water bath, albumen polypeptide unfolding at air-water interfaces, and folding shear stress minimizing foam deflation.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Creaming Method (Butter:Sugar ≈ 1:1) | Soft/Medium Peak (Flexible bird beak curl) | Stiff Peak (Rigid upright points, 6-8x volume expansion).
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Bowl complete degreasing -> Albumen 4 whipping stages (coarse -> fine foam incremental sugar -> soft peak -> stiff glossy peak) -> Yolk batter pre-emulsion -> 1/3 sacrificial sacrificial fold -> J-cut delicate folding -> Immediate baking.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: Creamed Butter Texture, Ribbon-Stage Whole Egg, Soft-Peak Meringue, Stiff-Peak Meringue, Professional Pastry Spatula, Balloon Wire Whisk, Chiffon Aerated Batter, Genoise Whipped Batter.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Silky Micro-Foam & Aeration: lustrous alabaster meringue holding rigid peaks without graininess; batter retaining light voluminous ribbon density) vs 'FLAWED DEFECT' (Deflation & Over-Whipping: violent circular stirring puncturing foam lamellae turning batter into liquid soup; over-whipped dry grainy meringue).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：烘焙科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 3】第3单元｜蛋糕比重与烘焙影响因素
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第3单元｜蛋糕比重与烘焙影响因素》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第3单元｜蛋糕比重与烘焙影响因素》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：烘焙科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第3单元｜蛋糕比重与烘焙影响因素》、现实后厨场景设问、课前直觉思考、核心学习目标：掌握蛋糕面糊比重测量法与量化质控体系，理解比重高低与最终体积、弹性及保水度的工程关联。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（面糊比重 Batter specific gravity；孔洞细密度 Crumb grain；入模量 Batter scaling weight；对流热 Convective heat；法文专有名词：Moule à gâteau (蛋糕模具)；Enfournement (入炉烘烤)）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——涵盖课纲：蛋糕比重、影响蛋糕烘焙的因素。
+- Slide 4: 【原料/工具理化特性解析】——面糊比重（Batter Specific Gravity）用相同容积的面糊重量与水重量比较：
+- Slide 5: 【微观分子状态与水合/反应机理】——比重较低通常表示面糊含较多空气；但目标值必须依据蛋糕种类、配方和工艺，不能统一规定“越低越好”。
+- Slide 6: 【能量传递与热力学变化规律】——使用相同杯具，先秤杯重并归零；分别装满水和面糊，刮平且避免额外压实；记录相同温度与操作条件，才能比较批次。
+- Slide 7: 【物理相变与组织质构演变】——原创图解｜蛋糕面糊比重测量步骤
+- Slide 8: 【化学反应与风味生成机制】——五步流程：选定同一容器（Same cup）→去皮归零（Tare）→称同容积水（Weigh water）→称同容积面糊（Weigh batter）→计算与解释（Calculate）。
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——图中示例：面糊420 g ÷ 水500 g = 0.84。因为已经去皮，两个重量均不包括容器。
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：标准测试杯容积通常 100mL 或 200mL；常规圆模入模量：模具体积的 60%–70%（不可倒满）。；替代文字：五格步骤图显示同一个500 mL容器先在电子秤上去皮归零，再分别装至相同刻度的水和面糊；面糊不可压实，也要避免大空洞。公式为同容积面糊重量除以同容积水重量。比重较低通常含气较多、较高通常含气较少，但仍须对照产品和配方标准。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——本地文件：03_Notion教学讲义/图片/07-蛋糕面糊比重测量步骤图.png
+- Slide 12: 【类别横向对比与不同工艺流派演变】——上传状态：原创PNG已完成；Notion图片实体待人工或具备本地上传接口时加入。
+- Slide 13: 【商业厨房专业设备选用与操作要领】——烤模尺寸、材质、颜色及装模量
+- Slide 14: 【工业化量产与传统手作之异同】——配方中的水分、糖、油脂、蛋白质和膨松剂
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——温度过高：表面过早定型或上色，内部尚未成熟，可能隆起、开裂或外焦内生。温度过低：结构定型太慢，体积和组织可能不理想，产品干燥或塌陷。
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——两批同配方海绵蛋糕的面糊比重差异很大，首先应检查哪些操作？
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——现象: 戚风蛋糕烤时剧烈爆顶开裂，出炉缩成饼状 -> 显微/物理原因: 蛋白打发过度且翻拌极少，入炉比重低于0.35，气壁过脆承重力不足 -> 主厨救治方案: 将比重控制在0.45-0.50区间，适当降低烘烤底火
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——面糊比重流体密度测量（Specific Gravity SG = 面糊重量 / 同体积水重）；微气泡受热热膨胀理想气体状态方程（PV = nRT）；蒸汽压与溶解气体析出膨胀；蛋糕模具注模高度与热传导界面面积比（Surface-to-Volume Ratio）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——标准比重杯 100mL | 戚风蛋糕比重 SG 0.40-0.45 | 海绵蛋糕比重 SG 0.45-0.50 | 磅蛋糕面糊比重 SG 0.75-0.85 | 水重恒定 100g。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——标准比重杯空杯称重去皮 -> 盛满纯水称重校准 (100g) -> 盛满新鲜蛋糕面糊刮平表面抹平 -> 称量面糊净重计算比重值 -> 比重不符立即微调翻拌 -> 规范注模入炉烘焙。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（不锈钢标准比重杯 (Stainless Specific Gravity Cup)、面糊平刮修边抹刀 (Leveling Offset Spatula)、0.1g精度电子天平 (Precision Digital Scale)、注模标准刻度蛋糕模 (Graduated Cake Pan)、红外线激光测温枪 (Infrared Laser Thermometer)、轻质低比重戚风面糊 (Chiffon Light Batter)、重质高比重磅蛋糕糊 (Pound Cake Dense Batter)、标准热风对流烤箱 (Convection Baking Oven)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：比重与膨胀最佳：比重值精确落在 0.42 目标线、入模 7 分满、烘烤时面糊均匀平稳向上爬升至模具边缘平齐、顶部呈现圆润平缓弧度无爆裂。
+       - 缺陷反面（Flawed Defect）：比重过高与过低灾难：比重过高（SG>0.60，严重消泡）导致出炉蛋糕扁平硬实沉底如年糕；比重过低（SG<0.35，气泡过多）导致入炉爆裂蘑菇顶出炉严重凹陷塌腰。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 戚风标准比重范围 | 严格控制在 0.40–0.45 区间 | 保证面糊具有足够的空气浮力与结构承载力，确保组织松软不缩 |
+       | 注模装填容量控制 | 蛋糕模具装填至 65%–70% 深度 | 给面糊预留 30% 垂直膨胀热空间，防止受热溢出模具或中心受热不良 |
+       | 烘焙炉温阶梯控制 | 低温慢烤 150℃ -> 后期 165℃ 定型 | 防止表面过早结壳导致内部膨胀受阻爆顶，使整体受热膨胀均匀 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：烘焙科学 - 蛋糕烘焙科学     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting batter specific gravity fluid density measurement (SG = Batter Mass / Water Mass), thermal ideal gas expansion (PV = nRT) within entrapped micro-voids, steam pressure vaporization, and pan fill volume controlling conduction dynamics.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Standard 100mL Cup | Chiffon Batter SG 0.40-0.45 | Sponge Batter SG 0.45-0.50 | Pound Cake SG 0.75-0.85 | Water mass = 100g.
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Gravity cup tare -> Pure water calibration (100g) -> Level batter filling & surface scraping -> Batter mass weighing & SG calculation -> Folding adjustment if off-spec -> Precision pan loading & baking.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: Stainless Specific Gravity Cup, Leveling Offset Spatula, Precision Digital Scale, Graduated Cake Pan, Infrared Laser Thermometer, Chiffon Light Batter, Pound Cake Dense Batter, Convection Baking Oven.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Optimal Specific Gravity & Rise: SG precisely locked at 0.42, pan loaded to 70% height, uniform smooth oven rise reaching rim, gently domed top) vs 'FLAWED DEFECT' (Specific Gravity Extremes: SG > 0.60 (severe deflation) producing dense gummy rubbery slab; SG < 0.35 (over-aerated) causing volcano rupture and deep collapse).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：烘焙科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 4】第4单元｜出炉处理与蛋糕失败分析
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第4单元｜出炉处理与蛋糕失败分析》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第4单元｜出炉处理与蛋糕失败分析》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：烘焙科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第4单元｜出炉处理与蛋糕失败分析》、现实后厨场景设问、课前直觉思考、核心学习目标：系统掌握该课题的物理化学变化、量化参数与实操核心标准。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（本课专业核心词汇、工艺参数与品质标准；国际法文/英文烹饪词汇）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——涵盖课纲：蛋糕出炉前后、蛋糕失败原因。
+- Slide 4: 【原料/工具理化特性解析】——依据产品综合判断：规定时间、表面色泽、中心回弹、竹签或温度检查、模具边缘状态。单一方法不适用于所有蛋糕。
+- Slide 5: 【微观分子状态与水合/反应机理】——需要震模的产品，只按配方及产品标准执行。
+- Slide 6: 【能量传递与热力学变化规律】——戚风等产品可能需要倒扣冷却（Invert Cooling）以减少结构下坠。
+- Slide 7: 【物理相变与组织质构演变】——蛋糕应在适当阶段脱模，放在冷却架（Cooling Rack）散热。
+- Slide 8: 【化学反应与风味生成机制】——未完全冷却前包装会形成冷凝水，影响表面和保存。
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——记录配方版本、材料批次、面糊温度、比重、装模重量、烤箱位置、实际时间和结果。每次只改变一个关键变量，才知道修正是否有效。
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：严格遵循时间、温度与烘焙百分比标准。；《乳化成功、分离与修复关系图》可用于分析“油水分离”这一行：先看面糊是否由顺滑有光泽转为粗糙、颗粒或出水，再检查温差、液体加入速度、油脂状态和配方比例。修复不是统一步骤，必须依配方与严重程度判断。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——替代文字：小油滴均匀分散代表较稳定乳化；油滴聚合变大并排出水相代表分离；轻微分离可按配方尝试低速、分次修复，但严重分离可能无法完全恢复。
+- Slide 12: 【类别横向对比与不同工艺流派演变】——本地文件：03_Notion教学讲义/图片/06-乳化成功分离与修复关系图.png
+- Slide 13: 【商业厨房专业设备选用与操作要领】——上传状态：原创PNG已完成；图片实体待上传。
+- Slide 14: 【工业化量产与传统手作之异同】——蛋糕中心塌陷，为什么不能立即断定是“泡打粉太少”？
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——深化学习：失败分析要建立证据链
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——描述现象：写可观察事实，例如“中心湿黏并下陷”，不要只写“失败”。
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——常见结构与形态缺陷排查：原因剖析与紧急工艺补救
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——出炉瞬间内部热蒸汽急剧冷凝负压产生（Vacuum Negative Pressure Formation）；震模排气破坏热蒸汽气囊防止内吸（Steam Shock Degassing）；戚风蛋糕倒扣悬空重力拉伸与网架硬化平衡（Gravitational Tensile Creep Stabilization）；淀粉回生固化与蛋白质热交联终结。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——出炉工艺三铁律: 出炉 10cm 震模 1 次 -> 立即 180° 翻转倒扣 -> 彻底冷却至室温 25℃ 方可脱模 (耗时约 2 小时)。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——竹签插入中心无粘连拔出 (确认熟透) -> 戴隔热手套取出蛋糕模 -> 垂直平摔台面震模 1 次 (排除多余高热蒸汽) -> 立即倒扣在专用冷却架上悬空 -> 25℃ 彻底冷却固化 (2 小时) -> 徒手或脱模刀完美脱模。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（八寸戚风阳极中空烟囱模 (Chiffon Tube Pan)、高足不锈钢倒扣冷却架 (Elevated Cooling Rack)、专业脱模刮刀与脱模片 (Flexible Demoulding Knife)、食品探针烘焙中心温度计 (Probe Core Thermometer)、防烫耐热加长烘焙手套 (Heavy-Duty Oven Mitts)、蛋糕缺陷标本剖面切块 (Cake Defect Cross-Section)、烘焙质量质检分析卡 (QA Failure Diagnostic Card)、蛋糕厚度切片分层器 (Cake Layer Leveler Slicer)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：完美出炉状态：倒扣后蛋糕保持高耸饱满轮廓、顶部与底部完全平整无内陷、脱模后外壁光滑无掉皮、按压后迅速回弹且无湿粘声。
+       - 缺陷反面（Flawed Defect）：四大灾难性缺陷：出炉未倒扣直接正放导致瞬间塌陷成深凹坑；未烤熟提前出炉导致侧壁剧烈收腰挤成沙漏状；模具涂油导致面糊脱落滑底缩水。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 出炉瞬间震模动作 | 离台面 10cm 水平垂直平摔 1 次 | 震碎蛋糕内部封闭的炽热大蒸汽囊，防止冷凝时内部负压抽吸塌陷 |
+       | 倒扣冷却核心原则 | 出炉 3 秒内完成 180° 翻转悬空 | 利用重力将刚出炉未完全固化的脆弱淀粉蛋白网架垂直拉伸定型 |
+       | 脱模温度质检红线 | 中心温度降至室温（<28℃）再脱模 | 过早脱模内部温热淀粉未彻底硬化，受挤压将产生不可逆局部死面 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：烘焙科学 - 蛋糕烘焙科学     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting rapid steam condensation upon exit creating internal negative vacuum pressure, shock degassing releasing trapped superheated vapor preventing crumb collapse, inverted cooling gravitational tensile strain holding crumb cell geometry until gelatinized matrix sets.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Three Post-Bake Commandments: Shock pan from 10cm height -> Instant 180° inversion onto wire rack -> Ambient cooling to 25°C before demoulding (approx 2h).
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Skewer dry test verification -> Oven removal with heat-resistant mitts -> Vertical 10cm pan shock to expel vapor -> Immediate 180° inversion on cooling rack -> Complete room-temp cooling (2h) -> Manual gentle demoulding.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: Chiffon Tube Pan, Elevated Cooling Rack, Flexible Demoulding Knife, Probe Core Thermometer, Heavy-Duty Oven Mitts, Cake Defect Cross-Section, QA Failure Diagnostic Card, Cake Layer Leveler Slicer.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Post-Bake Perfection: towering cylindrical symmetry post-cooling, completely flat crown without sagging, smooth golden sidewalls, 100% resilient rebound) vs 'FLAWED DEFECT' (Four Classic Failures: failure to invert causing catastrophic central crater collapse; underbaked early removal causing hourglass waist-shrinkage; greased pan slippage).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：烘焙科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 5】第5单元｜奶油霜、鲜奶油霜与蛋白霜饰
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第5单元｜奶油霜、鲜奶油霜与蛋白霜饰》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第5单元｜奶油霜、鲜奶油霜与蛋白霜饰》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：烘焙科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第5单元｜奶油霜、鲜奶油霜与蛋白霜饰》、现实后厨场景设问、课前直觉思考、核心学习目标：系统掌握该课题的物理化学变化、量化参数与实操核心标准。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（本课专业核心词汇、工艺参数与品质标准；国际法文/英文烹饪词汇）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——涵盖课纲：奶油霜、鲜奶油霜、蛋白霜饰。
+- Slide 4: 【原料/工具理化特性解析】——奶油霜（Buttercream）以油脂和糖为基础，可分为简单糖霜式、蛋白糖浆式等多种体系。温度影响可塑性：过冷难以抹平，过热则容易软化。
+- Slide 5: 【微观分子状态与水合/反应机理】——打发鲜奶油（Whipped Cream）依靠低温乳脂网络稳定气泡，口感轻盈但耐热性和室温稳定性通常低于奶油霜。必须冷藏管理，并注意乳制品保存时间。
+- Slide 6: 【能量传递与热力学变化规律】——法式蛋白霜（French Meringue）：生蛋白加糖打发，通常需后续烘烤。
+- Slide 7: 【物理相变与组织质构演变】——瑞士蛋白霜（Swiss Meringue）：蛋白与糖隔水加热后打发。
+- Slide 8: 【化学反应与风味生成机制】——意式蛋白霜（Italian Meringue）：把热糖浆加入打发蛋白。
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——不同方法的操作风险和稳定性不同；涉及未完全加热蛋白时应使用适合的巴氏杀菌蛋制品并遵守食品安全要求。
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：严格遵循时间、温度与烘焙百分比标准。；考虑环境温度、展示时间、产品重量、口感、颜色、是否需冷藏及学生操作难度。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——颗粒感：糖未溶或温度不当；气孔多：搅打过度或抹面手法；软塌：温度高、结构不足；出水：乳化或冷藏条件失控。
+- Slide 12: 【类别横向对比与不同工艺流派演变】——户外高温活动为什么不宜优先选普通鲜奶油霜？
+- Slide 13: 【商业厨房专业设备选用与操作要领】——正确打发淡奶油｜烘焙师经验讲解
+- Slide 14: 【工业化量产与传统手作之异同】——观看任务：记录温度、速度和停止时机如何影响稳定度。
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——使用提醒：视频用于观察操作，最终保存与食品安全仍以学校规范为准。
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——深化学习：霜饰选择是一项风险管理
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——常见结构与形态缺陷排查：原因剖析与紧急工艺补救
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——法式蛋白霜冷打发蛋白质变性（Cold French Meringue）；意式蛋白霜高温糖浆热力学瞬时灭菌与蛋白质热变性交联（Italian Meringue Hot Syrup 118-121℃ Soft-Ball Stage）；瑞士蛋白霜温水浴融糖强化黏弹性（Swiss Meringue Bain-Marie 60℃）；黄油加入后的水包油转油包水乳化转相（Phase Inversion to W/O Buttercream）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——法式 (蛋清100%, 细糖100-200% 冷打) | 意式 (蛋清100%, 糖200%, 水50%, 糖浆煮至118-121℃) | 瑞士 (蛋清100%, 糖200%, 隔水加热至60℃打发)。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——蛋清准备与称量 -> 熬制高温糖浆至 118-121℃ (意式软球期) -> 细流冲入高速打发蛋白中 (热力烫熟定型) -> 持续打发降温至 30℃ -> 分次加入软化天然黄油 (20℃) -> 经历假性豆腐渣破乳期后高速乳化成丝滑膏体 -> 调色裱花。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（法式传统冷打蛋白霜 (French Meringue)、意式高温糖浆蛋白霜 (Italian Meringue)、瑞士温水浴蛋白霜 (Swiss Meringue)、意式清爽黄油奶油霜 (Italian Buttercream)、法式蛋黄浓郁奶油霜 (French Mousseline Buttercream)、德式卡士达奶油霜 (German Custard Buttercream)、专业多齿不锈钢裱花嘴 (Star Piping Tip)、加厚防爆一次性挤花袋 (Disposable Pastry Bag)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：三大霜饰极致状态：意式蛋白霜如白玉瓷釉般极高光泽、质地极其致密无气孔、尖角坚如雕塑；意式奶油霜如丝绸般滑爽不腻、入口即化无油脂颗粒感。
+       - 缺陷反面（Flawed Defect）：烫伤与假性油水分离：糖浆温度过高（>125℃）直接烫成黄色熟蛋碎花；加入冰冷黄油导致奶油霜变成豆腐渣颗粒状油水分离无法抹面。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 意式糖浆温度红线 | 严格控制在 118℃–121℃（软球期） | 过低含水过多使蛋白霜软榻化水，过高糖变焦糖导致结硬糖块 |
+       | 糖浆浇入操作手法 | 沿打蛋盆内壁极细水流缓慢倒入 | 防止滚烫糖浆直接甩溅到高速打蛋网钢丝上形成飞溅硬糖颗粒 |
+       | 黄油温度乳化基准 | 软化黄油温度控制在 20℃–22℃ | 与打发降温后的蛋白霜温差<2℃，确保黄油迅速乳化吸收不破乳 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：烘焙科学 - 西点装饰与霜饰工程     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting cold mechanical denaturation in French meringue, hot sugar syrup thermal pasteurization and irreversible protein crosslinking in Italian meringue (118-121°C soft-ball), Swiss meringue bain-marie heating (60°C) dissolving sugar crystals, and phase inversion to stable W/O buttercream.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing French (Albumen 100%, Sugar 100-200% cold) | Italian (Albumen 100%, Sugar 200%, Water 50%, Syrup boiled to 118-121°C) | Swiss (Albumen 100%, Sugar 200%, Heated over water to 60°C).
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Albumen scaling -> Boiling sugar syrup to 118-121°C (soft-ball stage) -> Thin steady stream pouring into whipping whites -> Cooling to 30°C -> Incremental softened butter addition -> Overcoming transient curdling phase into glossy emulsion -> Piping.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: French Meringue, Italian Meringue, Swiss Meringue, Italian Buttercream, French Mousseline Buttercream, German Custard Buttercream, Star Piping Tip, Disposable Pastry Bag.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Meringue & Buttercream Perfection: Italian meringue with porcelain gloss, microscopic cellular density, rigid structural peaks; silky featherlight buttercream) vs 'FLAWED DEFECT' (Thermal Scorching & Curdling Failure: syrup >125°C scrambling whites into rubbery yellow lumps; cold butter causing dramatic curdy grain separation).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：烘焙科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 6】第6单元｜面包分类与制作流程
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第6单元｜面包分类与制作流程》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第6单元｜面包分类与制作流程》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：烘焙科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第6单元｜面包分类与制作流程》、现实后厨场景设问、课前直觉思考、核心学习目标：系统掌握该课题的物理化学变化、量化参数与实操核心标准。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（本课专业核心词汇、工艺参数与品质标准；国际法文/英文烹饪词汇）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——涵盖课纲：面包分类、面包制作法。
+- Slide 4: 【原料/工具理化特性解析】——可按配方分为瘦面团（Lean Dough）与甜软／丰富面团（Enriched Dough）；按结构分硬壳面包、软面包和层压面团产品；按制作法分直接法、中种法等。
+- Slide 5: 【微观分子状态与水合/反应机理】——秤量 → 混合与搅拌 → 基础发酵（Bulk Fermentation）→ 分割 → 滚圆 → 中间醒发（Bench Rest）→ 整形 → 最后发酵（Final Proof）→ 烘烤 → 冷却 → 包装。
+- Slide 6: 【能量传递与热力学变化规律】——直接法（Straight Dough Method）把主要材料在同一面团中完成混合和发酵，流程直接，适合建立基础操作标准。
+- Slide 7: 【物理相变与组织质构演变】——中种法（Sponge-and-dough Method）先用部分面粉、水和酵母制作预发酵面团，再加入其余材料。它会改变发酵管理、风味和面团表现，但不是所有面包都必须使用。
+- Slide 8: 【化学反应与风味生成机制】——为什么面包出炉后必须冷却才包装？
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——深化学习：分类必须说明依据
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：严格遵循时间、温度与烘焙百分比标准。；酸种面包（sourdough bread）应按发酵体系说明，不能定义为“含较多饱和脂肪或碳水化合物”。全麦、黑麦、白面包则主要按谷物及面粉组成分类。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——分割（dividing）：得到目标重量。
+- Slide 12: 【类别横向对比与不同工艺流派演变】——滚圆（rounding）：整理表面张力。
+- Slide 13: 【商业厨房专业设备选用与操作要领】——中间醒发（bench rest）：让面团放松，便于整形。
+- Slide 14: 【工业化量产与传统手作之异同】——整形（shaping）：建立预定外形和内部卷层。
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——最后发酵（final proof）：形成适合入炉的体积和张力。
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——冷却（cooling）：稳定组织并让水分重新分布。
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——常见结构与形态缺陷排查：原因剖析与紧急工艺补救
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——面筋多肽链折叠延展与三维网络重构（Gluten Network Reorganization）；酵母碳水化合物代谢酒精与有机酸生成（Yeast Carbon Metabolism）；发酵产物对胶体面筋软化改善延展性（Rheological Maturation）；烘焙阶段淀粉α化糊化与蛋白质热交联变性定型（Gelatinization & Denaturation Locking）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——标准面包商用工艺流程（14道SOP）: 1.秤量 -> 2.搅拌 -> 3.基础发酵 -> 4.翻面排气 -> 5.分割 -> 6.滚圆 -> 7.中间醒发 -> 8.整形 -> 9.装模 -> 10.最终发酵 -> 11.割口/刷蛋 -> 12.烘烤 -> 13.冷却 -> 14.包装。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——精准称料与控温 (打面水温预冷) -> 搅拌至完全扩展 (26℃) -> 基础发酵 (28℃, 75% RH, 60 min) -> 翻面排气强化骨架 -> 分割滚圆与中间松弛 (15 min) -> 精致手工整形装模 -> 最终发酵 (38℃, 85% RH) -> 高温烘烤与蒸汽注入 -> 彻底冷却包装。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（硬式法式长棍面包 (Crusty Baguette)、软式全麦吐司面包 (Soft Whole Wheat Toast)、高糖油布里欧修 (Rich Brioche)、丹麦千层牛角面包 (Laminated Croissant)、意式恰巴塔白脆皮 (Italian Ciabatta)、传统德国碱水结 (German Pretzel)、天然酵种乡村面包 (Country Sourdough)、商用重型卧式揉面机 (Commercial Spiral Mixer)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：十四道工序完美执行：面包出炉外形高耸端正、表皮薄脆金黄无死角、侧面无侧裂断层、切面气孔舒展均匀带有珍珠光泽、按压手感弹性十足。
+       - 缺陷反面（Flawed Defect）：工序脱节与急躁失败：省略中间松弛导致整形时面筋强行回缩断裂；未完全冷却（内部>35℃）急于切片包装导致组织被压扁粘连烂心、包装内积水霉变。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 理想面团终温DDT | 搅拌完成出缸温度严格 24℃–26℃ | 建立最佳生化发酵速度起点，防止出缸温度过高造成提前老化 |
+       | 翻面排气关键节点 | 基础发酵进行至 2/3 时间执行 | 排出多余二氧化碳，供给新鲜氧气激发酵母活力并强化面筋筋力 |
+       | 出炉冷却包装红线 | 面包中心温度必须降至 <32℃ 再包装 | 防止内部残留水汽在密封袋内冷凝结露，杜绝面包发霉变质 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：烘焙科学 - 面包烘焙工程     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting polypeptide mechanical orientation during kneading forming anisotropic gluten matrix, enzymatic carbohydrate breakdown producing secondary organic flavor acids, biochemical dough rheological softening, and thermal crumb setting.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Standard 14-Step Bread Process: 1.Scaling -> 2.Mixing -> 3.Bulk Fermentation -> 4.Punch-Down -> 5.Dividing -> 6.Rounding -> 7.Bench Rest -> 8.Shaping -> 9.Panning -> 10.Final Proof -> 11.Scoring/Glazing -> 12.Baking -> 13.Cooling -> 14.Packaging.
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Precision scaling & DDT water prep -> Kneading to full development (26°C) -> Bulk fermentation (28°C, 75% RH, 60 min) -> Punch-down fold -> Dividing, rounding & benching (15 min) -> Shaping & panning -> Final proof (38°C, 85% RH) -> Steam bake -> Cooling & packing.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: Crusty Baguette, Soft Whole Wheat Toast, Rich Brioche, Laminated Croissant, Italian Ciabatta, German Pretzel, Country Sourdough, Commercial Spiral Mixer.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (14-Step Execution Excellence: towering symmetrical loaf, gossamer golden crisp crust, seamless sidewall expansion, uniform lustrous crumb alveoli, maximum springback) vs 'FLAWED DEFECT' (Process Omission Failure: skipping bench rest tearing gluten fibrils during shaping; warm slicing causing gummy crumb compaction and condensation molding).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：烘焙科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 7】第7单元｜面团搅拌阶段
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第7单元｜面团搅拌阶段》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第7单元｜面团搅拌阶段》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：烘焙科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第7单元｜面团搅拌阶段》、现实后厨场景设问、课前直觉思考、核心学习目标：精准识别搅拌机缸内面团从粗糙湿烂到形成坚韧透光薄膜的六大物理演变阶段，杜绝打过头断筋事故。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（拾起阶段 Pick-up stage；卷起/清缸阶段 Clean-up stage；扩展阶段 Extension/Development；完全阶段/手套膜 Final development；断裂阶段 Break-down stage；法文专有名词：Pétrissage (揉面/搅拌)；Frasage (低速慢拌原料吸水阶段)）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——拾起阶段（Pick-up Stage）：材料开始聚合，仍粗糙黏附。
+- Slide 4: 【原料/工具理化特性解析】——卷起／清缸阶段（Clean-up Stage）：面团形成，缸壁逐渐较洁净。
+- Slide 5: 【微观分子状态与水合/反应机理】——面筋发展阶段（Development Stage）：面团较光滑，弹性和延展性增加。
+- Slide 6: 【能量传递与热力学变化规律】——最终阶段（Final Development）：达到产品所需面筋状态。
+- Slide 7: 【物理相变与组织质构演变】——过度搅拌（Overmixing）：面团温度升高、结构变弱并失去理想弹性。
+- Slide 8: 【化学反应与风味生成机制】——不同教材的阶段名称可能不同，判断重点是面团实际状态。
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——薄膜测试（Windowpane Test）把小块面团轻柔拉薄，观察能否形成连续薄膜。它只是判断工具之一，还要结合面团温度、产品类型和搅拌记录。
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：面团搅拌终温控制：普通甜面包 26℃–28℃；硬欧/法棍 22℃–24℃；低速搅拌（慢速水合）通常 2–4 min，高速搅拌（扩展面筋）4–8 min。；面团最终温度（Final Dough Temperature）影响酵母活动和后续发酵。可通过水温、材料温度、室温和搅拌摩擦进行管理。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——为什么高档速度长时间搅拌不一定让面包更好？
+- Slide 12: 【类别横向对比与不同工艺流派演变】——深化学习：观察状态，不背固定分钟
+- Slide 13: 【商业厨房专业设备选用与操作要领】——搅拌机的机械能会转化为热，使面团温度上升。高档速度并非永远更好；面团终温过高会加快后续发酵，也可能令油脂软化、面团黏手。
+- Slide 14: 【工业化量产与传统手作之异同】——法国面包、吐司和甜面团所需面筋发展程度可以不同。加入大量黑麦、全麦、坚果或切割性材料时，薄膜外观也会改变，因此不能用同一张“完美手套膜”照片判定所有面团。
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——面团开始聚合但仍粗糙属于：A 拾起阶段 B 烘烤阶段 C 冷却阶段 D 包装阶段
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——搅拌过度常使面团：A 发热黏软、结构变弱 B 自动冷冻 C 变成蛋糕 D 完全无水
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——现象: 打面超过20分钟面团突然出水变稀无法成团 -> 显微/物理原因: 搅拌过度（Overmixing）导致面筋网彻底被扯断，或面温超过32℃蛋白质酶解 -> 主厨救治方案: 无法逆转作为吐司，只能降级作为老面面头分批掺入新面团中
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——面粉颗粒外层水合与自由水结合（Hydration Stage）；机械双向剪切应力使蜷曲多肽链伸展取向排列（Polypeptide Shear Unfolding & Alignment）；分子间二硫键（-S-S-）氧化重排与立体交联（Disulfide Interchange）；过度机械剪切导致的共价键断裂与面筋水解崩解（Mechanical Shear Degradation & Water Release）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——搅拌六大阶段: 1.拾起阶段(Pickup) -> 2.卷起阶段(Clean-up) -> 3.面筋扩展(Development) -> 4.完全扩展(Final) -> 5.过度搅拌(Let-down) -> 6.断筋崩解(Breakdown)。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——干性原料慢速混匀 -> 投入冰水慢速水合 (拾起阶段, 2-3 min) -> 转中高速搅拌缸壁干净面筋形成 (卷起阶段, 4-5 min) -> 投入软化油脂与后盐 (扩展阶段, 3-4 min) -> 高速打至半透明透光薄膜手套膜 (完全扩展阶段, 2-3 min, 出缸温 26℃)。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（拾起阶段湿粘粗糙面团 (Pickup Stage Dough)、卷起阶段光洁离壁面团 (Clean-up Stage Dough)、扩展阶段厚膜锯齿孔面团 (Initial Development Dough)、完全扩展透光手套膜面团 (Full Windowpane Dough)、过度搅拌湿软反水面团 (Let-down Overmixed Dough)、断筋断裂流体状废面团 (Breakdown Destroyed Dough)、数字面团穿刺测温仪 (Dough Penetration Probe)、双速变频商用螺旋搅拌钩 (Spiral Kneading Hook)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：完全扩展手套膜：取一小块面团向四周轻柔延展，能拉出极致轻薄如丝袜般透光的均匀薄膜，透过薄膜清晰可见指纹，手指戳破圆孔边缘完全光滑无锯齿。
+       - 缺陷反面（Flawed Defect）：搅拌不足与断筋崩溃：搅拌不足薄膜厚重且破口呈粗糙锯齿状、出炉组织紧实粗硬；过度搅拌导致面筋共价键断裂面团彻底泛油吐水瘫软如泥完全报废。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 加盐加糖时机规范 | 必须在卷起阶段（面筋形成）后加入 | 防止高渗透压晶体提早抢夺水分延缓水化，同时防止过早切断网架 |
+       | 完全扩展判定标准 | 薄膜超薄透光且破孔边缘 100% 光滑 | 吐司面团最高标准，赋予面团最强二氧化碳气体包容性与高耸个头 |
+       | 打面水温控制公式 | 水温 = 3 × 目标温 - (室温 + 粉温 + 摩擦升温) | 通过投料冰水精准锁定 26℃ 出缸终温，杜绝面团提前发酵老化 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：烘焙科学 - 面团流变学     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting flour particle surface hydration, mechanical shear stress unwinding and aligning coiled gluten polypeptide chains, disulfide bond (-S-S-) oxidation and cross-linking, and mechanical over-shearing breaking covalent linkages causing liquefaction.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Six Mixing Stages: 1.Pickup -> 2.Clean-up (bowl clearing) -> 3.Initial Development -> 4.Final Complete Development (windowpane) -> 5.Let-down -> 6.Breakdown (liquefied).
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Dry ingredient blending -> Ice water slow hydration (pickup, 2-3 min) -> Medium speed bowl clean-up (4-5 min) -> Fat & salt addition (development, 3-4 min) -> High speed windowpane finish (final stage, 2-3 min, DDT 26°C).
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: Pickup Stage Dough, Clean-up Stage Dough, Initial Development Dough, Full Windowpane Dough, Let-down Overmixed Dough, Breakdown Destroyed Dough, Dough Penetration Probe, Spiral Kneading Hook.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Flawless Windowpane Test: dough stretching into sheer translucent gossamer membrane revealing clear fingerprint ridges; puncture forms perfectly smooth circular rupture) vs 'FLAWED DEFECT' (Under-Mixed & Broken Down Failure: thick opaque tear with jagged sawtooth edges; over-mixed dough matrix shearing into sticky runny soup unable to hold gas).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：烘焙科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 8】第8单元｜发酵阶段与判断
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第8单元｜发酵阶段与判断》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第8单元｜发酵阶段与判断》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：烘焙科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第8单元｜发酵阶段与判断》、现实后厨场景设问、课前直觉思考、核心学习目标：系统掌握该课题的物理化学变化、量化参数与实操核心标准。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（本课专业核心词汇、工艺参数与品质标准；国际法文/英文烹饪词汇）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——基础发酵（Bulk Fermentation）发生在搅拌后、分割前。酵母产生气体与风味，面团结构也继续发展。
+- Slide 4: 【原料/工具理化特性解析】——中间醒发（Bench Rest）让分割滚圆后的面团放松，方便后续整形；太短可能回缩，太长则改变发酵程度。
+- Slide 5: 【微观分子状态与水合/反应机理】——最后发酵（Final Proof）在整形后进行，决定入炉前体积与结构状态。
+- Slide 6: 【能量传递与热力学变化规律】——轻压面团观察回弹：快速回弹可能发酵不足；缓慢回弹并留下浅痕可能接近适当；明显塌陷且不回弹可能过度。测试结果仍受面团配方和操作力度影响。
+- Slide 7: 【物理相变与组织质构演变】——盐可调节酵母活动并加强面团结构；高糖和高油配方会改变水分可用性及发酵速度，因此丰富面团通常需要不同管理。
+- Slide 8: 【化学反应与风味生成机制】——面团体积达到两倍是否永远代表基础发酵完成？
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——深化学习：发酵阶段不是重复等待
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：严格遵循时间、温度与烘焙百分比标准。；基础发酵：产生气体与风味，面团结构继续发展。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——中间醒发：在分割滚圆后放松面筋，改善整形。
+- Slide 12: 【类别横向对比与不同工艺流派演变】——最后发酵：整形后建立入炉前体积和表皮张力。
+- Slide 13: 【商业厨房专业设备选用与操作要领】——相同配方在冷天和热天不能只用固定分钟数。温度、酵母量、糖盐浓度、面团含水量、面筋状态和面团大小都会改变速度。
+- Slide 14: 【工业化量产与传统手作之异同】——环境过热或时间过长 → 酵母持续产气 → 面筋承托能力下降 → 面团表面松弛 → 入炉膨胀力不足 → 成品扁塌、孔洞粗或带过强发酵味。
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——基础发酵发生在：A 搅拌后分割前 B 包装后 C 烘烤后 D 冷冻后
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——中间醒发主要帮助：A 面筋放松 B 表皮焦糖化 C 产品冷却 D 糖结晶
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——常见结构与形态缺陷排查：原因剖析与紧急工艺补救
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——酵母酶系（Invertase/Maltase/Zymase）多步级联发酵分解麦芽糖葡萄糖；二氧化碳气体溶于游离水达到热力学饱和后成核膨胀进入气孔（Gas Cavity Nucleation）；发酵产生微量乙醇与有机酸（乳酸/醋酸）使面筋 pH 值降至 5.0-5.5 最佳延伸状态；面团粘弹性力学松弛（Viscoelastic Stress Relaxation）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——基础发酵 (28℃, 75% RH, 体积增至 2-2.5 倍) | 中间醒发松弛 (24-26℃, 15-20 min) | 最终醒发 (38℃, 85% RH, 膨胀至模具 8-9 分满)。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——面团滚圆入发酵盒 -> 恒温恒湿基础发酵 (28℃, 75% RH, 60 min) -> 手指粉孔诊断测试 (留痕不塌) -> 排气分割滚圆 -> 中间醒发松弛 (恢复延展性, 15 min) -> 整形入模入盘 -> 最终醒发箱发酵 (38℃, 85% RH, 50 min) -> 入炉。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（透明带升数刻度发酵盒 (Graduated Proofing Tub)、发酵箱温湿度双显探头 (Digital Dual Hygrometer)、手指戳洞留痕检测标本 (Finger Poke Test Specimen)、纯天然亚麻发酵发酵布 (Linen Couche Proofing Cloth)、法式藤编圆形发酵篮 (Rattan Banneton Basket)、面团排气专用实木擀面杖 (Solid Beech Rolling Pin)、不锈钢面包专用割刀 (Curved Lame Scoring Blade)、商用程控恒温恒湿发酵箱 (Programmable Proofer)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：手指测试与发酵完美判定：基础发酵完成时，食指沾面粉插入面团中心深 3cm 拔出，所留圆孔既不迅速回弹缩小，整体面团也不发生塌陷松散，维持完美清晰凹洞；最终醒发轻触面团如充气气球般轻柔慢弹。
+       - 缺陷反面（Flawed Defect）：过发与欠发两极恶果：欠发导致戳洞瞬间完全回弹填平、烘烤时面团死硬撕裂爆边；过发导致戳洞瞬间面团如漏气皮球全盘轰然塌陷成死坑、散发刺鼻酒精酸败味。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 基础发酵手指测试 | 凹洞保留原样，既不回缩也不塌陷 | 代表面筋网架张力与内部气体压力达到物理学最佳平衡点 |
+       | 最终醒发湿度红线 | 相对湿度严格维持在 85% RH | 水汽充足使表皮保持润泽弹性，入炉瞬间能最大程度膨胀不破皮 |
+       | 翻面排气操作原则 | 四边轻拉向中心折叠排出大粗气泡 | 均化面团内部温度与酵母密度，使成品内部蜂窝气孔极其均匀 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：烘焙科学 - 发酵流变学     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting enzymatic cascade metabolizing maltose and dextrose, CO2 dissolution into aqueous phase reaching super-saturation and nucleating into pre-existing void cavities, organic acid synthesis shifting dough pH to optimal 5.0-5.5, and rheological viscoelastic stress relaxation.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Bulk Fermentation (28°C, 75% RH, 2-2.5x volume expansion) | Bench Rest Relaxation (24-26°C, 15-20 min) | Final Proofing (38°C, 85% RH, 85-90% pan volume).
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Rounding into fermentation container -> Controlled bulk proof (28°C, 75% RH, 60 min) -> Finger poke diagnostic test -> Degassing & dividing -> Bench rest relaxation (15 min) -> Final shaping & panning -> Final proof cabinet (38°C, 85% RH, 50 min) -> Baking.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: Graduated Proofing Tub, Digital Dual Hygrometer, Finger Poke Test Specimen, Linen Couche Proofing Cloth, Rattan Banneton Basket, Solid Beech Rolling Pin, Curved Lame Scoring Blade, Programmable Proofer.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Definitive Finger Poke Test: floured index finger plunging 3cm leaves permanent sharp indentation without shrinkage or collapse; final proof feels buoyant like delicate silk balloon) vs 'FLAWED DEFECT' (Under & Over-Proving Extremes: under-proof springing back completely; over-proof collapsing instantly into hollow crater releasing sour alcoholic gas).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：烘焙科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 9】第9单元｜面包烘焙阶段
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第9单元｜面包烘焙阶段》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第9单元｜面包烘焙阶段》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：烘焙科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第9单元｜面包烘焙阶段》、现实后厨场景设问、课前直觉思考、核心学习目标：系统掌握该课题的物理化学变化、量化参数与实操核心标准。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（本课专业核心词汇、工艺参数与品质标准；国际法文/英文烹饪词汇）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——入炉初期，气体和水蒸气受热膨胀，酵母短时间继续活动，形成炉内膨胀（Oven Spring）。随后酵母失活，蛋白质凝固、淀粉糊化，结构定型。
+- Slide 4: 【原料/工具理化特性解析】——表面水分减少，温度上升，美拉德反应和焦糖化等过程形成颜色和香气。蒸汽（Steam）可延缓表面过早结皮，并影响硬壳面包的光泽和酥脆度。
+- Slide 5: 【微观分子状态与水合/反应机理】——出炉后内部仍在散热和水分重新分布。过早切开会压坏尚未稳定的组织；冷却不足就包装会产生冷凝水。
+- Slide 6: 【能量传递与热力学变化规律】——底部过黑：烤盘或下火过强；表皮浅：温度、时间或配方褐变条件不足；侧面爆裂：整形接缝、割线、发酵或表皮定型问题；内部黏湿：可能未熟或冷却不足。
+- Slide 7: 【物理相变与组织质构演变】——为什么法式面包入炉前割线（Scoring）？
+- Slide 8: 【化学反应与风味生成机制】——深化学习：炉内变化的时间线
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——初期膨胀：现有气体及水蒸气膨胀，酵母短时间仍有活动。
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：严格遵循时间、温度与烘焙百分比标准。；结构定型：酵母逐渐失活，蛋白质凝固（protein coagulation），淀粉糊化（starch gelatinisation）。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——表皮形成：表面失水，温度上升，出现美拉德反应（Maillard reaction）及焦糖化（caramelisation）。
+- Slide 12: 【类别横向对比与不同工艺流派演变】——出炉冷却：水分重新分布，内部组织逐渐稳定。
+- Slide 13: 【商业厨房专业设备选用与操作要领】——面包应从外形、表皮颜色、烘烤均匀度、表皮质地、内部颜色、气孔、弹性、香气与风味综合评价。白面包内部不一定必须“越白越好”，应符合面粉与产品类别。
+- Slide 14: 【工业化量产与传统手作之异同】——表皮过深：先检查实际炉温、时间、糖乳蛋材料及烤盘位置。
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——表皮苍白：可能炉温或时间不足，也可能配方褐变材料较少。
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——侧面爆裂：检查发酵程度、整形接缝、割线与表面干皮。
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——常见结构与形态缺陷排查：原因剖析与紧急工艺补救
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——炉内急胀动力学（Oven Spring 45-60℃ 酵母产气狂飙与气体受热膨胀）；酵母热灭活（Yeast Thermal Inactivation 55-60℃）；淀粉不可逆糊化与面筋热交联完全固化（Gelatinization & Gluten Setting 65-80℃）；美拉德与焦糖化着色（Crust Coloration 140-200℃）；淀粉回生重结晶双螺旋老化温区（Starch Retrogradation 4℃ Disaster Zone）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——烘烤阶段划分: 1.急胀膨胀期 (入炉 0-5 min, 注入蒸汽) -> 2.定型熟化期 (5-15 min) -> 3.着色成壳期 (15-25 min) -> 4.出炉冷却期 (降至 25℃) | 储存禁止 4℃ 冷藏！必须 -18℃ 冻藏或常温。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——烤箱预热与石板蓄热 (220-230℃) -> 面团割口立即进炉 -> 喷注高温饱和蒸汽 3-5 秒 -> 经历急胀爆发 -> 关蒸汽排湿结壳 -> 烘烤至中心温度达标 (96-98℃) -> 出炉平震脱模冷却架风冷 -> 常温或 -18℃ 密封冷冻。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（刚出炉爆裂声法式长棍 (Singing Baguette)、金黄圆顶吐司面包 (Golden Crown Toast)、硬壳欧式酸面团大面包 (Crusty Sourdough Boule)、高压烘焙蒸汽发生器 (High-Pressure Steam Injector)、耐火高蓄热烘焙石板 (Cordierite Baking Stone)、面包中心探针温度计 (Digital Probe Core Thermometer)、商用冷冻保鲜密封包装 (Freezer-Grade Vacuum Bag)、面包老化晶体显微对比图 (Starch Retrogradation Micrograph)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：完美的炉内急胀与表壳：面包割口如同花瓣般剧烈向上翻卷绽放（Ears/Bloom）、外壳呈现薄脆透亮的琥珀金黄色、出炉静置时能听到表皮微裂的清脆唱音（Singing Crust）、内部气孔晶莹剔透。
+       - 缺陷反面（Flawed Defect）：无蒸汽结死壳与错误冷藏老化：未喷蒸汽导致表皮过早烘硬结壳把面团勒死无法膨胀、成品矮小死硬爆侧裂；把面包放进 4℃ 冷藏室储存导致淀粉以数倍速度急速回生硬化掉渣变质。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 入炉注入蒸汽时机 | 进炉瞬间喷注饱和蒸汽 3–5 秒 | 在生坯表面冷凝形成水膜延缓表皮结皮，赋予面团最大空间急胀 |
+       | 出炉熟透中心温度 | 白吐司 93℃–95℃ / 欧包 96℃–98℃ | 确保淀粉完全糊化吸足水分，蛋白质网架完全固化不收缩 |
+       | 科学储存温区铁律 | 常温密封 2 天或 -18℃ 深度冷冻 | 绝对严禁 4℃ 冰箱冷藏！4℃ 是直链淀粉分子回生重结晶最猖獗灾难区 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：烘焙科学 - 热力学与烘烤化学     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting oven spring explosive expansion (45-60°C rapid gas expansion), yeast thermal death (55-60°C), starch irreversible gelatinization and gluten matrix solidification (65-80°C), crust Maillard/caramelization (140-200°C), and amylose/amylopectin retrogradation recrystallization (optimal at 4°C).
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Four Baking Phases: 1.Oven spring expansion (0-5 min + steam) -> 2.Crumb structural setting (5-15 min) -> 3.Crust browning & crisping (15-25 min) -> 4.Ambient cooling -> Storage: Freeze at -18°C, NEVER refrigerate at 4°C!.
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Oven preheat with stone saturation (220-230°C) -> Scoring & immediate loading -> High-pressure steam injection (3-5s) -> Oven spring burst -> Vent opening for crust crisping -> Core temp verification (96-98°C) -> Pan shock & wire cooling -> Frozen storage (-18°C).
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: Singing Baguette, Golden Crown Toast, Crusty Sourdough Boule, High-Pressure Steam Injector, Cordierite Baking Stone, Digital Probe Core Thermometer, Freezer-Grade Vacuum Bag, Starch Retrogradation Micrograph.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Spectacular Oven Spring: scoring cuts blooming with pronounced ragged crispy ears, gossamer translucent amber crust singing with crackles upon cooling, glossy crumb cell walls) vs 'FLAWED DEFECT' (Premature Crust & Cold Retrogradation: lack of steam sealing crust prematurely strangling rise into dense pale brick; 4°C refrigeration accelerating starch retrogradation making bread dry and crumbly).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：烘焙科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 10】第10单元｜面糊重、面团重与损耗计算
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第10单元｜面糊重、面团重与损耗计算》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第10单元｜面糊重、面团重与损耗计算》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：烘焙科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第10单元｜面糊重、面团重与损耗计算》、现实后厨场景设问、课前直觉思考、核心学习目标：熟练掌握统考必考的“烘焙百分比换算法”与“多阶段工序损耗倒推法”，实现工业级精准投料。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（烘焙百分比 Baker's percentage；损耗率 Loss rate；保留率 Retention rate；倒推计算 Back-calculation；法文专有名词：Pourcentage du boulanger (烘焙百分比)；Rendement (出品率/成品率)）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——涵盖课纲：求面糊重、耗损后面糊重。
+- Slide 4: 【原料/工具理化特性解析】——例：面粉2000 g，总烘焙百分比175%，总面团重=3500 g。
+- Slide 5: 【微观分子状态与水合/反应机理】——例：目标熟制或可用重量为1900 g，预计损耗5%，所需损耗前重量=1900÷0.95=2000 g。
+- Slide 6: 【能量传递与热力学变化规律】——再加入合理操作损耗，倒推所需面糊量。
+- Slide 7: 【物理相变与组织质构演变】——把5%写成5代入括号，而不是0.05。
+- Slide 8: 【化学反应与风味生成机制】——未说明损耗发生在分割、入模、烘烤还是修整。
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——把烘焙百分比误当全部合计100%。
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：吐司标准烤焙损耗率约 10%–12%；小甜面包损耗率约 8%–10%；面糊搅拌挂壁损耗约 2%–3%。；计算后没有检查单位与实际容量。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——12个蛋糕模，每模需要420 g面糊，预计操作损耗4%，至少需准备多少面糊？
+- Slide 12: 【类别横向对比与不同工艺流派演变】——深化学习：损耗必须分阶段相乘
+- Slide 13: 【商业厨房专业设备选用与操作要领】——目标入模量3000 g，操作损耗4%：
+- Slide 14: 【工业化量产与传统手作之异同】——核心关系：保留率（Retention rate）= 1 − 损耗率（Loss rate）；正推用乘法，倒推用除法。
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——图中例题：目标成品80 kg，烘烤保留率0.80，操作保留率0.95。烘烤前=80÷0.80=100 kg；操作前=100÷0.95=105.26 kg；正推复核105.26×0.95×0.80≈80 kg。
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——替代文字：上方正推流程从操作前重量依次乘操作保留率和烘烤保留率得到成品重量；下方倒推流程从目标成品反向逐段除以相应保留率。警告框说明不同阶段损耗的基数不同，不能把20%与5%直接相加后计算。
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——现象: 按订单出炉后的面包总重量短缺不足 -> 显微/物理原因: 计算时错误地将损耗率用乘法加在成品上（如 1000g × 1.12），倒推必须用除法（1000 ÷ 0.88） -> 主厨救治方案: 执行标准倒推除法公式：投料量 = 目标量 ÷ (1 - 损耗率)
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——烘焙模具容积流体动力学计算（Volume = L × W × H 或 πr²h）；容积比容系数（Pan Factor PF = 模具容积 / 标准比容 4.0-4.5）；受热脱水汽化质量守恒定律（Mass Balance Evaporation Loss）；多阶段损耗连乘函数（Total Flour = Finished / (1-Loss1)(1-Loss2)(1-Loss3)）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——模具注模面团重 = 模具容积 (cm³) ÷ 面包比容 (通常 4.2-4.5) | 吐司生坯重 = 模具体积 ÷ 4.3 | 总原料损耗补偿系数 = 1 ÷ (1 - 综合损耗率 10-15%)。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——模具长宽高尺寸测量计算容积 -> 选定产品标准比容系数 (平顶吐司 4.0 / 山形吐司 4.5) -> 计算每只模具精准生坯入模重量 -> 累加订单总产量并计入各阶段损耗率 -> 倒推计算各原材料净投料量 -> 批量生产。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（450g带盖金波纹吐司盒 (450g Corrugated Pullman Pan)、高精度数字激光测距卡尺 (Digital Vernier Caliper)、八寸圆形阳极蛋糕活底模 (8-Inch Round Cake Pan)、商用烘焙多阶损耗计算终端 (Bakery Scaling Calculator)、生产车间标准面团分割机 (Volumetric Dough Divider)、标准烘焙比容测定仪器 (Rapeseed Displacement Volumeter)、出炉烘焙脱水称重记录表 (Bake Loss Monitoring Log)、中央厨房生产批次标牌 (Commercial Batch Tag)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：容积比重完美吻合：450g 吐司盒生面团发酵至模具 8 分满、烘烤出炉后四角方正饱满紧贴盒边、无白边无圆角、顶部金黄平整、切片孔隙密度完全达标。
+       - 缺陷反面（Flawed Defect）：面团计算严重失误：面团重量计算偏少导致发酵至死也无法满模、出炉吐司呈矮小四边凹陷圆角畸形；面团下量过多导致受热挤出模具缝隙溢流烧焦变黑。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 平顶吐司比容设定 | 容积比容系数严格按 4.0–4.2 换算 | 保证烘烤中面团刚好顶满盒盖产生适度挤压，形成标志性直角方吐司 |
+       | 山形不带盖比容设定 | 容积比容系数严格按 4.5–4.8 换算 | 生坯分量适中，允许面团向无阻力上方自由膨胀，形成高耸圆弧山峰 |
+       | 生产全流程总损耗 | 综合损耗率预设 10%–13% 倒推投料 | 包含搅拌缸壁残留、分割飞损、发酵挥发及烘烤脱水，确保成品质检达标 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：烘焙科学 - 商用生产核算     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting geometric pan volume calculation, pan factor scaling (PF = Pan Volume / Target Specific Volume 4.0-4.5), thermodynamic mass loss through water vaporization, and multi-stage sequential yield loss multiplication models.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Dough Mass = Pan Volume (cm³) ÷ Desired Specific Volume (4.2-4.5) | Scaled Dough Weight = Volume ÷ 4.3 | Total Scaling Multiplier = 1 ÷ (1 - Total Loss %).
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Pan physical dimension measurement -> Specific volume coefficient selection -> Pan dough weight calculation -> Order yield consolidation with multi-stage loss -> Reverse-engineering ingredient batch tickets -> Scaled production execution.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: 450g Corrugated Pullman Pan, Digital Vernier Caliper, 8-Inch Round Cake Pan, Bakery Scaling Calculator, Volumetric Dough Divider, Rapeseed Displacement Volumeter, Bake Loss Monitoring Log, Commercial Batch Tag.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Geometrical Volumetric Perfection: dough proofed to exactly 80% rim, baking into crisp rectangular loaf with razor-sharp corners, zero pale halos or bulging) vs 'FLAWED DEFECT' (Scaling Calculation Disaster: under-scaling leaving loaf flat with sunken hollow corners; over-scaling forcing batter oozing past pan seams burning to charcoal).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：烘焙科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 11】第11单元｜西餐概论、厨房与卫生管理
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第11单元｜西餐概论、厨房与卫生管理》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第11单元｜西餐概论、厨房与卫生管理》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：西餐烹调科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第11单元｜西餐概论、厨房与卫生管理》、现实后厨场景设问、课前直觉思考、核心学习目标：系统掌握该课题的物理化学变化、量化参数与实操核心标准。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（本课专业核心词汇、工艺参数与品质标准；国际法文/英文烹饪词汇）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——涵盖课纲：西餐概论、卫生管理、西餐厨房。
+- Slide 4: 【原料/工具理化特性解析】——西餐（Western Cuisine）不是单一国家菜系，而是欧洲、美洲等多种饮食传统及现代餐饮体系的统称。学习重点包括烹调方法、酱汁、汤、食材处理、摆盘和厨房组织。
+- Slide 5: 【微观分子状态与水合/反应机理】——收货、储存、预处理、热加工、冷菜、烘焙、洗涤与出餐应形成顺畅流程，减少生熟交叉和人员逆向移动。
+- Slide 6: 【能量传递与热力学变化规律】——经典厨房分工（Kitchen Brigade）可包括主厨（Executive Chef）、副主厨（Sous Chef）、各工作站厨师（Chef de Partie）等。学校厨房可简化岗位，但必须明确负责人和交接。
+- Slide 7: 【物理相变与组织质构演变】——正确洗手、清洁制服、覆盖伤口、限制饰物、头发管理，并在生病时报告。手套不能代替洗手。
+- Slide 8: 【化学反应与风味生成机制】——高风险食品应减少处于危险温度范围的时间，使用清洁且校准的温度计，并依马来西亚法规、学校制度及产品标准执行冷藏、烹调、保温与冷却。
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——清洁（Cleaning）去除污垢；消毒（Sanitising）把微生物降低至可接受水平。必须先有效清洁，再按正确浓度和接触时间消毒。
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：严格遵循时间、温度与烘焙百分比标准。；学生用同一块砧板切生鸡肉后直接切沙拉，风险是什么？
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——深化学习：厨房卫生是一套控制系统
+- Slide 12: 【类别横向对比与不同工艺流派演变】——采购与验收 → 储存 → 预处理 → 烹调 → 保温或冷却 → 出餐 → 清洁记录
+- Slide 13: 【商业厨房专业设备选用与操作要领】——任何阶段失控，都可能令后续步骤无法完全补救。例如受污染的即食沙拉不会再加热，不能依靠“出餐前看起来正常”保证安全。
+- Slide 14: 【工业化量产与传统手作之异同】——去除残渣 → 使用清洁剂清洗 → 冲洗 → 按规定消毒 → 风干及记录。消毒剂浓度、接触时间和适用表面必须依产品标签与学校规范。
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——收货人员把纸箱直接放上冷菜工作台，之后同一台面制作沙拉。纸箱外部可能带入泥土和微生物，破坏清洁区管理。应在收货区拆外包装，再按流程转入储存或洁净容器。
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——手套能否代替洗手？A 能 B 不能
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——常见结构与形态缺陷排查：原因剖析与紧急工艺补救
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——细菌二分裂对数生长期动力学（Bacterial Exponential Growth: N = N0 × 2^(t/d)）；危险温度带（Temperature Danger Zone TDZ 5℃~60℃）酶促生化反应；蛋白质生物胺分解（Histamine & Putrescine Formation）；季铵盐与次氯酸对微生物细胞膜穿孔变性杀菌（Membrane Disruption Disinfection）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——危险温度带 TDZ: 5℃–60℃ (极限致病繁殖) | 两阶段极速冷却法: 60℃降至21℃ ≤2小时, 21℃降至5℃ ≤4小时 (总时长 ≤6小时)。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——食材冷链收货验货 (≤4℃) -> 粗加工生熟分流分区 -> 烹调中心温度杀菌检测 (≥74℃) -> 快速冰水浴降温/急冻库降温 (避开 TDZ) -> 5℃ 以下冷藏贴标密封 -> 再次食用前中心温度复热达标 (≥74℃)。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（行政总厨主厨服与高帽 (Executive Chef Uniform)、红黄绿蓝白五色食品砧板 (Color-Coded Cutting Boards)、红外激光探针双显温度计 (Dual Infrared Probe Thermometer)、急冻速冷风暴降温机 (Blast Chiller Freezer)、紫外线刀具消毒密封柜 (UV Knife Sterilizer)、HACCP七天食品保质彩色标签 (HACCP Day-Dot Labels)、有效氯浓度测定试纸 (Chlorine Sanitizer Test Strip)、后厨不锈钢单向流转门 (Kitchen Flow Control Door)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：严密卫生控制状态：厨房生熟动线完全单向单流绝不交叉混流、熟食中心温度实时数字监测记录全部≥75℃、五色砧板严格专板专用无任何串味串菌。
+       - 缺陷反面（Flawed Defect）：交叉污染与细菌爆发：生鸡肉与即食沙拉共用同一块木砧板导致沙门氏菌大面积交叉污染；大锅浓汤出炉后在常温室温下缓慢静置过夜导致肉毒杆菌与金黄色葡萄球菌疯狂繁殖。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 危险温度带时间红线 | 食材处于 5℃–60℃ 累计时长 <2小时 | 在此温度带内细菌 20 分钟繁殖一代，严控时长彻底阻断毒素生成 |
+       | 禽肉烹调中心温度 | 中心温度必须达到 74℃ 维持 15 秒 | 彻底杀灭内部潜伏的沙门氏菌与弯曲杆菌，确保食品绝对安全 |
+       | 五色砧板专板专用 | 红生肉/蓝海鲜/绿果蔬/黄生禽/白即食 | 建立物理色彩防错隔离机制，杜绝后厨员工因疏忽导致的交叉污染 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：西餐烹调科学 - 后厨管理与食品安全     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting bacterial logarithmic binary fission kinetics, Temperature Danger Zone (TDZ 5-60°C) biochemical proliferation, protein biogenic amine spoilage decomposition, and quaternary ammonium membrane lysis sanitization.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Temperature Danger Zone (TDZ): 5°C–60°C | Two-Stage Rapid Cooling: 60°C to 21°C within 2 hours, 21°C to 5°C within 4 hours (Total ≤6 hours).
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Cold-chain receiving (≤4°C) -> Raw/Cooked cross-contamination prevention -> Cooking core pasteurization (≥74°C) -> Rapid blast chilling past TDZ -> Cold storage with HACCP day-dots (<5°C) -> Reheating to ≥74°C.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: Executive Chef Uniform, Color-Coded Cutting Boards, Dual Infrared Probe Thermometer, Blast Chiller Freezer, UV Knife Sterilizer, HACCP Day-Dot Labels, Chlorine Sanitizer Test Strip, Kitchen Flow Control Door.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Sanitary Excellence: unidirectional clean-to-dirty workflow without cross-traffic, real-time core temp monitoring logged at ≥75°C, color-coded cutting boards segregated) vs 'FLAWED DEFECT' (Cross-Contamination Disaster: raw poultry juices contaminating ready-to-eat salad on unwashed board; giant soup pot left cooling in TDZ overnight breeding pathogenic toxins).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：西餐烹调科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 12】第12单元｜西餐刀具与安全切配
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第12单元｜西餐刀具与安全切配》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第12单元｜西餐刀具与安全切配》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：西餐烹调科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第12单元｜西餐刀具与安全切配》、现实后厨场景设问、课前直觉思考、核心学习目标：系统掌握该课题的物理化学变化、量化参数与实操核心标准。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（本课专业核心词汇、工艺参数与品质标准；国际法文/英文烹饪词汇）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——主厨刀（Chef’s Knife）用于多数切配；削皮刀（Paring Knife）用于小型精细工作；面包刀（Bread Knife）以锯齿切割外硬内软产品；剔骨刀（Boning Knife）用于骨肉分离。
+- Slide 4: 【原料/工具理化特性解析】——使用稳定砧板，保持刀刃锋利，采用爪形手势（Claw Grip），切割方向避开身体。移动刀具时刀尖向下并作出提醒；不可把刀浸在看不见的洗涤水中。
+- Slide 5: 【微观分子状态与水合/反应机理】——丁（Dice）、丝（Julienne）、片（Slice）、碎切（Mince）等切形应大小均匀，目的不仅是美观，也使受热时间一致。
+- Slide 6: 【能量传递与热力学变化规律】——刀具使用后立即清洗、冲净、擦干，存放在刀架或保护套。生熟食材之间必须完成清洁消毒。
+- Slide 7: 【物理相变与组织质构演变】——为什么钝刀有时比锋利刀更危险？
+- Slide 8: 【化学反应与风味生成机制】——深化学习：刀法服务于安全与均匀受热
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——递刀时放在台面让对方自行取用。
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：严格遵循时间、温度与烘焙百分比标准。；刀具不可藏在水槽、布巾或食材下。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——立即停止工作，放下刀具，通知教师，依学校急救程序处理；受污染的食品和工作区须隔离。不能简单贴上胶布后继续接触即食食品。
+- Slide 12: 【类别横向对比与不同工艺流派演变】——大小一致的丁（dice）能在相近时间熟化。若一锅蔬菜大小差异很大，小块可能软烂，大块仍未熟。
+- Slide 13: 【商业厨房专业设备选用与操作要领】——切面包最适合：A 锯齿面包刀 B 剔骨刀 C 汤匙 D 温度计
+- Slide 14: 【工业化量产与传统手作之异同】——砧板下放湿布或防滑垫主要为：A 防滑 B 增加甜味 C 冷冻刀具 D 吸收油脂
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——刀具掉落时应：A 后退让它落地 B 用手接住 C 用脚踢 D 闭眼
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——刀具不可放入洗涤水中，因为：A 他人看不见刀刃 B 会增加盐味 C 会形成面筋 D 会发酵
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——常见结构与形态缺陷排查：原因剖析与紧急工艺补救
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——马氏体不锈钢高碳合金晶格硬度（Martensitic Stainless Steel HRC 56-58）；微观锋刃双面研磨夹角（Bevel Cutting Edge 20°）；植物纤维素细胞壁机械平整剪切与汁液保留（Cell Wall Shearing & Turgor Pressure）；切面多酚氧化酶（PPO）接触氧气发生酶促褐变反应（Enzymatic Browning Kinetics）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——经典八大刀工几何规格: 丝 Julienne (2×2×40mm) | 细丁 Brunoise (2×2×2mm) | 条 Batonnet (6×6×50mm) | 小丁 Small Dice (6×6×6mm) | 菱形 Paysanne (12×12×3mm)。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——砧板下方垫湿布防滑防震 -> 正确握刀 (食指拇指紧捏刀身指根) -> 左手成爪形手 (Claw Grip 指节引导刀面) -> 运用滑切推进法 (Push-Cut 严禁下砸) -> 毫米级精度切配整齐 -> 刀具即时清洁入套收纳。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（八寸德国高碳钢主厨刀 (8-Inch Chef's Knife)、锋利细长西餐剔骨刀 (Flexible Boning Knife)、精细多功能削皮小刀 (Paring Knife)、波浪锯齿长刃面包刀 (Serrated Bread Knife)、金刚石微粒高硬度磨刀棒 (Ceramic Honing Steel)、双面 1000/6000 目天然磨刀石 (Dual Whetstone 1000/6000)、八大经典刀工不锈钢标尺 (Culinary Precision Ruler)、爪形手防切防割专业手套 (Cut-Resistant Glove)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：完美几何刀工：细丝（Julienne）如发丝银针般长短粗细绝对均一（2×2×40mm）、细丁（Brunoise）呈完美微型正方体、切口截面平滑如镜无挤压出水无汁液渗漏。
+       - 缺陷反面（Flawed Defect）：野蛮切配与切手危险：非持刀手伸直手指导致刀刃直接削伤指尖；钝刀死力硬砸导致番茄被挤烂破裂汁液四溅、洋葱粗细大小不一受热生熟不一。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 非持刀手爪形手法 | 指尖向内深扣，第一指关节贴平刀身 | 建立天然防切滑动护栏，保证极速盲切状态下双手毫发无损 |
+       | 磨刀棒研磨角度 | 刀刃与磨刀棒保持 20° 恒定夹角 | 矫正微观卷刃偏斜，恢复锋利切削微锯齿，防止滑刀伤手 |
+       | 刀工规格均一原则 | 同道菜肴中食材尺寸误差 <0.5mm | 保证食材在锅内受热传导速率完全同步，杜绝熟烂与夹生并存 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：西餐烹调科学 - 专业刀工工艺学     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting high-carbon martensitic stainless steel Rockwell hardness (HRC 56-58), 20-degree dual-bevel edge geometry minimizing cell wall crushing, mechanical turgor pressure preservation, and polyphenol oxidase (PPO) air exposure browning.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Classic Knife Cuts: Julienne (2x2x40mm) | Fine Brunoise (2x2x2mm) | Batonnet (6x6x50mm) | Small Dice (6x6x6mm) | Paysanne (12x12x3mm) | Chiffonade (ribbons).
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Damp towel board stabilization -> Chef's pinch grip on blade heel -> Guiding hand claw grip knuckles planar contact -> Smooth forward push-cutting motion -> Millimeter-level geometric uniform cuts -> Clean wipe & block storage.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: 8-Inch Chef's Knife, Flexible Boning Knife, Paring Knife, Serrated Bread Knife, Ceramic Honing Steel, Dual Whetstone 1000/6000, Culinary Precision Ruler, Cut-Resistant Glove.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Geometric Knife Excellence: Julienne strips strictly uniform (2x2x40mm), Brunoise cubes razor-sharp cubes with pristine cellular retention and zero juice bleeding) vs 'FLAWED DEFECT' (Blunt Crushing & Slicing Hazard: flat fingers causing severe laceration; dull blade crushing tomato cell walls squirting juice; uneven chunks cooking inconsistently).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：西餐烹调科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 13】第13单元｜食材种类、选购与验收
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第13单元｜食材种类、选购与验收》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第13单元｜食材种类、选购与验收》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：西餐烹调科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第13单元｜食材种类、选购与验收》、现实后厨场景设问、课前直觉思考、核心学习目标：系统掌握该课题的物理化学变化、量化参数与实操核心标准。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（本课专业核心词汇、工艺参数与品质标准；国际法文/英文烹饪词汇）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——涵盖课纲：食材种类、食材选购。
+- Slide 4: 【原料/工具理化特性解析】——肉类、禽类、海鲜、蛋奶、谷物、蔬菜、水果、豆类、油脂、调味品及加工食品，各有不同品质和保存要求。
+- Slide 5: 【微观分子状态与水合/反应机理】——包装是否完整、无渗漏或膨胀。
+- Slide 6: 【能量传递与热力学变化规律】——产品温度是否符合接收标准。
+- Slide 7: 【物理相变与组织质构演变】——外观、气味和质地是否正常。
+- Slide 8: 【化学反应与风味生成机制】——日期、批次、过敏原及数量是否正确。
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——外形不完美不一定不安全；外观正常也不代表没有微生物风险。因此验收必须同时检查感官品质、温度、日期与来源。
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：严格遵循时间、温度与烘焙百分比标准。；保留采购、收货日期、批次与供应商记录；发现问题时才能隔离受影响材料。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——冷藏鲜奶包装完整但收货温度异常，应如何处理？
+- Slide 12: 【类别横向对比与不同工艺流派演变】——深化学习：验收是第一道防线
+- Slide 13: 【商业厨房专业设备选用与操作要领】——核对订单：品名、数量、规格与供应商。
+- Slide 14: 【工业化量产与传统手作之异同】——检查运输条件：车辆清洁、冷链状态、生熟分隔。
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——测量与观察：温度、包装、日期、气味、色泽和质地。
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——决定：接受、隔离待确认或拒收。
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——常见结构与形态缺陷排查：原因剖析与紧急工艺补救
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——肌红蛋白与氧气结合生成鲜红氧合肌红蛋白（Oxymyoglobin Fe2+）；肌原纤维蛋白尸僵死后糖原无氧分解乳酸积累（Rigor Mortis & Lactic Acid Accumulation）；排酸熟成内源蛋白酶（Calpain/Cathepsin）水解肌动蛋白软化肉质（Wet/Dry Aging Proteolysis）；鱼类三甲胺氧化物（TMAO）还原降解生成恶臭三甲胺（TMA Volatilization）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——牛肉排酸熟成: 0-2℃, 80-85% RH, 恒温恒湿排酸 14-28天 | 冰鲜全鱼鉴别四标准: 鱼眼清澈凸起, 鱼鳃鲜红无黏液, 鱼肉按压紧实弹性, 气味纯正海风清香。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——冷链屠宰迅速预冷 -> 0-2℃ 排酸库悬挂熟成 (酶解软化粗肌纤维) -> 大分割部位肉精准修割 (剔除筋膜油角) -> 鲜鱼碎冰床保鲜验收 (鱼腹向下浸冰) -> 组织新鲜度物理检测 (按压/气味/鳃色) -> 气调真空密封。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（28天干式熟成带骨肋眼牛排 (28-Day Dry-Aged Ribeye)、新鲜深海冰鲜三文鱼整鱼 (Fresh Whole Salmon)、精修法式小羊排 (French-Trimmed Lamb Rack)、去皮去骨新鲜鸡胸肉 (Boneless Skinless Chicken Breast)、波士顿新鲜活龙虾 (Live Boston Lobster)、法式新鲜海捕海鲈鱼整鱼 (Whole Fresh Sea Bass)、肉类大理石花纹分级比对卡 (Beef Marbling Score Chart)、便携式鱼肉挥发性盐基氮分析仪 (TVB-N Fish Freshness Meter)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：极品熟成与新鲜全鱼：熟成牛肉切开截面如红宝石般温润光泽、大理石花纹油脂如雪花凝脂、伴随坚果与成熟奶酪芳香；新鲜全鱼眼球黑白分明晶莹凸起、鱼肉坚韧回弹。
+       - 缺陷反面（Flawed Defect）：腐败变质与尸僵发柴：牛肉未排酸直接烹调导致肉质紧缩如硬橡胶难以下咽；变质海鱼眼球塌陷浑浊白内障、鱼鳃呈灰绿暗褐色伴随刺鼻三甲胺恶臭腐败味。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 牛肉干式熟成温湿控制 | 温度 0℃–2℃ / 湿度 80%–85% RH | 激活肉质内源蛋白酶软化肌纤维，同时抑制外表有害微生物滋生 |
+       | 鲜鱼冰鲜储存规范 | 鱼身埋入碎冰，腹部向下倾斜排水 | 使鱼体保持 0℃ 极低温，并让融化的冰水自由排走防止浸泡发烂 |
+       | 禽肉储存温度红线 | 冷藏温度严格维持在 -1℃–2℃ | 禽肉水分高极易变质，接近冰点的极微冷藏能延长安全保鲜期一倍 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：西餐烹调科学 - 生鲜原料食材学     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting myoglobin oxygenation into brilliant red oxymyoglobin, post-mortem glycogen glycolysis producing lactic acid lowering muscle pH, endogenous calpain and cathepsin proteolytic tenderization during dry-aging, and trimethylamine oxide (TMAO) bacterial reduction into volatile fishy TMA.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Beef Dry-Aging: 0-2°C, 80-85% RH, air velocity controlled for 14-28 days | Fresh Fish 4-Point Criteria: clear bulging convex eyes, bright red gills without slime, elastic firm flesh, clean oceanic aroma.
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Cold-chain carcass pre-chilling -> Hanging aging room (0-2°C, 85% RH, 21 days) -> Sub-primal butchery & silverskin trimming -> Whole fish crushed ice display inspection -> Sensory elasticity and gill assessment -> Cryovac MAP sealing.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: 28-Day Dry-Aged Ribeye, Fresh Whole Salmon, French-Trimmed Lamb Rack, Boneless Skinless Chicken Breast, Live Boston Lobster, Whole Fresh Sea Bass, Beef Marbling Score Chart, TVB-N Fish Freshness Meter.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Prime Aging & Pristine Fish: ruby dry-aged steak with intricate intramuscular marbling and nutty aroma; fish eyes convex and diamond-clear with resilient firm flesh) vs 'FLAWED DEFECT' (Spoilage & Unaged Toughness: un-aged beef cooking into tough leathery muscle; stale fish displaying sunken cloudy milky eyes, brown slimy gills, and foul putrid ammonia reek).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：西餐烹调科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 14】第14单元｜食材储存与香辛料
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第14单元｜食材储存与香辛料》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第14单元｜食材储存与香辛料》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：西餐烹调科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第14单元｜食材储存与香辛料》、现实后厨场景设问、课前直觉思考、核心学习目标：系统掌握该课题的物理化学变化、量化参数与实操核心标准。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（本课专业核心词汇、工艺参数与品质标准；国际法文/英文烹饪词汇）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——涵盖课纲：食材储存、香辛料。
+- Slide 4: 【原料/工具理化特性解析】——干货应阴凉、干燥、离墙离地；冷藏和冷冻设备应监测温度；生肉放在即食食品下方，防止汁液滴落。采用先进先出（FIFO）或先到期先出（FEFO）。
+- Slide 5: 【微观分子状态与水合/反应机理】——分装材料标示名称、开封或制作日期、使用期限、负责人及过敏原。没有标签的材料不能靠猜测继续使用。
+- Slide 6: 【能量传递与热力学变化规律】——香料（Spice）通常来自种子、树皮、根、果实等；香草（Herb）通常使用植物叶片或嫩茎。完整香料较耐储存，磨粉后香气较快流失。
+- Slide 7: 【物理相变与组织质构演变】——干炒（Dry Toasting）可释放部分香气，但过热会焦苦；油溶性香味可通过油脂带出；加入时间会影响香气强度。
+- Slide 8: 【化学反应与风味生成机制】——为什么生鸡肉不能存放在已洗净沙拉菜的上层？
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——深化学习：FIFO与FEFO不是同一句话
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：严格遵循时间、温度与烘焙百分比标准。；先进先出（first in, first out；FIFO）：较早入库的材料优先使用。
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——先到期先出（first expired, first out；FEFO）：较早到期的材料优先使用。
+- Slide 12: 【类别横向对比与不同工艺流派演变】——如果后到货的乳制品有效期反而更早，应按FEFO优先使用，而不是机械地只看入库日期。
+- Slide 13: 【商业厨房专业设备选用与操作要领】——即食食品和熟食应避免被生食污染；生肉禽须密封，并依滴漏风险安排在较低位置。不同学校可能有更细的架位规定，应依制度执行。
+- Slide 14: 【工业化量产与传统手作之异同】——原创图解｜生熟分区与冷藏架位
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——图中顺序：即食与熟食（Ready-to-eat / Cooked）在上层；已处理食材分装加盖；生鲜海产、生肉和生禽肉分别密封置于较低层，生禽肉置底层接漏盘。
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——控制重点：架位只用于降低滴漏与交叉污染风险，不能取代密封、日期标示、FIFO／FEFO、温度监测及清洁。
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——常见结构与形态缺陷排查：原因剖析与紧急工艺补救
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——冷库冷空气沉降与热空气上升自然对流热交换（Gravity Convection In Cold Storage）；重力引力导致肉汁滴落交叉污染风险级联（Liquid Drip Gravitational Contamination）；新鲜香草叶片腺毛单萜烯挥发油热敏性（Monoterpene Essential Oils e.g. Linalool, Thymol）；木质香料疏水精油高温脂溶萃取（Lipophilic Pyrazine Extraction）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——冷库垂直五层架构(从上至下): 1.即食熟食(Top) -> 2.整块全鱼海鲜(63℃) -> 3.整块猪牛羊肉(63℃) -> 4.肉糜碎肉绞肉(68℃) -> 5.生禽肉全鸡鸭(Bottom 74℃)。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——生鲜食材采购验收入库 -> 严格贴附 FIFO 先进先出标签 -> 垂直五层生熟隔离架位上架 -> 新鲜香草包裹微湿厨房纸冷藏保鲜 -> 烹调中后期加入嫩香草 (出锅前) -> 木质香辛料热油煸炒浸润 (油脂释香) -> 调味出锅。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（不锈钢五层开放式冷库置物架 (5-Tier Wire Shelving Unit)、新鲜天然百里香枝 (Fresh Thyme Sprig)、新鲜迷迭香松针枝 (Fresh Rosemary)、新鲜甜罗勒绿叶 (Fresh Sweet Basil)、纯天然整粒黑胡椒原粒 (Whole Black Peppercorns)、法式炖煮香草束包 (Bouquet Garni Bundle)、先进先出食品保鲜日期轮转贴 (FIFO Rotation Labels)、铸铁重型手摇胡椒研磨器 (Cast-Iron Pepper Mill)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：垂直仓储与香气迸发：冷库内部井井有条、生禽血水绝无下滴风险；新鲜罗勒绿翠欲滴、出锅前撒入伴随蒸汽释放清甜芬芳；整粒黑胡椒现磨散发辛香扑鼻纯正香气。
+       - 缺陷反面（Flawed Defect）：颠倒架位与香草焦黑发苦：生鸡肉放在熟食蛋糕上方导致血水渗漏污染即食食品引发集体食物中毒；新鲜香草过早投入滚油炸焦变黑产生焦苦焦糊怪味。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 生禽肉架位底层铁律 | 永远放置在冷库最底层（Floor Shelf） | 生鸡鸭肉致病菌最多且烹调杀菌要求最高（74℃），杜绝汁水下滴 |
+       | 先进先出 FIFO 管理 | 新到货放后方，临期食材放前方优先用 | 消除原料在冷库角落过期变质与风味流失，严格控制原料货架期 |
+       | 柔嫩香草投放节点 | 烹调最后 1–2 分钟或出锅装盘时加入 | 保护芳樟醇等热敏性挥发精油不被持续高温破坏，保留鲜活绿意 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：西餐烹调科学 - 食材储藏与香草香料学     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting gravity convective airflow dynamics in commercial walk-in chillers, vertical gravitational dripping contamination hazards, glandular trichome volatile monoterpenes (linalool, thymol) thermal degradation in tender herbs, and lipophilic spice aroma extraction in hot lipids.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Walk-in Cooler 5-Shelf Hierarchy (Top to Bottom): 1.Ready-to-eat cooked foods -> 2.Whole seafood (63°C) -> 3.Whole beef/pork cuts (63°C) -> 4.Ground meats (68°C) -> 5.Raw poultry (74°C).
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Receiving QA -> FIFO date-labeling -> Vertical 5-shelf safe racking -> Tender herbs wrapped in damp paper towels chilled -> Late addition of delicate fresh herbs -> Early blooming of whole spices in hot oil -> Service.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: 5-Tier Wire Shelving Unit, Fresh Thyme Sprig, Fresh Rosemary, Fresh Sweet Basil, Whole Black Peppercorns, Bouquet Garni Bundle, FIFO Rotation Labels, Cast-Iron Pepper Mill.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Optimal Storage & Aromatic Bloom: pristine walk-in organization with zero vertical drip risks; vibrant verdant basil releasing sweet linalool upon plating; freshly cracked peppercorn aroma) vs 'FLAWED DEFECT' (Storage Inversion & Herb Scorching: raw chicken leaking salmonella broth onto cooked cold dessert; adding delicate basil into hot oil frying into bitter black ash).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：西餐烹调科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9
+
+
+【课时 15】第15单元｜食物加热方式与西式汤类
+--------------------------------------------------------------------------------
+一、 NotebookLM 20页专属教学简报生成提示词（Prompt）：
+
+请扮演一位资深法式西点主厨兼高中厨艺理论金牌导师。请严格依据所提供的《第15单元｜食物加热方式与西式汤类》课程知识源，为高中零基础学生设计一份专业、严谨且富有教学感染力的【20页标准教学简报分镜头脚本（20-Slide Storyboard Script）】。
+
+【核心硬性要求（突破默认15页压缩限制）】：
+1. 绝不压缩合并页数！必须逐页完整输出从【Slide 1】到【Slide 20】的全部 20 页独立内容。
+2. 绝对剔除：本脚本严禁包含任何统考选择题、试题测验（纯用于高密度理论传授与实操排查）。
+3. 拒绝千篇一律：本课是专门针对《第15单元｜食物加热方式与西式汤类》的定制课件，严禁脱离本课主题套用通用的烤箱烤面包模板！
+4. 每一页请严格输出四个维度：【幻灯片标题】、【画面视觉/图表构图设计】、【核心专业讲授要点（中英法专有名词）】、【讲师口播金句】。
+
+【统一母版视觉规范（Master Slide Visual Identity）】：
+• 画布与底色：16:9 比例，象牙米白羊皮纸学术底色（#FAF7F2），外饰典藏学术双细线边框（#8C7355）与四角古典菱形装饰（◇），呈现欧洲经典烹饪科学档案图鉴风骨。
+• 构图规范：各页【画面视觉/图表构图设计】严禁使用通用的现代商务或粗糙卡通PPT模板，必须全量贯彻“科学实验室分子微观拆解 + 精密刻度烧杯/机械天平配比 + 工艺热力学时间轴 + 影棚级微距实物图鉴/缺陷对决”学术图鉴风格。
+• 色彩体系：典藏金棕（#8C7355）为主色，实验室深青（#1B365D）为辅助逻辑线，炭灰（#2C2C2C）为高辨识度文字，红线警戒色（#B22222）用于极值参数与失误预警。
+• 底部通栏：统一标注“职业厨艺理论教材：西餐烹调科学     Gemini Notebook”。
+
+【严格分页大纲（Slide 1 ~ Slide 20）】：
+● 导入篇（Slide 1~2）
+- Slide 1: 【课程封面与场景导入】——课题全名《第15单元｜食物加热方式与西式汤类》、现实后厨场景设问、课前直觉思考、核心学习目标：系统掌握该课题的物理化学变化、量化参数与实操核心标准。。
+- Slide 2: 【中英法三语专业术语卡与微观来源】——核心术语全景拆解（本课专业核心词汇、工艺参数与品质标准；国际法文/英文烹饪词汇）、原料微观来源与食品科学角色定位。
+
+● 核心理论与工艺深度（Slide 3~16：必须紧扣本课专属知识点，逐页展开）
+- Slide 3: 【本课核心基础概念】——涵盖课纲：食物加热处理方式、西式汤类。
+- Slide 4: 【原料/工具理化特性解析】——干热法（Dry-heat Cooking）：烤（Roasting/Baking）、煎（Sautéing/Pan-frying）、烧烤（Grilling）。
+- Slide 5: 【微观分子状态与水合/反应机理】——湿热法（Moist-heat Cooking）：煮（Boiling）、小火煮（Simmering）、汆煮（Poaching）、蒸（Steaming）。
+- Slide 6: 【能量传递与热力学变化规律】——混合加热法（Combination Cooking）：先煎上色再加液体慢煮，例如焖（Braising）和炖（Stewing）。
+- Slide 7: 【物理相变与组织质构演变】——食材嫩度、脂肪、结缔组织、大小、目标口感和出餐时间决定方法。嫩肉适合快速干热；含较多结缔组织的部位可通过较长时间湿热转化胶原蛋白。
+- Slide 8: 【化学反应与风味生成机制】——清汤（Clear Soup）包括高汤清汤和澄清汤（Consommé）；浓汤（Thick Soup）可用面糊、淀粉、蔬菜泥或奶油形成浓度，例如奶油汤（Cream Soup）、蔬菜泥汤（Purée Soup）和海鲜浓汤（Bisque）。
+- Slide 9: 【关键操作工序标准操作规范（SOP）】——高汤（Stock）以骨、蔬菜和香味材料缓慢萃取，通常避免猛烈沸腾造成浑浊。汤（Soup）是可直接食用的完成品，高汤则常作为烹调基础。
+- Slide 10: 【量化工艺参数与温控红线仪表盘】——烘焙标准控制线：严格遵循时间、温度与烘焙百分比标准。；为什么制作清澈高汤通常采用小火微沸而不是猛烈翻滚？
+- Slide 11: 【环境微气候（温湿度/操作台）对工艺的影响】——深化学习：加热方法决定水分、颜色与嫩度
+- Slide 12: 【类别横向对比与不同工艺流派演变】——高汤（stock）是烹调基础，通常调味较轻；汤（soup）是完成并可供应的菜肴。澄清汤（consommé）依靠澄清过程得到清澈外观，不只是“过滤过的普通汤”。
+- Slide 13: 【商业厨房专业设备选用与操作要领】——油面糊（roux）：油脂与面粉加热形成。
+- Slide 14: 【工业化量产与传统手作之异同】——淀粉浆（slurry）：淀粉与冷液体调匀后加入。
+- Slide 15: 【感官品鉴标准：完美成品的色香味形质】——蔬菜泥（purée）：利用食材本身固形物。
+- Slide 16: 【卫生安全规范、生熟隔离与保鲜期控制】——奶油或蛋黄体系：增加浓度与口感，但要控制温度避免分离或凝结。
+
+● 名师实操缺陷诊断排查矩阵（Slide 17~19：Troubleshooting）
+- Slide 17: 【缺陷排查Ⅰ：结构与形态失败剖析】——常见结构与形态缺陷排查：原因剖析与紧急工艺补救
+- Slide 18: 【缺陷排查Ⅱ：质地、口感与乳化失败剖析】——常见质地与口感缺陷排查：组织粗糙、发干硬或油水分离的工艺修正
+- Slide 19: 【缺陷排查Ⅲ：火候失衡与工艺偏差剖析】——假熟陷阱与火候失衡排查：内部夹生、受热不均或风味流失之温控校准方案。
+
+● 总结实训（Slide 20）
+- Slide 20: 【本课全景思维导图与厨房实训作业】——核心逻辑闭环复盘；布置一项要求量化记录操作数据（温度/时间/感官）的课后厨房实验作业。
+
+--------------------------------------------------------------------------------
+二、 专属教学信息图（Infographic）定制提示词（中英双语 Prompt）：
+【适用工具】：Midjourney v6 / DALL-E 3 / Flux / Imagen 3 / NotebookLM
+【典藏学术图鉴设计母版规范（Master Visual Identity）】：
+• 画布规格与底色：16:9 横版超高清（3840×2160），典藏复古羊皮纸质感米白底色（#FAF7F2），外饰典藏双细线边框（#8C7355）与古典四角菱形装饰（◇），呈现欧洲顶级烹饪科学手绘学术图鉴质感。
+• 构图布局（左右双栏 6 大黄金模块严密排版）：
+  - 【左栏：科学机理与量化工艺】
+    ① 科学分子拆解（Molecular Mechanism）：呈现实验室烧瓶、试管、分子化学键与热力学微观反应——傅里叶固相接触热传导（Fourier Heat Conduction Q = -kA dT/dx）；流体密度差自然与强迫热对流（Thermal Buoyancy Convection）；斯特藩-玻尔兹曼表面电磁辐射（Stefan-Boltzmann Thermal Radiation）；结缔组织胶原蛋白水解明胶（Collagen Hydrolysis to Gelatin 60-80℃）；蛋清白蛋白热凝固成多孔过滤蛋白筏吸附杂质微粒（Protein Raft Colloidal Adsorption）。
+    ② 配方百分比与精确度（Formulation & Precision）：呈现刻度烧杯配比分层、复古机械天平与核心基准用量——经典白高汤: 牛骨/鸡骨 100%, 调味蔬菜 Mirepoix 20%, 香草束 1束, 冷水 200% (微沸慢炖 4-6h) | 澄清汤 Consommé: 白高汤 100%, 瘦牛肉馅 30%, 蛋清 10%, 细蔬菜丁 10%。
+    ③ 流程时间轴（Process Timeline）：阶梯式温湿度与时间节点控制轴——冷水浸泡骨头析出杂质 -> 慢火加热逐渐升温 (促使浮沫凝结浮出) -> 彻底打净表面浮沫油脂 -> 投入调味蔬菜香草束微沸慢炖 (85-90℃) -> 降温过滤高汤 -> 调入蛋清肉馅慢火形成浮筏澄清 -> 滤出如琥珀清汤。
+  - 【右栏：分类矩阵与质量对决】
+    ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（不锈钢双底重型高汤深锅 (Heavy-Duty Stockpot)、琥珀般纯净法式澄清汤 (Amber Beef Consommé)、法式经典芳香调味蔬菜 (Classical Mirepoix)、慢火微沸上浮蛋白过滤筏 (Coagulated Protein Raft)、特细双层不锈钢锥形高汤漏 (Conical Chinois Strainer)、多层纯棉无荧光高汤过滤布 (Cheesecloth Muslin)、带导流嘴重型长柄打沫勺 (Skimming Soup Ladle)、数字式汤液糖度与固形物折光仪 (Digital Refractometer)）。
+    ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：
+       - 完美标杆（Ideal Benchmark）：澄清汤之神境：法式澄清汤（Consommé）呈晶莹剔透的琥珀深金色、清澈见底在碗底清晰可见一枚硬币的图案、表面无一丝游离油花、入口胶质丰沛鲜美深邃纯净。
+       - 缺陷反面（Flawed Defect）：剧烈沸腾翻滚变浑：大火剧烈翻滚沸腾导致骨髓油脂被机械乳化进高汤中彻底浑浊成泛白洗米水；蛋白筏在剧烈沸水中被打碎散落全汤变成蛋花汤完全失败。
+    ⑥ 核心要素三线控制指标表（Control Parameter Table）：
+       | 核心控制要素 | 标准指标与量化公差 | 核心工艺机理与品质影响 |
+       | :--- | :--- | :--- |
+       | 高汤慢炖微沸温度 | 严格维持在 85℃–90℃（Simmer 微沸） | 促使骨胶原温和水解成明胶，防止剧烈翻滚撞击将油脂乳化浑浊 |
+       | 熬汤冷水下料原则 | 必须从冰冷生水开始缓慢升温加热 | 让骨头内部血水蛋白有充分时间溶解并随温度上升凝固浮上水面被撇除 |
+       | 澄清汤微火结筏控温 | 微火慢温加热，中央打烟囱通气孔 | 允许蛋白筏平稳浮于表面形成微孔活性炭过滤网，完整吸附所有悬浮微粒 |
+  - 【底部通栏（Bottom Banner）】：
+    职业厨艺理论教材：西餐烹调科学 - 热力学与经典汤品酱汁     Gemini Notebook
+
+【英文精准生图提示词 (Direct Copy to AI)】：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents. 
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, test tubes), molecular structure nodes with chemical bonds, depicting Fourier thermal conduction in direct solid contact, natural fluid buoyancy convection during stock simmering, Stefan-Boltzmann infrared radiant broiling, connective collagen hydrolysis into gelatin, and egg albumen thermal mesh coagulation forming a filtration raft adsorbing colloidal particles.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing Classic White Stock: Bones 100%, Mirepoix 20%, Bouquet Garni, Cold Water 200% (Simmer 85-90°C) | Consommé: Rich Stock 100%, Lean Minced Beef 30%, Egg Whites 10%, Fine Mirepoix 10%.
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures and timings: Cold water bone steeping -> Slow temperature elevation floating scum -> Skimming surface impurities & grease -> Mirepoix & bouquet garni simmering (85-90°C) -> Chilling and straining -> Whisking clearmeat into cold stock -> Protein raft coagulation clarification -> Amber consommé filtration.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates: Heavy-Duty Stockpot, Amber Beef Consommé, Classical Mirepoix, Coagulated Protein Raft, Conical Chinois Strainer, Cheesecloth Muslin, Skimming Soup Ladle, Digital Refractometer.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (Consommé Perfection: crystal-clear luminous amber liquid transparent enough to read a coin at the bottom, zero surface oil beads, deep gelatinous rich savory purity) vs 'FLAWED DEFECT' (Violent Boiling Turbidity: rapid rolling boil emulsifying marrow fat and impurities into cloudy murky dishwater; protein raft violently broken dispersing curd shreds).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters, tolerances, and thermodynamic impacts.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：西餐烹调科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9

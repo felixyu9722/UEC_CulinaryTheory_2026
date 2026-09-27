@@ -1,0 +1,152 @@
+﻿================================================================================
+2026年统考厨艺理论 ｜ 典藏学术图鉴风格 · 烘焙课通用图片提示词与排版规范手册
+================================================================================
+【核心定位】：锁定西式烘焙食品分类标杆风格 · 中英双语字体层级规范 · 烘焙全场景直接可用 Prompt
+
+第一部分：典藏学术图鉴核心视觉规范与排版铁律
+--------------------------------------------------------------------------------
+一、 标杆视觉工程体系（Master Visual Identity）
+1. 画布与底色规格：
+   - 比例规格：16:9 横版超高清（3840×2160 或 1920×1080）。
+   - 底色质感：复古象牙米白羊皮纸纹理底色（#FAF7F2），温润优雅，消除白底的生硬刺眼感。
+   - 边框与装饰：外框环绕典藏金棕双细线边框（#8C7355，外线 1.5pt，内线 0.75pt），四角点缀古典菱形几何标（◇）。
+2. 左右双栏 6 大黄金构图脚手架（Layout Scaffolding）：
+   - 【左栏：科学微观与精确量化】
+     ① 科学分子拆解（Molecular Mechanism）：实验室烧瓶、试管、分子化学键与热力学微观相变反应。
+     ② 配方百分比与精确度（Formulation & Precision）：高精度刻度烧杯分层配比、复古机械天平与核心基准用量。
+     ③ 工艺流程时间轴（Process Timeline）：阶梯式温湿度（℃、% RH）与时间（min/h）控制节点。
+   - 【右栏：实物矩阵与质量对决】
+     ④ 双语专业分类标签（Taxonomy Matrix）：2×4 网格高光影棚级微距实物图鉴（白色骨瓷盘呈递）。
+     ⑤ 视觉质量基准（Quality Benchmark: Ideal vs Flawed）：完美标杆切面 vs 失败缺陷切面微观结构并排对比。
+     ⑥ 核心要素三线控制指标表（Control Parameter Table）：要素 / 标准指标与量化公差 / 工艺机理与影响。
+   - 【底部通栏标识】：
+     居中排布典雅衬线字体：“职业厨艺理论教材：[学科模块]     Gemini Notebook”。
+
+二、 中英双语专业词汇排版铁律（必遵规范）
+1. 字号层级权重：
+   - 中文字号必须显著大于英文字号（中文字号为英文字号的 1.4 倍至 1.6 倍）。
+   - 中文在上加粗（Bold）主导，作为第一视觉焦点；英文在下常规体（Regular）衬托，颜色略浅。
+2. 推荐字体家族：
+   - 教学出版与PPT呈现：中文推荐“微软雅黑（Microsoft YaHei）”或“思源黑体（Source Han Sans）”；重点大标题可选用“思源宋体（Source Han Serif）”或“方正清刻本悦宋”。
+   - 英文规范：推荐“Calibri”、“Helvetica”或“Times New Roman”。
+3. 颜色搭配规范：
+   - 主标题/中文字体：深炭黑（#0F172A）或深青石色（#1E293B），确保最高对比度。
+   - 次级英文标注：典藏金棕（#8C7355）或石板灰（#64748B）。
+   - 警戒/缺陷标注：绯红警示色（#B22222），用于缺陷切面与红线参数。
+4. 汉字零畸变（Zero Distortion）落地工作流：
+   - AI 绘图引擎（如 Midjourney、Flux）负责生成高精度 16:9 无字底图（Clean Plate）或带标准英文的构图；
+   - 将生成的图片导入 Canva、PowerPoint 或 Adobe Illustrator 中，直接利用矢量文本框覆盖打入规整的中文字符与双语对照，即可达到 100% 印刷出版级的无畸变教学海报！
+
+三、 通用负面提示词（Negative Prompts）
+cartoon, anime, 3d render, plastic look, fake food, artificial glossy plastic, distorted text, garbled characters, incorrect typography, blurry, out of focus, low resolution, oversaturated neon colors, amateur photo, watermarks, signature, clutter, messy composition.
+
+
+第二部分：烘焙课通用场景模块生图提示词库（即拷即用）
+--------------------------------------------------------------------------------
+
+【模板 1】：典藏学术信息图通用母版（适用于任何烘焙章节总览）
+• 适用场景：各章节导论课、烘焙产品分类总览、全书核心理论复习挂图。
+• 中英双语排版指引：左栏展示实验机理与配方天平，右栏 2×4 网格展示 8 种核心产品（上方中文字号 16pt，下方英文字号 10pt），右上角为 Ideal vs Flawed 微距对比切面。
+• 英文直接生图 Prompt（Midjourney / Flux / DALL-E）：
+A masterclass culinary science educational infographic poster in 16:9 widescreen layout, vintage academic archival culinary encyclopedia style. Clean ivory cream parchment background (#FAF7F2), elegant dual thin gold-brown border framing (#8C7355) with subtle vintage diamond accents.
+Split two-column layout:
+LEFT COLUMN: 
+1. Molecular Chemistry: Laboratory glassware (flasks, beakers, test tubes), molecular structure nodes with chemical bonds, depicting starch gelatinization, gluten coagulation, and Maillard reaction.
+2. Formulation Metrology: Precision graduated glass beaker with colored liquid proportions and vintage mechanical balance scale showing baker's percentage formulation balance.
+3. Process Thermodynamic Timeline: Linear flow nodes with precise temperatures (24°C mixing -> 28°C proofing -> 220°C baking) and timings.
+RIGHT COLUMN:
+4. Taxonomy Showcase: A neat 2x4 grid featuring 8 ultra-detailed studio food photography shots on white ceramic plates with bilingual labels.
+5. Visual Benchmark: Side-by-side split macro cross-section comparison labeled 'IDEAL BENCHMARK' (airy open translucent honeycomb crumb) vs 'FLAWED DEFECT' (dense gummy collapsed core).
+6. Precision Control Table: A clean scientific 3-column table with thin gold-brown rules detailing key process parameters and tolerances.
+BOTTOM BANNER: Centered elegant serif typography reading '职业厨艺理论教材：烘焙科学     Gemini Notebook'. High resolution, 8k, crisp vector typography, scientific illustration meets Michelin studio food photography, award-winning infographic design --ar 16:9 --style raw
+
+--------------------------------------------------------------------------------
+
+【模板 2】：烘焙原料四大功能平衡与理化图鉴（材料科学课专属）
+• 适用场景：面粉筋度、糖类焦糖化、油脂起酥起润、蛋液起泡与凝固、乳化剂界面张力。
+• 中英双语排版指引：中心为原料天平四象限（强韧剂、柔性剂、干燥剂、湿润剂），四周为显微镜下的分子结构放大圆圈（中文名称字号 18pt 粗体，英文 11pt 常规）。
+• 英文直接生图 Prompt：
+A scientific botanical and chemical infographic poster of baking ingredients in 16:9 widescreen, vintage European culinary encyclopedia style. Warm ivory parchment background (#FAF7F2), dual thin bronze borders with corner diamond motifs.
+Center visual: A four-quadrant equilibrium chart (Toughners vs Tenderizers, Driers vs Moisteners) with vintage brass balance scales.
+Surrounding modules: High-detail scientific illustrations and macro photography of:
+1. Wheat flour starch granules and coiled glutenin/gliadin protein helices forming a gluten mesh.
+2. Butter plastic crystal structure and fat globules coating starch grains.
+3. Sugar sucrose crystals dissolving and binding free water molecules.
+4. Whole eggs whisked into a rich golden colloidal foam lamellae.
+Laboratory flasks, petri dishes, molecular bond diagrams, clean thin serif typography, French botanical plate aesthetic, tack sharp, 8k resolution --ar 16:9 --style raw
+
+--------------------------------------------------------------------------------
+
+【模板 3】：商用烘焙设备工程与热力学传递（设备与安全课专属）
+• 适用场景：石板平炉传导辐射热、热风风炉强制对流循环、行星搅拌机三大搅拌头、微电脑智能发酵箱。
+• 中英双语排版指引：设备实物透视图与切面热力学箭头（中文设备名称 16pt 粗体，英文型号参数 10pt，关键温度红线以红色标注）。
+• 英文直接生图 Prompt：
+Commercial bakery engineering and thermodynamics scientific poster, 16:9 widescreen layout, vintage academic blueprint meets commercial food equipment photography style. Light ivory cream paper background (#FAF7F2), fine dual bronze framing lines.
+Modules layout:
+1. Artisan Deck Oven cutaway: Highlighting thick refractory cordierite stone deck (250°C conductive bottom heat) and top heating elements (220°C radiant heat) with steam injection nozzle, baking crusty rustic baguettes.
+2. Convection Oven: High-speed circular fan with dynamic convective airflow vectors circulating heat evenly around three trays of golden macarons.
+3. Heavy-duty Planetary Mixer: Crisp studio shot of stainless steel bowl with three interchangeable attachments: spiral dough hook, flat paddle beater, and wire whip.
+4. Intelligent Proofer: Glass door cabinet maintaining 38°C and 85% RH with digital temperature/humidity display.
+Clean annotated technical arrows, temperature indicators, blueprint schematic lines, museum-grade equipment illustration, 8k --ar 16:9 --style raw
+
+--------------------------------------------------------------------------------
+
+【模板 4】：面团揉制发酵全流程相态演变（面包制作工艺课专属）
+• 适用场景：面团搅拌六大阶段（拾起、卷起、扩展、完成、过搅、断筋）与发酵阶段（基础发酵、翻面、最后发酵）。
+• 中英双语排版指引：横向 6 格时间轴排列面团微观面筋膜透光度，大标题居中加粗，每个阶段附带手温 ℃ 与搅拌时间 min（中文阶段名 15pt，英文 9.5pt）。
+• 英文直接生图 Prompt：
+A sequential scientific process infographic showing the rheological stages of bread dough mixing and fermentation, 16:9 aspect ratio, archival textbook style. Ivory parchment paper background (#FAF7F2), elegant double thin rules.
+Horizontal linear progression of 6 high-detail macro panels:
+1. Pickup Stage: Shaggy flour and water slurry, rough and wet.
+2. Clean-up Stage: Cohesive ball forming, clean bowl sides, sticky surface.
+3. Development Stage: Elastic surface, moderate extensibility.
+4. Final Stage (Windowpane Test): Translucent gossamer thin gluten membrane stretched between baker's fingers without tearing, showing light passing through smoothly.
+5. Bulk Fermentation: Smooth domed dough puffed to double volume, finger poke indentation test holding its shape without rebounding or collapsing.
+6. Oven Spring: Dough rapidly blooming and bursting along the razor score cuts inside the oven.
+Thermometer icons, timing badges, precise rheology annotations, tack sharp macro food photography combined with scientific diagram --ar 16:9 --style raw
+
+--------------------------------------------------------------------------------
+
+【模板 5】：经典烘焙成品完美切面微观图鉴（质量评鉴课专属）
+• 适用场景：法式长棍面包、法式牛角可颂、日式轻乳酪/戚风蛋糕、美式曲奇与千层派切面剖析。
+• 中英双语排版指引：高清微距切面特写，标示气孔壁厚度、光泽度与弹性回弹指标（中文组织特征 15pt，英文术语 10pt）。
+• 英文直接生图 Prompt：
+Masterclass pastry and bread crumb morphology cross-section encyclopedia infographic, 16:9 widescreen, elegant ivory parchment background (#FAF7F2), thin gold-brown double border rules (#8C7355).
+Featured 4 hyper-detailed studio cross-section shots:
+1. Traditional French Baguette: Sliced lengthwise, showing a golden crackling blistered crust and large irregular, glossy translucent honeycombed cavities (alveoli) with gelatinized starches.
+2. Viennoiserie Croissant: Cross-section revealing infinite sheer golden gossamer laminated layers forming an ethereal spiraled honeycomb web, dry and non-greasy.
+3. Japanese Chiffon Sponge: Ultra-fine, uniform micro-pores, cloud-like silky cotton structure, springy elastic rebound.
+4. Laminated Puff Pastry (Mille-feuille): Ultra-crisp razor-thin caramelized flaky pastry layers separated by distinct air gaps.
+Magnifying glass detail callouts, crumb moisture gauge, resilience rating bars, museum-grade botanical & food documentary photography, 8k --ar 16:9 --style raw
+
+--------------------------------------------------------------------------------
+
+【模板 6】：烘焙生产重大翻车事故与缺陷诊断（实操纠偏与统考案例题专属）
+• 适用场景：蛋糕塌陷与布丁层、开酥破酥漏油、面包死面扁塌、表面开裂过早等统考高频考点。
+• 中英双语排版指引：左右红绿对比（绿色为 Ideal 完美标准，红色为 Flawed 缺陷），下方附带主厨纠偏 SOP 三线控制表格（中文 16pt，英文 10pt）。
+• 英文直接生图 Prompt：
+Culinary failure analysis and quality diagnosis infographic poster, 16:9 widescreen layout, vintage academic medical/culinary research plate aesthetic. Soft ivory parchment background (#FAF7F2), bronze border with subtle red warning accent corners.
+Split comparison panels featuring:
+Panel 1: 'IDEAL CHIFFON' (tall dome, smooth golden crust, airy light sponge) vs 'CATASTROPHIC COLLAPSE' (sunken hollow crater top, dense gummy wet pudding layer at bottom due to underbaking and unmolding without inversion).
+Panel 2: 'PERFECT LAMINATION' (distinct flaky wafer-thin butter layers) vs 'SHORTENING MELT & LEAK' (ruined lamination where butter melted into dough, dense oily gummy paste surrounded by burnt butter puddle).
+Annotated warning callout circles with exclamation marks, chemical root causes (temperature abuse, improper pH, over-mixing), clean diagnostic troubleshooting flowchart, 8k --ar 16:9 --style raw
+
+
+第三部分：AI 生图平台实操参数与排版微调指南
+--------------------------------------------------------------------------------
+一、 各主流平台黄金参数配置
+1. Midjourney v6 / v6.1：
+   - 核心参数后缀：--ar 16:9 --style raw --v 6.0 --s 250
+   - 关键技巧：务必加入 --style raw，以强制 AI 放弃花哨玄幻的插画滤镜，保持手绘学术图鉴与真实摄影的严谨质感。
+2. DALL-E 3：
+   - 在 GPT-4o 中发送前，开头追加：“Please generate a 16:9 widescreen academic educational infographic poster with vintage ivory parchment background (#FAF7F2) and dual thin gold-brown border...”
+3. Flux 1.1 Pro / Flux Schnell：
+   - 设置分辨率为 1344×768（对应 16:9），采样器选用 DPM++ 2M Karras，步数 35~40，CFG 7.0。
+
+二、 3分钟快速落地中英双语出版级课件（Canva / PPT 工作流）
+1. 第一步（生成底图）：使用上述 Prompt 得到高质量 16:9 学术信息图底图；
+2. 第二步（新建画布）：在 Canva 或 PowerPoint 中新建一个 16:9 页面（1920×1080），将生成的图片全屏置入；
+3. 第三步（添加规整中文）：
+   - 在各产品上方添加文本框，键入中文专业名称（字体：微软雅黑 Bold，字号：14~18pt，颜色：深炭灰 #0F172A）；
+   - 在中文下方键入英文（字体：Calibri Regular，字号：9~11pt，颜色：金棕 #8C7355 或次深灰 #64748B）；
+4. 第四步（导出高清成品）：直接导出为 PDF 印刷文档或高保真 PNG，即可直接投屏教学或印制独中教研挂图！

@@ -1,0 +1,197 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）官方标准复习题库
+考题配图视觉架构、理化信息图谱与 AI 命题提示词工程规范指南
+================================================================================
+
+【文件定位与工程背景】
+本规范为 2026 年马来西亚华文独中高中统考厨艺理论（烘焙基础）高一至高三全套复习题库之官方专属配图工程指导手册。旨在统一全套试卷、教学讲义及考题中所有技术图解、工艺流程图、微观生化图谱与后厨实操事故缺陷图的视觉设计架构、色彩语义系统、文字呈现标准及 AI 绘图/矢量生成提示词（Prompt Engineering Standard），杜绝字符畸变，实现工业级出版物与统考标准试卷的一流专业品质。
+
+--------------------------------------------------------------------------------
+第一部分：考题配图核心三大视觉与排版铁律
+--------------------------------------------------------------------------------
+
+1. 标准简体汉字绝对保障（Zero Font-Distortion Policy）：
+   • 严禁直接使用缺乏中文字体库支持的通用文生图 AI 生成包含中文字符的图表；
+   • 所有图解中的汉字标注必须基于 Windows 系统标准高保真字体（如 SimHei 黑体、Microsoft YaHei 微软雅黑、SimSun 宋体）进行矢量排版或高精度像素渲染；
+   • 笔画必须清晰、规范，严禁任何异体字、残缺笔画、乱码或伪汉字。
+
+2. 字体层级对比与中文字体显著占优（Chinese-Dominant Visual Hierarchy）：
+   • 中文字号必须显著大于英文字号（中文字号为英文字号的 1.3 倍至 1.6 倍），中文字体重度为 Bold（加粗），英文字体为 Regular（常规）；
+   • 标题与核心分区：中文字号 28pt~36pt，英文 16pt~20pt；
+   • 阶段节点与技术指标：中文字号 20pt~24pt，英文 12pt~14pt；
+   • 参数数值与单位说明：中文字号 16pt~18pt，英文/数字 12pt~14pt；
+   • 采用中英分行排布，中文在上居中或主导，英文在下辅衬，确保统考华文答卷学生一目了然。
+
+3. 专业食品科学色彩语义系统（Food Science Semantic Color System）：
+   • 烘焙热力与焦糖化美拉德反应区：深暖红（#C0392B）、琥珀金（#D4AC0D）、暖褐（#7A3B1C）；
+   • 热力循环、气流对流与冷凝水区：科技青蓝（#2980B9）、深藏青（#1A365D）、冷灰（#7F8C8D）；
+   • 面团水合与淀粉基质区：淡奶麦色（#FDFEFE / #FADBD8）、米金（#F9E79F）；
+   • 操作失误、混酥、断筋与事故警示区：警示纯红（#E74C3C）、警戒橙（#E67E22）、暗红（#922B21）；
+   • 架构分区一律采用圆角卡片（Corner Radius: 12~16px）+ 双层深色阴影边框，确保印刷与投影的高清晰对比度。
+
+--------------------------------------------------------------------------------
+第二部分：重点重构之三大核心考题配图架构与提示词深度解析
+--------------------------------------------------------------------------------
+
+【重构案例 1】：高一 第01课｜第41题《商用烤箱热力学对比图》
+• 对应考题：丙组 第41题（7分读图大题：热风对流烤箱 vs 耐火石板层炉传导机制与质构差异）
+• 画布尺寸与分辨率：1920 × 1080 像素（16:9 高清宽幅）
+• 视觉架构双分格系统：
+  - 左半区【热风对流烤箱（风炉 Convection Oven）】：
+    * 顶部标志：青蓝色调卡片，标明“强制热对流传热 / Forced Heat Convection”；
+    * 核心绘图区：烤箱内腔、循环背板风机、多层网架，绘制环绕循环的动态热风气流箭头；
+    * 烘焙力学特征：内腔温场极度均匀（±2℃），高速热风冲刷胚体表面快速带走湿气，表皮迅速脱水成薄脆壳；
+    * 适用产品：法式起酥、丹麦可颂、泡芙、曲奇饼干、马卡龙；
+  - 右半区【耐火石板层炉（平炉 Deck Oven）】：
+    * 顶部标志：暖红褐色卡片，标明“石板蓄热传导+红外辐射+蒸汽 / Conduction & Radiation”；
+    * 核心绘图区：耐火火山石板（厚度25mm）、顶部/底部独立电热管、高压蒸汽喷射口，绘制向上直冲的红色热传导波与蒸汽雾气；
+    * 烘焙力学特征：底火热量瞬间接触直接传导，面团底部急剧受热使酵母最终爆发（Oven Spring），蒸汽冷凝延缓结皮形成薄硬脆壳与光亮色泽；
+    * 适用产品：硬质欧包、法棍（Baguette）、传统软欧、吐司面包。
+• 标准工程级 AI 提示词（Prompt）：
+  [Prompt - Midjourney / SD / DALL-E 3]:
+  "A high-end technical educational infographic and engineering schematic diagram comparing two commercial baking ovens side-by-side, 16:9 aspect ratio, 4k resolution. Left side: Commercial Convection Oven with stainless steel chamber, dynamic blue-orange circular airflow arrows indicating forced hot air convection, multiple wire racks with croissants and puff pastries showing uniform dry crisp crust. Right side: Commercial Stone Deck Oven with thick refractory stone hearth, red radiant heat waves from upper and lower heating elements, high-pressure steam injection mist, baking artisanal sourdough boules and baguettes with dramatic oven spring and blistered crust. Modern minimalist infographic layout, dark slate grey background (#1E2229), clean rounded rectangular cards, bold simplified Chinese typography prominently larger than concise English subtitles, accurate scientific food thermodynamics annotations, high contrast, clean vector lines, vector technical illustration style --ar 16:9 --v 6.0"
+
+【重构案例 2】：高一 第03课｜情景案例《包子开笼塌陷与油酥混酥缺陷图》
+• 对应考题：丁组 第46题（20分后厨真实事故诊断题：事故一小笼包塌陷死面 vs 事故二酥饼出油混酥）
+• 画布尺寸与分辨率：1920 × 1080 像素（16:9 高清宽幅）
+• 视觉架构左右双事故对比系统：
+  - 左半区【事故一：小笼包开盖瞬间塌陷缩顶（Collapse & Wrinkling）】：
+    * 顶部标志：警示纯红卡片，标明“气压骤变与气囊内陷”；
+    * 核心绘图区：竹蒸笼上方冒出大量白色蒸汽，中间绘制一粒严重塌陷、表皮回缩起皱的小笼包；标注向内挤压的黑色压力箭头；
+    * 微观生化原理解析：关火瞬间骤然掀开蒸笼盖，外界冷空气（25℃）骤然涌入，笼内高压蒸汽（100℃）瞬间消散，温度急剧下跌；包子内部细密淀粉-面筋气囊内的热气体急速冷却收缩，气囊内部气压瞬间远低于外部大气压（ΔP < 0），面筋骨架尚未完全受热定型即被外界大气压直接压碎压扁，造成不可逆缩顶塌陷；
+  - 右半区【事故二：菊花酥出油与层次融合（Ruined Lamination）】：
+    * 顶部标志：警示橙色卡片，标明“高温融油与水油皮融合”；
+    * 核心绘图区：操作台面上一块扁平、油脂外溢渗出、表面模糊粘连无清晰分层的菊花酥面胚；
+    * 微观流变学原理解析：操作车间温度过高（>28℃）且手温反复搓揉揉压，干油酥中的固态脂肪迅速熔化转为液态游离油脂；油脂冲破极薄的水油皮阻隔层向外渗透外溢，使水油皮与油酥发生灾难性互溶，原本清晰交替的“皮-油-皮-油”千层层状多层膜结构彻底断裂融合，烘烤后无法产生由水蒸气推开的酥松空隙，沦为坚硬油腻死面块。
+• 标准工程级 AI 提示词（Prompt）：
+  [Prompt - Midjourney / SD / DALL-E 3]:
+  "A professional culinary troubleshooting split-screen diagnostic diagram for Chinese pastry baking failures, 16:9 aspect ratio, 4k. Left panel: Steamed pork baozi in bamboo steamer suffering severe structural collapse, wrinkled and deflated skin, cold air rushing in, downward blue arrows indicating negative pressure differential crushing gluten air cells. Right panel: Chinese laminated flaky pastry (Chuju crisp) suffering oil leakage and ruined lamination, melted butter/lard seeping across the stainless steel rolling table, cross-section showing destroyed alternating dough-fat strata into a dense greasy paste due to excessive ambient warmth. Dark modern pedagogical poster design, vibrant warning red and amber highlights, pristine Chinese typography prominently rendered larger than English labels, clear macro defect photographic realism blended with schematic annotations --ar 16:9 --v 6.0"
+
+【重构案例 3】：高一 第05课｜第10题《商用烘焙三大设备工程原理与流变学对比图》
+• 对应考题：丙组 第41题（7分设备读图大题：螺旋式搅拌机 vs 行星立式机 vs 层炉/风炉 vs 醒发箱）
+• 画布尺寸与分辨率：1920 × 1080 像素（16:9 高清宽幅）
+• 视觉架构四象限工业矩阵系统：
+  - 象限 1（左上）：【螺旋式面团搅拌机（Spiral Mixer）】
+    * 工程原理：双动双速（螺旋形搅拌钩自转 + 搅拌缸同向/反向自转）；
+    * 流变学作用：低摩擦机械剪切，面团温升慢（仅0.5~1℃/min），面筋水合与交联效率极高，大批量面包面团首选；
+  - 象限 2（右上）：【行星式立式搅拌机（Planetary Mixer）三大配件】
+    * 工程原理：搅拌轴沿缸体公转同时高速自转；三大可拆卸配件：打蛋网（Whisk，全蛋/蛋白高速充气截留气泡）、桨状扇形（Paddle，油糖拌合与曲奇饼干面糊）、钩状（Dough Hook，小批量面团揉捏）；
+  - 象限 3（左下）：【耐火石板层炉 vs 热风对流烤箱（Deck vs Convection Oven）】
+    * 工程原理：石板层炉面火底火独立控温（220℃/200℃），静态热传导+强力蒸汽；热风对流烤箱四维热风循环（160℃~180℃），快速脱水起酥；
+  - 象限 4（右下）：【智能电子冷藏醒发箱（Retarder-Proofer）】
+    * 工程原理：双模智能温湿度控制；第一阶段 0℃~4℃ 低温冷藏休眠抑制发酵；第二阶段微电脑自动升温至 28℃~38℃、加湿至 75%~85% 激活最终醒发，实现无人值守夜间排产。
+• 标准工程级 AI 提示词（Prompt）：
+  [Prompt - Midjourney / SD / DALL-E 3]:
+  "A sophisticated four-quadrant industrial bakery machinery engineering schematic layout, 16:9 aspect ratio, 4k. Top-Left: Heavy-duty Spiral Mixer showing dual-rotation mechanics of helical spiral hook and rotating stainless bowl with dough rheology curve. Top-Right: Planetary Mixer with its three standard interchangeable attachments (Wire Whisk for aerating meringue, Flat Paddle for creaming butter-sugar, Dough Hook for kneading). Bottom-Left: Cutaway comparison between Stone Deck Oven (refractory stone, steam generator, red radiant heat) and Convection Oven (circulating blue air currents). Bottom-Right: Electronic Retarder-Proofer with digital control panel showing timeline transition from 2℃ refrigeration phase to 36℃/80%RH proofing phase. Ultra-clean dark theme graphic design, prominent Chinese typography above English tech terms, precision mechanical CAD schematics, ISO standard engineering aesthetics --ar 16:9 --v 6.0"
+
+--------------------------------------------------------------------------------
+第三部分：高一全套 20 课考题配图全景资产清单与知识点架构
+--------------------------------------------------------------------------------
+
+高一全套 20 课共计包含 43 张专业考题配图，覆盖单选题读图、简答题理化推导与案例事故分析三大题型，完整资产分布如下：
+
+• 第01课 烘焙概论：
+  1. 考题配图_第1课_第10题_热化学反应区间图.png（烘焙50℃~200℃蛋白质变性、淀粉糊化、美拉德反应与焦糖化温区）
+  2. 考题配图_第1课_第36题_后厨真实塌陷案例图.png（乡村欧包严重收腰塌陷与内部未熟湿黏死面缺陷）
+  3. 考题配图_第1课_第41题_商用烤箱热力学对比图.png（风炉对流 vs 平炉石板传导与辐射热力学机制）
+
+• 第02课 烘焙的历史与发展：
+  1. 考题配图_第2课_古法石板烤饼与现代气孔对比图.png（古埃及石板死面包组织 vs 现代酵母发酵蜂窝气孔）
+  2. 考题配图_第2课_烘焙历史演进与磨粉技术革新图.png（石磨石碾低剪切 vs 现代滚筒钢磨精细分级）
+
+• 第03课 中式面食与烘焙食品分类：
+  1. 考题配图_第3课_中式面食四大面团水温与理化特性图.png（冷水面 vs 温水面 vs 烫面 vs 油酥面微观结构与淀粉糊化度）
+  2. 考题配图_第3课_包子开笼塌陷与油酥混酥缺陷图.png（小笼包气压塌陷 vs 菊花酥高温混酥无层次）
+
+• 第04课 西式烘焙食品分类：
+  1. 考题配图_第4课_西式烘焙四大品类膨发机制与组织结构图.png（面包生物膨胀 vs 蛋糕物理充气 vs 起酥蒸汽分层 vs 饼干化学微膨）
+  2. 考题配图_第4课_可颂漏油混酥与磅蛋糕油水分离缺陷图.png（折叠破皮出油混酥 vs 油糖打发加蛋液过急破乳乳化失败）
+
+• 第05课 烘焙设备：
+  1. 考题配图_第5课_商用烘焙三大设备工程原理与流变学对比图.png（螺旋搅拌机 vs 行星机三大头 vs 平炉风炉 vs 冷藏醒发箱）
+  2. 考题配图_第5课_醒发箱过度结露与搅拌超温断筋缺陷图.png（发酵房冷凝水滴落流泪起泡 vs 螺旋机高速超时断筋烂泥）
+
+• 第06课 烘焙制作器具：
+  1. 考题配图_第6课_烘焙小工具分类与模具材质热力学图.png（阳极氧化铝 vs 镀铝钢板 vs 硅胶模具热传导率比对）
+  2. 考题配图_第6课_阳极铝模与防粘涂层戚风塌陷对比图.png（阳极铝模附着爬升正常高耸 vs 特氟龙防粘滑落塌陷成布丁）
+
+• 第07课 器具使用、安全与维护：
+  1. 考题配图_第7课_后厨生熟分区与冷藏架位卫生安全规范图.png（商用冷库五层货架生熟隔离、熟食在顶、禽肉最底 SOP）
+  2. 考题配图_第7课_食品安全危险温度带与交叉污染案例图.png（5℃~60℃危险温度带细菌指数级繁殖与红蓝切板生熟交叉污染）
+
+• 第08课 度量衡与准确秤量：
+  1. 考题配图_第8课_量杯容积比重测量与烘焙百分比换算图.png（量杯体积测量误差 vs 电子秤质量精准度与烘焙百分比公式）
+  2. 考题配图_第8课_烘焙多阶段工序损耗倒推与称量误差案例图.png（搅拌/分割/发酵/烘烤多阶段损耗倒推面团投料量公式推导）
+
+• 第09课 烘焙材料的性质与功能：
+  1. 考题配图_第9课_烘焙原料四大功能象限与平衡关系图.png（强筋骨架原料 vs 柔韧弱化原料 vs 湿性水化原料 vs 干性脱水原料）
+  2. 考题配图_第9课_油脂与水分乳化分离失衡案例图.png（油糖水四元体系破乳水析沉淀 vs 完美乳化致密均匀）
+
+• 第10课 面粉：
+  1. 考题配图_第10课_面筋形成机制与搅拌六大阶段流变图.png（麦谷蛋白麦胶蛋白水合二硫键交联 -> 拾起/卷起/扩展/完成/过搅/断筋阶段）
+  2. 考题配图_第10课_面筋网络延展与内部蜂窝组织切面对比图.png（高筋粉完全扩展透光薄膜 vs 低筋粉无网络松散组织）
+
+• 第11课 油脂：
+  1. 考题配图_第11课_油脂可塑性与千层折叠起酥机理图.png（油脂固态脂肪指数 SFI 曲线、压延展延性与水蒸气推开酥层物理）
+  2. 考题配图_第11课_油糖打发截留空气与油水分离破乳修复图.png（固体脂肪多晶型晶体包裹微气泡网架与隔水加热修复法）
+
+• 第12课 糖：
+  1. 考题配图_第12课_糖类保水抗老化与烘焙原料功能关系图.png（糖的羟基夺水氢键结合、抑制淀粉重结晶老化与防腐渗透压）
+  2. 考题配图_第12课_烘焙全流程热化学反应与焦糖化美拉德温区图.png（还原糖+氨基酸美拉德 140℃~165℃ vs 纯糖脱水焦糖化 160℃~180℃ 动力学曲线）
+
+• 第13课 鸡蛋：
+  1. 考题配图_第13课_蛋白霜四种打发状态与消泡失败诊断图.png（鱼眼泡 -> 湿性发泡软弯钩 -> 干性发泡直立尖角 -> 过度打发棉花破裂）
+  2. 考题配图_第13课_蛋糕三大搅拌法充气与组织切面对比图.png（戚风分蛋法 vs 海绵全蛋法 vs 磅蛋糕油糖法气孔致密度与膨松度对比）
+
+• 第14课 乳制品：
+  1. 考题配图_第14课_乳制品在烘焙四大功能平衡体系中的作用图.png（乳糖增色、乳脂柔润、酪蛋白增韧缓冲酸度与乳固形物持香）
+  2. 考题配图_第14课_法式五大母酱白汁与乳化衍生酱汁架构图.png（白汁 Bechamel 牛奶面粉糊化 vs 荷兰酱 Hollandaise 蛋黄黄油乳化）
+
+• 第15课 酵母与发酵：
+  1. 考题配图_第15课_酵母发酵三阶段与产气速率动力学曲线图.png（适应期 -> 对数产气高峰期 -> 衰亡衰退产酸期）
+  2. 考题配图_第15课_面团醒发过度与面筋网络支撑破损对比图.png（正常发酵2倍大弹性回弹 vs 过度发酵产酸面筋腐蚀断裂塌顶坍塌）
+
+• 第16课 化学膨大剂：
+  1. 考题配图_第16课_化学膨大剂反应温区与双效双重产气机理图.png（小苏打常温快速反应 vs 双效泡打粉前段常温产气25%+后段烘烤高温产气75%）
+  2. 考题配图_第16课_物理蒸汽膨胀与泡芙空腔形成剖面时间线.png（面粉烫熟糊化 -> 蛋液补水 -> 200℃高温蒸汽暴发推开中空大腔）
+
+• 第17课 乳化剂与乳化作用：
+  1. 考题配图_第17课_乳化剂亲水亲油双亲分子微观结构图.png（极性亲水头基与非极性疏水亲脂尾链插入油水界面的单分子膜胶束）
+  2. 考题配图_第17课_蛋糕油与单甘酯抗老化及乳化稳定对比图.png（单甘酯直链淀粉复合包结阻止淀粉回生硬化机理）
+
+• 第18课 胶冻类材料：
+  1. 考题配图_第18课_动物性吉利丁与植物性琼脂凝胶熔点特性图.png（吉利丁熔点 25℃~35℃ 入口即化 vs 琼脂熔点 85℃~95℃ 硬脆耐热）
+  2. 考题配图_第18课_生鲜水果蛋白酶破坏吉利丁凝胶机理图.png（菠萝/猕猴桃/木瓜生果蛋白酶切断明胶胶原蛋白多肽链导致无法凝固）
+
+• 第19课 塔塔粉：
+  1. 考题配图_第19课_塔塔粉调节蛋白pH值与胶体等电点稳定图.png（酒石酸氢钾调节蛋清 pH 8.8 至弱酸性 5.5~6.0 靠近等电点增加表面张力）
+  2. 考题配图_第19课_酸碱环境对天使蛋糕洁白度与质构影响对比图.png（碱性环境类黄酮素显微黄且发韧 vs 酸性弱酸环境漂白变纯白柔软）
+
+• 第20课 烘焙百分比与材料用量：
+  1. 考题配图_第20课_烘焙百分比与实际百分比基准逻辑对照图.png（面粉总重恒为 100% 基准 vs 所有原料总和为 100% 实际百分比）
+  2. 考题配图_第20课_烘焙配方平衡四象限与换算推导流程图.png（已知面粉重求辅料重、已知面团总重求投料量公式树状图）
+
+================================================================================
+第四部分：AI 绘图工具（Midjourney / SD / DALL-E 3）生成提示词通用工程模板
+================================================================================
+
+在通过 AI 生图引擎批量生成相关科学图解时，必须遵循以下结构化 Prompt 模板：
+
+【Prompt 结构工程模板】：
+[Subject 核心主题主体] + [Layout 构图布局与卡片分区] + [Science Details 微观科学与热力学指标] + [Typography 字体规范与语言层级] + [Color Palette 专业食品色谱] + [Style & Engine 参数与艺术流派]
+
+【通用正向 Prompt 词库】：
+• Subject: Professional baking science infographic, technical food laboratory cutaway diagram, culinary thermodynamics schematic, precise rheology flow chart.
+• Layout: 16:9 widescreen presentation, side-by-side comparative split screen, four-quadrant ISO matrix layout, rounded rectangular information cards with subtle shadows, clean visual hierarchy.
+• Details: Dynamic convection airflow arrows, microstructural cross-section of gluten networks, thermal heat wave gradients, clear temperature scale marks in Celsius (°C).
+• Typography: Crisp and authentic Standard Simplified Chinese characters prominently rendered as primary titles and technical terms, neat English technical subtitles underneath in smaller font, no gibberish, no broken glyphs, publication-grade typography.
+• Palette: Dark elegant aesthetic (#1E2229), warm baking amber (#D4AC0D), ruby thermal red (#C0392B), engineering cyan blue (#2980B9), crisp white labels (#FFFFFF).
+• Style: Vector illustration mixed with hyper-detailed scientific infographic, ISO 9001 technical manual quality, modern UX/UI poster style, ultra-clean line art, 8k resolution, photorealistic macro lighting.
+
+【通用反向 Negative Prompt 词库】：
+low quality, blurry, distorted text, pseudo-chinese characters, traditional chinese variants, mangled fonts, childish cartoon, chaotic composition, cluttered background, watermarks, grainy, noise, low resolution.
+
+================================================================================
+【版权与教学归档声明】：
+本工程规范及全套考题配图为 2026 年独中统考厨艺理论复习课程专属官方教学资产。
+================================================================================

@@ -1,0 +1,410 @@
+﻿[
+    {
+        "Lesson":  "高一5；高二3",
+        "Zh":  "预热",
+        "Meaning":  "在放入产品前让烤箱达到稳定工作状态。",
+        "En":  "Preheating"
+    },
+    {
+        "Lesson":  "高一5",
+        "Zh":  "对流烤箱",
+        "Meaning":  "利用风扇推动热空气，传热较均匀但可能加速表面上色。",
+        "En":  "Convection oven"
+    },
+    {
+        "Lesson":  "高一5–7",
+        "Zh":  "搅拌机",
+        "Meaning":  "以不同搅拌配件完成混合、打发或揉面。",
+        "En":  "Mixer"
+    },
+    {
+        "Lesson":  "高一6",
+        "Zh":  "刮刀",
+        "Meaning":  "用于刮取、抹平或轻柔翻拌，须按任务选择形状与材质。",
+        "En":  "Spatula"
+    },
+    {
+        "Lesson":  "高一8",
+        "Zh":  "电子秤",
+        "Meaning":  "用重量提高配方准确性及批次一致性。",
+        "En":  "Digital scale"
+    },
+    {
+        "Lesson":  "高一8",
+        "Zh":  "归零",
+        "Meaning":  "扣除容器重量，使读数只显示原料重量。",
+        "En":  "Tare"
+    },
+    {
+        "Lesson":  "高二2",
+        "Zh":  "折拌",
+        "Meaning":  "以轻柔翻折动作混合，尽量减少气泡损失。",
+        "En":  "Folding"
+    },
+    {
+        "Lesson":  "高二5；高三4",
+        "Zh":  "裱花袋",
+        "Meaning":  "用于挤注面糊、馅料或装饰霜。",
+        "En":  "Piping bag"
+    },
+    {
+        "Lesson":  "高一9–10；高二7",
+        "Zh":  "面筋",
+        "Meaning":  "面粉蛋白质吸水并受搅拌后形成的弹性网络。",
+        "En":  "Gluten"
+    },
+    {
+        "Lesson":  "高一10",
+        "Zh":  "吸水率",
+        "Meaning":  "面粉或配方能够吸收并保留水分的程度。",
+        "En":  "Water absorption"
+    },
+    {
+        "Lesson":  "高一10；高三4、6",
+        "Zh":  "糊化",
+        "Meaning":  "淀粉吸水受热后膨胀并使结构变稠或定型。",
+        "En":  "Gelatinisation"
+    },
+    {
+        "Lesson":  "高一13；高二3",
+        "Zh":  "凝固",
+        "Meaning":  "蛋白质受热或其他作用后形成较稳定结构。",
+        "En":  "Coagulation"
+    },
+    {
+        "Lesson":  "高一13、17；高三6",
+        "Zh":  "乳化",
+        "Meaning":  "让原本不易相混的水相和油相形成较稳定分散。",
+        "En":  "Emulsification"
+    },
+    {
+        "Lesson":  "高一17",
+        "Zh":  "乳化剂",
+        "Meaning":  "帮助水与油形成或维持稳定乳化状态的物质。",
+        "En":  "Emulsifier"
+    },
+    {
+        "Lesson":  "高一11；高三1、3",
+        "Zh":  "起酥作用",
+        "Meaning":  "油脂包裹面粉并限制面筋形成，使产品较酥松。",
+        "En":  "Shortening effect"
+    },
+    {
+        "Lesson":  "高一12",
+        "Zh":  "吸湿性",
+        "Meaning":  "物质从周围吸收水分的性质。",
+        "En":  "Hygroscopicity"
+    },
+    {
+        "Lesson":  "高一12；高二9",
+        "Zh":  "焦糖化",
+        "Meaning":  "糖在高温下分解并产生颜色与风味。",
+        "En":  "Caramelisation"
+    },
+    {
+        "Lesson":  "高二9",
+        "Zh":  "梅纳反应",
+        "Meaning":  "还原糖与氨基化合物受热产生褐色和烘烤香气。",
+        "En":  "Maillard reaction"
+    },
+    {
+        "Lesson":  "高一13、19；高二2、5",
+        "Zh":  "泡沫",
+        "Meaning":  "气体分散在液体或半固体中的结构。",
+        "En":  "Foam"
+    },
+    {
+        "Lesson":  "高一18；高三2",
+        "Zh":  "胶凝",
+        "Meaning":  "液体形成三维网络并转为凝胶的过程。",
+        "En":  "Gelation"
+    },
+    {
+        "Lesson":  "高一15–16",
+        "Zh":  "膨松剂",
+        "Meaning":  "产生或引入气体，使产品体积膨大的材料或方法。",
+        "En":  "Leavening agent"
+    },
+    {
+        "Lesson":  "高一15",
+        "Zh":  "酵母",
+        "Meaning":  "利用糖进行发酵并产生二氧化碳等产物的微生物。",
+        "En":  "Yeast"
+    },
+    {
+        "Lesson":  "高一15；高二6–8",
+        "Zh":  "发酵",
+        "Meaning":  "酵母代谢并影响面团体积、风味与成熟度的过程。",
+        "En":  "Fermentation"
+    },
+    {
+        "Lesson":  "高二8",
+        "Zh":  "基本发酵",
+        "Meaning":  "面团分割前的主要发酵阶段。",
+        "En":  "Bulk fermentation"
+    },
+    {
+        "Lesson":  "高二8",
+        "Zh":  "中间醒发",
+        "Meaning":  "分割滚圆后让面团松弛，方便整形。",
+        "En":  "Intermediate proof"
+    },
+    {
+        "Lesson":  "高二8",
+        "Zh":  "最后醒发",
+        "Meaning":  "整形后、烘烤前的最后发酵阶段。",
+        "En":  "Final proof"
+    },
+    {
+        "Lesson":  "高一5；高二8",
+        "Zh":  "醒发箱",
+        "Meaning":  "控制温湿度以帮助面团稳定醒发的设备。",
+        "En":  "Proofing cabinet"
+    },
+    {
+        "Lesson":  "高一16",
+        "Zh":  "烘焙苏打",
+        "Meaning":  "碳酸氢钠，需要适当酸性条件并会影响风味与颜色。",
+        "En":  "Baking soda"
+    },
+    {
+        "Lesson":  "高一16",
+        "Zh":  "泡打粉",
+        "Meaning":  "含碱性与酸性成分的复合化学膨大剂。",
+        "En":  "Baking powder"
+    },
+    {
+        "Lesson":  "高二9",
+        "Zh":  "烤炉弹性膨胀",
+        "Meaning":  "产品入炉初期因气体膨胀和发酵活动出现的快速增高。",
+        "En":  "Oven spring"
+    },
+    {
+        "Lesson":  "高二1–4",
+        "Zh":  "面糊类蛋糕",
+        "Meaning":  "通常含较多油脂，并以油脂拌合等方式建立组织的蛋糕。",
+        "En":  "Batter-type cake"
+    },
+    {
+        "Lesson":  "高二1–4",
+        "Zh":  "乳沫类蛋糕",
+        "Meaning":  "主要依靠蛋液或蛋白泡沫提供体积的蛋糕。",
+        "En":  "Foam-type cake"
+    },
+    {
+        "Lesson":  "高二1–4",
+        "Zh":  "戚风蛋糕",
+        "Meaning":  "结合油脂面糊与蛋白泡沫结构的蛋糕。",
+        "En":  "Chiffon cake"
+    },
+    {
+        "Lesson":  "高二2",
+        "Zh":  "糖油拌合法",
+        "Meaning":  "先将油脂与糖搅打并带入空气，再加入其他材料。",
+        "En":  "Creaming method"
+    },
+    {
+        "Lesson":  "高二2",
+        "Zh":  "全蛋打发法",
+        "Meaning":  "通过搅打全蛋建立泡沫，再轻柔混合其他材料。",
+        "En":  "Whole-egg foaming method"
+    },
+    {
+        "Lesson":  "高一13、19；高二2、5",
+        "Zh":  "蛋白霜",
+        "Meaning":  "以蛋白和糖形成的稳定泡沫，可用于蛋糕或装饰。",
+        "En":  "Meringue"
+    },
+    {
+        "Lesson":  "高二2",
+        "Zh":  "软性发泡",
+        "Meaning":  "提起打蛋器时尖峰会弯下的泡沫阶段。",
+        "En":  "Soft peak"
+    },
+    {
+        "Lesson":  "高二2",
+        "Zh":  "硬性发泡",
+        "Meaning":  "提起打蛋器时尖峰较直立的泡沫阶段。",
+        "En":  "Stiff peak"
+    },
+    {
+        "Lesson":  "高二5",
+        "Zh":  "奶油霜",
+        "Meaning":  "以油脂和糖等组成、用于夹馅或装饰的霜饰。",
+        "En":  "Buttercream"
+    },
+    {
+        "Lesson":  "高二5",
+        "Zh":  "鲜奶油霜",
+        "Meaning":  "将适合打发的奶油搅打成泡沫状霜饰。",
+        "En":  "Whipped cream"
+    },
+    {
+        "Lesson":  "高二5；高三3、6",
+        "Zh":  "卡士达",
+        "Meaning":  "以蛋和液体受热凝固或增稠的馅料或酱。",
+        "En":  "Custard"
+    },
+    {
+        "Lesson":  "高三4",
+        "Zh":  "泡芙面糊",
+        "Meaning":  "先煮制再加蛋、主要靠蒸汽膨胀形成空腔的面糊。",
+        "En":  "Choux pastry"
+    },
+    {
+        "Lesson":  "高三3",
+        "Zh":  "派皮",
+        "Meaning":  "用于承托馅料的酥性或层次性外壳。",
+        "En":  "Pie crust"
+    },
+    {
+        "Lesson":  "高三3",
+        "Zh":  "塔壳",
+        "Meaning":  "通常较浅、定型清楚，用于盛装甜或咸馅料。",
+        "En":  "Tart shell"
+    },
+    {
+        "Lesson":  "补充A",
+        "Zh":  "可可固形物",
+        "Meaning":  "可可中提供颜色、风味及部分结构的非脂成分。",
+        "En":  "Cocoa solids"
+    },
+    {
+        "Lesson":  "补充A",
+        "Zh":  "可可脂",
+        "Meaning":  "可可豆中的脂肪，结晶状态会影响巧克力光泽和脆断。",
+        "En":  "Cocoa butter"
+    },
+    {
+        "Lesson":  "补充A；高三甜点",
+        "Zh":  "调温",
+        "Meaning":  "控制巧克力温度以形成合适且稳定的可可脂结晶。",
+        "En":  "Tempering"
+    },
+    {
+        "Lesson":  "高一18；高三2",
+        "Zh":  "明胶",
+        "Meaning":  "动物来源的胶凝材料，通常先吸水再溶解使用。",
+        "En":  "Gelatin"
+    },
+    {
+        "Lesson":  "高一18；高三2",
+        "Zh":  "琼脂",
+        "Meaning":  "海藻来源的胶凝材料，凝胶特性与明胶不同。",
+        "En":  "Agar"
+    },
+    {
+        "Lesson":  "高一18；高三2",
+        "Zh":  "果胶",
+        "Meaning":  "植物细胞壁中的多糖，可在适当条件下形成凝胶。",
+        "En":  "Pectin"
+    },
+    {
+        "Lesson":  "高一19",
+        "Zh":  "塔塔粉",
+        "Meaning":  "酸性盐，可帮助调节酸碱并稳定蛋白泡沫。",
+        "En":  "Cream of tartar"
+    },
+    {
+        "Lesson":  "补充B",
+        "Zh":  "浸泡",
+        "Meaning":  "让果干等原料吸收液体，改变水分和风味。",
+        "En":  "Soaking"
+    },
+    {
+        "Lesson":  "高一20；高二10",
+        "Zh":  "烘焙百分比",
+        "Meaning":  "把配方中的面粉总量定为100%，其余材料按面粉比例表示。",
+        "En":  "Baker\u0027s percentage"
+    },
+    {
+        "Lesson":  "高二3",
+        "Zh":  "面糊比重",
+        "Meaning":  "比较同体积面糊与水的重量，用来观察面糊含气状态。",
+        "En":  "Batter specific gravity"
+    },
+    {
+        "Lesson":  "高二10",
+        "Zh":  "烘焙损耗",
+        "Meaning":  "产品烘焙前后重量减少的比例或数量。",
+        "En":  "Baking loss"
+    },
+    {
+        "Lesson":  "高一20；高二10",
+        "Zh":  "产率",
+        "Meaning":  "一份配方实际得到的产品数量或总重量。",
+        "En":  "Yield"
+    },
+    {
+        "Lesson":  "补充C",
+        "Zh":  "官能评价",
+        "Meaning":  "按统一标准观察外观、香气、质地与风味。",
+        "En":  "Sensory evaluation"
+    },
+    {
+        "Lesson":  "补充C；高三8",
+        "Zh":  "品质控制",
+        "Meaning":  "用标准、测量与记录维持产品一致性。",
+        "En":  "Quality control"
+    },
+    {
+        "Lesson":  "补充C",
+        "Zh":  "批次",
+        "Meaning":  "在相同条件下制作、可共同追踪的一组产品。",
+        "En":  "Batch"
+    },
+    {
+        "Lesson":  "全课程",
+        "Zh":  "标准作业程序",
+        "Meaning":  "把关键步骤与要求写成可重复执行的标准流程。",
+        "En":  "Standard Operating Procedure (SOP)"
+    },
+    {
+        "Lesson":  "高一10；高二14",
+        "Zh":  "先进先出",
+        "Meaning":  "优先使用较早入库的合格原料，同时核对期限与状态。",
+        "En":  "First In, First Out (FIFO)"
+    },
+    {
+        "Lesson":  "高二11–14",
+        "Zh":  "污染",
+        "Meaning":  "有害微生物、化学物或异物进入食品。",
+        "En":  "Contamination"
+    },
+    {
+        "Lesson":  "高一7、13；高二11–14",
+        "Zh":  "交叉污染",
+        "Meaning":  "危害从一个来源转移到另一个食品或表面。",
+        "En":  "Cross-contamination"
+    },
+    {
+        "Lesson":  "补充B",
+        "Zh":  "过敏原",
+        "Meaning":  "可能引发特定人士过敏反应的物质。",
+        "En":  "Allergen"
+    },
+    {
+        "Lesson":  "补充B；食品安全页",
+        "Zh":  "过敏原交叉接触",
+        "Meaning":  "过敏原意外进入原本不含它的食品。",
+        "En":  "Allergen cross-contact"
+    },
+    {
+        "Lesson":  "高一7；高二11",
+        "Zh":  "清洁",
+        "Meaning":  "去除可见污垢、油脂和残渣。",
+        "En":  "Cleaning"
+    },
+    {
+        "Lesson":  "高一7；高二11",
+        "Zh":  "消毒",
+        "Meaning":  "在清洁后把表面微生物降至安全水平。",
+        "En":  "Sanitising"
+    },
+    {
+        "Lesson":  "高二11、14",
+        "Zh":  "即食食品",
+        "Meaning":  "食用前不会再经过杀菌性加热的食品。",
+        "En":  "Ready-to-eat food"
+    }
+]

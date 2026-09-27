@@ -1,0 +1,46 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高二 第03单元｜蛋糕比重与烘焙影响因素 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高二（Senior Two）
+• 单元：第03单元 蛋糕比重与烘焙影响因素
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 面糊比重（Specific Gravity / SG）的物理定义与标准测定法：
+   - 科学定义：相同容积的面糊质量与相同容积的纯水质量之比值；
+   - 精确计算公式：比重 = (杯+面糊重 - 空杯重) ÷ (杯+满水重 - 空杯重)；
+   - 物理本质：量化测定蛋糕面糊截留微细空气含量的黄金质控指标（充气越多，比重越小；消泡越重，比重越大）。
+2. 各品类蛋糕标准比重参考基准与组织流变学特征：
+   - 天使蛋糕（Angel Food）：0.30~0.35（纯蛋白打发，极高充气量）；
+   - 海绵蛋糕（Sponge / Génoise）：0.40~0.45（全蛋打发微细气囊网络）；
+   - 戚风蛋糕（Chiffon）：0.45~0.50（水油乳化液与蛋白霜切拌平衡）；
+   - 磅蛋糕/重油蛋糕（Pound Cake）：0.75~0.85（高固体油脂晶体截留充气）。
+3. 比重失常引发的成品缺陷与食品科学底层机理：
+   - 比重严重偏低（SG < 0.35 戚风/海绵）：过度充气，微气泡膜过薄过脆；进炉急剧冲高、剧烈爆顶开裂；出炉面粉蛋白质与淀粉骨架无法支撑，发生灾难性回缩下陷塌腰，组织粗糙易掉渣；
+   - 比重严重偏高（SG > 0.55 戚风/海绵）：严重消泡或打发不足；气泡基数匮乏无膨胀动力，进炉无法起发；出炉矮小扁平，切面致密黏湿，呈现布丁橡胶死面状。
+4. 烘焙热工学传热机理与关键控制点：
+   - 烤箱三大传热方式：传导热（Conduction，模具底部直接导热）、对流热（Convection，热风循环流动）、辐射热（Radiation，上下电热管红外辐射）；
+   - 模具入模量（Scaling Weight）：常规圆模装填 60%~70% 容积，预留膨胀高度；
+   - 炉温失衡对烘焙反应的影响：底火过高导致底部过早结厚皮焦糊、冲顶开裂；面火过高导致表面过早结硬壳假熟、内部未凝固出炉塌陷；炉温过低导致烘烤时间拖长、水分流失干硬收缩。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，独中统考专业教科书风格）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional Chinese culinary science textbook infographic, 16:9 aspect ratio, high resolution. Title in large bold Simplified Chinese: '蛋糕面糊比重测定标准流程与各大品类比重对照表' (Cake Batter Specific Gravity SOP & Chart). Four standard steps with clear large Chinese labels and small English sub-labels: 1. '称量空杯皮重' (Tare Empty SG Cup); 2. '满水校准纯水重' (Water Calibration); 3. '装填面糊并抹平' (Batter Filled & Leveled); 4. '计算比重数值' (SG Calculation: SG = 面糊净重 / 纯水净重). Right side shows a clear comparative bar chart with standard categories: '天使蛋糕' (Angel Food: 0.30-0.35), '海绵蛋糕' (Sponge Cake: 0.40-0.45), '戚风蛋糕' (Chiffon Cake: 0.45-0.50), '磅蛋糕' (Pound Cake: 0.75-0.85). Modern clean culinary laboratory precision style, bold Simplified Chinese text clearly larger than English, 16:9.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional Chinese baking defect diagnosis infographic, 16:9 aspect ratio. Title in large bold Simplified Chinese: '蛋糕面糊比重异常与成品物理缺陷剖面诊断' (Cake Batter Specific Gravity Failure Diagnosis). Cross-section comparisons of three chiffon cakes side by side with large bold Chinese labels: Left '比重过低缺陷 (SG < 0.31): 打发过度' (Over-Whipped Batter: Volcano burst cracked top, severe hourglass collapse and sunken center, coarse dry crumb). Middle '黄金标准比重 (SG 0.48)' (Standard Batter: Perfectly flat golden top, tall straight vertical sides, uniform silky micro-pores). Right '比重过高缺陷 (SG > 0.58): 严重消泡' (Deflated Batter: Flat, stunted, heavy, gummy rubbery pudding texture with thick translucent dense dead layer at bottom). Professional pastry test kitchen laboratory layout, Chinese characters prominently larger than English, 16:9.

@@ -1,0 +1,49 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高三 第06单元｜热酱与冷酱 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高三（Senior Three）
+• 单元：第06单元 热酱与冷酱（Hot & Cold Sauces / Grandes Sauces）
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 法式古典烹调五大母酱（Mother Sauces / Grandes Sauces）分级体系：
+   - 白酱（Sauce Béchamel）：热牛奶 + 白面糊（Roux blanc）；
+   - 丝绒酱（Sauce Velouté）：白高汤（鸡/鱼/小牛肉清汤）+ 黄面糊（Roux blond）；
+   - 西班牙褐酱（Sauce Espagnole）：烤牛骨棕色高汤 + 烤芳香蔬菜 + 番茄酱汁 + 褐面糊（Roux brun）；
+   - 番茄母酱（Sauce Tomate）：炖煮番茄 + 蔬菜底料 + 高汤 + 微量白面糊/果胶天然增稠；
+   - 荷兰酱（Sauce Hollandaise）：澄清黄油（Clarified Butter）+ 温热蛋黄液 + 柠檬汁/白醋浓缩还原液（温热水包油 O/W 乳化母酱）。
+2. 油面糊（Roux）炒制阶段与淀粉热解酶解负相关定律：
+   - Roux 标准配比：澄清黄油 : 中低筋面粉 = 1 : 1（质量比）；小火慢炒；
+   - 三阶段：白面糊（Roux blanc，小炒 2~3 分钟去除面粉生粉味，保持纯白，增稠力 100%）；黄面糊（Roux blond，炒 5~6 分钟至淡金黄带麦香，增稠力约 80%）；褐面糊（Roux brun，炒 15~20 分钟至深棕褐色带浓郁烤坚果焦香）；
+   - 核心反直觉机理：炒制时间越长，淀粉分子在高温下受热裂解焦糖化生成低分子糊精（Dextrin），分子链断裂丧失吸水膨胀网架，【增稠能力下降 50% 以上】！因此制作深色褐酱必须增加 1.5~2 倍 Roux 用量。
+3. 荷兰酱温热乳化热力学与破乳救治 SOP：
+   - 澄清黄油（Clarified butter）：去除 16% 水分与 2% 酪蛋白乳固体，纯乳脂浓度 >99%；
+   - 隔水加热温控红线：严格锁在 58℃~62℃（Bain-marie 隔水温浴）；
+   - 破乳红线：<55℃ 澄清黄油凝固结晶析出；>65℃ 蛋黄蛋白质热变性凝固成炒蛋碎颗粒，体系瞬间崩溃破乳出油；
+   - 急救 SOP：另取温热洁净碗加一茶匙温水或生蛋黄搅散，将分离液体以极细水流缓慢搅打混入重新乳化。
+4. 典型后厨生产事故与排查（Troubleshooting）：
+   - 荷兰酱油水分离破乳（温度超 65℃ 蛋黄熟化，或黄油倾倒过快超载）；
+   - 白酱出现粗糙结块（Lumpy sauce）（冷热温差未掌握，热面糊直接冲入沸腾热牛奶导致局部瞬间糊化结疙瘩）；
+   - 褐酱稀薄如水（炒褐面糊后未按比例增加面粉用量，糊精化导致增稠失效）。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，法式古典烹饪殿堂教科书风格）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional culinary science textbook infographic, 16:9 aspect ratio, 4k. Two-section diagram illustrating '法式五大母酱分级谱系与油面糊糊精化图' (French 5 Mother Sauces Taxonomy & Roux Dextrinization Starch Thickening Curve). Top section: Elegant genealogical tree showing the 5 Mother Sauces (Béchamel, Velouté, Espagnole, Tomato, Hollandaise) with primary liquids and thickening agents. Bottom section: Three-stage Roux color spectrum (Roux blanc 100% thickening, Roux blond 80%, Roux brun 50%) illustrating thermal dextrinization where starch molecular chains cleave resulting in inverse thickening power. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text prominently larger than English.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional culinary school food science textbook infographic, 16:9 aspect ratio, 4k. Two-panel comparative failure diagnosis diagram illustrating '荷兰酱温热乳化破乳与主厨抢救流程图' (Hollandaise Emulsion Breakdown & Chef Rescue SOP). Left panel '事故案例：超温导致蛋黄熟化与水油破乳' (Failure: Broken Hollandaise Due to Overheating >65°C) showing scrambled egg curd flecks floating in separated clear yellow clarified butter puddle, annotated with red temperature warning dial (58-62°C safe zone vs >65°C danger zone). Right panel '主厨标准抢救方案：温水生蛋黄界面重建' (Rescue SOP: Re-emulsification via Fresh Egg Yolk and Warm Water) showing chef whisking broken sauce in thin steady drizzle into clean warm bowl with fresh yolk. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text noticeably larger than English, 16:9.

@@ -1,0 +1,44 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高二 第05单元｜奶油霜、鲜奶油霜与蛋白霜饰 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高二（Senior Two）
+• 单元：第05单元 奶油霜、鲜奶油霜与蛋白霜饰
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 法意瑞三大经典蛋白霜（Meringue）制作温控与流变学工艺路线：
+   - 法式蛋白霜（French Meringue）：冷蛋清加糖常温直接高速打发；气壁薄、稳定性较弱、未经巴氏杀菌；适用于必须再次进炉烘焙烘干的产品（马卡龙、舒芙蕾、蛋白脆饼 Pavlova）；
+   - 意式蛋白霜（Italian Meringue）：砂糖水熬煮至 116℃~121℃（软球期 Soft ball stage），细流浇入湿性蛋白霜高速搅打；高温糖浆烫熟杀灭沙门氏菌使蛋白质热变性定型；质地极其光亮坚挺、稳定性最高，可直接免烘烤食用（柠檬挞炙烤装饰、意式奶油霜 IMBC 基底、慕斯轻盈糊）；
+   - 瑞式蛋白霜（Swiss Meringue）：蛋白与细砂糖隔水加温至 60℃~65℃ 搅拌至糖晶彻底溶解，离火高速打发；无未溶糖晶、质地致密丝滑，常作为瑞式奶油霜 SMBC 高级基底。
+2. 基础奶油霜（Buttercream）体系与工艺特性：
+   - 意式蛋白奶油霜（IMBC）：意式蛋白霜冷却至 25~28℃ 加入软化黄油（18~22℃），打发彻底乳化；轻盈化渣、甜度低、线条立体；
+   - 瑞式蛋白奶油霜（SMBC）：瑞式蛋白霜加黄油打发，操作稳定容错率高；
+   - 法式炸弹面糊奶油霜（Pâte à Bombe）：热糖浆烫打全蛋黄糊后混入黄油；色泽金黄、浓郁醇厚，歌剧院蛋糕专用。
+3. 鲜奶油（Whipped Cream）打发流变学与动植物对比：
+   - 动物性鲜奶油（Dairy Cream，乳脂 35%~38%）：纯天然乳脂，低温（4~8℃）下部分液态与结晶脂肪球互相碰撞形成“部分聚结网络（Partial Coalescence）”截留气囊；熔点 30~35℃ 易融化，化口性极佳；打发温度高于 10℃ 极易打发失败或析出水分油脂（转为黄油）；
+   - 植物性鲜奶油（Non-Dairy Cream）：氢化植物油 + 乳化剂，耐热抗融、打发膨胀率高（300%~400%）、花纹挺拔，但含反式脂肪酸，入口蜡质化渣感差。
+4. 鲜奶油打发阶段控制与缺陷救治（Troubleshooting）：
+   - 阶段划分：6分发（流动酸奶状，慕斯用）、8分发（弯钩微挺，抹面用）、9分发（挺立直角，裱花挤花用）；
+   - 打发过度（Over-whipping / Churning）：脂肪球保护膜被强机械力完全撕碎，脂肪分子直接融合成大块固体黄油，析出透明乳清（水包油转为油包水）。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，独中统考专业教科书风格）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional Chinese culinary science textbook infographic, 16:9 aspect ratio. Title in large bold Simplified Chinese: '法意瑞三大经典蛋白霜工艺路线与温控机理' (Three Classic Meringues: French, Italian, and Swiss). Three parallel columns from left to right with large bold Chinese headings: 1. '法式蛋白霜' (French Meringue: 常温冷蛋清打发，气泡较脆弱，必须烘烤熟化如马卡龙/舒芙蕾); 2. '意式蛋白霜' (Italian Meringue: 118℃热糖浆冲入烫打，巴氏杀菌光泽极坚挺，可直接生食用于柠檬挞炙烤/IMBC基底); 3. '瑞式蛋白霜' (Swiss Meringue: 60~65℃隔水水浴加热至糖融化打发，致密丝滑，用于SMBC基底). Temperature callout badges, micro-bubble network comparisons, Chinese text prominently larger than English, 16:9.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional Chinese pastry troubleshooting infographic, 16:9 aspect ratio. Title in large bold Simplified Chinese: '动植物鲜奶油品质对比与打发过度破乳故障图' (Whipping Cream Comparison & Churning Defects). Top panel '动植物鲜奶油特性对比' (Dairy vs Non-Dairy Comparison): Left '动物性鲜奶油' (Dairy: 35%天然乳脂，4~8℃打发，32℃化口溶于口); Right '植物性鲜奶油' (Non-Dairy: 氢化植物油，耐热35℃+，膨胀率高达350%，花纹锋利). Bottom panel '鲜奶油打发三阶段演变' (Progressive Stages of Cream Whipping Defects): 1. '八分发丝滑抹面状态' (Eight-peak glossy smooth cream for cake icing); 2. '轻度发糙起毛状态' (Over-whipped grainy curds); 3. '高温破乳转化为黄油与乳清灾难' (Complete churning breakdown at 30C into yellow solid butter clumps and separated buttermilk). Technical callouts in bold Simplified Chinese with English sub-labels, Chinese text prominently larger than English, 16:9.

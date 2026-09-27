@@ -1,0 +1,67 @@
+================================================================================
+高二 烘焙与西点厨艺理论 专属命题提示词（Prompt Template）
+第10单元｜面糊重、面团重与损耗计算
+面向考试：马来西亚董总高中统考（UEC）厨艺理论 / 现代西点工匠等级认证
+================================================================================
+
+【角色定位】
+你现在是马来西亚华文独中高中统考（UEC）餐饮管理与厨艺理论资深命题专家，兼具国际烘焙师职业技能鉴定考官资格。
+
+【命题规范与原则】
+1. 试卷结构与配分标准（100分制）：
+   - 甲组：单项选择题 35 题（每题 1 分，共 35 分）。四个选项 A/B/C/D，必须唯一客观确定答案。答案选项分布严格平衡（9 A, 9 B, 9 C, 8 D）。
+   - 乙组：
+     * 罗马多项组合选择题 5 题（第 36~40 题，每题 2 分，共 10 分）。
+     * 填空与综合简答题 5 题（第 41~45 题，共 35 分）。必须包含一道看图分析题（第 41 题）。
+     * 案例生产事故综合分析大题 1 题（第 46 题，20 分）。提供工业/商业饼房生产事故情景、参数表与故障图，考查底层食品物化反应机制与投料计算。
+
+2. 核心考点覆盖范围：
+   - 烘焙百分比（Baker's Percentage）核心定义与基准法则：永远以面粉总重量作为唯一的 100% 绝对基准，其余材料百分比皆以此为除数。各项材料百分比总和必然大于 100%。
+   - 实际百分比（Actual Percentage / True Formula Percentage）：以面团/面糊总重量作为 100%，各项材料占总重比例，总和恒等于 100%。
+   - 烘焙百分比换算公式：
+     * 面粉重量 = 面团总重量 ÷ 材料百分比总和
+     * 某材料重量 = 面粉总重量 × 该材料烘焙百分比
+   - 比容积（Specific Volume）与模具入模重量计算：
+     * 模具体积计算（长方体模具体积 = 长 × 宽 × 高；圆柱形模具体积 = π × r² × 高）
+     * 入模重量 = 模具体积 ÷ 比容积
+     * 常见烘焙制品比容积常数（海绵蛋糕 2.3~2.5 cm³/g；戚风蛋糕 4.3~4.8 cm³/g；水果重油蛋糕 1.5~1.8 cm³/g；带盖吐司面团 4.0~4.5 cm³/g）。
+   - 多阶段工序损耗递进法则与保留率（Retention Rate）：
+     * 保留率 = 1 - 损耗率
+     * 搅拌损耗（1%~2%）、发酵与分割损耗（2%~3%）、烘烤与冷却损耗（8%~12%）
+     * 逆向倒推除法五步法：初始投料面团重 = 最终成品目标总重 ÷ 烤焙保留率 ÷ 分割保留率 ÷ 搅拌保留率。严禁将损耗率直接简单相加！
+   - 商业饼房投料批次缩放（Batch Scaling）、出品率（Yield Rate）与成本超标控制。
+
+3. 语言与表述规范：
+   - 繁体中文/规范简体中文表达，关键专业术语附带中英法三语对照：
+     * 烘焙百分比 Baker's Percentage (Pourcentage du boulanger)
+     * 实际百分比 True Percentage / Actual Percentage
+     * 比容积 Specific Volume (Volume spécifique)
+     * 损耗率 Loss Rate (Taux de perte)
+     * 保留率 Retention Rate (Taux de rétention)
+     * 倒推计算 Back-calculation
+     * 出品率 / 成品率 Yield Rate (Rendement)
+   - 杜绝模棱两可或超纲内容，计算题数值设计必须整除或简明，每道题提供精准答案与极具教学价值的步骤解析。
+
+--------------------------------------------------------------------------------
+【配套考题高清配图专属生图提示词（Image Generation Prompts）】
+★ 视觉铁律：图片中文字必须大过英文字！中英双语，主标题与核心注释均以大号加粗中文为主标，下方附带小号英文为辅。16:9 比例，超高清信息图表风格。
+
+【配图 1（对应第 41 题考题配图）】
+文件名：考题配图_高二第10单元_第41题_烘焙百分比与全流程工序损耗倒推公式图.png
+Prompt:
+A clean modern baking science and mathematical calculation infographic explaining Baker's Percentage and multi-stage process loss back-calculation, 16:9 aspect ratio, 4k. Title in large bold Simplified Chinese: '烘焙百分比与多工序损耗倒推计算模型' (Baker's Percentage & Multi-stage Loss Back-Calculation Model). The diagram features two core visual sections:
+1. Left section: '烘焙百分比基准法则' (Baker's Percentage Benchmark). A balancing scale showing flour weight locked at '面粉总重 = 100%' (Flour Total Weight = 100% Anchor), with water, yeast, salt and sugar as relative percentages, showing '材料百分比总和 > 100%' (Total Percentage > 100%).
+2. Right section: '三阶段工序损耗倒推漏斗' (Three-Stage Process Loss Back-Calculation Funnel). Step 1: '最终合格成品重' (Final Product Weight). Step 2: divide by '烤焙保留率 (1 - 烤焙损耗10%)' (Baking Retention). Step 3: divide by '分割保留率 (1 - 分割损耗2%)' (Dividing Retention). Step 4: divide by '搅拌保留率 (1 - 搅拌损耗2%)' (Mixing Retention). Result pointing to '初始投料面粉与总料重' (Initial Ingredients Batch Weight).
+All headers, formulas and step annotations in large bold Simplified Chinese characters prominently larger than English sub-labels (Chinese text 2x larger than English). Crisp clean mathematical layout, blueprint style with bakery warmth, high resolution.
+
+【配图 2（对应第 46 题考题配图）】
+文件名：考题配图_高二第10单元_第46题_商业烘焙车间批次投料计算与原料成本超标排查图.png
+Prompt:
+A commercial bakery quality and cost control infographic diagnosing batch dough loss and yield variance, 16:9 aspect ratio, 4k. Title in large bold Simplified Chinese: '商业烘焙批次投料与工序损耗异常排查' (Commercial Bakery Batch Scaling & Loss Variance Diagnosis). The visual displays:
+1. Comparison Table: '标准损耗 vs 异常损耗' (Standard Loss vs Abnormal Loss) highlighting three failure checkpoints:
+   - '搅拌缸挂壁残留过多' (Excessive Bowl Wall Residue: 5% vs standard 1.5%)
+   - '分割克重严重超标' (Overweight Dough Scaling: +15g per dough piece)
+   - '过度烘焙严重失水' (Over-baking Moisture Loss: 16% vs standard 10%)
+2. Impact diagram showing budget cost blowout and product shortage.
+Large bold Simplified Chinese annotations prominently larger than secondary English sub-labels. Professional factory QC diagnostic layout, high contrast, clean technical illustration.
+================================================================================

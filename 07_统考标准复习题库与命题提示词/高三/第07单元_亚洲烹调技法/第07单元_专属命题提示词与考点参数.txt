@@ -1,0 +1,43 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高三 第07单元｜亚洲烹调技法 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高三（Senior Three）
+• 单元：第07单元 亚洲烹调技法（Asian Culinary Techniques: Stir-fry, Velveting, Blanching）
+• 对应教材与国际标准：独中高中厨艺课纲 / 中餐与亚洲烹饪国家职业标准
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. “上浆（Slurrying / Velveting）”与“挂糊（Battering）”的微观机理与适用差异：
+   - 上浆（薄层保护）：原料切细丝/片/丁，加精盐抓出肌球蛋白黏性（抓上劲），加入蛋清与生粉抓匀，表面形成一层仅数微米厚的水合水包油胶体保护薄膜；目的：高温热加工中锁住细胞水分与鲜味，追求细嫩滑爽；主要用于滑油、滑水后爆炒。
+   - 挂糊（厚层包裹）：整块或较大原料，裹覆面粉、淀粉、鸡蛋与水调成的稠厚面糊；油炸后表层水分剧烈蒸发脱水硬化成金黄酥脆外壳（Crust），追求外焦里嫩；主要用于炸、溜、贴。
+2. “滑油（Oil-velveting）”热工传热与锁水机理：
+   - 油温控制：严格控制在三至四成热（100℃~130℃，温油锅）；
+   - 原料入宽油后必须立即用竹筷或勺迅速划散，滑油时间控制在 15~30 秒，刚变色至八成熟即快速沥出；
+   - 对比优势：油比水传热快且不溶出肉汁水溶性鲜味，低中温使表层蛋清淀粉瞬时凝固形成密封套，内部肌纤维未因剧烈高温收缩脱水，肉质鲜嫩多汁。
+3. 勾芡（Thickening / Glazing）与明油（Brightening Oil）工艺：
+   - 水淀粉在菜肴汤汁微沸（>85℃）时分次淋入，剧烈糊化形成透明浓稠芡汁，使调味汁紧密包裹食材；起锅前淋入少许熟植物油或葱油（滴明油），增加菜品表面光泽与香气。
+4. 典型后厨生产事故与排查（Troubleshooting）：
+   - 肉丝滑油脱浆粘连浑锅（油温过低 <90℃ 浆粉脱落，或上浆未抓出黏性）；
+   - 爆炒出水软塌无锅气（锅温不足未充分预热、投料过多压低锅温、原料未沥干水分）；
+   - 芡汁沉淀起疙瘩或结块（生粉未与水搅匀直接倒入沸汤中受热局部爆团）。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，现代中餐与亚洲烹饪教科书质感）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional Asian culinary science textbook infographic, 16:9 aspect ratio, 4k. Two-section diagram illustrating '亚洲烹饪上浆与挂糊微观锁水机理及滑油热力学图' (Asian Velveting vs Battering Microstructural Moisture Lock & Oil-Velveting Heat Transfer). Top section: Microscopic cell diagram comparing Starch Slurrying (上浆 ultra-thin egg-white starch membrane locking intracellular juices) vs Battering (挂糊 thick crispy fried batter shell). Bottom section: Oil-velveting process timeline at 100-130°C (3-4成温油锅) showing rapid dispersion of meat strands within 20 seconds without juice leakage, contrasting against water blanching. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text prominently larger than English.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional culinary school food science textbook infographic, 16:9 aspect ratio, 4k. Two-panel comparative failure diagnosis diagram illustrating '中餐滑油脱浆与爆炒出水软塌故障诊断图' (Asian Stir-fry Failure: De-velveting & Watery Stewing Case Analysis). Left panel '事故案例：滑油油温过低导致脱浆粘连浑油' (Failure: Low Oil Temp De-velveting) showing clumps of pale shredded pork fused together in cloudy oily wok with fallen starch flakes floating everywhere. Right panel '事故案例：旺火爆炒锅温不足出水软塌' (Failure: Inadequate Wok Heat & Soggy Stewing) showing waterlogged limp vegetables and gray dry meat swimming in thin watery puddle at bottom of wok without wok hei. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text noticeably larger than English, 16:9.

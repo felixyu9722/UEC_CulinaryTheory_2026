@@ -1,0 +1,43 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高三 第05单元｜松饼、比萨与道纳司 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高三（Senior Three）
+• 单元：第05单元 松饼、比萨与道纳司（Muffins, Pizza & Doughnuts）
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 三大经典品类膨发动力与面筋流变学对比：
+   - 美式松饼（Muffins）：快速面包（Quick Bread），化学膨大剂（双效泡打粉/小苏打），松饼拌合法（Muffin Method：干湿原料分别混合后粗略切拌，保留干粉小颗粒，严禁过度搅拌防止起筋生成隧道孔）；
+   - 意式比萨（Pizza）：酵母生物发酵面团，高筋面粉（蛋白质 12%~14%）经长时间低温发酵水合，形成高延展性强面筋网；高温石板（250~300℃ 或窑炉 450℃）烘烤产生标志性边缘空气豹斑（Leopard spots）；
+   - 油炸道纳司（Doughnuts / Donuts）：发酵面团型（Yeast Doughnuts，高筋面团基础发酵，松软多孔）vs 蛋糕面糊型（Cake Doughnuts，化学膨发，类似蛋糕扎实）。
+2. 油炸热力学与“白线（White Ring）”品质控制：
+   - 油炸黄金温度窗口：严格控制在 180℃~190℃（350°F~375°F）；
+   - 浮力与受热翻面：生胚投入热油中迅速受热膨胀浮起，单面炸 60~90 秒上色定型后翻面；
+   - “白线”标志（White Proof Ring）：两面金黄、中央腰部留有一圈清晰均匀的浅白/淡黄色带，是发酵充分、面团比重轻、浮力适中的顶级品质标志；
+   - 油温失控后果：<170℃ 原料剧烈吸油（吸油率高达 25% 以上，油腻发暗塌软）；>200℃ 外皮焦黑碳化而内部生心粘牙。
+3. 典型后厨生产事故与排查（Troubleshooting）：
+   - 松饼内部出现大量长条形“隧道孔洞（Tunneling）”且质地坚韧如橡胶（面粉加入后过度高速搅拌激活粗硬面筋）；
+   - 比萨饼底湿软如泥出现胶质未熟死层（酱料水分过多未收汁、烤温过低、面皮未扎孔排汽）；
+   - 道纳司吸油过度油腻发黑无白线（油温过低、醒发过度面筋崩溃、油炸中途频繁翻动翻面）。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，现代专业教科书质感）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional culinary science textbook infographic, 16:9 aspect ratio, 4k. Two-section diagram illustrating '化学膨发与生物发酵及油炸吸油率热力学控制图' (Muffin Chemical Leavening vs Pizza Yeast Fermentation & Doughnut Frying Thermodynamics). Top section: Comparison matrix showing Muffin Method (Muffin batter with minimal folding preventing gluten tunneling vs Pizza high-gluten dough with leopard-spotted rim). Bottom section: Deep frying temperature & fat absorption curve showing optimal golden doughnut zone at 180-190°C with iconic pale 'White Ring' floating band, contrasted against steep oily absorption spike below 170°C. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text prominently larger than English.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional culinary school food science textbook infographic, 16:9 aspect ratio, 4k. Two-panel comparative failure diagnosis diagram illustrating '松饼隧道孔起筋与道纳司低温吸油故障诊断图' (Muffin Gluten Tunneling & Doughnut Low-Temp Oil Greasiness Failure Analysis). Left panel '事故案例：松饼过度搅拌产生严重隧道孔洞' (Failure: Over-mixed Muffin Gluten Tunneling) showing muffin cross-section riddled with elongated vertical holes (隧道孔) and tough rubbery peaked top crust due to excessive gluten development. Right panel '事故案例：道纳司油温过低吸油浸透' (Failure: Low Frying Temp Greasy Doughnut) showing dark soggy doughnut oozing excessive cooking oil with collapsed soggy crust and missing white ring proof line. Technical annotations in bold Simplified Chinese with English sub-labels, Chinese text noticeably larger than English, 16:9.

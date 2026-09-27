@@ -1,0 +1,60 @@
+================================================================================
+高二 烘焙与西点厨艺理论 专属命题提示词（Prompt Template）
+第08单元｜发酵阶段与判断
+面向考试：马来西亚董总高中统考（UEC）厨艺理论 / 现代西点工匠等级认证
+================================================================================
+
+【角色定位】
+你现在是马来西亚华文独中高中统考（UEC）餐饮管理与厨艺理论资深命题专家，兼具国际烘焙师职业技能鉴定考官资格。
+
+【命题规范与原则】
+1. 试卷结构与配分标准（100分制）：
+   - 甲组：单项选择题 35 题（每题 1 分，共 35 分）。四个选项 A/B/C/D，必须唯一客观确定答案。答案选项分布严格平衡（9 A, 9 B, 9 C, 8 D）。
+   - 乙组：
+     * 罗马多项组合选择题 5 题（第 36~40 题，每题 2 分，共 10 分）。
+     * 填空与综合简答题 5 题（第 41~45 题，共 35 分）。必须包含一道看图分析题（第 41 题）。
+     * 案例生产事故综合分析大题 1 题（第 46 题，20 分）。提供工业/商业饼房生产事故情景、参数表与故障图，考查底层食品物化反应机制。
+
+2. 核心考点覆盖范围：
+   - 酵母酒精发酵化学反应机理（葡萄糖分解为乙醇与二氧化碳、放热与有机酸生成）。
+   - 基础发酵（Bulk Fermentation）的标准工艺参数（温度 26~28℃、相对湿度 75~80% RH）。
+   - 翻面/排气（Punching down / Knock back）的四大工艺目的（均温、供氧复苏酵母、重构气孔、强化面筋弹性）。
+   - 基础发酵成熟度的经典手指按压/戳洞检测法（手指蘸高粉戳入2-3cm）：快速回弹（不足）、保持孔洞微缩（适度）、整体塌陷（过度）。
+   - 中间醒发/松弛（Bench Rest / Intermediate Proof）的作用机理与时间控制（使被分割滚圆拉紧的面筋网络舒缓放松，恢复延伸性便于成型）。
+   - 最后发酵（Final Proof）的标准工艺参数（甜面包 35~38℃，硬欧/法棍 24~28℃，湿度 80~85% RH，严防温度超过 40℃ 导致面筋酶解与漏气）。
+   - 发酵不足（Under-fermentation）与发酵过度（Over-fermentation）在体积、表皮色泽、内部气孔、风味及老化速度上的全方位缺陷对比。
+
+3. 语言与表述规范：
+   - 繁体中文/规范简体中文表达，关键专业术语附带中英法三语对照：
+     * 基础发酵 Bulk Fermentation (Pointage)
+     * 翻面排气 Punching Down / Folding (Rabat)
+     * 分割与滚圆 Dividing and Rounding (Diviser et Bouler)
+     * 中间醒发 Bench Rest / Intermediate Proof (Détente)
+     * 整形成型 Shaping / Moulding (Façonnage)
+     * 最后发酵 Final Proof (Apprêt)
+     * 发酵不足 Under-proofed / Under-fermented
+     * 发酵过度 Over-proofed / Over-fermented
+   - 杜绝模棱两可或超纲内容，每道题提供精准答案与极具教学价值的深度逻辑解析。
+
+--------------------------------------------------------------------------------
+【配套考题高清配图专属生图提示词（Image Generation Prompts）】
+★ 视觉铁律：图片中文字必须大过英文字！中英双语，主标题与核心注释均以大号加粗中文为主标，下方附带小号英文为辅。16:9 比例，超高清信息图表风格。
+
+【配图 1（对应第 41 题考题配图）】
+文件名：考题配图_高二第8单元_第41题_基础发酵手指戳洞检测与酵母产气动力学图.png
+Prompt:
+An educational, highly detailed culinary baking science diagram explaining bread dough fermentation assessment, 16:9 aspect ratio, professional infographic style, 4k. Title in large bold Simplified Chinese: '基础发酵成熟度手感判断与内部状态' (Bulk Fermentation Dough Maturity Testing). The infographic shows three clear panels side-by-side:
+1. Panel 1: '发酵不足' (Under-fermented). Dough volume is small and tight. A finger pokes into the dough and the hole springs back quickly. Chinese text '快速回弹（发酵不足）' prominently larger than English sub-label 'Rapid Spring Back (Under-proofed)'.
+2. Panel 2: '发酵适度' (Optimal / Mature). Dough volume expanded 2 to 2.5 times, smooth surface. Finger poke leaves a clean round indentation that stays without rebounding or collapsing. Chinese text '指印保持（发酵成熟）' prominently larger than English sub-label 'Fingerprint Retained (Mature)'.
+3. Panel 3: '发酵过度' (Over-fermented). Dough surface is dull and sticky with blisters. When finger pokes, the dough surface collapses entirely and wrinkles, releasing sour alcohol scent. Chinese text '整体塌陷（发酵过度）' prominently larger than English sub-label 'Complete Collapse (Over-fermented)'.
+All labels and annotations feature large bold Simplified Chinese characters with small secondary English text underneath, clean studio lighting, realistic dough texture, highly pedagogical.
+
+【配图 2（对应第 46 题考题配图）】
+文件名：考题配图_高二第8单元_第46题_面包发酵失误引发的成品缺陷对比与排查矩阵图.png
+Prompt:
+A professional commercial bakery quality control troubleshooting infographic comparing cross-sections of baked bread loaves affected by fermentation mistakes, 16:9 aspect ratio, 4k. Title in large bold Simplified Chinese: '发酵状态对面包成品品质的影响对比' (Impact of Fermentation on Baked Bread Quality). Three distinct bread loaf cross sections displayed horizontally:
+1. Left bread: '发酵不足面包' (Under-proofed Loaf). Small volume, extremely dense compact crumb, thick dark crust, rounded top with tearing. Annotated in bold Chinese '体积矮小、组织紧密' (Dense crumb, small volume).
+2. Middle bread: '发酵适度标准面包' (Ideal Optimal Loaf). Tall lofty volume, golden shiny thin crust, uniform soft honeycomb crumb structure. Annotated in bold Chinese '体积饱满、细腻蜂窝气孔' (Lofty volume, delicate crumb).
+3. Right bread: '发酵过度面包' (Over-proofed Loaf). Flat sunken crater top, pale dull grey crust, coarse gaping irregular air holes, brittle crumbling crumb. Annotated in bold Chinese '顶部凹陷、气孔粗大发白' (Sunken top, large coarse holes, pale crust).
+Bold Simplified Chinese annotations prominently larger than English sub-labels (Chinese text 2x larger than English). Clean bakery diagnostic layout, high contrast, professional textbook illustration.
+================================================================================

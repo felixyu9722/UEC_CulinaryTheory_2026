@@ -1,0 +1,2504 @@
+﻿{
+    "object":  "list",
+    "results":  [
+                    {
+                        "object":  "block",
+                        "id":  "d1f7f0ac-4a50-4c08-b8ba-8c1211964b41",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "callout",
+                        "callout":  {
+                                        "rich_text":  [
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=学习目标; link=}",
+                                                              "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                              "plain_text":  "学习目标",
+                                                              "href":  null
+                                                          },
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=：说出早期谷物烤制、发酵面包和烤炉发展的主要阶段；说明热量控制为什么推动烘焙技术发展。; link=}",
+                                                              "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                              "plain_text":  "：说出早期谷物烤制、发酵面包和烤炉发展的主要阶段；说明热量控制为什么推动烘焙技术发展。",
+                                                              "href":  null
+                                                          }
+                                                      ],
+                                        "icon":  {
+                                                     "type":  "emoji",
+                                                     "emoji":  "🎯"
+                                                 },
+                                        "color":  "blue_background"
+                                    },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "cdfdbb8d-243d-4231-9121-686ab5b514e8",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_2",
+                        "heading_2":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=一、最早的谷物食品; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "一、最早的谷物食品",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "e5f957a4-8850-47f7-bc5b-3bff828ea5df",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "paragraph",
+                        "paragraph":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=人类种植谷物后，把谷物磨成粉、加水形成糊或面团，再放在热石或火旁加热，形成早期的扁平面饼（Flatbread）。这类产品通常没有经过有控制的发酵。; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "人类种植谷物后，把谷物磨成粉、加水形成糊或面团，再放在热石或火旁加热，形成早期的扁平面饼（Flatbread）。这类产品通常没有经过有控制的发酵。",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "icon":  null,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "0708747c-35cd-4bf6-a248-60954df1cf30",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_2",
+                        "heading_2":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=二、发酵面包的出现; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "二、发酵面包的出现",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "215e5fad-c632-4a02-b821-565f87cb046a",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "paragraph",
+                        "paragraph":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=古埃及留下了大量面包制作和烘烤证据。早期发酵可能来自面团接触环境中的野生酵母（Wild Yeast）和微生物。产生的气体被面团结构保留，使面包比无酵饼更蓬松。; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "古埃及留下了大量面包制作和烘烤证据。早期发酵可能来自面团接触环境中的野生酵母（Wild Yeast）和微生物。产生的气体被面团结构保留，使面包比无酵饼更蓬松。",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "icon":  null,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d4138c5-b398-81e7-89ee-e2b492a523b7",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-07T01:55:00.000Z",
+                        "last_edited_time":  "2026-09-07T01:55:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "callout",
+                        "callout":  {
+                                        "rich_text":  [
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=【统考核心考点：人类古代烘焙源流与野生发酵的偶然革命】\n; link=}",
+                                                              "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                              "plain_text":  "【统考核心考点：人类古代烘焙源流与野生发酵的偶然革命】\n",
+                                                              "href":  null
+                                                          },
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=1. 早期无酵扁饼（Flatbread）：新石器时代人类将野生谷物磨碎加水调成生面糊，摊在晒热的扁平石板或开放火堆余烬中烙熟，未发生发酵，质地紧密坚硬。\n2. 古埃及发酵突破：古埃及时期发酵面包正式诞生。起初是面团长时间暴露在温暖湿润空气中，自然捕获环境中的野生酵母菌（Wild Yeast）与乳酸菌；更关键的工业突破是古埃及人将啤酒酿造过滤留下的富含高活性野生酵母的啤酒发酵醪（Beer Barm）加入面团，使面团在烘烤前迅速充气膨胀，形成蜂窝孔隙，被誉为「面包文明的摇篮」。\n3. 古罗马面包行会与工匠体系：古罗马建立国家特许的面点师公会（Collegium Pistorum），发明畜力旋转玄武岩石磨与封闭式砖砌穹顶烤炉（利用红砖与耐火石的高热辐射蓄能），使烘焙从家庭手工走向城市标准化公共作坊。; link=}",
+                                                              "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                              "plain_text":  "1. 早期无酵扁饼（Flatbread）：新石器时代人类将野生谷物磨碎加水调成生面糊，摊在晒热的扁平石板或开放火堆余烬中烙熟，未发生发酵，质地紧密坚硬。\n2. 古埃及发酵突破：古埃及时期发酵面包正式诞生。起初是面团长时间暴露在温暖湿润空气中，自然捕获环境中的野生酵母菌（Wild Yeast）与乳酸菌；更关键的工业突破是古埃及人将啤酒酿造过滤留下的富含高活性野生酵母的啤酒发酵醪（Beer Barm）加入面团，使面团在烘烤前迅速充气膨胀，形成蜂窝孔隙，被誉为「面包文明的摇篮」。\n3. 古罗马面包行会与工匠体系：古罗马建立国家特许的面点师公会（Collegium Pistorum），发明畜力旋转玄武岩石磨与封闭式砖砌穹顶烤炉（利用红砖与耐火石的高热辐射蓄能），使烘焙从家庭手工走向城市标准化公共作坊。",
+                                                              "href":  null
+                                                          }
+                                                      ],
+                                        "icon":  {
+                                                     "type":  "emoji",
+                                                     "emoji":  "💡"
+                                                 },
+                                        "color":  "yellow_background"
+                                    },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "35d14937-928d-4282-8bd4-054cf56ec151",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "quote",
+                        "quote":  {
+                                      "rich_text":  [
+                                                        {
+                                                            "type":  "text",
+                                                            "text":  "@{content=“某个人偶然留下麦粥，因此发明面包”属于常见推测性故事，不应当成已经证实的单一历史事件。; link=}",
+                                                            "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                            "plain_text":  "“某个人偶然留下麦粥，因此发明面包”属于常见推测性故事，不应当成已经证实的单一历史事件。",
+                                                            "href":  null
+                                                        }
+                                                    ],
+                                      "color":  "default"
+                                  },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "a78a3b20-1503-41a9-90ae-079c4c2abb3f",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_2",
+                        "heading_2":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=三、技术如何传播？; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "三、技术如何传播？",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "86ffb0cd-58fe-4f73-ad94-c4789a9e6c54",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "paragraph",
+                        "paragraph":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=古埃及、希腊和罗马之间的贸易与文化交流，使谷物加工、发酵和烤炉技术逐渐传播。专业烘焙师（Baker）与有组织的烘焙作坊也随城市发展出现。; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "古埃及、希腊和罗马之间的贸易与文化交流，使谷物加工、发酵和烤炉技术逐渐传播。专业烘焙师（Baker）与有组织的烘焙作坊也随城市发展出现。",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "icon":  null,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d4138c5-b398-81c9-8fb5-ec94d4ac97c0",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-07T01:55:00.000Z",
+                        "last_edited_time":  "2026-09-07T01:55:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "callout",
+                        "callout":  {
+                                        "rich_text":  [
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=📊【统考大题核心考点：19世纪冷铸铁辊磨机与精白面粉工业革命】\n; link=}",
+                                                              "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                              "plain_text":  "📊【统考大题核心考点：19世纪冷铸铁辊磨机与精白面粉工业革命】\n",
+                                                              "href":  null
+                                                          },
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=• 传统石磨粉痛点：石磨碾压剪切力极强，小麦的三大部分——胚乳（Endosperm 约83%）、麸皮（Bran 约14%）与富含不饱和脂肪酸的胚芽（Germ 约3%）被全部挤压揉碎混合，出粉率达到 100%（全麦粉）。胚芽油脂极易氧化酸败，保质期极短（仅数周），且麸皮碎片切断麦谷蛋白网架，导致面团起筋力与膨胀体积受限。\n• 1870s 铸铁辊碾磨机（Roller Mill）历史飞跃：发明微差速冷铸铁滚筒，结合风力分选筛网，实现渐进式温和研磨。彻底剥离高纤维麸皮与易氧化胚芽，仅提取纯净核心胚乳，精白面粉标准出粉率稳定在约 70%~72%。\n📌 统考食品力学结论：精白粉微观灰分（Ash）大幅降低，麦谷蛋白与麦胶蛋白不受麸皮机械切割，水合起筋效率与弹性大幅提升，为现代超高充气量吐司与轻盈法棍奠定了原料基础；同时保质期延长至 1 年以上，促成烘焙食品全球跨洋商业贸易。; link=}",
+                                                              "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                              "plain_text":  "• 传统石磨粉痛点：石磨碾压剪切力极强，小麦的三大部分——胚乳（Endosperm 约83%）、麸皮（Bran 约14%）与富含不饱和脂肪酸的胚芽（Germ 约3%）被全部挤压揉碎混合，出粉率达到 100%（全麦粉）。胚芽油脂极易氧化酸败，保质期极短（仅数周），且麸皮碎片切断麦谷蛋白网架，导致面团起筋力与膨胀体积受限。\n• 1870s 铸铁辊碾磨机（Roller Mill）历史飞跃：发明微差速冷铸铁滚筒，结合风力分选筛网，实现渐进式温和研磨。彻底剥离高纤维麸皮与易氧化胚芽，仅提取纯净核心胚乳，精白面粉标准出粉率稳定在约 70%~72%。\n📌 统考食品力学结论：精白粉微观灰分（Ash）大幅降低，麦谷蛋白与麦胶蛋白不受麸皮机械切割，水合起筋效率与弹性大幅提升，为现代超高充气量吐司与轻盈法棍奠定了原料基础；同时保质期延长至 1 年以上，促成烘焙食品全球跨洋商业贸易。",
+                                                              "href":  null
+                                                          }
+                                                      ],
+                                        "icon":  {
+                                                     "type":  "emoji",
+                                                     "emoji":  "⚖️"
+                                                 },
+                                        "color":  "purple_background"
+                                    },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "e901cead-4a02-4b69-ba98-eb3d78c859ce",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_2",
+                        "heading_2":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=四、烤炉发展的核心; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "四、烤炉发展的核心",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "db601914-41b5-48b1-b777-ceb81c47c8e8",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "table",
+                        "table":  {
+                                      "table_width":  3,
+                                      "has_column_header":  true,
+                                      "has_row_header":  false
+                                  },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d4138c5-b398-81e8-8af4-d879757c5f35",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-07T01:55:00.000Z",
+                        "last_edited_time":  "2026-09-07T01:55:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "callout",
+                        "callout":  {
+                                        "rich_text":  [
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=⏱️【酵母微生物学革命：路易·巴斯德与工业化商业酵母诞生】\n; link=}",
+                                                              "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                              "plain_text":  "⏱️【酵母微生物学革命：路易·巴斯德与工业化商业酵母诞生】\n",
+                                                              "href":  null
+                                                          },
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=1. 1860s 巴斯德纯种分离：法国微生物学家路易·巴斯德（Louis Pasteur）揭示发酵本质是由微生物代谢引起，并成功分离出纯种「酿酒酵母（Saccharomyces cerevisiae）」，打破了千年来面包依赖不确定自然杂菌发酵的历史。\n2. 商业压榨酵母工业化（Compressed Yeast）：奥地利维也纳与英国率先量产工业压榨鲜酵母与干酵母，使面团发酵时间从传统天然酸种的 12~24 小时急剧缩短至标准化的 1~2 小时！\n3. 工艺量化里程碑：发酵从「看天吃饭」的玄学，转变为通过精确投料（面粉重 1%~2%）、控制水温与发酵室温湿度（28℃~30℃ / 湿度 75%~80%）的标准化量化食品工程。; link=}",
+                                                              "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                              "plain_text":  "1. 1860s 巴斯德纯种分离：法国微生物学家路易·巴斯德（Louis Pasteur）揭示发酵本质是由微生物代谢引起，并成功分离出纯种「酿酒酵母（Saccharomyces cerevisiae）」，打破了千年来面包依赖不确定自然杂菌发酵的历史。\n2. 商业压榨酵母工业化（Compressed Yeast）：奥地利维也纳与英国率先量产工业压榨鲜酵母与干酵母，使面团发酵时间从传统天然酸种的 12~24 小时急剧缩短至标准化的 1~2 小时！\n3. 工艺量化里程碑：发酵从「看天吃饭」的玄学，转变为通过精确投料（面粉重 1%~2%）、控制水温与发酵室温湿度（28℃~30℃ / 湿度 75%~80%）的标准化量化食品工程。",
+                                                              "href":  null
+                                                          }
+                                                      ],
+                                        "icon":  {
+                                                     "type":  "emoji",
+                                                     "emoji":  "⏱️"
+                                                 },
+                                        "color":  "orange_background"
+                                    },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "82a24fdc-ff23-4394-9629-2dd152fc1807",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_2",
+                        "heading_2":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=五、关键判断; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "五、关键判断",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "0f6afab4-4760-41c3-add1-ee3837af42f4",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "paragraph",
+                        "paragraph":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=烤箱历史不只是“机器越来越新”，而是围绕四项需要发展：; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "烤箱历史不只是“机器越来越新”，而是围绕四项需要发展：",
+                                                                "href":  null
+                                                            },
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=热量控制、加热均匀、生产效率和使用安全; link=}",
+                                                                "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "热量控制、加热均匀、生产效率和使用安全",
+                                                                "href":  null
+                                                            },
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=。; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "。",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "icon":  null,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d4138c5-b398-8164-bbbe-f82c48d9bfc2",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-07T01:55:00.000Z",
+                        "last_edited_time":  "2026-09-07T01:55:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "callout",
+                        "callout":  {
+                                        "rich_text":  [
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=⚠️【统考对比大题与后厨排查：天然酵种（Levain）vs 商业酵母与杂菌温控红线】\n; link=}",
+                                                              "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                              "plain_text":  "⚠️【统考对比大题与后厨排查：天然酵种（Levain）vs 商业酵母与杂菌温控红线】\n",
+                                                              "href":  null
+                                                          },
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=• 工匠复兴（Artisanal Revival）：20世纪末全球掀起天然酵种硬欧包复兴潮。天然酸种是酵母菌与乳酸菌（LAB）的共生体系，代谢产生乳酸与醋酸，赋予面包丰富复合果酸香气，并延缓淀粉老化。\n• 杂菌酸败失控排查（统考案例分析题重点）：\n  - 事故现象：天然酵母续喂过程中面糊迅速稀释分层、散发刺鼻指甲油味或剧烈醋酸味、起泡力丧失。\n  - 微观机理：环境发酵温度超过 30℃~35℃ 时，醋酸菌与产酸厌氧杂菌急剧繁殖，过度产酸使 pH 骤降至 3.5 以下，高酸性强行变性降解了面筋蛋白质，使面糊完全失去弹性骨架。\n  - 主厨救治 SOP：将鲁邦种续喂环境温度严格限定在 21℃~24℃（此时酵母产气与乳酸菌产柔和乳酸达到完美平衡），维持水粉比例 1:1，每 12~24 小时定时按比例弃种续喂，坚决杜绝杂菌过度繁殖。; link=}",
+                                                              "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                              "plain_text":  "• 工匠复兴（Artisanal Revival）：20世纪末全球掀起天然酵种硬欧包复兴潮。天然酸种是酵母菌与乳酸菌（LAB）的共生体系，代谢产生乳酸与醋酸，赋予面包丰富复合果酸香气，并延缓淀粉老化。\n• 杂菌酸败失控排查（统考案例分析题重点）：\n  - 事故现象：天然酵母续喂过程中面糊迅速稀释分层、散发刺鼻指甲油味或剧烈醋酸味、起泡力丧失。\n  - 微观机理：环境发酵温度超过 30℃~35℃ 时，醋酸菌与产酸厌氧杂菌急剧繁殖，过度产酸使 pH 骤降至 3.5 以下，高酸性强行变性降解了面筋蛋白质，使面糊完全失去弹性骨架。\n  - 主厨救治 SOP：将鲁邦种续喂环境温度严格限定在 21℃~24℃（此时酵母产气与乳酸菌产柔和乳酸达到完美平衡），维持水粉比例 1:1，每 12~24 小时定时按比例弃种续喂，坚决杜绝杂菌过度繁殖。",
+                                                              "href":  null
+                                                          }
+                                                      ],
+                                        "icon":  {
+                                                     "type":  "emoji",
+                                                     "emoji":  "🚨"
+                                                 },
+                                        "color":  "red_background"
+                                    },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "b23a63f7-d05e-4bff-a63e-c679962eb112",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_2",
+                        "heading_2":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=六、快速练习; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "六、快速练习",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "22d0511d-426e-4d25-8f88-dbaff5f2f7e7",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=野生酵母在早期面包制作中有什么作用？; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "野生酵母在早期面包制作中有什么作用？",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "2d11bd62-04f6-4fa8-9848-8229ab38264c",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=封闭式烤炉比开放火源有什么优势？; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "封闭式烤炉比开放火源有什么优势？",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "260977d0-2ea3-4cce-af76-e2562c32e79a",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=为什么历史故事中的精确年代和“第一位发明者”需要可靠来源？; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "为什么历史故事中的精确年代和“第一位发明者”需要可靠来源？",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "39ab2d5e-ef7f-4e32-a4c6-f4e5a9693076",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:35:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "toggle",
+                        "toggle":  {
+                                       "rich_text":  [
+                                                         {
+                                                             "type":  "text",
+                                                             "text":  "@{content=参考答案; link=}",
+                                                             "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                             "plain_text":  "参考答案",
+                                                             "href":  null
+                                                         }
+                                                     ],
+                                       "color":  "green_background"
+                                   },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "cf465d7e-12aa-4e53-b5c1-b1813e27f233",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-30T00:52:00.000Z",
+                        "last_edited_time":  "2026-08-30T00:52:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_2",
+                        "heading_2":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=教师实施提示; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "教师实施提示",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "f949e1c8-af23-4f95-b3e6-e2636c442f37",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-30T00:52:00.000Z",
+                        "last_edited_time":  "2026-08-30T00:52:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "bulleted_list_item",
+                        "bulleted_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=建议课时：; link=}",
+                                                                         "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "建议课时：",
+                                                                         "href":  null
+                                                                     },
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content= 1节；以“技术解决什么问题”为主线，不要求学生背大量年份。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  " 1节；以“技术解决什么问题”为主线，不要求学生背大量年份。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "04790576-bad1-4431-a44c-5c7123bd85b3",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-30T00:52:00.000Z",
+                        "last_edited_time":  "2026-08-30T00:52:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "bulleted_list_item",
+                        "bulleted_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=预备材料：; link=}",
+                                                                         "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "预备材料：",
+                                                                         "href":  null
+                                                                     },
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content= 古代面包／烤炉图片、五张技术卡（磨粉、发酵、炉具、机械化、冷藏）。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  " 古代面包／烤炉图片、五张技术卡（磨粉、发酵、炉具、机械化、冷藏）。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "537466c6-369e-4e97-a8c7-22eed8342f89",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-30T00:52:00.000Z",
+                        "last_edited_time":  "2026-08-30T00:52:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "bulleted_list_item",
+                        "bulleted_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=示范重点：; link=}",
+                                                                         "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "示范重点：",
+                                                                         "href":  null
+                                                                     },
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content= 比较热石、封闭炉体和现代烤箱在热量控制、均匀度、产量及安全上的差别。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  " 比较热石、封闭炉体和现代烤箱在热量控制、均匀度、产量及安全上的差别。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "35edf56e-bd48-4caf-a7aa-15acc5eeb063",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-30T00:52:00.000Z",
+                        "last_edited_time":  "2026-08-30T00:52:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "bulleted_list_item",
+                        "bulleted_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=常见误区：; link=}",
+                                                                         "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "常见误区：",
+                                                                         "href":  null
+                                                                     },
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content= 把传说写成史实；随意指定“第一位发明者”；认为技术发展一定是直线进步。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  " 把传说写成史实；随意指定“第一位发明者”；认为技术发展一定是直线进步。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "178610c4-a021-407f-87d8-f518174ebdcb",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-30T00:52:00.000Z",
+                        "last_edited_time":  "2026-08-30T00:52:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "bulleted_list_item",
+                        "bulleted_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=课堂活动：; link=}",
+                                                                         "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "课堂活动：",
+                                                                         "href":  null
+                                                                     },
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content= 小组排列技术卡，每张必须补一句“它解决了什么问题”。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  " 小组排列技术卡，每张必须补一句“它解决了什么问题”。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "b67900c1-cc82-4310-be97-d852b77b5f35",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-30T00:52:00.000Z",
+                        "last_edited_time":  "2026-08-30T00:52:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "bulleted_list_item",
+                        "bulleted_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=离堂检核：; link=}",
+                                                                         "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "离堂检核：",
+                                                                         "href":  null
+                                                                     },
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content= 任选发酵、温控炉具或机械化，说明它如何改变产品质量或生产方式。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  " 任选发酵、温控炉具或机械化，说明它如何改变产品质量或生产方式。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "fbe59dbe-f6b1-47c3-a1fd-291db3069d57",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-30T00:52:00.000Z",
+                        "last_edited_time":  "2026-08-30T00:52:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_3",
+                        "heading_3":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=本课延伸依据; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "本课延伸依据",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d4138c5-b398-81e7-bb2c-de05f52c8ce5",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-07T02:13:00.000Z",
+                        "last_edited_time":  "2026-09-07T02:13:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "callout",
+                        "callout":  {
+                                        "rich_text":  [
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=📺 统考精选名师影音示范与延伸参考\n; link=}",
+                                                              "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=blue}",
+                                                              "plain_text":  "📺 统考精选名师影音示范与延伸参考\n",
+                                                              "href":  null
+                                                          },
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=结合古法与现代烘焙工业演进，点击即可直达视频；重点观察人类发酵面包的起源与石磨、机械化设备对组织结构的革新：; link=}",
+                                                              "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=gray}",
+                                                              "plain_text":  "结合古法与现代烘焙工业演进，点击即可直达视频；重点观察人类发酵面包的起源与石磨、机械化设备对组织结构的革新：",
+                                                              "href":  null
+                                                          }
+                                                      ],
+                                        "icon":  {
+                                                     "type":  "emoji",
+                                                     "emoji":  "🎬"
+                                                 },
+                                        "color":  "blue_background"
+                                    },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "c55bc2f5-cfdf-42b6-8f4b-1b43b9e7a25a",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-30T00:52:00.000Z",
+                        "last_edited_time":  "2026-08-30T00:52:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=British Museum｜Ancient Egyptian bread object EA40942; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "British Museum｜Ancient Egyptian bread object EA40942",
+                                                                         "href":  "https://www.britishmuseum.org/collection/object/Y_EA40942"
+                                                                     },
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=——古埃及面包实物与考古资料。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "——古埃及面包实物与考古资料。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "58ba378b-c911-40aa-be59-b1694a2bd14c",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-30T00:52:00.000Z",
+                        "last_edited_time":  "2026-08-30T00:52:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=Smithsonian National Museum of American History｜100-year-old bread recipe; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "Smithsonian National Museum of American History｜100-year-old bread recipe",
+                                                                         "href":  "https://americanhistory.si.edu/explore/stories/taking-fannie-farmer-how-baking-impaired-intern-negotiated-100-year-old-bread"
+                                                                     },
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=——观察面粉、酵母和厨房技术如何随时代改变。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "——观察面粉、酵母和厨房技术如何随时代改变。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "953e8947-8faa-4f06-a7bc-df7a1dea9c73",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-30T00:52:00.000Z",
+                        "last_edited_time":  "2026-08-30T00:52:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=Smithsonian｜The Best Thing Since Sliced Bread; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "Smithsonian｜The Best Thing Since Sliced Bread",
+                                                                         "href":  "https://invention.si.edu/invention-stories/reflections-best-thing-sliced-bread"
+                                                                     },
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=——机械化、连续烤炉、切片与包装的历史背景。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "——机械化、连续烤炉、切片与包装的历史背景。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d4138c5-b398-80bb-9012-f0fd93799525",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-07T12:40:00.000Z",
+                        "last_edited_time":  "2026-09-07T12:40:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "mention",
+                                                                         "mention":  "@{type=link_mention; link_mention=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "https://www.youtube.com/watch?v=nH5pQ9-JFFI",
+                                                                         "href":  "https://www.youtube.com/watch?v=nH5pQ9-JFFI"
+                                                                     }
+                                                                 ],
+                                                   "color":  "default"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "a668f6f7-d360-4b80-8ac4-fc4b272faef7",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-30T00:52:00.000Z",
+                        "last_edited_time":  "2026-08-30T00:52:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "callout",
+                        "callout":  {
+                                        "rich_text":  [
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=博物馆网页用来支持实物与技术史，不代表所有早期面包都依相同方法制作。年代不确定时继续使用审慎表述。; link=}",
+                                                              "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                              "plain_text":  "博物馆网页用来支持实物与技术史，不代表所有早期面包都依相同方法制作。年代不确定时继续使用审慎表述。",
+                                                              "href":  null
+                                                          }
+                                                      ],
+                                        "icon":  {
+                                                     "type":  "emoji",
+                                                     "emoji":  "📌"
+                                                 },
+                                        "color":  "yellow_background"
+                                    },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "c8d2b379-5403-448b-9dcf-6bc92d964a44",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_2",
+                        "heading_2":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=原始资料; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "原始资料",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "2a87304f-d327-4b7d-9744-290d10a1fcd9",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T15:31:00.000Z",
+                        "last_edited_time":  "2026-08-29T15:31:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "paragraph",
+                        "paragraph":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=《4.烘焙的历史起源.pptx》，第1–9页。课件中的部分精确人物、年代及“第一台”说法需进一步核实，因此学生讲义以可靠的发展阶段为主。; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "《4.烘焙的历史起源.pptx》，第1–9页。课件中的部分精确人物、年代及“第一台”说法需进一步核实，因此学生讲义以可靠的发展阶段为主。",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "icon":  null,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "b4197b9d-2370-44e2-b669-3c732c5e2df5",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_2",
+                        "heading_2":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=深化学习：烘焙史不是背年份，而是看技术怎样改变食品; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "深化学习：烘焙史不是背年份，而是看技术怎样改变食品",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "77b00d33-b7a9-429d-9281-fcc736337d1d",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-09-07T13:56:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "image",
+                        "image":  {
+                                      "caption":  [
+                                                      {
+                                                          "type":  "text",
+                                                          "text":  "@{content=古埃及揉面石像; link=}",
+                                                          "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                          "plain_text":  "古埃及揉面石像",
+                                                          "href":  null
+                                                      }
+                                                  ],
+                                      "type":  "external",
+                                      "external":  {
+                                                       "url":  "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ancient_Egypt_Stone_Figurine_Kneading_Bread_%2828336642465%29.jpg"
+                                                   }
+                                  },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "0d7a9b9a-4c76-4397-a97a-3ca7b36ae724",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "paragraph",
+                        "paragraph":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=图源：Gary Todd，Wikimedia Commons，CC0。; link=}",
+                                                                "annotations":  "@{bold=False; italic=True; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "图源：Gary Todd，Wikimedia Commons，CC0。",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "icon":  null,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "133ef75e-294b-4a43-a6b2-67aeadbf0069",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_3",
+                        "heading_3":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=技术演变主线; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "技术演变主线",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "91bd2740-cd04-462a-8f8f-6ddb07a1f64d",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "table",
+                        "table":  {
+                                      "table_width":  3,
+                                      "has_column_header":  true,
+                                      "has_row_header":  false
+                                  },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "4d88d16a-7236-4f9e-81f4-922fbf033a56",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_3",
+                        "heading_3":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=看图思考; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "看图思考",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "8f26abec-fde1-4fc8-85cd-bb1059497534",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "paragraph",
+                        "paragraph":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=古代揉面与现代搅拌机的目标相似：把原料均匀混合并形成所需结构。差异在于现代设备能提高速度和批次一致性，但也带来机械夹伤、过度搅拌及清洁消毒等新要求。; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "古代揉面与现代搅拌机的目标相似：把原料均匀混合并形成所需结构。差异在于现代设备能提高速度和批次一致性，但也带来机械夹伤、过度搅拌及清洁消毒等新要求。",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "icon":  null,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "d9684936-f63b-4307-af96-ded8d1bfaa3a",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_3",
+                        "heading_3":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=历史资料的判断原则; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "历史资料的判断原则",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "0092217a-79dc-4f11-811a-c8282107e28a",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "bulleted_list_item",
+                        "bulleted_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=区分考古证据、后世图像与现代推测。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "区分考古证据、后世图像与现代推测。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "630a6964-5b3e-4912-bd4f-15a3d5362272",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "bulleted_list_item",
+                        "bulleted_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=避免随意写“某人发明了第一块面包”。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "避免随意写“某人发明了第一块面包”。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "9cd4f8e8-fc2f-47ab-8288-7fa66e22576d",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "bulleted_list_item",
+                        "bulleted_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=年代不确定时，用“约”“可追溯至”并说明证据来源。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "年代不确定时，用“约”“可追溯至”并说明证据来源。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "70cbfd28-e1c4-48dc-9694-72a157b92481",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "bulleted_list_item",
+                        "bulleted_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=历史内容要连接今日工艺：温控、发酵、卫生、机械化与标准化。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "历史内容要连接今日工艺：温控、发酵、卫生、机械化与标准化。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "34c86039-1fca-4f9d-ad12-f7e8aa448cc1",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_3",
+                        "heading_3":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=课堂时间线任务; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "课堂时间线任务",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "dde8b056-6e44-4013-a9f0-4f5602d6691b",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "paragraph",
+                        "paragraph":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=小组选择“磨粉、发酵、炉具、机械化、冷藏”五项技术，排列其大致发展次序；每项必须写出它解决了什么问题，而不是只写年份。; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "小组选择“磨粉、发酵、炉具、机械化、冷藏”五项技术，排列其大致发展次序；每项必须写出它解决了什么问题，而不是只写年份。",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "icon":  null,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "0c8a995b-ad2f-461f-8d06-aa8f9e5ae848",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_2",
+                        "heading_2":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=自我检测; link=}",
+                                                                "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "自我检测",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "cc5f02d8-1e09-4a8f-bec5-2da8e89d69b8",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=发酵技术对面包最直接的影响是：  ; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "发酵技术对面包最直接的影响是：  ",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "81f513d8-cb7c-46e6-9d8d-f77e64fada39",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=炉具改良主要提升：  ; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "炉具改良主要提升：  ",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "195559bd-0487-4e38-873b-c3ee04136cc5",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=机械化生产的主要优势是：  ; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "机械化生产的主要优势是：  ",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "948f4ceb-3496-4de6-9118-8f97df6b98e1",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=历史资料年代不确定时应：  ; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "历史资料年代不确定时应：  ",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "135479ab-8c9a-4c93-b943-9007ab0d21f7",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=学习烘焙史最有意义的方式是：  ; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "学习烘焙史最有意义的方式是：  ",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "a060b7d7-1b2b-4e07-9821-b40e466756b5",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "paragraph",
+                        "paragraph":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=结构题; link=}",
+                                                                "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                "plain_text":  "结构题",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "icon":  null,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "ca14cc4e-cf35-4e8e-ac29-559d3f0a8fde",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=比较古代手工揉面与现代机械搅拌，各写一项优点、一项限制。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "比较古代手工揉面与现代机械搅拌，各写一项优点、一项限制。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "424b63fd-70b0-4aac-9740-4b264c77f9cf",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "numbered_list_item",
+                        "numbered_list_item":  {
+                                                   "rich_text":  [
+                                                                     {
+                                                                         "type":  "text",
+                                                                         "text":  "@{content=说明发酵、温控炉具及冷藏三项技术如何分别提升产品质量或安全。; link=}",
+                                                                         "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                                         "plain_text":  "说明发酵、温控炉具及冷藏三项技术如何分别提升产品质量或安全。",
+                                                                         "href":  null
+                                                                     }
+                                                                 ],
+                                                   "color":  "default",
+                                                   "list_format":  "numbers"
+                                               },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "d0819517-72ba-4be7-aa90-1cf146328198",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-08-29T16:04:00.000Z",
+                        "last_edited_time":  "2026-08-29T16:04:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "toggle",
+                        "toggle":  {
+                                       "rich_text":  [
+                                                         {
+                                                             "type":  "text",
+                                                             "text":  "@{content=答案与评分要点; link=}",
+                                                             "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                             "plain_text":  "答案与评分要点",
+                                                             "href":  null
+                                                         }
+                                                     ],
+                                       "color":  "green_background"
+                                   },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d2138c5-b398-81f7-99b3-e787614ef3a2",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-05T08:21:00.000Z",
+                        "last_edited_time":  "2026-09-05T08:21:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "divider",
+                        "divider":  {
+
+                                    },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d2138c5-b398-8178-9fbe-dddafbd12a0c",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-05T08:21:00.000Z",
+                        "last_edited_time":  "2026-09-05T08:21:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "heading_2",
+                        "heading_2":  {
+                                          "rich_text":  [
+                                                            {
+                                                                "type":  "text",
+                                                                "text":  "@{content=🌟 2026 专业深度进阶与排查体系; link=}",
+                                                                "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=blue}",
+                                                                "plain_text":  "🌟 2026 专业深度进阶与排查体系",
+                                                                "href":  null
+                                                            }
+                                                        ],
+                                          "is_toggleable":  false,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d2138c5-b398-8126-a295-e8674781afdd",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-05T08:21:00.000Z",
+                        "last_edited_time":  "2026-09-05T08:21:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "callout",
+                        "callout":  {
+                                        "rich_text":  [
+                                                          {
+                                                              "type":  "text",
+                                                              "text":  "@{content=【中英法三语术语】谷物栽培 Cereal cultivation；磨粉技术 Milling technology；工业化生产 Industrialisation；商业酵母 Commercial yeast\n【法文专业点心词】Boulangerie (传统法式面包烘焙坊)；Boulanger (面包烘焙师)\n【量化工艺标准控制】商业压缩酵母发明年份 1860s；现代全麦粉出粉率 100%；精白面粉标准出粉率约 70%–72%。; link=}",
+                                                              "annotations":  "@{bold=False; italic=False; strikethrough=False; underline=False; code=False; color=default}",
+                                                              "plain_text":  "【中英法三语术语】谷物栽培 Cereal cultivation；磨粉技术 Milling technology；工业化生产 Industrialisation；商业酵母 Commercial yeast\n【法文专业点心词】Boulangerie (传统法式面包烘焙坊)；Boulanger (面包烘焙师)\n【量化工艺标准控制】商业压缩酵母发明年份 1860s；现代全麦粉出粉率 100%；精白面粉标准出粉率约 70%–72%。",
+                                                              "href":  null
+                                                          }
+                                                      ],
+                                        "icon":  {
+                                                     "type":  "emoji",
+                                                     "emoji":  "🇫🇷"
+                                                 },
+                                        "color":  "gray_background"
+                                    },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d2138c5-b398-814e-8655-c1788eea6956",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-05T08:21:00.000Z",
+                        "last_edited_time":  "2026-09-05T08:21:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "toggle",
+                        "toggle":  {
+                                       "rich_text":  [
+                                                         {
+                                                             "type":  "text",
+                                                             "text":  "@{content=🛠️ 实作缺陷诊断与工艺救治排查表（点击展开查看）; link=}",
+                                                             "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=orange}",
+                                                             "plain_text":  "🛠️ 实作缺陷诊断与工艺救治排查表（点击展开查看）",
+                                                             "href":  null
+                                                         }
+                                                     ],
+                                       "color":  "default"
+                                   },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d2138c5-b398-81b3-b794-ccae12a97f35",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-05T08:21:00.000Z",
+                        "last_edited_time":  "2026-09-05T08:21:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "toggle",
+                        "toggle":  {
+                                       "rich_text":  [
+                                                         {
+                                                             "type":  "text",
+                                                             "text":  "@{content=📝 本课统考自测思考题与参考答案解析（点击展开复习）; link=}",
+                                                             "annotations":  "@{bold=True; italic=False; strikethrough=False; underline=False; code=False; color=green}",
+                                                             "plain_text":  "📝 本课统考自测思考题与参考答案解析（点击展开复习）",
+                                                             "href":  null
+                                                         }
+                                                     ],
+                                       "color":  "default"
+                                   },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d3138c5-b398-819f-8c75-c81eb1c81675",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-06T09:41:00.000Z",
+                        "last_edited_time":  "2026-09-07T13:58:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "3ca138c5-b398-815c-b85a-0027b8d6e6a5"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "child_page",
+                        "child_page":  {
+                                           "title":  "标准复习题（50题含深度解析）"
+                                       },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d4138c5-b398-802d-b34c-ed13af4aa54b",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-07T13:55:00.000Z",
+                        "last_edited_time":  "2026-09-07T13:55:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  true,
+                        "in_trash":  false,
+                        "type":  "column_list",
+                        "column_list":  {
+
+                                        },
+                        "archived":  false
+                    },
+                    {
+                        "object":  "block",
+                        "id":  "3d4138c5-b398-8063-8a78-f7b6467ff23d",
+                        "parent":  {
+                                       "type":  "page_id",
+                                       "page_id":  "3cb138c5-b398-813e-804c-e44f0ead6f66"
+                                   },
+                        "created_time":  "2026-09-07T13:56:00.000Z",
+                        "last_edited_time":  "2026-09-07T13:56:00.000Z",
+                        "created_by":  {
+                                           "object":  "user",
+                                           "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                       },
+                        "last_edited_by":  {
+                                               "object":  "user",
+                                               "id":  "640c8bfe-cd1c-4e43-af5c-efb391148dc9"
+                                           },
+                        "has_children":  false,
+                        "in_trash":  false,
+                        "type":  "paragraph",
+                        "paragraph":  {
+                                          "rich_text":  [
+
+                                                        ],
+                                          "icon":  null,
+                                          "color":  "default"
+                                      },
+                        "archived":  false
+                    }
+                ],
+    "next_cursor":  null,
+    "has_more":  false,
+    "type":  "block",
+    "block":  {
+
+              },
+    "request_id":  "49693df2-bf68-46d7-b2bd-c0dc0f0749dd"
+}

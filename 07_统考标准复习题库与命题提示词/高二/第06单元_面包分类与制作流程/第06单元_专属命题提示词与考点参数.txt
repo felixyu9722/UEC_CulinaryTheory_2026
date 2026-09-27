@@ -1,0 +1,44 @@
+================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高二 第06单元｜面包分类与制作流程 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高二（Senior Two）
+• 单元：第06单元 面包分类与制作流程
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 面包两大基础分类与配方流变学：
+   - 瘦面团（Lean Dough）：极低或零油脂糖分（糖油脂通常各 < 3%~4%），主要原料为高筋粉、水、酵母、食盐；成品外壳松脆硬脆（Crispy crust）、内部孔洞粗犷多孔、咀嚼感强麦香纯正（如法式长棍 Baguette、硬欧包）；
+   - 丰富/甜软面团（Enriched Dough）：高糖高脂高蛋奶（糖 10%~20%，黄油 8%~25% 以上），如布里欧修（Brioche，黄油高达 50%）、日式甜面包、餐包；组织极其柔软细密（Soft crumb）、保水性好；
+   - 开酥起酥面团（Laminated Dough）：面团包入大片裹入黄油，经过多次折叠擀压（如可颂 Croissant、丹麦面包）。
+2. 面包商业生产 12 步标准工艺流程全景链：
+   - 秤量原料（Scaling） → 搅拌面团（Mixing） → 基础发酵（Bulk Fermentation，翻面排气 Punch Down） → 分割（Dividing） → 滚圆（Rounding） → 中间醒发/松弛（Bench Rest） → 整形（Moulding/Shaping） → 入模/排盘（Panning） → 最后发酵（Final Proofing，温度 36~38℃，湿度 80%~85%） → 烘烤（Baking，喷蒸汽与急胀 Oven Spring） → 冷却（Cooling，降至 35℃ 内部） → 切片包装（Packaging）。
+3. 主流发酵工法对比与食品科学机理：
+   - 直接法（Straight Dough Method）：一次性将所有原料投入搅拌发酵，流程简短直观、麦香直接，但面团水合发酵时间短、抗老化能力弱、组织较易粗硬；
+   - 中种法（Sponge and Dough Method）：先将约 70%~80% 面粉与部分水、酵母调制成“中种面团”发酵数小时甚至隔夜低温发酵，再与剩余主面团主原料混合搅拌；优点：发酵耐力强、面团酸度温和、体积比容大、组织极细腻柔韧、货架期抗老化能力大幅提升；
+   - 汤种/烫面法（Tangzhong）：65℃ 预先糊化淀粉，大幅锁住结合水，成品极其湿润拉丝。
+4. 典型后厨工序失误与事故（Troubleshooting）：
+   - 滚圆过度导致面筋断裂表面破皮粗糙、中间醒发不足强行整形导致回弹收缩与断筋；
+   - 基础发酵未翻面导致发酵产物局部过浓、气孔大小不一且面筋张力不足；
+   - 冷却不足趁热包装导致水汽凝结滋生霉菌、表皮发黏湿烂。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，独中统考专业教科书风格）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional Chinese baking science textbook infographic, 16:9 aspect ratio, 4k. Title in large bold Simplified Chinese: '面包经典分类与12步商业制作工艺全景流程图' (Bread Classifications & 12-Step Commercial Production Flowchart). Left side: Comparative illustration of 3 bread types with crumb cuts: '瘦面团硬欧' (Lean Dough: crispy crust, open irregular alveoli), '丰富甜软面团' (Enriched Dough: soft golden tender crumb), and '起酥开酥面团' (Laminated Croissant: honeycomb multi-layered flakiness). Right side: 12-step sequential cyclical manufacturing flow with bold Chinese labels from '1. 精确称量' (Scaling), '2. 面团搅拌' (Mixing), '3. 基础发酵与翻面' (Bulk Fermentation), '4. 精准分割' (Dividing), '5. 紧实滚圆' (Rounding), '6. 中间醒发' (Bench Rest), '7. 规范整形' (Shaping), '8. 入模排盘' (Panning), '9. 最终醒发' (Final Proofing), '10. 蒸汽烘焙' (Baking), '11. 悬挂冷却' (Cooling), to '12. 切片包装' (Packaging). Clear arrows, Chinese text prominently larger than English, 16:9.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional Chinese commercial bakery troubleshooting infographic, 16:9 aspect ratio. Two-panel comparative failure diagnosis diagram illustrating '直接法与中种法工艺路线对比及发酵组织缺陷剖面图' (Straight Dough vs Sponge Dough Process & Crumb Defects). Left panel '直接法操作失误缺陷' (Direct Method Mishap): short proofing, coarse dense crumb, pale dry crust, rapid staling and tunneling holes. Right panel '标准中种法完美面包' (Sponge Method Mastery): 70% sponge overnight cold fermentation, high specific volume, paper-thin golden crust, uniform silky feather-like crumb, excellent elasticity. Technical cutaways, bold Simplified Chinese titles with smaller English sub-labels, Chinese text prominently larger than English, 16:9.

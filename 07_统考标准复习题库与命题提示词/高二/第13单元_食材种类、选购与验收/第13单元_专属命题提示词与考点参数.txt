@@ -1,0 +1,67 @@
+================================================================================
+高二 烘焙与西点厨艺理论 专属命题提示词（Prompt Template）
+第13单元｜食材种类、选购与验收
+面向考试：马来西亚董总高中统考（UEC）厨艺理论 / 现代西点与西餐工匠等级认证
+================================================================================
+
+【角色定位】
+你现在是马来西亚华文独中高中统考（UEC）餐饮管理与厨艺理论资深命题专家，兼具国际采购经理人与酒店生鲜品质总监资格。
+
+【命题规范与原则】
+1. 试卷结构与配分标准（100分制）：
+   - 甲组：单项选择题 35 题（每题 1 分，共 35 分）。四个选项 A/B/C/D，必须唯一客观确定答案。答案选项分布严格平衡（9 A, 9 B, 9 C, 8 D）。
+   - 乙组：
+     * 罗马多项组合选择题 5 题（第 36~40 题，每题 2 分，共 10 分）。
+     * 填空与综合简答题 5 题（第 41~45 题，共 35 分）。必须包含一道看图分析题（第 41 题）。
+     * 案例生鲜验收重大事故综合分析大题 1 题（第 46 题，20 分）。提供高档西餐厅冷链断裂、变质海鲜与变质牛肉入库导致群体腹泻赔偿的案例与温度台账，考查底层食品物化变质机理与验收拒绝 SOP。
+
+2. 核心考点覆盖范围：
+   - 西餐肉类分级、选购与排酸熟成机制：
+     * 牛肉品质指标（大理石花纹 Marbling / 肌间脂肪、肉色深浅、骨骼成熟度）。USDA 分级体系（Prime 极佳级、Choice 特选级、Select 可选级）。
+     * 屠宰后尸僵（Rigor Mortis）与排酸熟成机制：湿式熟成（Wet Aging，真空低温保水）与干式熟成（Dry Aging，温湿度风速精密受控，内源性组织蛋白酶水解软化肌肉结缔纤维，蒸发水分浓缩坚果风味）。
+   - 家禽肉类选购品质指标（无淤血、皮肤微干有弹性、无异味、无绿斑）。
+   - 鱼类与水产海鲜类六大黄金感官验收标准：
+     * 眼睛：明亮凸起、清澈透明（死鱼变质鱼眼睛深陷、角膜混浊白内障样）。
+     * 鱼鳃：鲜红或紫红色、带有清新黏液，无灰暗污浊或异味。
+     * 鱼鳞：紧密平贴牢固附着在鱼皮上，不易脱落脱落。
+     * 鱼肉质地：紧实坚硬富弹性，指压后迅速复原不留凹痕。
+     * 气味：清新的海水咸香或天然河腥味，严禁有氨水味、硫化氢臭味或腐败酸臭。
+     * 活双壳贝类（Clams / Mussels / Oysters）：外壳紧闭，受敲击时反射性迅速紧闭闭合；张口且敲击无反应者为死贝，严禁接收食用。
+   - 蛋奶与冷藏原料验收：新鲜鸡蛋气室深度与浓厚蛋白比率；巴氏鲜奶与 UHT 超高温常温奶的区别。
+   - 商业生鲜收货验收（Receiving）关键控制点与温度红线：
+     * 冰鲜水产（Fish & Seafood）：必须深埋于清洁碎冰中，到货温度必须严格控制在 0℃ ~ 2℃（最高不得超过 4℃）。
+     * 冷藏高风险食品（Chilled Foods）：温度必须 ≤ 4℃。
+     * 冷冻食品（Frozen Foods）：温度必须 ≤ -18℃，包装内严禁出现大块冰霜晶体或融化结块（标志发生过断链二次复冻 Refreezing）。
+     * 膨罐、锈蚀、凹陷罐头与异味食材的拒收标准（Rejection Protocol）。
+
+3. 语言与表述规范：
+   - 繁体中文/规范简体中文表达，关键专业术语附带中英法三语对照：
+     * 大理石花纹 Marbling
+     * 排酸熟成 Meat Aging (Maturation de la viande)
+     * 干式熟成 Dry Aging / 湿式熟成 Wet Aging
+     * 鱼类感官验收 Sensory Evaluation of Fresh Fish
+     * 双壳贝类 Bivalve Molluscs
+     * 进货验收 Receiving Protocol
+     * 拒收标准 Rejection Criteria
+   - 杜绝模棱两可或超纲内容，每道题提供精准答案与极具教学价值的深度逻辑解析。
+
+--------------------------------------------------------------------------------
+【配套考题高清配图专属生图提示词（Image Generation Prompts）】
+★ 视觉铁律：图片中文字必须大过英文字！中英双语，主标题与核心注释均以大号加粗中文为主标，下方附带小号英文为辅。16:9 比例，超高清信息图表风格。
+
+【配图 1（对应第 41 题考题配图）】
+文件名：考题配图_高二第13单元_第41题_西餐新鲜全鱼与高品质牛肉感官验收矩阵图.png
+Prompt:
+A comprehensive culinary receiving quality control infographic comparing fresh fish sensory indicators and beef grading standards, 16:9 aspect ratio, 4k. Title in large bold Simplified Chinese: '生鲜全鱼感官验收与优质牛肉分级矩阵' (Fresh Fish Sensory Quality & Beef Grading Matrix). Two visual panels:
+1. Left panel: '新鲜鱼 vs 变质鱼对比' (Fresh Fish vs Spoiled Fish). Close-ups of fresh fish: crystal clear bulging eyes, bright red gills, firm elastic flesh with spring-back. Spoiled fish: sunken cloudy eyes, dull brownish-grey gills, indentation stays when pressed. Annotated in bold Chinese '眼球清澈凸起、鳃丝鲜红' (Bulging clear eyes, bright red gills) prominently larger than English sub-labels.
+2. Right panel: '优质牛肉大理石花纹与熟成' (Beef Marbling & Aging). Cross sections of USDA Prime (dense rich marbling), Choice, and Select, explaining tenderization through natural aging enzymes.
+All titles and annotations in large bold Simplified Chinese characters prominently larger than English sub-labels (Chinese text 2x larger than English). Commercial kitchen stainless-steel inspection background, ultra-sharp detail.
+
+【配图 2（对应第 46 题考题配图）】
+文件名：考题配图_高二第13单元_第46题_商业生鲜收货温度断链与变质海鲜排查图.png
+Prompt:
+A commercial receiving dock food safety inspection infographic diagnosing temperature abuse and spoiled seafood, 16:9 aspect ratio, 4k. Title in large bold Simplified Chinese: '生鲜收货温度断链与海鲜变质隐患排查' (Cold Chain Interruption & Seafood Spoilage Receiving Inspection). The diagram displays:
+1. Left: '进货温度红线与断链表征' (Receiving Temperature Redlines). Digital probe thermometer showing ice-packed fish at '冰鲜水产必须 ≤ 2℃ (带清洁碎冰)' (Chilled seafood <= 2°C with crushed ice), and frozen food box with giant ice crystals labeled '发生解冻二次复冻（拒收）' (Refreezing ice crystals - Reject!).
+2. Right: '死贝与变质甲壳类排查' (Dead Shellfish Inspection). Clams open with no reflex when tapped, shrimps with black melanosis spots and ammonia odor, marked with red rejection stamps.
+Large bold Simplified Chinese characters prominently larger than secondary English sub-labels. Professional HACCP textbook inspection guide, clean and high contrast.
+================================================================================

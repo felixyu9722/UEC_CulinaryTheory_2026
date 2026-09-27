@@ -1,0 +1,47 @@
+﻿================================================================================
+2026年马来西亚华文独中高中统考（UEC）厨艺（烘焙理论）
+高二 第02单元｜蛋糕搅拌法与蛋白打发 专属命题提示词与考点参数
+================================================================================
+
+【命题元数据定义】
+• 适用考试：2026年马来西亚华文独中高中统考（UEC）厨艺科（烘焙理论与实务）
+• 年级：高二（Senior Two）
+• 单元：第02单元 蛋糕搅拌法与蛋白打发
+• 对应教材与国际标准：独中高中厨艺课纲 / 法式国际西点标准（City & Guilds 8065 / Le Cordon Bleu 规范）
+• 试卷规格：标准 100 分制（75分钟）：
+  - 甲组：单项选择题 35 题（每题 1 分，共 35 分。ABCD 长度均等，答案 9/9/9/8 均衡分布）
+  - 乙组：罗马数字组合选择题 5 题（每题 2 分，共 10 分）
+  - 丙组：工艺简答、理化推导与图表读图题 5 题（每题 7 分，共 35 分。含专属图表综合分析题）
+  - 丁组：后厨真实生产事故情景案例分析题 1 题（共 20 分。含事故机理解剖与主厨纠偏 SOP）
+
+--------------------------------------------------------------------------------
+【核心考点与命题参数矩阵】
+--------------------------------------------------------------------------------
+1. 蛋糕三大主流搅拌法充气机制与工艺对比：
+   - 糖油拌合法（Creaming Method / 法: Crémer）：固体黄油（18~22℃软化可塑态）与细砂糖高速摩擦，糖晶棱角刮入空气微囊（Air cells）；分次加入室温全蛋彻底乳化（卵磷脂稳定水包油型 O/W 乳化液）；
+   - 面粉油脂拌合法（Flour-batter Method）：面粉先与油脂搓揉包覆，油脂膜隔离水分子阻断麦谷蛋白与醇溶蛋白结合（强力阻断起筋），蛋糖单独打发后混入，质地极其细腻绵密；
+   - 全蛋海绵打发法（Genoise Method）：全蛋液加糖隔水加温至 38~40℃（降低表面张力，提高蛋黄中油脂流动性与起泡性），中高速搅打至泛白浓稠、滴落能画出清晰“8”字且保持3秒不塌；
+   - 分蛋戚风法（Chiffon Method）：蛋黄糊（水油乳化液+低粉）与蛋白霜（分次加糖打发至湿性偏干发泡）以切拌法混匀。
+2. 蛋白打发四阶段流变学状态与微观机制：
+   - 阶段一：起泡期（Foamy stage，大而透明粗气泡，加入酸性物质如塔塔粉/柠檬酸，调节pH至5.0~5.5，降低卵类黏蛋白电荷斥力以强化蛋白质网膜）；
+   - 阶段二：湿性/软性发泡（Soft peak，细密白色泡沫，提起打蛋头呈下垂大弯钩，气壁较厚弹性好，适合轻乳酪蛋糕、天使蛋糕、生乳卷）；
+   - 阶段三：中性/坚挺发泡（Firm peak / Stiff peak，提起打蛋头呈直立或微弯锐利尖角，充气量充足且骨架强韧，适合标准戚风蛋糕）；
+   - 阶段四：干性/棉花过度发泡（Over-beaten，泡沫碎裂失光泽，呈豆腐渣状析水，蛋白质变性过度致网膜脆裂，面糊极易消泡塌陷）。
+3. 翻拌（Folding）手法力学原理与消泡预防：
+   - 严禁画圈搅拌！画圈形成强剪切流，不仅撞碎脆弱气泡，而且强力激活面筋水合，导致严重消泡与蛋糕起筋坚韧；
+   - 翻拌法（Folding / J-cut）：刮刀自中央切入深至盆底，沿盆壁翻起包覆，左手转动搅拌盆30~60度，动作轻快平稳，在1分钟内完成面粉与气泡糊的无死角混匀。
+4. 典型后厨生产事故与排查（Troubleshooting）：
+   - 海绵蛋糕出炉矮小僵硬如胶垫、组织粗大结块（蛋液未加温打发不足、面粉加入后画圈过度起筋消泡）；
+   - 戚风蛋糕底部分层沉淀“布丁死面胶层”（蛋黄糊与蛋白霜比重悬殊、翻拌不匀沉底，或翻拌过猛导致底部消泡出水）；
+   - 糖油拌合出现“水浸豆腐渣破乳”（蛋液冷藏4℃直接加入，油脂凝固脱离乳化环，或一次性倾倒大量蛋液超过卵磷脂乳化极值）。
+
+--------------------------------------------------------------------------------
+【专属配套考题配图生图提示词与视觉排版规范（严格执行：中文字大过英文字）】
+--------------------------------------------------------------------------------
+• 视觉排版铁律：
+  1. 比例与精度：标准 16:9 宽屏超高清图谱（4K 分辨率，独中统考专业教科书风格）。
+  2. 双语文字层级原则：必须严格遵循【大号加粗简体中文为主标题/主标签，下方附带小号英文专业术语为辅（中文字号显著大于英文字号，字号比约 2:1）】，严禁全英文生成！
+• 丙组第41题专属图表生图 Prompt：
+  Professional Chinese culinary science textbook infographic, 16:9 aspect ratio, high resolution. Title in large bold Simplified Chinese: '蛋白霜四种打发状态与微观网膜图' (Egg White Whipping States & Microstructure). Four sequential stages from left to right with large bold Chinese headings and smaller English sub-labels: 1. '起泡期' (Foamy Stage) - transparent coarse bubbles, pH regulation with cream of tartar; 2. '湿性发泡' (Soft Peak) - fine white glossy foam with curved soft hook when whisk lifted, for soufflé cheesecake; 3. '中性至坚挺发泡' (Firm / Stiff Peak) - sharp upright straight peak, elastic strong protein network, for chiffon cake; 4. '干性过度发泡' (Over-whipped Dry Stage) - lumpy curdled syneresis with separated water, broken network. Clear circular microstructural bubble callouts below each stage. Clean modern culinary textbook layout, Chinese characters prominently larger than English, 16:9.
+• 丁组第46题专属情景案例生图 Prompt：
+  Professional Chinese culinary school textbook infographic, 16:9 aspect ratio. Two-panel comparative failure diagnosis diagram with main title in large bold Simplified Chinese: '海绵蛋糕翻拌手法对比与消泡起筋故障分析' (Sponge Cake Folding Technique vs Deflation Failure). Left panel '错误操作：高速画圈机械搅拌' (Disaster: High-Speed Circular Mixing) showing electric hand mixer vigorously spinning in cake batter after flour addition, shear stress destroying air cells (严重消泡起筋), resulting in collapsed rubbery sponge cake with tunneling holes and a thick dense gummy pudding bottom layer. Right panel '专业操作：法式J字切拌手法' (Master Technique: French J-Cut Folding) showing pastry chef using silicone spatula slicing down center, scooping along curved bowl bottom, folding up with 45 degree bowl turn, producing tall golden fluffy sponge cake with fine uniform crumb. Technical callouts in bold Simplified Chinese with English sub-labels, Chinese text noticeably larger, 16:9.

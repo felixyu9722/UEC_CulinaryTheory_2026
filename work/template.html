@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026年统考厨艺（烘焙理论）高一第10至15课·生活常识互动答题系统</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #92400E;
+      --primary-light: #FDE68A;
+      --primary-dark: #78350F;
+      --accent: #D97706;
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --text: #1E293B;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+      --correct: #10B981;
+      --correct-bg: #ECFDF5;
+      --correct-border: #A7F3D0;
+      --wrong: #EF4444;
+      --wrong-bg: #FEF2F2;
+      --wrong-border: #FECACA;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+      background: #FDFBF7;
+      color: var(--text);
+      line-height: 1.6;
+      padding-bottom: 80px;
+    }
+
+    /* Header & Navigation - Slim & Compact */
+    header {
+      background: linear-gradient(135deg, #78350F 0%, #92400E 100%);
+      color: white;
+      padding: 10px 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-container {
+      max-width: 1060px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .brand-title {
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .brand-badge {
+      background: rgba(255, 255, 255, 0.2);
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .brand-sub {
+      font-size: 0.8rem;
+      color: #FDE68A;
+      opacity: 0.9;
+    }
+
+    /* Compact HUD Dashboard */
+    .hud-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 9999px;
+      padding: 3px 10px;
+    }
+
+    .hud-pill {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      font-size: 0.82rem;
+    }
+
+    .hud-label {
+      font-size: 0.74rem;
+      opacity: 0.85;
+      font-weight: 600;
+    }
+
+    .hud-value {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 0.98rem;
+    }
+
+    .pill-correct {
+      background: rgba(16, 185, 129, 0.22);
+      color: #A7F3D0;
+    }
+
+    .pill-wrong {
+      background: rgba(239, 68, 68, 0.22);
+      color: #FECACA;
+    }
+
+    .reset-btn {
+      padding: 6px 14px;
+      background: rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      border-radius: 8px;
+      color: white;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .reset-btn:hover {
+      background: rgba(255, 255, 255, 0.28);
+    }
+
+    /* Main Container */
+    main {
+      max-width: 1000px;
+      margin: 28px auto;
+      padding: 0 16px;
+    }
+
+    /* Premium Space-Saving Control Panel (Grid Layout, Perfectly Balanced) */
+    .control-panel {
+      display: grid;
+      grid-template-columns: minmax(380px, 520px) 1fr;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
+    @media (max-width: 860px) {
+      .control-panel {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+    }
+
+    .control-card {
+      background: white;
+      border: 1.5px solid #E2E8F0;
+      border-radius: 12px;
+      padding: 8px 14px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      transition: all 0.2s ease;
+    }
+
+    .control-card:focus-within {
+      border-color: #92400E;
+      box-shadow: 0 0 0 3px rgba(146, 64, 14, 0.12);
+    }
+
+    .card-label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .label-icon {
+      font-size: 1.15rem;
+    }
+
+    .label-text {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #334155;
+    }
+
+    .select-container {
+      position: relative;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      min-width: 0;
+    }
+
+    .chapter-select {
+      width: 100%;
+      height: 42px;
+      padding: 0 36px 0 12px;
+      font-size: 0.98rem;
+      font-weight: 600;
+      color: #1E293B;
+      background: #F8FAFC;
+      border: 1.5px solid #CBD5E1;
+      border-radius: 9px;
+      outline: none;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .chapter-select:hover {
+      background: #FFFDF7;
+      border-color: #D97706;
+    }
+
+    .chapter-select:focus {
+      background: white;
+      border-color: #92400E;
+    }
+
+    .select-arrow {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      color: #78350F;
+      font-size: 0.75rem;
+      font-weight: bold;
+    }
+
+    .search-container {
+      position: relative;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      min-width: 0;
+    }
+
+    .search-input {
+      width: 100%;
+      height: 42px;
+      padding: 0 34px 0 12px;
+      font-size: 0.95rem;
+      color: #1E293B;
+      background: #F8FAFC;
+      border: 1.5px solid #CBD5E1;
+      border-radius: 9px;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+
+    .search-input:focus {
+      background: white;
+      border-color: #92400E;
+    }
+
+    .clear-search-btn {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      border: none;
+      background: #E2E8F0;
+      color: #64748B;
+      font-size: 0.75rem;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+
+    .clear-search-btn:hover {
+      background: #CBD5E1;
+      color: #1E293B;
+    }
+
+    .action-btn {
+      padding: 9px 16px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .action-btn:hover {
+      background: #F1F5F9;
+    }
+
+    /* Question Cards - Spacious, High-Contrast & Clear */
+    .question-card {
+      background: var(--card-bg);
+      border: 1.5px solid #E2E8F0;
+      border-radius: 16px;
+      padding: 26px 30px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .question-card:hover {
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .q-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      gap: 12px;
+    }
+
+    .q-tag {
+      font-size: 0.84rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 8px;
+      background: #FEF3C7;
+      color: #92400E;
+    }
+
+    .q-tag.roman {
+      background: #EDE9FE;
+      color: #6D28D9;
+    }
+
+    .q-chapter-badge {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .q-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.65;
+      color: #0F172A;
+      margin-bottom: 22px;
+      white-space: pre-line;
+      letter-spacing: -0.2px;
+    }
+
+    /* Options List - Large, High-Contrast & Interactive */
+    .options-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .option-item {
+      display: flex;
+      align-items: center;
+      min-height: 64px;
+      padding: 16px 22px;
+      border: 2px solid #E2E8F0;
+      border-radius: 14px;
+      background: white;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      user-select: none;
+      position: relative;
+    }
+
+    .option-item:hover:not(.locked) {
+      border-color: #D97706;
+      background: #FFFDF7;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(217, 119, 6, 0.14);
+    }
+
+    .option-item:active:not(.locked) {
+      transform: scale(0.99);
+    }
+
+    .opt-letter {
+      width: 42px;
+      height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      background: #F1F5F9;
+      font-weight: 800;
+      font-size: 1.2rem;
+      margin-right: 18px;
+      flex-shrink: 0;
+      color: #475569;
+      transition: all 0.2s ease;
+    }
+
+    .opt-text {
+      font-size: 1.15rem;
+      font-weight: 500;
+      line-height: 1.5;
+      flex: 1;
+      color: #1E293B;
+    }
+
+    /* Option Selected States */
+    .option-item.correct {
+      border-color: #10B981;
+      background: #F0FDF4;
+      box-shadow: 0 4px 16px rgba(16, 185, 129, 0.16);
+    }
+
+    .option-item.correct .opt-letter {
+      background: #10B981;
+      color: white;
+      box-shadow: 0 2px 6px rgba(16, 185, 129, 0.35);
+    }
+
+    .option-item.correct .opt-text {
+      font-weight: 600;
+      color: #065F46;
+    }
+
+    .option-item.wrong {
+      border-color: #EF4444;
+      background: #FEF2F2;
+      box-shadow: 0 4px 16px rgba(239, 68, 68, 0.16);
+    }
+
+    .option-item.wrong .opt-letter {
+      background: #EF4444;
+      color: white;
+      box-shadow: 0 2px 6px rgba(239, 68, 68, 0.35);
+    }
+
+    .option-item.wrong .opt-text {
+      font-weight: 600;
+      color: #991B1B;
+    }
+
+    .option-item.should-have-chosen {
+      border-color: #10B981;
+      border-style: dashed;
+      background: #F0FDF4;
+    }
+
+    .option-item.should-have-chosen .opt-letter {
+      background: #ECFDF5;
+      border: 2px solid #10B981;
+      color: #10B981;
+    }
+
+    /* Explanation Box */
+    .explanation-box {
+      margin-top: 22px;
+      padding: 20px 24px;
+      background: #F0F9FF;
+      border-left: 5px solid #0284C7;
+      border-radius: 12px;
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .explanation-box.show {
+      display: block;
+    }
+
+    .exp-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #0369A1;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+
+    .exp-body {
+      font-size: 1.05rem;
+      color: #1E293B;
+      line-height: 1.7;
+    }
+
+
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Responsive */
+    /* Responsive */
+    @media (max-width: 768px) {
+      header { padding: 8px 12px; }
+      .brand-title { font-size: 1rem; }
+      .brand-sub { display: none; }
+      .hud-bar { padding: 2px 6px; gap: 4px; }
+      .hud-pill { padding: 2px 6px; }
+      .hud-label { font-size: 0.7rem; }
+      .hud-value { font-size: 0.88rem; }
+      .question-card { padding: 18px 20px; }
+      .q-title { font-size: 1.12rem; }
+      .option-item { min-height: 56px; padding: 12px 16px; }
+      .opt-letter { width: 34px; height: 34px; font-size: 1.05rem; margin-right: 12px; }
+      .opt-text { font-size: 1.02rem; }
+    }
+    /* Grade Portal Screen (登录与年段选择门户) */
+    .portal-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at 50% 20%, #FFFDF9 0%, #F5EBE1 100%);
+      z-index: 1000;
+      overflow-y: auto;
+      padding: 40px 20px 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    .portal-screen.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .portal-container {
+      max-width: 1160px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .portal-hero {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .portal-badge {
+      display: inline-block;
+      background: #FEF3C7;
+      color: #92400E;
+      border: 1px solid #FCD34D;
+      padding: 4px 16px;
+      border-radius: 9999px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 14px;
+    }
+
+    .portal-title {
+      font-size: 2.3rem;
+      font-weight: 800;
+      color: #78350F;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+
+    .portal-desc {
+      font-size: 1.05rem;
+      color: #64748B;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .grade-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-bottom: 36px;
+    }
+
+    @media (max-width: 960px) {
+      .grade-cards-grid {
+        grid-template-columns: 1fr;
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .portal-title {
+        font-size: 1.8rem;
+      }
+    }
+
+    .grade-card {
+      background: white;
+      border: 2px solid #E2E8F0;
+      border-radius: 20px;
+      padding: 30px 24px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+    }
+
+    .grade-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 36px rgba(120, 53, 15, 0.12);
+      border-color: #D97706;
+    }
+
+    .grade-card.ready {
+      border-color: #FCD34D;
+      background: linear-gradient(180deg, #FFFFFF 0%, #FFFDF8 100%);
+    }
+
+    .grade-card.ready:hover {
+      border-color: #92400E;
+    }
+
+    .card-status-badge {
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      align-self: flex-start;
+      margin-bottom: 16px;
+    }
+
+    .badge-ready {
+      background: #DCFCE7;
+      color: #15803D;
+      border: 1px solid #86EFAC;
+    }
+
+    .badge-pending {
+      background: #F1F5F9;
+      color: #64748B;
+      border: 1px solid #CBD5E1;
+    }
+
+    .card-icon {
+      font-size: 3rem;
+      margin-bottom: 12px;
+      line-height: 1;
+    }
+
+    .grade-num {
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: #D97706;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .grade-name {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: #1E293B;
+      line-height: 1.35;
+      margin-bottom: 12px;
+    }
+
+    .grade-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+
+    .grade-tags span {
+      background: #F8FAFC;
+      border: 1px solid #E2E8F0;
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      color: #475569;
+      font-weight: 600;
+    }
+
+    .grade-summary {
+      font-size: 0.92rem;
+      color: #64748B;
+      line-height: 1.6;
+      margin-bottom: 24px;
+      flex: 1;
+    }
+
+    .grade-action-btn {
+      width: 100%;
+      padding: 12px;
+      border-radius: 12px;
+      font-size: 0.98rem;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .btn-active {
+      background: linear-gradient(135deg, #92400E 0%, #78350F 100%);
+      color: white;
+      box-shadow: 0 4px 12px rgba(120, 53, 15, 0.25);
+    }
+
+    .btn-active:hover {
+      box-shadow: 0 6px 18px rgba(120, 53, 15, 0.35);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: #F8FAFC;
+      color: #475569;
+      border: 1px solid #CBD5E1;
+    }
+
+    .btn-secondary:hover {
+      background: #E2E8F0;
+      color: #1E293B;
+    }
+
+    .portal-footer {
+      text-align: center;
+      font-size: 0.88rem;
+      color: #94A3B8;
+      max-width: 720px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .portal-switch-btn {
+      padding: 6px 12px;
+      background: rgba(255, 255, 255, 0.22);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: 8px;
+      color: white;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .portal-switch-btn:hover {
+      background: rgba(255, 255, 255, 0.35);
+      border-color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Grade Selection Portal Screen (登录与年段选择门户) -->
+  <div id="gradePortal" class="portal-screen">
+    <div class="portal-container">
+      <div class="portal-hero">
+        <div class="portal-badge">2026 马来西亚华文独中高中统考（UEC）</div>
+        <h1 class="portal-title">高中厨艺（烘焙理论）互动答题总系统</h1>
+        <p class="portal-desc">全套校内考点与统考大纲精选试题库 · 智能评分与机理解析系统</p>
+      </div>
+
+      <div class="grade-cards-grid">
+        <!-- Grade 1: Senior 1 -->
+        <div class="grade-card ready" onclick="selectGrade('senior1')">
+          <div class="card-status-badge badge-ready">🟢 800题已就绪 · 立即练习</div>
+          <div class="card-icon">🥐</div>
+          <div class="grade-num">01 | 高一年级</div>
+          <h2 class="grade-name">烘焙基础理论</h2>
+          <div class="grade-tags">
+            <span>全20课</span>
+            <span>800道精选</span>
+            <span>生活常识与校内测验</span>
+            <span>ABCD均等分布</span>
+          </div>
+          <p class="grade-summary">
+            覆盖烘焙概论、历史分类、器具设备、度量衡精准称量、核心原辅料（面粉/油脂/糖/蛋/乳制品/酵母）、膨大乳化作用与烘焙百分比计算。
+          </p>
+          <button class="grade-action-btn btn-active">🚀 进入高一练习 (800题)</button>
+        </div>
+
+        <!-- Grade 2: Senior 2 -->
+        <div class="grade-card" onclick="selectGrade('senior2')">
+          <div class="card-status-badge badge-pending">🟡 扩展架构已就绪 · 题库编排中</div>
+          <div class="card-icon">🎂</div>
+          <div class="grade-num">02 | 高二年级</div>
+          <h2 class="grade-name">蛋糕、面包与西餐理论</h2>
+          <div class="grade-tags">
+            <span>蛋糕烘烤工艺</span>
+            <span>面包发酵成型</span>
+            <span>西餐基础与烹饪原理</span>
+          </div>
+          <p class="grade-summary">
+            涵盖海绵/戚风/重油蛋糕工艺、面团直接与中种发酵法、西餐烹调法与菜肴组配标准等高二核心知识点。
+          </p>
+          <button class="grade-action-btn btn-secondary">进入高二专属题库</button>
+        </div>
+
+        <!-- Grade 3: Senior 3 -->
+        <div class="grade-card" onclick="selectGrade('senior3')">
+          <div class="card-status-badge badge-pending">🟣 扩展架构已就绪 · 题库编排中</div>
+          <div class="card-icon">👨‍🍳</div>
+          <div class="grade-num">03 | 高三年级</div>
+          <h2 class="grade-name">西式点心、酱汁与亚洲烹调</h2>
+          <div class="grade-tags">
+            <span>法式点心与派塔</span>
+            <span>五大经典母酱</span>
+            <span>亚洲特色烹饪</span>
+            <span>统考实作冲刺</span>
+          </div>
+          <p class="grade-summary">
+            深度解析法式泡芙与酥皮折叠、经典西餐母酱调配、亚洲风味烹调工艺与独中董总总技术鉴定统考冲刺题型。
+          </p>
+          <button class="grade-action-btn btn-secondary">进入高三专属题库</button>
+        </div>
+      </div>
+
+      <div class="portal-footer">
+        💡 提示：本系统已采用通用单页数据架构（Single HTML）。后续制作高二与高三题目时将直接加载于此，随时点击上方「切换年段」自由切换。
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-container">
+      <div class="nav-left">
+        <div class="brand-title">
+          <span id="headerTitleText">2026 UEC 高一烘焙精选题库</span>
+          <span class="brand-badge" id="headerBadge">全套800题·统考全覆盖</span>
+        </div>
+        <div class="brand-sub" id="headerSub">高一全套20课大满贯（烘焙概论·历史·中西面食·设备器具·度量衡·核心原料·添加剂·烘焙百分比）</div>
+      </div>
+
+      <div class="hud-bar">
+        <div class="hud-pill">
+          <span class="hud-label">进度</span>
+          <span class="hud-value" id="hudAnswered">0 / 800</span>
+        </div>
+        <div class="hud-pill">
+          <span class="hud-label">正确率</span>
+          <span class="hud-value" id="hudAccuracy">0%</span>
+        </div>
+        <div class="hud-pill pill-correct">
+          <span class="hud-label">做对</span>
+          <span class="hud-value" id="hudCorrect">0</span>
+        </div>
+        <div class="hud-pill pill-wrong">
+          <span class="hud-label">错题</span>
+          <span class="hud-value" id="hudWrong">0</span>
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <button class="portal-switch-btn" onclick="showPortal()" title="点击切换高一/高二/高三">
+          🎓 <span id="currentGradeTag">切换年段 (高一)</span>
+        </button>
+        <button class="reset-btn" id="resetAllBtn" onclick="resetAll()">
+          🔄 重新答题
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Beautiful, Space-Saving Control Panel (Balanced & Complete) -->
+    <div class="control-panel">
+      <!-- Chapter Selector Card -->
+      <div class="control-card chapter-card">
+        <div class="card-label">
+          <span class="label-icon">📖</span>
+          <span class="label-text">课时筛选</span>
+        </div>
+        <div class="select-container">
+          <select id="chapterSelect" class="chapter-select"></select>
+          <span class="select-arrow">▼</span>
+        </div>
+      </div>
+
+      <!-- Search Card -->
+      <div class="control-card search-card">
+        <div class="card-label">
+          <span class="label-icon">🔍</span>
+          <span class="label-text">考点检索</span>
+        </div>
+        <div class="search-container">
+          <input type="text" id="searchInput" class="search-input" placeholder="输入考点关键词（如：手套膜、黄油打发、蛋白霜、发酵温水...）">
+          <button id="clearSearchBtn" class="clear-search-btn" title="清空搜索" onclick="clearSearch()">✕</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Questions Container -->
+    <div id="questionsContainer"></div>
+  </main>
+
+  <script>
+    // Universal Multi-Grade Single-HTML Database Architecture
+    const quizDatabase = {
+      senior1: {
+        id: 'senior1',
+        grade_num: '01',
+        grade_name: '高一：烘焙基础理论',
+        badge: '全套800题·统考全覆盖',
+        sub: '高一全套20课大满贯（烘焙概论·历史·中西面食·设备器具·度量衡·核心原料·添加剂·烘焙百分比）',
+        chapters: __QUESTIONS_DATA_PLACEHOLDER__
+      },
+      senior2: {
+        id: 'senior2',
+        grade_num: '02',
+        grade_name: '高二：蛋糕、面包与西餐理论',
+        badge: '进阶高二·题库编排中',
+        sub: '蛋糕分类与烘烤·面包二次发酵工艺·西餐烹调技巧与经典菜肴',
+        chapters: [] // Future Senior 2 questions can be plugged in here directly!
+      },
+      senior3: {
+        id: 'senior3',
+        grade_num: '03',
+        grade_name: '高三：西式点心、酱汁与亚洲烹调',
+        badge: '高阶高三·题库编排中',
+        sub: '高级法式点心·经典母酱制作·亚洲风味烹调与董总统考鉴定冲刺',
+        chapters: [] // Future Senior 3 questions can be plugged in here directly!
+      }
+    };
+
+    // State
+    let currentGrade = 'senior1';
+    let rawData = [];
+    let currentFilter = 'all';
+    let searchQuery = '';
+    let userAnswers = {}; // key: `uid`, value: { chosen: 'A', correct: true/false }
+    let allQuestions = [];
+
+    // Render questions - High-Performance Batch HTML
+    function render() {
+      const container = document.getElementById('questionsContainer');
+
+      let filtered = allQuestions.filter(q => {
+        // Filter by Chapter or Mistakes
+        if (currentFilter === 'mistakes') {
+          const rec = userAnswers[q.uid];
+          if (!rec || rec.correct) return false;
+        } else if (currentFilter !== 'all') {
+          if (q.chapter_id != currentFilter) return false;
+        }
+
+        // Search query
+        if (searchQuery.trim() !== '') {
+          const qText = (q.question + q.options.A + q.options.B + q.options.C + q.options.D + q.explanation).toLowerCase();
+          if (!qText.includes(searchQuery.toLowerCase())) return false;
+        }
+
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div style="text-align:center; padding: 60px 20px; background:white; border-radius:12px; border:1px solid #E2E8F0;">
+            <div style="font-size: 2.5rem; margin-bottom: 12px;">🎉</div>
+            <h3 style="color:#334155; margin-bottom:6px;">没有找到匹配的题目</h3>
+            <p style="color:#64748B; font-size:0.92rem;">${currentFilter === 'mistakes' ? '太棒了！目前还没有做错任何题目，或者错题已被清除。' : '试试调整搜索关键词或选择其他课时。'}</p>
+          </div>
+        `;
+        updateHUD();
+        return;
+      }
+
+      let cardsHtml = '';
+      filtered.forEach((q) => {
+        const isRoman = q.type === 'combination' || q.type === 'roman';
+        const tagText = isRoman ? '乙组·罗马组合题' : '甲组·单项选择题';
+        const tagClass = isRoman ? 'q-tag roman' : 'q-tag';
+
+        const rec = userAnswers[q.uid];
+        const isAnswered = !!rec;
+
+        let optionsHtml = '';
+        ['A', 'B', 'C', 'D'].forEach(letter => {
+          let itemClass = 'option-item';
+          if (isAnswered) {
+            itemClass += ' locked';
+            if (rec.chosen === letter) {
+              itemClass += rec.correct ? ' correct' : ' wrong';
+            } else if (!rec.correct && q.answer === letter) {
+              itemClass += ' should-have-chosen';
+            }
+          }
+
+          optionsHtml += `
+            <div class="${itemClass}" onclick="handleOptionClick('${q.uid}', '${letter}')">
+              <span class="opt-letter">${letter}</span>
+              <span class="opt-text">${q.options[letter]}</span>
+            </div>
+          `;
+        });
+
+        const expShowClass = isAnswered ? 'explanation-box show' : 'explanation-box';
+
+        let diffBadge = '';
+        if (q.difficulty === 'easy') {
+          diffBadge = '<span class="diff-tag" style="background:#DCFCE7; color:#15803D; font-size:0.75rem; padding:3px 8px; border-radius:6px; font-weight:700; margin-left:6px;">【容易】</span>';
+        } else if (q.difficulty === 'medium') {
+          diffBadge = '<span class="diff-tag" style="background:#FEF9C3; color:#A16207; font-size:0.75rem; padding:3px 8px; border-radius:6px; font-weight:700; margin-left:6px;">【中等】</span>';
+        } else if (q.difficulty === 'hard') {
+          diffBadge = '<span class="diff-tag" style="background:#FEE2E2; color:#B91C1C; font-size:0.75rem; padding:3px 8px; border-radius:6px; font-weight:700; margin-left:6px;">【较难】</span>';
+        }
+
+        cardsHtml += `
+          <div class="question-card" id="card-${q.uid}">
+            <div class="q-header">
+              <div>
+                <span class="${tagClass}">${tagText}</span>
+                ${diffBadge}
+              </div>
+              <span class="q-chapter-badge">${q.chapter_title} · 第 ${q.id} 题</span>
+            </div>
+            <div class="q-title">${q.question}</div>
+            <div class="options-grid">
+              ${optionsHtml}
+            </div>
+            <div class="${expShowClass}" id="exp-${q.uid}">
+              <div class="exp-title">💡 生活常识与烘焙机理解析【正确答案：${q.answer}】</div>
+              <div class="exp-body">${q.explanation}</div>
+            </div>
+          </div>
+        `;
+      });
+
+      container.innerHTML = cardsHtml;
+      updateHUD();
+    }
+
+    // Instant Zero-Lag Option Click
+    window.handleOptionClick = function(uid, chosenLetter) {
+      if (userAnswers[uid]) return; // already answered
+
+      const q = allQuestions.find(item => item.uid === uid);
+      if (!q) return;
+
+      const isCorrect = (chosenLetter === q.answer);
+      userAnswers[uid] = { chosen: chosenLetter, correct: isCorrect };
+
+      // Update targeted card DOM directly for instantaneous response
+      const card = document.getElementById(`card-${uid}`);
+      if (card) {
+        const optionItems = card.querySelectorAll('.option-item');
+        const letters = ['A', 'B', 'C', 'D'];
+        optionItems.forEach((item, idx) => {
+          item.classList.add('locked');
+          const letter = letters[idx];
+          if (chosenLetter === letter) {
+            item.classList.add(isCorrect ? 'correct' : 'wrong');
+          } else if (!isCorrect && q.answer === letter) {
+            item.classList.add('should-have-chosen');
+          }
+        });
+        const expBox = document.getElementById(`exp-${uid}`);
+        if (expBox) expBox.classList.add('show');
+      }
+
+      updateHUD();
+    };
+
+    // Update HUD stats
+    function updateHUD() {
+      const answeredKeys = Object.keys(userAnswers);
+      const answeredCount = answeredKeys.length;
+      let correctCount = 0;
+      answeredKeys.forEach(k => {
+        if (userAnswers[k].correct) correctCount++;
+      });
+      const wrongCount = answeredCount - correctCount;
+      const acc = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+
+      document.getElementById('hudAnswered').innerText = `${answeredCount} / ${allQuestions.length}`;
+      document.getElementById('hudAccuracy').innerText = `${acc}%`;
+      document.getElementById('hudCorrect').innerText = correctCount;
+      document.getElementById('hudWrong').innerText = wrongCount;
+    }
+
+    // Reset All
+    window.resetAll = function() {
+      if (confirm('确定要清空当前的做题记录重新开始吗？')) {
+        userAnswers = {};
+        render();
+      }
+    };
+
+    // Grade Selection & Portal Logic
+    window.selectGrade = function(gradeKey) {
+      if (!quizDatabase[gradeKey]) return;
+      currentGrade = gradeKey;
+      const gradeData = quizDatabase[gradeKey];
+
+      // Update header info
+      document.getElementById('headerTitleText').innerText = `2026 UEC ${gradeData.grade_name}`;
+      document.getElementById('headerBadge').innerText = gradeData.badge;
+      document.getElementById('headerSub').innerText = gradeData.sub;
+      document.getElementById('currentGradeTag').innerText = `切换年段 (${gradeData.grade_name.split('：')[0]})`;
+
+      rawData = gradeData.chapters || [];
+      userAnswers = {};
+      currentFilter = 'all';
+      searchQuery = '';
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) searchInput.value = '';
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) clearBtn.style.display = 'none';
+
+      // Flatten questions
+      allQuestions = [];
+      rawData.forEach(ch => {
+        ch.questions.forEach(q => {
+          allQuestions.push({
+            chapter_id: ch.chapter_id,
+            chapter_title: ch.chapter_title,
+            uid: `${ch.chapter_id}-${q.id}`,
+            ...q
+          });
+        });
+      });
+
+      // Hide portal screen
+      document.getElementById('gradePortal').classList.add('hidden');
+
+      const container = document.getElementById('questionsContainer');
+      const controlPanel = document.querySelector('.control-panel');
+
+      if (rawData.length === 0) {
+        if (controlPanel) controlPanel.style.display = 'none';
+        container.innerHTML = `
+          <div style="background:white; border-radius:18px; padding:64px 24px; text-align:center; border:2px dashed #CBD5E1; margin-top:20px;">
+            <div style="font-size:3.5rem; margin-bottom:16px;">${gradeKey === 'senior2' ? '🎂' : '👨‍🍳'}</div>
+            <h2 style="font-size:1.6rem; font-weight:800; color:#1E293B; margin-bottom:12px;">${gradeData.grade_name} 题库架构已就绪</h2>
+            <p style="color:#64748B; font-size:1.02rem; max-width:620px; margin:0 auto 24px; line-height:1.7;">
+              本系统已采用通用单页数据架构，为 <strong>${gradeData.grade_name}</strong> 预留了完全独立的题库数据接口。<br>
+              后续制作高二/高三题目时，直接录入数据即可无缝在此页面刷题与互动。
+            </p>
+            <div style="display:flex; justify-content:center; gap:14px; flex-wrap:wrap;">
+              <button onclick="selectGrade('senior1')" style="padding:12px 24px; background:linear-gradient(135deg, #92400E 0%, #78350F 100%); color:white; border:none; border-radius:10px; font-weight:700; cursor:pointer; font-size:1rem; box-shadow:0 4px 12px rgba(120,53,15,0.2);">
+                🥐 进入高一题库 (800题完整可用)
+              </button>
+              <button onclick="showPortal()" style="padding:12px 24px; background:#F1F5F9; color:#475569; border:1px solid #CBD5E1; border-radius:10px; font-weight:700; cursor:pointer; font-size:1rem;">
+                🎓 返回年级选择门户
+              </button>
+            </div>
+          </div>
+        `;
+        document.getElementById('hudAnswered').innerText = `0 / 0`;
+        document.getElementById('hudAccuracy').innerText = `0%`;
+        document.getElementById('hudCorrect').innerText = '0';
+        document.getElementById('hudWrong').innerText = '0';
+        return;
+      }
+
+      if (controlPanel) controlPanel.style.display = 'grid';
+      initControls();
+      render();
+    };
+
+    window.showPortal = function() {
+      document.getElementById('gradePortal').classList.remove('hidden');
+    };
+
+    // Initialize Chapter Dropdown Selector & Search
+    function initControls() {
+      const select = document.getElementById('chapterSelect');
+      let html = `<option value="all">🌟 全部课时 (全套 ${allQuestions.length} 题)</option>`;
+      html += `<option value="mistakes">⚠️ 错题专练本 (仅练错题)</option>`;
+      html += `<option disabled>────────── 独立课时 ──────────</option>`;
+      rawData.forEach(ch => {
+        const cleanTitle = ch.chapter_title.replace(/\(.*?\)/g, '').replace(/\s*\|/g, ' ·').replace(/\s+/g, ' ').trim();
+        html += `<option value="${ch.chapter_id}">${cleanTitle} (${ch.questions.length}题)</option>`;
+      });
+      select.innerHTML = html;
+
+      select.onchange = (e) => {
+        currentFilter = e.target.value;
+        render();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
+      const searchInput = document.getElementById('searchInput');
+      const clearBtn = document.getElementById('clearSearchBtn');
+
+      searchInput.oninput = (e) => {
+        searchQuery = e.target.value;
+        if (clearBtn) clearBtn.style.display = searchQuery ? 'flex' : 'none';
+        render();
+      };
+
+      window.clearSearch = function() {
+        searchInput.value = '';
+        searchQuery = '';
+        if (clearBtn) clearBtn.style.display = 'none';
+        render();
+        searchInput.focus();
+      };
+    }
+
+    // Initial render: load Senior 1 and show login/selection portal
+    selectGrade('senior1');
+    document.getElementById('gradePortal').classList.remove('hidden');
+  </script>
+</body>
+</html>
