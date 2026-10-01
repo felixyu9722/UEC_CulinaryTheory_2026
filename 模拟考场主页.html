@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026统考厨艺理论 · 历届全真模拟考场</title>
+<meta name="description" content="2026马来西亚华文独中统考厨艺理论历届全真模拟考场入口，含数据分析与三卷全真模拟系统。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #92400E;
+  --primary-light: #FDE68A;
+  --accent: #D97706;
+  --accent2: #059669;
+  --bg: #FDFBF7;
+  --card: #FFFFFF;
+  --text: #1E293B;
+  --muted: #64748B;
+  --border: #E2E8F0;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.10);
+  --shadow-lg: 0 10px 30px rgba(0,0,0,.12);
+  --r: 14px;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'Noto Sans SC',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;}
+
+/* ── HEADER ── */
+header{background:linear-gradient(135deg,#78350F,#92400E);color:#fff;padding:12px 24px;
+  position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(0,0,0,.15);}
+.hdr{max-width:1120px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;}
+.hdr-title{font-size:1.05rem;font-weight:700;display:flex;align-items:center;gap:8px;}
+.hdr-badge{font-size:11px;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);
+  border-radius:20px;padding:3px 12px;color:rgba(255,255,255,.85);}
+.hdr-back{font-size:12px;color:#FDE68A;text-decoration:none;
+  padding:5px 14px;border-radius:20px;border:1px solid rgba(253,230,138,.4);
+  transition:all .2s;display:inline-flex;align-items:center;gap:4px;font-weight:600;}
+.hdr-back:hover{background:rgba(253,230,138,.15);color:#fff;}
+
+/* ── HERO ── */
+.hero{text-align:center;padding:52px 20px 36px;max-width:880px;margin:0 auto;}
+.hero-eyebrow{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.08em;
+  background:#FEF3C7;color:#92400E;border:1px solid #FDE68A;
+  border-radius:20px;padding:4px 16px;margin-bottom:14px;}
+.hero-title{font-size:clamp(28px,4.5vw,40px);font-weight:800;color:#1E293B;
+  line-height:1.25;margin-bottom:12px;}
+.hero-title span{color:var(--accent);}
+.hero-sub{font-size:14px;color:var(--muted);max-width:640px;margin:0 auto;}
+
+/* ── STATS ROW ── */
+.stats-row{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;
+  max-width:920px;margin:0 auto 40px;padding:0 20px;}
+.stat-pill{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  padding:14px 20px;display:flex;align-items:center;gap:12px;box-shadow:var(--shadow-sm);flex:1;min-width:160px;}
+.stat-icon{font-size:24px;}
+.stat-text .num{font-family:'Outfit',sans-serif;font-size:20px;font-weight:700;color:var(--primary);line-height:1.1;}
+.stat-text .lbl{font-size:11px;color:var(--muted);margin-top:2px;}
+
+/* ── SECTION COMMONS ── */
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
+.sec-title{font-size:18px;font-weight:700;color:var(--text);margin-bottom:18px;
+  display:flex;align-items:center;gap:8px;}
+
+/* ── DATA ANALYSIS ── */
+.analysis-section{background:#fff;border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);padding:44px 24px;margin-bottom:44px;}
+.analysis-grid{max-width:1120px;margin:0 auto 28px;display:grid;
+  grid-template-columns:1fr 1fr;gap:20px;}
+@media(max-width:760px){.analysis-grid{grid-template-columns:1fr;}}
+
+.analysis-card{background:var(--bg);border:1px solid var(--border);border-radius:var(--r);
+  padding:22px;}
+.analysis-card h3{font-size:13px;font-weight:600;color:var(--primary);margin-bottom:14px;
+  display:flex;align-items:center;gap:6px;}
+
+/* Frequency Bars */
+.freq-rows{display:flex;flex-direction:column;gap:9px;}
+.freq-row{display:flex;align-items:center;gap:10px;font-size:12px;}
+.freq-lbl{width:130px;flex-shrink:0;color:var(--text);font-weight:500;}
+.freq-track{flex:1;background:#E2E8F0;border-radius:6px;height:18px;overflow:hidden;}
+.freq-fill{height:100%;border-radius:6px;display:flex;align-items:center;
+  padding-left:8px;font-size:10px;font-weight:700;color:#fff;
+  transition:width .8s cubic-bezier(.4,0,.2,1);width:0;}
+.freq-fill span{font-family:'Outfit',sans-serif;}
+.freq-fill.r1{background:linear-gradient(90deg,#DC2626,#EF4444);}
+.freq-fill.r2{background:linear-gradient(90deg,#D97706,#F59E0B);}
+.freq-fill.r3{background:linear-gradient(90deg,#2563EB,#3B82F6);}
+.freq-fill.r4{background:linear-gradient(90deg,#059669,#10B981);}
+
+/* Distribution table */
+.dtable{width:100%;border-collapse:collapse;font-size:12px;}
+.dtable th{background:rgba(0,0,0,.03);color:var(--muted);font-weight:600;
+  text-align:left;padding:7px 10px;border-bottom:1px solid var(--border);}
+.dtable td{padding:8px 10px;border-bottom:1px solid var(--border);color:var(--text);}
+.dtable tr:last-child td{border-bottom:none;}
+.badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:600;}
+.ba{background:#FEF3C7;color:#92400E;}
+.bb{background:#DBEAFE;color:#1D4ED8;}
+.bc{background:#DCFCE7;color:#15803D;}
+
+/* Timeline */
+.timeline{display:flex;flex-direction:column;gap:10px;}
+.tl-item{display:flex;gap:12px;align-items:flex-start;font-size:12px;}
+.tl-yr{font-family:'Outfit',sans-serif;font-weight:700;color:var(--primary);
+  width:40px;flex-shrink:0;padding-top:1px;}
+.tl-content{flex:1;}
+.tchips{display:flex;flex-wrap:wrap;gap:4px;}
+.tchip{font-size:10px;padding:2px 8px;border-radius:8px;
+  background:#F1F5F9;border:1px solid var(--border);color:var(--muted);}
+
+/* Paper 2 table - full width */
+.full-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  padding:22px;box-shadow:var(--shadow-sm);margin-bottom:20px;}
+.full-card h3{font-size:13px;font-weight:600;color:var(--primary);margin-bottom:14px;
+  display:flex;align-items:center;gap:6px;}
+
+/* ── PAPER CARDS (3-COLUMN MATRIX) ── */
+.paper-section{padding:8px 24px 56px;max-width:1120px;margin:0 auto;}
+.paper-cards{display:grid;grid-template-columns:repeat(3, 1fr);gap:22px;}
+@media(max-width:960px){.paper-cards{grid-template-columns:1fr;max-width:540px;margin:0 auto;}}
+
+.paper-card{background:var(--card);border-radius:18px;border:2px solid transparent;
+  box-shadow:var(--shadow-md);overflow:hidden;cursor:pointer;
+  transition:all .28s cubic-bezier(0.4, 0, 0.2, 1);display:flex;flex-direction:column;justify-content:space-between;}
+.paper-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);}
+
+.paper-card-top{padding:26px 24px 20px;border-bottom:1px solid var(--border);}
+.paper-card.cardA{border-color:#FDE68A;}
+.paper-card.cardA .paper-card-top{background:linear-gradient(135deg,#FFFBEB,#FEF3C7);}
+.paper-card.cardB{border-color:#BFDBFE;}
+.paper-card.cardB .paper-card-top{background:linear-gradient(135deg,#EFF6FF,#DBEAFE);}
+.paper-card.cardC{border-color:#A7F3D0;}
+.paper-card.cardC .paper-card-top{background:linear-gradient(135deg,#ECFDF5,#D1FAE5);}
+
+.pc-badge{display:inline-flex;align-items:center;gap:6px;
+  font-size:11px;font-weight:700;border-radius:20px;
+  padding:4px 12px;margin-bottom:12px;}
+.cardA .pc-badge{background:#FDE68A;color:#78350F;}
+.cardB .pc-badge{background:#BFDBFE;color:#1D4ED8;}
+.cardC .pc-badge{background:#A7F3D0;color:#065F46;}
+
+.pc-title{font-size:17.5px;font-weight:800;margin-bottom:8px;line-height:1.3;}
+.cardA .pc-title{color:#92400E;}
+.cardB .pc-title{color:#1D4ED8;}
+.cardC .pc-title{color:#065F46;}
+
+.pc-desc{font-size:12.5px;color:var(--muted);line-height:1.55;}
+
+.paper-card-body{padding:20px 24px 24px;display:flex;flex-direction:column;flex:1;justify-content:space-between;}
+.pc-meta{display:flex;flex-direction:column;gap:8px;margin-bottom:16px;}
+.pc-meta-row{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--text);}
+.pc-meta-icon{font-size:14px;}
+.pc-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:18px;}
+.pc-tag{font-size:10.5px;padding:3px 8px;border-radius:8px;
+  background:#F1F5F9;border:1px solid var(--border);color:var(--muted);}
+
+.pc-btn{display:flex;align-items:center;justify-content:center;gap:8px;
+  width:100%;padding:13px;border-radius:10px;cursor:pointer;
+  font-size:14px;font-weight:700;font-family:'Noto Sans SC',sans-serif;
+  transition:all .2s;}
+.cardA .pc-btn{background:linear-gradient(135deg,#92400E,#B45309);color:#fff;}
+.cardA:hover .pc-btn{background:linear-gradient(135deg,#78350F,#92400E);}
+.cardB .pc-btn{background:linear-gradient(135deg,#1D4ED8,#2563EB);color:#fff;}
+.cardB:hover .pc-btn{background:linear-gradient(135deg,#1E40AF,#1D4ED8);}
+.cardC .pc-btn{background:linear-gradient(135deg,#059669,#10B981);color:#fff;}
+.cardC:hover .pc-btn{background:linear-gradient(135deg,#047857,#059669);}
+
+/* ── INFO NOTE ── */
+.info-note{background:#F0FDF4;border:1px solid #BBF7D0;border-radius:10px;
+  padding:14px 18px;margin:0 24px 32px;max-width:1080px;margin:0 auto 32px;
+  font-size:13px;color:#15803D;display:flex;align-items:flex-start;gap:10px;}
+
+/* ── FOOTER ── */
+footer{border-top:1px solid var(--border);padding:28px 24px;
+  text-align:center;font-size:12px;color:var(--muted);}
+footer a{color:var(--accent);text-decoration:none;font-weight:600;}
+footer a:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hdr">
+    <div class="hdr-title">📚 2026统考厨艺理论 · 历届全真模拟考场</div>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <a class="hdr-back" href="index.html">← 返回练习系统</a>
+      <div class="hdr-badge">v2026.10-Build.04</div>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-eyebrow">🇲🇾 马来西亚华文独中统一考试 · SY26</div>
+  <h1 class="hero-title">历届全真<span>模拟考场</span><br>三卷全真模考系统</h1>
+  <p class="hero-sub">基于 2020~2025 年六届真实统考试题深度剖析，构建全格式全真应试体验（选择题＋作答题）</p>
+</div>
+
+<!-- STATS -->
+<div class="stats-row">
+  <div class="stat-pill">
+    <div class="stat-icon">📝</div>
+    <div class="stat-text"><div class="num">180题</div><div class="lbl">三卷选择题合计</div></div>
+  </div>
+  <div class="stat-pill">
+    <div class="stat-icon">✍️</div>
+    <div class="stat-text"><div class="num">24大题</div><div class="lbl">三卷作答题合计</div></div>
+  </div>
+  <div class="stat-pill">
+    <div class="stat-icon">📅</div>
+    <div class="stat-text"><div class="num">6届真题</div><div class="lbl">2020~2025年剖析</div></div>
+  </div>
+  <div class="stat-pill">
+    <div class="stat-icon">⏱️</div>
+    <div class="stat-text"><div class="num">80分钟</div><div class="lbl">每卷标准模考时间</div></div>
+  </div>
+</div>
+
+<!-- DATA ANALYSIS -->
+<div class="analysis-section" id="analysisSec">
+  <h2 class="sec-title" style="max-width:1120px;margin:0 auto 18px;">📊 2020~2025 历届统考大数据分析</h2>
+
+  <div class="analysis-grid">
+    <!-- Frequency Chart -->
+    <div class="analysis-card" style="grid-column:span 2">
+      <h3>🔥 高频必考考点（2020~2025年出现频次）</h3>
+      <div class="freq-rows" id="freqChart"></div>
+    </div>
+  </div>
+
+  <div class="analysis-grid">
+    <!-- Distribution -->
+    <div class="analysis-card">
+      <h3>📋 试卷一命题配比（历年固定格式）</h3>
+      <table class="dtable">
+        <thead><tr><th>组别</th><th>题量</th><th>占比</th><th>核心考查内容</th></tr></thead>
+        <tbody>
+          <tr><td><span class="badge ba">甲组</span></td><td><strong>40题</strong></td><td>67%</td><td>烘焙理论与实务</td></tr>
+          <tr><td><span class="badge bb">乙组</span></td><td><strong>10题</strong></td><td>17%</td><td>西餐烹调艺术</td></tr>
+          <tr><td><span class="badge bc">丙组</span></td><td><strong>10题</strong></td><td>17%</td><td>亚洲烹调艺术</td></tr>
+          <tr style="background:#FFFBEB"><td colspan="2"><strong style="color:#92400E">合计 60题</strong></td><td>100%</td><td>全答 · 80分钟</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Timeline -->
+    <div class="analysis-card">
+      <h3>📅 历届考题主题年度对照</h3>
+      <div class="timeline">
+        <div class="tl-item"><div class="tl-yr">2025</div><div class="tl-content"><div class="tchips"><span class="tchip">搅拌阶段</span><span class="tchip">Ruby巧克力</span><span class="tchip">中餐调味料</span><span class="tchip">Maillard</span><span class="tchip">意式蛋白霜</span></div></div></div>
+        <div class="tl-item"><div class="tl-yr">2024</div><div class="tl-content"><div class="tchips"><span class="tchip">烘焙百分比计算</span><span class="tchip">荷兰酱</span><span class="tchip">水波煮</span><span class="tchip">牛排熟度</span><span class="tchip">沙门氏菌</span></div></div></div>
+        <div class="tl-item"><div class="tl-yr">2023</div><div class="tl-content"><div class="tchips"><span class="tchip">马卡龙</span><span class="tchip">五大母酱</span><span class="tchip">法式洋葱汤</span><span class="tchip">勾芡</span><span class="tchip">花刀</span></div></div></div>
+        <div class="tl-item"><div class="tl-yr">2022</div><div class="tl-content"><div class="tchips"><span class="tchip">蛋白霜三种</span><span class="tchip">酵母换算</span><span class="tchip">拔丝</span><span class="tchip">刀工尺寸</span><span class="tchip">Salamander</span></div></div></div>
+        <div class="tl-item"><div class="tl-yr">2021</div><div class="tl-content"><div class="tchips"><span class="tchip">蛋糕三大类</span><span class="tchip">吉利丁</span><span class="tchip">法式道纳司</span><span class="tchip">派皮</span><span class="tchip">炖火候</span></div></div></div>
+        <div class="tl-item"><div class="tl-yr">2020</div><div class="tl-content"><div class="tchips"><span class="tchip">比萨分类</span><span class="tchip">煮沸杀菌</span><span class="tchip">吐司烘烤</span><span class="tchip">果胶特性</span><span class="tchip">安全贮藏</span></div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap" style="padding:0;">
+    <div class="full-card">
+      <h3>📄 试卷二（作答题）历届出题规律</h3>
+      <table class="dtable">
+        <thead><tr><th style="width:60px;">年份</th><th style="width:200px;">甲组必答题（10%）</th><th>乙组选答常见考点</th></tr></thead>
+        <tbody>
+          <tr><td><strong>2025</strong></td><td>中餐调味料五项及作用</td><td>Maillard反应、意式蛋白霜、麸质(Gluten)、搅拌机三大配件、法式洋葱汤、牛肉部位、中餐刀工五法、粮食制品储存</td></tr>
+          <tr><td><strong>2024</strong></td><td>烘焙百分比计算（蛋糕配方）</td><td>菜肴盛盘要求、厨房卫生四大原则、马铃薯挑选、烹调方法温度、牛排熟度四级、食材中英对照</td></tr>
+          <tr><td><strong>2023</strong></td><td>（无原文，推测为五大母酱）</td><td>搅拌机配件、高汤类型、刀工五法、食品安全HACCP</td></tr>
+          <tr><td><strong>2022</strong></td><td>（无原文）</td><td>烤箱使用三大注意、巧克力蛋糕配方计算、宴会小点三重点、法国菜城市、菜肴起源省份</td></tr>
+          <tr><td><strong>2021</strong></td><td>专有名词解释（Paprika/Salami/Striped sandwich）</td><td>蛋糕三大分类、烤箱三重点、烘焙百分比计算、宴会小点、法国菜、菜肴起源省份、麒麟蒸鱼</td></tr>
+          <tr><td><strong>2020</strong></td><td>（推测题型类似）</td><td>香草知识、高汤储存、西餐技法、中餐刀工</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="wrap" style="margin-bottom:24px;">
+  <div class="info-note">
+    <span style="font-size:18px;">💡</span>
+    <div><strong>使用说明：</strong>请选择以下任一模拟卷进入考场。每卷严格配备试卷一（60题选择，含即查/模考双模式）＋试卷二（作答题，含折叠参考答案与评分细则）。模拟卷 C 100% 采用全新课纲短选项秒杀风格，助您提前适应考场节奏！</div>
+  </div>
+</div>
+
+<!-- PAPER CARDS (3-COLUMN MATRIX) -->
+<div class="paper-section">
+  <h2 class="sec-title" style="margin-bottom:24px;">🗂️ 选择模拟卷进入考场（三卷全真模考矩阵）</h2>
+  <div class="paper-cards">
+
+    <!-- CARD A -->
+    <div class="paper-card cardA" onclick="window.location.href='模拟卷A_历届高频真题精选卷.html'">
+      <div class="paper-card-top">
+        <div class="pc-badge">📄 模拟卷 A</div>
+        <div class="pc-title">历届高频真题<br>精选重组卷</div>
+        <div class="pc-desc">严格精选 2020~2025 年真题中复现率最高的经典题型，熟悉董总原汁原味的命题风格</div>
+      </div>
+      <div class="paper-card-body">
+        <div class="pc-meta">
+          <div class="pc-meta-row"><span class="pc-meta-icon">⏱️</span> 建议作答时间：80 分钟</div>
+          <div class="pc-meta-row"><span class="pc-meta-icon">📝</span> 试卷一 60题选择 ＋ 试卷二作答题</div>
+          <div class="pc-meta-row"><span class="pc-meta-icon">🎯</span> 定位：稳固基础盘，确保 50 分以上</div>
+          <div class="pc-meta-row"><span class="pc-meta-icon">🏷️</span> 每题标注历届真题年份来源</div>
+        </div>
+        <div class="pc-tags">
+          <span class="pc-tag">40烘焙</span><span class="pc-tag">10西餐</span><span class="pc-tag">10亚洲</span>
+          <span class="pc-tag">真题原型</span><span class="pc-tag">即查解析</span><span class="pc-tag">模考模式</span>
+        </div>
+        <div class="pc-btn">🚀 进入模拟卷 A 考场</div>
+      </div>
+    </div>
+
+    <!-- CARD B -->
+    <div class="paper-card cardB" onclick="window.location.href='模拟卷B_2026前瞻预测试题卷.html'">
+      <div class="paper-card-top">
+        <div class="pc-badge">🔮 模拟卷 B</div>
+        <div class="pc-title">2026统考<br>前瞻预测试题卷</div>
+        <div class="pc-desc">融入现代烹饪科学新趋势，训练综合应变能力，冲刺 A1 / A2 高分段</div>
+      </div>
+      <div class="paper-card-body">
+        <div class="pc-meta">
+          <div class="pc-meta-row"><span class="pc-meta-icon">⏱️</span> 建议作答时间：80 分钟</div>
+          <div class="pc-meta-row"><span class="pc-meta-icon">📝</span> 试卷一 60题选择 ＋ 试卷二作答题</div>
+          <div class="pc-meta-row"><span class="pc-meta-icon">🎯</span> 定位：新趋势考点，冲刺 A1/A2</div>
+          <div class="pc-meta-row"><span class="pc-meta-icon">✨</span> 含 Sous-vide、酸种、Ruby 巧克力等</div>
+        </div>
+        <div class="pc-tags">
+          <span class="pc-tag">40烘焙</span><span class="pc-tag">10西餐</span><span class="pc-tag">10亚洲</span>
+          <span class="pc-tag">前瞻预测</span><span class="pc-tag">新工艺</span><span class="pc-tag">模考模式</span>
+        </div>
+        <div class="pc-btn">🚀 进入模拟卷 B 考场</div>
+      </div>
+    </div>
+
+    <!-- CARD C -->
+    <div class="paper-card cardC" onclick="window.location.href='模拟卷C_2026统考短选项实战冲刺卷.html'">
+      <div class="paper-card-top">
+        <div class="pc-badge">⚡ 模拟卷 C · 全新题</div>
+        <div class="pc-title">2026统考短选项<br>实战冲刺卷</div>
+        <div class="pc-desc">100% 萃取自 Notion 课纲盲区，对齐真实统考“短词句/专有名词”命题风格，训练 80 分钟秒杀节奏</div>
+      </div>
+      <div class="paper-card-body">
+        <div class="pc-meta">
+          <div class="pc-meta-row"><span class="pc-meta-icon">⏱️</span> 建议作答时间：80 分钟</div>
+          <div class="pc-meta-row"><span class="pc-meta-icon">📝</span> 试卷一 60题选择 ＋ 试卷二作答题</div>
+          <div class="pc-meta-row"><span class="pc-meta-icon">🎯</span> 定位：全新原创题，考场实战脱敏</div>
+          <div class="pc-meta-row"><span class="pc-meta-icon">⚡</span> 纯短选项（专有名词/温度/中英）</div>
+        </div>
+        <div class="pc-tags">
+          <span class="pc-tag">Notion课纲</span><span class="pc-tag">纯短选项</span><span class="pc-tag">ABCD均等</span>
+          <span class="pc-tag">全新题目</span><span class="pc-tag">即查解析</span><span class="pc-tag">评分细则</span>
+        </div>
+        <div class="pc-btn">⚡ 进入模拟卷 C 考场</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <p style="margin-bottom:6px;">
+    <a href="index.html">← 返回高中厨艺理论互动答题总系统</a>
+  </p>
+  <p>2026年马来西亚华文独中统一考试厨艺理论 · 历届全真模拟考场 &nbsp;|&nbsp; <em style="color:var(--accent)">v2026.10-Build.04</em></p>
+  <p style="margin-top:4px;font-size:11px;">本系统基于2020~2025年真题深度剖析与Notion课纲构建，仅供备考学习参考</p>
+</footer>
+
+<script>
+const freqData = [
+  {label:'搅拌六阶段', n:6, max:6, rank:'r1'},
+  {label:'酵母换算比例', n:5, max:6, rank:'r2'},
+  {label:'五大母酱', n:5, max:6, rank:'r2'},
+  {label:'烘焙百分比计算', n:4, max:6, rank:'r2'},
+  {label:'蛋糕三大分类', n:5, max:6, rank:'r2'},
+  {label:'中餐刀工', n:4, max:6, rank:'r3'},
+  {label:'食品安全HACCP', n:4, max:6, rank:'r3'},
+  {label:'烘焙材料特性', n:4, max:6, rank:'r3'},
+  {label:'马卡龙', n:3, max:6, rank:'r4'},
+  {label:'牛排熟度', n:3, max:6, rank:'r4'},
+];
+
+const container = document.getElementById('freqChart');
+freqData.forEach(d => {
+  const pct = Math.round(d.n/d.max*100);
+  const row = document.createElement('div');
+  row.className = 'freq-row';
+  row.innerHTML = `<div class="freq-lbl">${d.label}</div>
+    <div class="freq-track">
+      <div class="freq-fill ${d.rank}" data-w="${pct}%"><span>${d.n}/6年</span></div>
+    </div>`;
+  container.appendChild(row);
+});
+setTimeout(()=>{
+  document.querySelectorAll('.freq-fill[data-w]').forEach(el=>{
+    el.style.width = el.dataset.w;
+  });
+},200);
+</script>
+</body>
+</html>

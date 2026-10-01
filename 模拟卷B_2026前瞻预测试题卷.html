@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026统考厨艺理论 · 模拟卷 B · 2026统考前瞻预测试题卷</title>
+<meta name="description" content="2026马来西亚华文独中统考厨艺理论历届全真模拟考场 - 模拟卷 B · 2026统考前瞻预测试题卷。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #92400E;
+  --primary-light: #FDE68A;
+  --primary-dark: #78350F;
+  --accent: #D97706;
+  --bg: #FDFBF7;
+  --card-bg: #FFFFFF;
+  --text: #1E293B;
+  --text-muted: #64748B;
+  --border: #E2E8F0;
+  --correct: #10B981;
+  --correct-bg: #ECFDF5;
+  --correct-border: #A7F3D0;
+  --wrong: #EF4444;
+  --wrong-bg: #FEF2F2;
+  --wrong-border: #FECACA;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 14px rgba(0,0,0,0.08);
+  --shadow-lg: 0 10px 25px rgba(0,0,0,0.12);
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  padding-bottom: 100px;
+}
+
+/* ── HEADER ── */
+header {
+  background: linear-gradient(135deg, #78350F 0%, #92400E 100%);
+  color: #fff;
+  padding: 12px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+}
+
+.hdr-wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.hdr-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.hdr-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #FDE68A;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.12);
+  transition: all 0.2s;
+}
+.hdr-back:hover {
+  background: rgba(255,255,255,0.22);
+  color: #fff;
+}
+
+.hdr-title-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.hdr-brand {
+  font-size: 1.05rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hdr-paper-badge {
+  background: #FDE68A;
+  color: #78350F;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  letter-spacing: 0.3px;
+}
+
+.hdr-sub {
+  font-size: 0.74rem;
+  color: rgba(255,255,255,0.85);
+}
+
+/* HUD stats bar */
+.hdr-hud {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.hud-pill {
+  background: rgba(0,0,0,0.22);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 9999px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.hud-val {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: #FDE68A;
+}
+
+/* Mode Switcher Buttons */
+.mode-switch {
+  display: flex;
+  background: rgba(0,0,0,0.25);
+  border-radius: 9999px;
+  padding: 2px;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.mode-btn {
+  background: transparent;
+  border: none;
+  color: rgba(255,255,255,0.8);
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.mode-btn.active {
+  background: #fff;
+  color: #78350F;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* ── MAIN LAYOUT ── */
+.main-wrap {
+  max-width: 1040px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+/* Paper Banner Card */
+.paper-banner {
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  border-left: 6px solid var(--accent);
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+}
+.pb-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.pb-title {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #1E293B;
+  margin-bottom: 6px;
+}
+.pb-desc {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+.pb-meta {
+  display: flex;
+  gap: 12px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+.pb-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: #475569;
+  background: #F8FAFC;
+  padding: 4px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+/* ── SECTION SWITCH TABS (试卷一 vs 试卷二) ── */
+.section-nav {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #E2E8F0;
+  padding-bottom: 2px;
+}
+.sec-tab-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #64748B;
+  padding: 10px 18px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sec-tab-btn:hover {
+  color: #1E293B;
+}
+.sec-tab-btn.active {
+  color: #92400E;
+}
+.sec-tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #92400E;
+  border-radius: 4px;
+}
+
+/* ── TOOLBAR (FILTER & ACTIONS) ── */
+.control-bar {
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 18px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  box-shadow: var(--shadow-sm);
+}
+.filter-group {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.filter-btn {
+  background: #F1F5F9;
+  border: 1px solid #CBD5E1;
+  color: #475569;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.filter-btn:hover {
+  background: #E2E8F0;
+}
+.filter-btn.active {
+  background: #92400E;
+  color: #fff;
+  border-color: #92400E;
+}
+
+.palette-toggle-btn {
+  background: #FEF3C7;
+  border: 1px solid #FDE68A;
+  color: #92400E;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.palette-toggle-btn:hover {
+  background: #FDE68A;
+}
+
+/* ── QUESTION PALETTE ── */
+.palette-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+}
+.palette-card.hidden {
+  display: none;
+}
+.palette-header {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #475569;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.palette-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(38px, 1fr));
+  gap: 8px;
+}
+.pal-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1.5px solid #CBD5E1;
+  background: #F8FAFC;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #475569;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+.pal-btn:hover {
+  border-color: var(--accent);
+  background: #FEF3C7;
+  color: var(--primary);
+}
+.pal-btn.answered {
+  background: #FEF3C7;
+  border-color: #F59E0B;
+  color: #B45309;
+}
+.pal-btn.correct {
+  background: #ECFDF5;
+  border-color: #10B981;
+  color: #047857;
+}
+.pal-btn.wrong {
+  background: #FEF2F2;
+  border-color: #EF4444;
+  color: #B91C1C;
+}
+
+/* Group Divider */
+.group-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 32px 0 18px 0;
+}
+.gd-line {
+  flex: 1;
+  height: 1.5px;
+  background: #E2E8F0;
+}
+.gd-badge {
+  background: #FEF3C7;
+  color: #78350F;
+  border: 1px solid #FDE68A;
+  padding: 4px 14px;
+  border-radius: 9999px;
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+/* ── QUESTION CARD ── */
+.question-card {
+  background: var(--card-bg);
+  border: 1.5px solid var(--border);
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin-bottom: 22px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.03);
+  transition: all 0.2s ease;
+}
+.question-card:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.q-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.q-top-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.q-num-pill {
+  background: #78350F;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 6px;
+}
+.q-grp-pill {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: #F1F5F9;
+  color: #475569;
+}
+.q-source-tag {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #92400E;
+  background: #FFFBEB;
+  border: 1px solid #FDE68A;
+  padding: 2px 10px;
+  border-radius: 9999px;
+}
+
+.q-stem {
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 18px;
+  line-height: 1.65;
+  white-space: pre-line;
+}
+
+/* Options */
+.options-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opt-btn {
+  display: flex;
+  align-items: center;
+  min-height: 52px;
+  padding: 12px 18px;
+  border: 2px solid #E2E8F0;
+  border-radius: 12px;
+  background: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+}
+.opt-btn:hover:not(.locked) {
+  border-color: #D97706;
+  background: #FFFDF7;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(217,119,6,0.12);
+}
+.opt-badge {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: #F1F5F9;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 14px;
+  flex-shrink: 0;
+  transition: all 0.15s ease;
+}
+.opt-txt {
+  font-size: 1.02rem;
+  font-weight: 500;
+  color: #1E293B;
+  flex: 1;
+}
+
+/* Option states */
+.opt-btn.selected-exam {
+  border-color: #D97706;
+  background: #FEF3C7;
+}
+.opt-btn.selected-exam .opt-badge {
+  background: #D97706;
+  color: #fff;
+}
+
+.opt-btn.correct {
+  border-color: #10B981;
+  background: #ECFDF5;
+}
+.opt-btn.correct .opt-badge {
+  background: #10B981;
+  color: #fff;
+}
+
+.opt-btn.wrong {
+  border-color: #EF4444;
+  background: #FEF2F2;
+}
+.opt-btn.wrong .opt-badge {
+  background: #EF4444;
+  color: #fff;
+}
+
+/* Explanation Box */
+.exp-box {
+  margin-top: 16px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-left: 4px solid var(--correct);
+  display: none;
+  animation: fadeIn 0.25s ease-out;
+}
+.exp-box.visible {
+  display: block;
+}
+.exp-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.exp-ans-badge {
+  background: #10B981;
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.8rem;
+  padding: 2px 10px;
+  border-radius: 6px;
+}
+.exp-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #0F172A;
+}
+.exp-body {
+  font-size: 0.92rem;
+  color: #334155;
+  line-height: 1.65;
+}
+
+/* ── SECTION 2: WRITTEN QUESTIONS ── */
+.written-section {
+  display: none;
+}
+.written-section.active {
+  display: block;
+}
+
+.written-tip {
+  background: #FFFBEB;
+  border: 1.5px solid #FDE68A;
+  border-radius: 14px;
+  padding: 18px 22px;
+  margin-bottom: 24px;
+  color: #78350F;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.written-card {
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  border-radius: 16px;
+  padding: 26px 30px;
+  margin-bottom: 24px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.03);
+}
+.wc-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.wc-label {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #78350F;
+  background: #FEF3C7;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+.wc-pts {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #475569;
+  background: #F1F5F9;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+.wc-stem {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0F172A;
+  line-height: 1.65;
+  margin-bottom: 16px;
+  white-space: pre-line;
+}
+
+/* Table in written question */
+.w-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 14px 0 20px 0;
+  font-size: 0.92rem;
+}
+.w-table th, .w-table td {
+  border: 1px solid #CBD5E1;
+  padding: 8px 14px;
+  text-align: center;
+}
+.w-table th {
+  background: #F1F5F9;
+  font-weight: 700;
+  color: #1E293B;
+}
+.w-table tr:nth-child(even) td {
+  background: #F8FAFC;
+}
+
+/* Draft Box */
+.draft-box {
+  margin: 16px 0;
+}
+.draft-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #64748B;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+.draft-area {
+  width: 100%;
+  height: 90px;
+  border: 1.5px solid #CBD5E1;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  resize: vertical;
+  background: #FFFDF9;
+}
+.draft-area:focus {
+  outline: none;
+  border-color: #D97706;
+  box-shadow: 0 0 0 3px rgba(217,119,6,0.15);
+}
+
+/* Answer Accordion Button */
+.wc-ans-btn {
+  width: 100%;
+  padding: 12px 18px;
+  background: #FFFBEB;
+  border: 1.5px solid #FDE68A;
+  border-radius: 10px;
+  color: #92400E;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s;
+  margin-top: 14px;
+}
+.wc-ans-btn:hover {
+  background: #FDE68A;
+}
+.wc-ans-panel {
+  margin-top: 12px;
+  padding: 20px 24px;
+  border-radius: 12px;
+  background: #F0FDF4;
+  border: 1.5px solid #A7F3D0;
+  display: none;
+}
+.wc-ans-panel.visible {
+  display: block;
+}
+.wc-ans-text {
+  font-size: 0.95rem;
+  color: #064E3B;
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
+/* ── EXAM MODE SUBMISSION MODAL ── */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.modal-overlay.visible {
+  display: flex;
+}
+.modal-card {
+  background: #FFFFFF;
+  border-radius: 20px;
+  max-width: 520px;
+  width: 100%;
+  padding: 32px 30px;
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+  animation: scaleIn 0.2s ease-out;
+}
+.modal-emoji {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #1E293B;
+  margin-bottom: 8px;
+}
+.modal-score-box {
+  margin: 18px 0;
+  padding: 16px;
+  background: #FFFBEB;
+  border-radius: 14px;
+  border: 1.5px solid #FDE68A;
+}
+.modal-score-num {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #92400E;
+  line-height: 1;
+}
+.modal-score-sub {
+  font-size: 0.9rem;
+  color: #78350F;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.modal-btn-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 24px;
+}
+.modal-btn {
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+}
+.modal-btn-primary {
+  background: #92400E;
+  color: #fff;
+}
+.modal-btn-primary:hover {
+  background: #78350F;
+}
+.modal-btn-sec {
+  background: #F1F5F9;
+  color: #475569;
+}
+.modal-btn-sec:hover {
+  background: #E2E8F0;
+}
+
+/* Floating Submit Button for Exam Mode */
+.floating-submit-bar {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  border-radius: 9999px;
+  padding: 8px 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  z-index: 90;
+}
+.floating-submit-bar.hidden {
+  display: none;
+}
+.fs-btn {
+  background: linear-gradient(135deg, #059669, #10B981);
+  color: #fff;
+  border: none;
+  font-size: 0.92rem;
+  font-weight: 700;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 3px 8px rgba(16,185,129,0.3);
+}
+.fs-btn:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  padding: 24px 16px;
+  border-top: 1px solid var(--border);
+}
+footer a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width: 640px) {
+  .question-card { padding: 18px 16px; }
+  .pb-title { font-size: 1.25rem; }
+  .opt-btn { min-height: 48px; padding: 10px 14px; }
+  .opt-badge { width: 28px; height: 28px; font-size: 0.88rem; margin-right: 10px; }
+  .opt-txt { font-size: 0.95rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hdr-wrap">
+    <div class="hdr-left">
+      <a class="hdr-back" href="模拟考场主页.html">← 模拟考场总览</a>
+      <a class="hdr-back" href="模拟卷A_历届高频真题精选卷.html">📄 模拟卷 A</a><a class="hdr-back" href="模拟卷C_2026统考短选项实战冲刺卷.html">⚡ 模拟卷 C</a>
+      <a class="hdr-back" href="index.html">🏠 练习系统主页</a>
+      <div class="hdr-title-box">
+        <div class="hdr-brand">
+          <span>模拟卷 B · 2026统考前瞻预测试题卷</span>
+          <span class="hdr-paper-badge">前瞻预测 · 冲刺卓越</span>
+        </div>
+        <div class="hdr-sub">融合现代烹饪前沿趋势 · 模拟拔尖考题 · 冲刺 A1 / A2 优等等级</div>
+      </div>
+    </div>
+
+    <div class="hdr-hud">
+      <!-- Mode Switch -->
+      <div class="mode-switch">
+        <button class="mode-btn active" id="btnModeInstant" onclick="setMode('instant')">⚡ 随刷即查</button>
+        <button class="mode-btn" id="btnModeExam" onclick="setMode('exam')">⏱️ 模考计时</button>
+      </div>
+
+      <div class="hud-pill" id="hudTimerBox" style="display:none;">
+        <span>⏳</span><span class="hud-val" id="hudTimer">80:00</span>
+      </div>
+
+      <div class="hud-pill">
+        <span>已答</span><span class="hud-val" id="hudAnswered">0 / 60</span>
+      </div>
+
+      <div class="hud-pill">
+        <span>正确率</span><span class="hud-val" id="hudAccuracy">0%</span>
+      </div>
+
+      <button class="hdr-back" onclick="resetAll()" title="重置本卷答题记录" style="cursor:pointer;border:none;">🔄 重置</button>
+    </div>
+  </div>
+</header>
+
+<main class="main-wrap">
+
+  <!-- Banner Card -->
+  <div class="paper-banner">
+    <div class="pb-top">
+      <div>
+        <h1 class="pb-title">模拟卷 B · 2026统考前瞻预测试题卷</h1>
+        <p class="pb-desc">本卷紧扣 2026 年统考最新命题动向与行业趋势，重点考查低温慢煮（Sous-vide）、天然酸种酵母（Sourdough）、第四种红宝石巧克力（Ruby chocolate）、过敏原与HACCP高阶应用，助推优等生冲刺卓越成绩。</p>
+      </div>
+    </div>
+    <div class="pb-meta">
+      <div class="pb-meta-item"><span>⏱️</span> 建议作答时间：80 分钟</div>
+      <div class="pb-meta-item"><span>📝</span> 试卷一：60 题单选题（全答 · 60分）</div>
+      <div class="pb-meta-item"><span>✍️</span> 试卷二：作答题（甲组必答 + 乙组选答 · 40分）</div>
+      <div class="pb-meta-item"><span>📊</span> 历届真题短选项对标 · 董总命题标准</div>
+    </div>
+  </div>
+
+  <!-- Section Nav Tabs -->
+  <div class="section-nav">
+    <button class="sec-tab-btn active" id="tabBtn1" onclick="switchSection(1)">
+      📝 试卷一：选择题 (60题 · 60分)
+    </button>
+    <button class="sec-tab-btn" id="tabBtn2" onclick="switchSection(2)">
+      ✍️ 试卷二：作答题 (综合题 · 40分)
+    </button>
+  </div>
+
+  <!-- ── SECTION 1: MCQ ── -->
+  <div id="sectionMcq">
+
+    <!-- Control Bar -->
+    <div class="control-bar">
+      <div class="filter-group">
+        <button class="filter-btn active" id="fAll" onclick="setFilter('all')">全部 (60)</button>
+        <button class="filter-btn" id="fUnans" onclick="setFilter('unans')">未作答</button>
+        <button class="filter-btn" id="fAns" onclick="setFilter('ans')">已作答</button>
+        <button class="filter-btn" id="fWrong" onclick="setFilter('wrong')">错题本</button>
+      </div>
+
+      <button class="palette-toggle-btn" onclick="togglePalette()">
+        <span>🔢</span> 展开 / 收起答题卡题号
+      </button>
+    </div>
+
+    <!-- Question Palette -->
+    <div class="palette-card hidden" id="paletteBox">
+      <div class="palette-header">
+        <span>快速定位题号</span>
+        <span style="font-size:0.75rem;color:#64748B;">点击题号直接平滑跳转至对应题目</span>
+      </div>
+      <div class="palette-grid" id="paletteGrid"></div>
+    </div>
+
+    <!-- Questions Container -->
+    <div id="questionsContainer"></div>
+
+  </div>
+
+  <!-- ── SECTION 2: WRITTEN ── -->
+  <div class="written-section" id="sectionWritten">
+    <div class="written-tip">
+      <strong>📌 统考作答须知：</strong><br>
+      试卷二（作答题）满分为 40 分。<br>
+      • <strong>甲组（必答题，10分）</strong>：必须全答，重点考查烘焙计算与基础操作原理。<br>
+      • <strong>乙组（选答题，30分）</strong>：共 7 题选答 3 题，每题 10 分。建议先在草稿区整理要点，再点击展开核对参考答案与评分要点。
+    </div>
+
+    <div id="writtenContainer"></div>
+  </div>
+
+</main>
+
+<!-- Floating Bar for Exam Mode -->
+<div class="floating-submit-bar hidden" id="floatingBar">
+  <span style="font-size:0.86rem;font-weight:700;color:#1E293B;">模考进行中</span>
+  <span style="font-size:0.82rem;color:#64748B;" id="fsAnsweredInfo">已答 0/60</span>
+  <button class="fs-btn" onclick="submitExam()">📋 交卷评测</button>
+</div>
+
+<!-- Modal Dialog for Exam Submission Results -->
+<div class="modal-overlay" id="examModal">
+  <div class="modal-card">
+    <div class="modal-emoji" id="modalEmoji">🎉</div>
+    <div class="modal-title">模考评测报告</div>
+    <div class="modal-score-box">
+      <div class="modal-score-num" id="modalScore">0 / 60</div>
+      <div class="modal-score-sub" id="modalGrade">等级：评测中</div>
+    </div>
+    <div id="modalBreakdown" style="font-size:0.88rem;color:#475569;margin-bottom:18px;line-height:1.6;"></div>
+    <div class="modal-btn-row">
+      <button class="modal-btn modal-btn-primary" onclick="closeModalAndReview()">🔍 查看全卷解析</button>
+      <button class="modal-btn modal-btn-sec" onclick="resetAll()">🔄 重新模考</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p style="margin-bottom:6px;">
+    <a href="模拟考场主页.html">← 返回模拟考场总览</a> &nbsp;|&nbsp; 
+    <a href="index.html">返回高中厨艺理论互动答题总系统</a>
+  </p>
+  <p>2026年马来西亚华文独中统一考试厨艺理论 · 历届全真模拟考场 &nbsp;|&nbsp; <em style="color:var(--accent)">v2026.10-Build.04</em></p>
+</footer>
+
+<script>
+// 1. Data Injection
+const mcqData = [
+  // ── BAKERY Q1-40 ──
+  {id:1,g:'A',src:'2026预测',q:'天然酸种酵母（Sourdough Starter）的主要膨胀原理是？',opts:{A:'商业酵母快速产CO₂',B:'野生酵母菌与乳酸菌的共生发酵产CO₂与有机酸',C:'泡打粉遇水产生气体',D:'蒸汽加热使水分膨胀'},ans:'B',exp:'天然酸种酵母（Sourdough）靠野生酵母菌（Saccharomyces）与乳酸菌（Lactobacillus）共生发酵：酵母产CO₂使面包膨胀，乳酸菌产乳酸与醋酸赋予独特酸味与复杂风味。'},
+  {id:2,g:'A',src:'2026预测',q:'低温慢煮（Sous-Vide）在烘焙与甜品领域的主要应用是？',opts:{A:'快速高温烘烤面包',B:'真空封袋后以精确低温水浴长时间烹调食材',C:'冷冻后速冻保存',D:'蒸汽喷射烘烤'},ans:'B',exp:'Sous-Vide（真空低温慢煮）：食材真空封袋后浸于精确控温水浴（如63℃/2小时），保留水分与营养，质地精准一致。常用于甜品中的布丁、乳酪蛋糕、卡士达酱的无人为温度误差制作。'},
+  {id:3,g:'A',src:'2026预测',q:'对流蒸汽烤炉（Combi Oven）与普通热风炉的最主要区别是？',opts:{A:'只能烘焙甜点',B:'无法控制温度',C:'同时结合热风与蒸汽功能，实现精准湿度与温度控制',D:'只适合炸制食品'},ans:'C',exp:'万能蒸烤炉（Combi Oven）结合干热（热风）与湿热（蒸汽）两种加热模式，可单独或同时使用，精准控制温度（30~300℃）与湿度（0~100%），适用范围极广：面包、糕点、肉类、蔬菜等均可处理。'},
+  {id:4,g:'A',src:'2026预测',q:'「折叠面团（Laminated Dough）」中裹入油脂后的折叠层数，决定了产品的哪个特性？',opts:{A:'面团的颜色深浅',B:'产品的酥脆层次与口感',C:'酵母的发酵速率',D:'面团的含水量'},ans:'B',exp:'折叠面团（如可颂、丹麦酥）通过多次折叠裹入黄油（每折叠三次产生3倍层数），烘烤时黄油层间水分汽化产生蒸汽，将面团层层撑开，产生数十至数百层的酥脆分层效果。'},
+  {id:5,g:'A',src:'2026预测',q:'糖（Sugar）在面包发酵过程中的主要功能是？',opts:{A:'只提供甜味',B:'只增加颜色',C:'为酵母提供可发酵碳源，促进产气发酵，同时增色（Maillard）与延长保存',D:'只作防腐剂使用'},ans:'C',exp:'糖在面包中的多重功能：①酵母食物（Carbon Source）——提供可发酵糖促进CO₂产生；②上色（Maillard与焦糖化反应）；③保湿（吸湿性延长保鲜）；④甜味与香气；⑤高浓度时（>5%）则抑制酵母（渗透压）。'},
+  {id:6,g:'A',src:'2026预测',q:'以下关于奶油（Butter）在饼干（Cookies）中的功能，哪项错误？',opts:{A:'提供风味与香气',B:'延展饼干面团，减少面筋形成（起酥性）',C:'增加饼干的脆度',D:'主要功能是使饼干体积大幅膨胀'},ans:'D',exp:'奶油在饼干中：①风味香气；②起酥性（阻断面筋）；③增脆（固态脂肪片状晶体）；④延展性（打发时充入空气使饼干稍有蓬松感）。使饼干体积「大幅膨胀」是化学膨大剂或蛋白打发的功能，不是奶油的主要作用。'},
+  {id:7,g:'A',src:'2026预测',q:'黑麦（Rye）面包与小麦面包最主要的面筋差异是？',opts:{A:'黑麦面筋更强，弹性更好',B:'黑麦缺乏醇溶谷蛋白（Gliadin），无法形成连续面筋网络，面团黏性高且致密',C:'黑麦和小麦面筋完全相同',D:'黑麦面团完全不能发酵'},ans:'B',exp:'黑麦（Rye）含有戊聚糖（Pentosans）而非典型面筋蛋白，无法形成小麦面粉那样的连续弹性面筋网络。黑麦面团依靠戊聚糖的持水性维持结构，质地致密黏稠，面包组织孔洞粗大，需酸种（Sourdough）帮助其稳定结构。'},
+  {id:8,g:'A',src:'2026预测',q:'制作可颂（Croissant）时，裹入黄油的理想温度范围是？',opts:{A:'5℃（刚出冷藏）',B:'16~18℃（与面团温度相近）',C:'28℃（室温）',D:'35℃（接近融化）'},ans:'B',exp:'裹入黄油须与面团温度相近（约16~18℃），两者可塑性相当，折叠时黄油不会因太硬而碎裂刺穿面层，也不因太软融化失去层次。过硬→折裂；过软→融合→层次消失。'},
+  {id:9,g:'A',src:'2026预测',q:'食品安全危险温度带（Danger Zone）的正确温度范围是？',opts:{A:'0~30℃',B:'5~60℃',C:'10~70℃',D:'15~50℃'},ans:'B',exp:'危险温度带（Danger Zone）：5~60℃——此温度范围内大多数致病细菌繁殖最为活跃（理想繁殖温度约35~37℃）。食品不应在此温度带停留超过2小时（高风险食品不超过1小时）。'},
+  {id:10,g:'A',src:'2026预测',q:'天使蛋糕（Angel Food Cake）中必须加入塔塔粉的原因是？',opts:{A:'增加甜味',B:'作为化学膨大剂',C:'降低蛋白pH值，稳定蛋白霜并使蛋糕颜色更洁白',D:'替代面粉提供结构'},ans:'C',exp:'塔塔粉（酒石酸氢钾，酸性）加入蛋白中的作用：①降低pH值→蛋白质等电点接近→打发更稳定；②中和蛋黄中残余碱性色素→天使蛋糕保持洁白；③增强泡沫网络结构防止塌陷。'},
+  {id:11,g:'A',src:'2026预测',q:'巧克力调温（Tempering）的目的是什么？',opts:{A:'融化巧克力',B:'形成稳定的β晶型可可脂结晶，使巧克力光泽靓丽、口感酥脆、脱模容易',C:'增加巧克力甜度',D:'延长保质期'},ans:'B',exp:'巧克力调温（Tempering）：通过精确控温（融化→降温→升温）步骤，引导可可脂形成稳定的β-5晶型（熔点约34℃），使成品巧克力：①表面光亮；②折断声脆（snap）；③不起白霜（Bloom）；④脱模容易。'},
+  {id:12,g:'A',src:'2026预测',q:'酵母发酵面团中「基本发酵」与「最终发酵」的主要区别是？',opts:{A:'两者没有区别',B:'基本发酵在分割整型前，最终发酵在整型后、烘烤前',C:'基本发酵使用高温，最终发酵使用低温',D:'基本发酵不产气，最终发酵才产气'},ans:'B',exp:'面包发酵流程：搅拌→基本发酵（Bulk Fermentation，面团整体发酵）→分割滚圆→中间发酵→整型→最终发酵（Final Proof，整型后入炉前发酵）→烘烤。两个发酵阶段目的不同：基本发酵建立风味，最终发酵决定体积。'},
+  {id:13,g:'A',src:'2026预测',q:'「自解（Autolyse）」在面包制作中的意义是？',opts:{A:'将面粉炒熟以增香',B:'将面粉与水混合静置20~30分钟，让淀粉充分水化、面筋自然形成，减少搅拌时间',C:'在面团中加入酵母后的第一阶段',D:'出炉后的冷却过程'},ans:'B',exp:'自解（Autolyse）：面粉与水混合（不加盐、酵母）静置20~60分钟，让面粉充分吸水：①面筋自然排列延展→减少机械搅拌时间；②改善面团延展性；③面包孔洞更大更均匀，是开放孔洞酸种面包的关键技法。'},
+  {id:14,g:'A',src:'2026预测',q:'以下关于蛋清（Egg White）的打发，哪项正确？',opts:{A:'油脂存在不影响蛋清打发',B:'铜碗打发蛋清可形成更稳定的泡沫结构',C:'蛋清必须加热至60℃才可打发',D:'蛋黄混入少量不影响打发'},ans:'B',exp:'铜碗打发蛋清：铜离子（Cu²⁺）与蛋清中的卵铁传递蛋白结合，形成更稳定的蛋白质—铜络合物，使泡沫更细腻、稳定、不易消泡，是传统法式甜点的秘诀。油脂和蛋黄（含油脂）会破坏蛋清起泡性。'},
+  {id:15,g:'A',src:'2026预测',q:'「直接法（Straight Dough Method）」与「中种法（Sponge and Dough Method）」的主要区别是？',opts:{A:'两者生产步骤完全相同',B:'直接法一次性将所有材料混合搅拌；中种法分两次搅拌，第一次先做发酵中种',C:'中种法不使用酵母',D:'直接法需要48小时发酵'},ans:'B',exp:'直接法（Straight Dough）：一次将所有原料（面粉、水、酵母、盐、糖、油）混合搅拌，适合快速生产。中种法（Sponge & Dough）：先将部分面粉+水+酵母制成中种发酵3~4小时，再加入剩余材料搅拌，面包风味更丰富、保存期更长。'},
+  {id:16,g:'A',src:'2026预测',q:'「水合（Hydration）」在面包配方中指的是什么？',opts:{A:'向面团加水的速度',B:'配方中水的重量占面粉重量的百分比',C:'面团在水中浸泡的时间',D:'蛋糕吸收奶油的程度'},ans:'B',exp:'水合率（Hydration）= 水重量 ÷ 面粉重量 × 100%。低水合（50~60%）→面团较硬，适合造型饼干；标准（60~70%）→吐司、甜面包；高水合（70~80%+）→开放孔洞酸种面包（Ciabatta、Sourdough）。'},
+  {id:17,g:'A',src:'2026预测',q:'卡士达酱（Crème Pâtissière）的主要蛋黄成分作用是？',opts:{A:'提供甜味',B:'乳化作用（卵磷脂）使油水混合稳定，并在加热时使酱体凝固',C:'使酱体呈白色',D:'替代面粉作为增稠剂'},ans:'B',exp:'蛋黄在卡士达酱中的双重功能：①卵磷脂（Lecithin）作为乳化剂，稳定水油相界面；②蛋黄蛋白质在约75~80℃加热时变性凝固，与淀粉共同提供卡士达酱特有的柔嫩浓稠结构与金黄色泽。'},
+  {id:18,g:'A',src:'2026预测',q:'下列哪种蛋糕属于「油脂蛋糕类（Shortened Cake）」？',opts:{A:'天使蛋糕（Angel Food Cake）',B:'戚风蛋糕（Chiffon Cake）',C:'海绵蛋糕（Sponge Cake）',D:'磅蛋糕（Pound Cake）'},ans:'D',exp:'油脂蛋糕类（Shortened Cake）：配方中油脂占主导（固态黄油/猪油），依靠糖油打发充入空气，代表：磅蛋糕（Pound Cake）、奶油蛋糕（Butter Cake）。乳沫类蛋糕（Foam Cake）：天使、海绵、戚风——依靠蛋白打发气泡膨胀。'},
+  {id:19,g:'A',src:'2026预测',q:'吐司面包的「拉丝」口感，主要来自面团的哪个特性？',opts:{A:'高油脂含量',B:'高水分含量',C:'充分发展的面筋网络形成的层状结构',D:'大量化学膨大剂的使用'},ans:'C',exp:'吐司拉丝感来自：完全扩展阶段形成的充分面筋网络（Gluten Network）——连续薄膜状面筋在烘烤时被CO₂气泡撑开，形成细腻拉丝状内部组织。同时，糖与蛋提供的柔软湿润感也是关键因素。'},
+  {id:20,g:'A',src:'2026预测',q:'开心果粉（Pistachio）在现代西式糕点中的主要应用是？',opts:{A:'替代酵母发酵',B:'作为坚果粉基底（类似杏仁粉），提供独特绿色与浓郁坚果风味于马卡龙、塔派等',C:'作为化学膨大剂',D:'替代可可粉制作巧克力'},ans:'B',exp:'开心果粉是现代精品糕点的高级食材，可替代杏仁粉（Almond Meal）制作马卡龙、达克瓦兹等，提供天然翠绿色泽（无需色素）与独特浓郁坚果甜香，是2026年高档糕点的流行元素。'},
+  {id:21,g:'A',src:'2026预测',q:'「冻干草莓粉（Freeze-Dried Strawberry Powder）」与普通果粉的最大优势是？',opts:{A:'价格更便宜',B:'保留更完整的天然色素、风味与营养素，无需高温干燥',C:'含水量更高',D:'可替代发酵剂'},ans:'B',exp:'冻干（Freeze-Drying / 升华干燥）在低温真空条件下将水分升华去除，避免高温破坏水溶性营养素（维生素C）、天然色素（花青素）和挥发性香气成分，是保留最完整果粉品质的先进技术。'},
+  {id:22,g:'A',src:'2026预测',q:'制作千层酥（Puff Pastry / Feuilletage）时，层次的形成原理是？',opts:{A:'酵母发酵产CO₂撑开层次',B:'泡打粉产生气体',C:'折叠裹入黄油层，烘烤时黄油层间水蒸气撑开面层形成无数层次',D:'蛋白打发气泡的作用'},ans:'C',exp:'千层酥（Puff Pastry）属「物理膨胀」：无酵母、无化学膨大剂，纯靠多次折叠（通常6次三折=3⁶=729层理论层数）裹入黄油层，烘烤时黄油层间水分（约14%）急速汽化膨胀，将酥皮层层撑起。'},
+  {id:23,g:'A',src:'2026预测',q:'「甘纳许（Ganache）」的基本配方组合是？',opts:{A:'黄油＋糖粉',B:'鲜奶油（Cream）＋巧克力',C:'蛋白霜＋巧克力粉',D:'牛奶＋可可脂'},ans:'B',exp:'甘纳许（Ganache）= 热鲜奶油 ＋ 切碎巧克力。鲜奶油的热量融化巧克力并与可可脂乳化，形成细腻顺滑的乳化甘纳许。比例决定用途：1:1（软甘纳许/淋面）；1:2（较硬/球状松露）；2:1（较软/镜面光泽用）。'},
+  {id:24,g:'A',src:'2026预测',q:'「冰淇淋（Ice Cream）」中加入乳化剂（卵磷脂/卵黄）与稳定剂的主要目的是？',opts:{A:'提高甜度',B:'增加乳化稳定性、改善质感、防止大冰晶形成、减缓融化速率',C:'替代奶油降低成本',D:'增加原料颜色'},ans:'B',exp:'冰淇淋中乳化剂（Emulsifier）与稳定剂（Stabilizer）的功能：①乳化——使脂肪球稳定均匀分布；②稳定——减少冰晶重结晶（大冰晶使口感粗糙）；③保形——减缓融化；④改善搅拌（Overrun）效果，使成品体积蓬松。'},
+  {id:25,g:'A',src:'2026预测',q:'Couscous（古斯米）源自于哪个地区的食物？',opts:{A:'意大利',B:'法国',C:'北非',D:'北美'},ans:'C',exp:'Couscous（古斯米）源自北非（摩洛哥、阿尔及利亚、突尼斯），由硬质小麦粗粉（Semolina）滚粒蒸制而成，是北非传统主食与宴席主角，搭配炖肉蔬菜塔吉锅（Tagine）享用。'},
+  {id:26,g:'A',src:'2026预测',q:'「松露巧克力（Chocolate Truffle）」的名称来源是？',opts:{A:'含有松露菌（Truffle Fungi）',B:'外形类似黑松露（Black Truffle），圆形表面裹覆可可粉',C:'发明于松露盛产的法国南部',D:'制作时使用松露油调味'},ans:'B',exp:'松露巧克力（Chocolate Truffle）名字来自其外形：圆形甘纳许球裹覆可可粉后，外观酷似珍贵的黑松露菌（Black Truffle）——凹凸不平的深褐色球状。传统配方为甘纳许内芯＋可可粉外衣。'},
+  {id:27,g:'A',src:'2026预测',q:'「Mille-feuille（拿破仑千层派）」的法文字面意思是？',opts:{A:'一千种味道',B:'一千片叶子',C:'拿破仑的秘密',D:'千层面包'},ans:'B',exp:'Mille-feuille = Mille（一千）＋ Feuille（叶子/片）= 一千片叶子，形容千层酥皮无数薄层叠叠的外观。经典版本：三层酥皮＋两层卡士达酱，表面撒糖粉或做镜面糖浆装饰。'},
+  {id:28,g:'A',src:'2026预测',q:'下列关于可可豆（Cacao/Cocoa）处理步骤，正确顺序是？',opts:{A:'发酵→烘焙→去壳→研磨→调温',B:'烘焙→发酵→去壳→研磨→调温',C:'研磨→发酵→烘焙→去壳→调温',D:'去壳→发酵→研磨→烘焙→调温'},ans:'A',exp:'可可豆完整处理流程：①采摘→②发酵（5~7天，发展风味前体物质）→③干燥→④烘焙（Roasting，150~170℃发展巧克力风味）→⑤去壳（Winnowing）→⑥研磨（Grinding成可可液块）→⑦精炼（Conching）→⑧调温→⑨成型。'},
+  {id:29,g:'A',src:'2026预测',q:'制作布丁（Pudding）时，蒸烤法（Bain-Marie / Water Bath）的目的是？',opts:{A:'加快烘烤速度',B:'通过水浴隔热控制温度不超过100℃，防止蛋白质过度凝固、产生气泡',C:'为布丁增加水分',D:'使布丁表面焦糖化'},ans:'B',exp:'水浴法（Bain-Marie）：布丁模型放入热水中烘烤，水的最高温度为100℃（沸点），可缓冲并控制布丁受热温度，防止超过80℃以上蛋白质过度变性产生「橡皮感」与「气泡孔洞」，确保成品细腻嫩滑。'},
+  {id:30,g:'A',src:'2026预测',q:'「帕夫洛娃蛋糕（Pavlova）」的特点是？',opts:{A:'内层是奶油蛋糕，外层是巧克力',B:'外壳酥脆的大型蛋白霜，内部棉软湿润，顶部装饰鲜奶油与新鲜水果',C:'夹层是卡士达酱的可颂',D:'多层海绵蛋糕的俄式蛋糕'},ans:'B',exp:'帕夫洛娃（Pavlova）：以大量蛋白霜（法式/瑞士式）烘烤而成，外壳轻盈酥脆，内部因含少量玉米淀粉与白醋保持棉软湿润，顶部铺鲜奶油（Chantilly）与时令水果（奇异果、草莓、百香果）装饰，是澳新（澳大利亚/新西兰）国民甜点。'},
+  {id:31,g:'A',src:'2026预测',q:'以下关于「糖」在饼干中的功能，哪项正确？',opts:{A:'糖的唯一功能是提供甜味',B:'糖吸湿性强，配方中糖越多饼干越湿软',C:'细砂糖（Granulated）使饼干更脆，糖粉（Powdered）使饼干更松软细腻',D:'糖的粒径对饼干质感无影响'},ans:'C',exp:'糖的粒径影响饼干质感：细砂糖（较粗）在搅拌时无法完全溶解，部分晶体保留→饼干烘烤后更脆；糖粉（极细）完全溶解→面团更均匀细腻→饼干更松软细腻（如法式手指饼干、雪球饼干的质感）。'},
+  {id:32,g:'A',src:'2026预测',q:'「乳化（Emulsification）」在烘焙中的重要性是？',opts:{A:'仅用于制作冰淇淋',B:'使油脂与水分稳定混合，形成均匀质地，改善面糊、面团与成品质量',C:'主要功能是增加甜味',D:'只在巧克力制作中使用'},ans:'B',exp:'乳化（Emulsification）：通过乳化剂（如蛋黄卵磷脂、大豆卵磷脂）使水相与油相稳定混合，防止油水分离。在烘焙中应用广泛：蛋糕面糊（更细腻均匀）→气泡更稳定→体积更大、质地更软；面包（面筋网络更延展）→柔软。'},
+  {id:33,g:'A',src:'2026预测',q:'「啤酒酵母（Baker\'s Yeast）」与「野生酸种（Wild Sourdough Starter）」相比，最主要的区别是？',opts:{A:'商业酵母风味更丰富',B:'商业酵母（Saccharomyces cerevisiae单一菌种）发酵快速稳定；酸种含多种野生菌种，发酵慢但风味更复杂',C:'酸种不能使面团膨胀',D:'两者完全相同，只是名称不同'},ans:'B',exp:'商业酵母（Commercial Yeast）：单一菌株（Saccharomyces cerevisiae），发酵速度快（约1~2小时基本发酵），风味较简单；天然酸种（Sourdough）：含数十种野生酵母菌＋多种乳酸菌，发酵慢（4~20小时），产生乳酸、醋酸、酯类等数百种风味物质，风味极其复杂。'},
+  {id:34,g:'A',src:'2026预测',q:'制作卷形蛋糕时，海绵蛋糕出炉后为何需要趁热卷起？',opts:{A:'趁热卷起是为了让蛋糕变凉更快',B:'海绵蛋糕在高温时具有较高延展性与可塑性，趁热卷起不易开裂；冷却后延展性降低则易断裂',C:'趁热卷可防止蛋糕变干',D:'室温下卷起效果更好'},ans:'B',exp:'海绵蛋糕趁热卷卷（Roll）的科学原理：高温时淀粉链尚未完全老化（Retrogradation），面筋与淀粉结构具有最大延展性，此时卷起蛋糕不会开裂；待冷却后淀粉老化、结构变硬，再卷即会断裂。'},
+  {id:35,g:'A',src:'2026预测',q:'「蛋黄酥（Dan Huang Su）」的饼皮使用何种传统配方？',opts:{A:'法式千层酥皮（Puff Pastry）',B:'中式油皮（水油皮）＋油酥（酥皮）两层结构',C:'泡芙面糊（Choux Pastry）',D:'全部用无水奶油制作'},ans:'B',exp:'蛋黄酥使用中式传统「明酥」技术：外层为水油皮（低筋面粉＋猪油＋热水，具延展性）＋内层油酥（低筋面粉＋猪油，纯油酥性），两者包覆折叠，烘烤时形成清晰可见的白色层次（明酥），包裹豆沙＋咸蛋黄馅。'},
+  {id:36,g:'A',src:'2026预测',q:'「糖浆浸渍（Simple Syrup Soaking）」在蛋糕制作中的主要功能是？',opts:{A:'增加蛋糕颜色',B:'使蛋糕保持湿润、增添风味（可加利口酒）、延缓老化',C:'替代鸡蛋的功能',D:'作为化学膨大剂'},ans:'B',exp:'糖浆浸渍（Imbibing Syrup）：蛋糕体脱模后刷上热糖浆（可加香草精、朗姆酒、咖啡等），功能：①补充水分防止蛋糕干燥；②增添额外风味层次；③糖浓度降低水分活度，延缓微生物生长延长保鲜。'},
+  {id:37,g:'A',src:'2026预测',q:'「费南雪（Financier）」蛋糕的特征原料是？',opts:{A:'大量全蛋打发',B:'焦化黄油（Beurre Noisette）＋杏仁粉',C:'发酵黄油＋低筋面粉',D:'蛋白霜＋椰蓉'},ans:'B',exp:'费南雪（Financier）法式小烤蛋糕的特征：①蛋白（非蛋黄，不打发）——只用蛋白；②杏仁粉——提供坚果香与湿润质地；③焦化黄油（Beurre Noisette，榛子黄油）——黄油加热至焦化产生坚果香是灵魂所在；④高温快烤（约200℃/8~12min）形成焦脆外壳、湿润内芯。'},
+  {id:38,g:'A',src:'2026预测',q:'下列关于「奶酪（Cheese）」与烘焙的搭配，哪项错误？',opts:{A:'奶油奶酪（Cream Cheese）是纽约式芝士蛋糕的核心原料',B:'帕玛森（Parmesan）是硬质奶酪，常用于咸味糕点',C:'马斯卡彭奶酪（Mascarpone）是提拉米苏的核心原料',D:'里科塔奶酪（Ricotta）是制作可颂（Croissant）的主要材料'},ans:'D',exp:'里科塔（Ricotta）是由乳清再加热制成的新鲜软质奶酪，常用于意大利千层面（Lasagna）、甜点馅料（Cannoli、Cheesecake变体），但不是可颂（Croissant）的材料。可颂使用的是高质量无盐黄油（Unsalted Butter）。'},
+  {id:39,g:'A',src:'2026预测',q:'以下哪项是「百香果（Passion Fruit）」在现代法式糕点中的主要应用？',opts:{A:'只用作饮料',B:'以百香果酸香汁液制作慕斯夹层、镜面果冻、柠檬挞变体（百香果挞）',C:'替代可可粉制作巧克力',D:'作为化学膨大剂'},ans:'B',exp:'百香果（Passion Fruit）以其独特热带酸甜香气，是现代法式精品糕点的热门食材：①百香果慕斯（Mousse）；②百香果镜面果冻（Miroir）；③百香果挞（代替柠檬挞中的柠檬凝乳）；④百香果甘纳许。其高浓度天然酸香可平衡甜腻感。'},
+  {id:40,g:'A',src:'2026预测',q:'在烘焙百分比中，已知低筋面粉312g，细砂糖百分比为100%，鸡蛋百分比为167%，泡打粉1%。鸡蛋实际用量是多少？',opts:{A:'312g',B:'468g',C:'521g',D:'156g'},ans:'C',exp:'鸡蛋实际用量 = 面粉重量 × 鸡蛋百分比 = 312g × 167% = 312 × 1.67 ≈ 521g。（烘焙百分比计算：各原料重量 = 面粉重量 × 该原料百分比）'},
+
+  // ── WESTERN CUISINE Q41-50 ──
+  {id:41,g:'B',src:'2026预测',q:'「Mise en Place」在法式厨房中的含义是？',opts:{A:'确保存有足够存货',B:'确保传统烹饪',C:'有效控制份量',D:'确保工作流畅——将所有食材预先准备就位'},ans:'D',exp:'Mise en Place（法文：所有一切准备就绪）是法式厨房的核心工作哲学，指烹饪开始前将所有食材处理、量取、切割、准备好放置到位，确保烹饪过程流畅高效，减少操作中的混乱与错误。'},
+  {id:42,g:'B',src:'2026预测',q:'「真空低温慢煮（Sous-Vide）」牛排的核心优势是？',opts:{A:'比传统煎制更快速',B:'通过精确控温（如57℃/2h）使牛排全体均匀达到目标熟度，再煎制外表形成Maillard焦香',C:'不需要额外煎制，直接从袋中取出上桌',D:'Sous-Vide不适用于牛肉'},ans:'B',exp:'Sous-Vide牛排：真空封袋于精确温度水浴（如Medium Rare = 54~57℃）数小时，全体均匀熟化。取出后大火（铁锅/炭火）快速煎制30~60秒形成美拉德焦香外壳——结合两种烹调方法的最佳效果：内部精准熟度 ＋ 外部焦香。'},
+  {id:43,g:'B',src:'2026预测',q:'经典法国马赛鱼汤（Bouillabaisse）的代表食材组合是？',opts:{A:'牛肉＋马铃薯',B:'三文鱼＋奶油',C:'多种地中海鱼类及海鲜＋番茄、番红花、茴香、马赛特制香料',D:'鸡肉＋白酒'},ans:'C',exp:'马赛鱼汤（Bouillabaisse）是法国普罗旺斯马赛港的地标性名菜：使用多种当地地中海鱼（Rascasse、圣皮耶尔鱼等）与海鲜，加入番茄、橙皮、番红花（Saffron）、茴香、大蒜等香料慢炖，搭配蒜味蛋黄酱（Rouille）与烤面包片享用。'},
+  {id:44,g:'B',src:'2026预测',q:'「Tenderloin（菲力）」部位的肉质特点与最适合的烹调方法是？',opts:{A:'肉质坚硬，适合长时间炖煮',B:'肉质最嫩、脂肪含量最少，适合快速煎（Pan-Fry）或烤（Roast），不适合炖（Stew）',C:'脂肪丰富，适合油炸',D:'适合所有烹调方法，无特别限制'},ans:'B',exp:'Tenderloin（腰内肉/里脊）：位于脊柱内侧，几乎不承受肌肉运动，因此肌肉纤维最细嫩、脂肪（Marbling）最少，是最嫩的牛肉部位。最适合快速高温烹调（Pan-Fry、Grill、Roast），保留嫩度；炖煮（Stew）会使其质地变老失去优势。'},
+  {id:45,g:'B',src:'2026预测',q:'「Paella（西班牙烩饭）」的灵魂食材与传统烹调容器是？',opts:{A:'意大利米（Arborio）＋铜锅',B:'西班牙短粒米（Bomba/Calasparra）＋专用浅底宽口铁锅',C:'长粒香米＋中式炒锅',D:'泰国香米＋瓦罐'},ans:'B',exp:'Paella（西班牙巴伦西亚）灵魂要素：①Bomba/Calasparra短粒米——高吸水性，充分吸收汤汁风味不糊烂；②浅底宽口专用铁锅（Paellera）——大接触面使米饭均匀受热，形成底层焦脆锅巴（Socarrat），是评价Paella质量的关键指标。'},
+  {id:46,g:'B',src:'2026预测',q:'「French Toast（法式吐司）」的正确制作顺序是？',opts:{A:'先沾蛋液再泡牛奶',B:'先泡牛奶再沾蛋液',C:'先涂面包粉再泡牛奶蛋混合液',D:'先泡牛奶蛋混合液再沾蛋液'},ans:'B',exp:'法式吐司（French Toast）正确工序：先将面包浸泡于混合液（牛奶＋蛋液＋糖＋香草）中让液体充分渗入面包内部，吸收均匀；再放入锅中用黄油煎制两面金黄。若先沾蛋液则外层已凝固，内部难以吸收牛奶，口感干燥。'},
+  {id:47,g:'B',src:'2026预测',q:'「塔塔牛排（Steak Tartare）」的制作特点是？',opts:{A:'高温煎制全熟后切丁',B:'生牛肉细切＋生蛋黄＋洋葱末＋续随子调味，完全生食',C:'烤后低温冷藏切片',D:'先腌制后蒸制'},ans:'B',exp:'Steak Tartare（塔塔牛排）是法式经典冷前菜：选用极新鲜牛里脊（Tenderloin）或腿肉，细手切（Mince）后与生蛋黄、续随子（Capers）、洋葱末、芥末、Worcestershire酱等调味混合，完全生食（Raw）。食材新鲜度与卫生是关键安全要素。'},
+  {id:48,g:'B',src:'2026预测',q:'「Crème Brûlée（法式焦糖布丁）」表面焦糖化处理，最专业的工具是？',opts:{A:'烤箱（Oven）',B:'微波炉（Microwave）',C:'萨拉曼德（Salamander）或厨用喷枪（Blow Torch）',D:'炉灶直火'},ans:'C',exp:'Crème Brûlée 表面焦糖化：在已凝固的卡士达布丁表面撒薄层细砂糖，用①厨用喷枪（Blowtorch）——最精准直接，专业常用；②Salamander（顶部加热）——商业厨房使用，热力均匀。目标：糖层完全焦糖化、薄脆如玻璃，而布丁本体保持冰凉。'},
+  {id:49,g:'B',src:'2026预测',q:'「Confit」烹调技法的定义是？',opts:{A:'蒸汽蒸制食物',B:'食物完全浸于低温油脂（或糖液）中，长时间缓慢烹调，肉质变得极为软嫩并形成保存层',C:'快速高温油炸',D:'冷烟熏制'},ans:'B',exp:'Confit（腌渍油封）：法式传统保存技法，食材（如鸭腿、鹅腿）先以盐和香料腌制，再浸入自身脂肪中以极低温度（约80~90℃）缓慢烹调数小时，使结缔组织分解、肉质极嫩，然后密封于脂肪层中冷藏保存（传统可保存数月）。'},
+  {id:50,g:'B',src:'2026预测',q:'「Charcuterie（熟肉制品）」在西餐中常见的产品类型包括哪些？',opts:{A:'只包括生鱼片',B:'猪肉制品（如Saucisson、Pâté、Rillettes、Terrine、Prosciutto、Salami）等腌制、熟制、风干肉类制品',C:'只包括海鲜',D:'只包括蔬菜制品'},ans:'B',exp:'Charcuterie（法式熟肉制品专卖/产品）涵盖：Saucisson（法式干香肠）、Pâté（肉酱）、Rillettes（肉泥）、Terrine（肉冻）、Prosciutto（意大利生火腿）、Salami（萨拉米）、Jambon（熟火腿）等多种腌制、发酵、风干、烟熏肉类加工品。'},
+
+  // ── ASIAN CUISINE Q51-60 ──
+  {id:51,g:'C',src:'2026预测',q:'中餐「滑油」技法的定义与目的是？',opts:{A:'将食材浸于热油中长时间炸至酥脆',B:'将经过上浆的食材投入大量温油（约100~120℃）中划散至半熟，保持嫩滑质感',C:'用极少油烘焙食材',D:'将食材冷水浸泡后炒制'},ans:'B',exp:'滑油（Velvet / Oil Blanching）：上浆（挂糊）后的食材投入100~120℃温油中划散至外层定型呈半熟状（约60~70%熟度），捞出控油。目的：浆粉在低温油中糊化包裹食材，锁住水分，确保成品极度嫩滑。是炒肉片、炒虾仁等滑炒菜肴的核心技法。'},
+  {id:52,g:'C',src:'2026预测',q:'「挂糊（Batter Coating）」与「上浆（Velveting）」的主要区别是？',opts:{A:'两者完全相同',B:'挂糊层次较厚（用于炸制）；上浆层次较薄（用于滑炒与炒制，保持嫩滑）',C:'挂糊只用于烘焙',D:'上浆只用于鱼类'},ans:'B',exp:'挂糊（Batter）：较厚的粉浆包裹食材，油炸后形成酥脆厚实外壳（如糖醋排骨、各式炸物）。上浆（Velveting）：薄层淀粉（生粉＋蛋白/蛋黄＋油脂）包裹食材，滑油/滑水后保持食材嫩滑水润（如嫩炒肉片）。'},
+  {id:53,g:'C',src:'2026预测',q:'川菜「七滋」的完整内容是？',opts:{A:'酸、甜、苦、辣、咸、鲜、香',B:'麻、辣、酸、甜、香、苦、咸',C:'鲜、酸、甜、苦、辣、咸、麻',D:'辣、甜、苦、鲜、咸、麻、酸'},ans:'A',exp:'川菜七滋（7 Tastes of Sichuan Cuisine）：酸、甜、苦、辣、咸、鲜、香——川菜讲究复合调味，一道菜常同时呈现多种滋味，形成层次丰富的复合口感。「麻（Numbing）」是川菜的第八种独特感官体验（来自花椒），有时单独列出。'},
+  {id:54,g:'C',src:'2026预测',q:'「东坡肉」的烹调工艺与发源地是？',opts:{A:'清蒸工艺，发源于北京',B:'以整块猪五花肉（三层肉）采用慢炖工艺，加酒、酱油、糖焖烧，发源于浙江杭州',C:'油炸工艺，发源于四川',D:'白灼工艺，发源于广东'},ans:'B',exp:'东坡肉（由北宋文人苏东坡（苏轼）以杭州太守身份推广创制）：选用猪五花肉（三层肉）切大方块，以绍兴黄酒、生抽、冰糖、葱姜为主料，文火慢焖（红烧）约2~3小时，成品红亮软烂、肥而不腻。浙菜代表名作。'},
+  {id:55,g:'C',src:'2026预测',q:'「佛跳墙」是哪个地区的顶级名菜，主要食材包含哪些？',opts:{A:'广东，以烤鸭为主',B:'福建，以干贝、鱼翅、鲍鱼、蹄筋等名贵食材长时间砂锅炖制',C:'四川，以麻辣火锅为基础',D:'上海，以大闸蟹为主'},ans:'B',exp:'佛跳墙（福建福州地标菜）：相传香气太诱人连佛祖也要「跳墙」而出品尝。选用鱼翅、鲍鱼、干贝、蹄筋、花胶、瑶柱等数十种珍贵食材，以绍兴酒坛密封，隔水蒸炖约8~10小时，汤汁浓醇馥郁，是闽菜最高境界代表。'},
+  {id:56,g:'C',src:'2026预测',q:'马来西亚叻沙（Laksa）大致分为四种，其中「亚参叻沙」的特点是？',opts:{A:'以椰浆为汤底，味道浓郁微辣',B:'以鱼汤为汤底，加入亚参（罗望子）调酸，不加椰奶，口感酸辣鲜',C:'以沙茶酱为底，味道咸香',D:'以咖喱酱为底，颜色金黄'},ans:'B',exp:'亚参叻沙（Asam Laksa）：以沙丁鱼/竹鱼熬成的鱼汤为底，加入亚参（罗望子/Tamarind）调出独特酸味，不加椰奶，汤色深红，酸辣鲜爽，搭配河粉、叻沙叶（Daun kesom）、花生末、黄瓜丝等配料，是槟城名物。'},
+  {id:57,g:'C',src:'2026预测',q:'中餐上浆技法中，「水粉浆」的主要成分是？',opts:{A:'蛋液＋面包糠',B:'生粉（淀粉）＋水，有时加入少量盐',C:'面粉＋泡打粉＋水',D:'蛋白＋生粉＋油'},ans:'B',exp:'水粉浆（最简单的上浆）= 生粉（淀粉）＋清水（有时加盐），浓稠度较低，适用于简单滑炒或汆水处理。蛋清浆（蛋白＋生粉）更细腻适合高档嫩炒；脆浆（面粉＋泡打粉＋水）用于酥炸类。'},
+  {id:58,g:'C',src:'2026预测',q:'「清蒸」烹调法的烹调温度与适用食材特点是？',opts:{A:'50℃低温，适合所有食材',B:'约100℃水蒸气，适合需要保持鲜嫩、原汁原味的食材（如鱼、蒸蛋、虾）',C:'150℃以上，适合根茎类蔬菜',D:'冷水蒸，适合面食'},ans:'B',exp:'清蒸（Steaming）：约100℃饱和水蒸气加热，特点：①温和均匀加热；②保留食材天然水分与营养；③不添加油脂，保持清淡原味。最适合：新鲜鱼类（如清蒸石斑）、蒸蛋、鲜虾、豆腐等娇嫩食材，是粤菜「鲜」的精髓技法。'},
+  {id:59,g:'C',src:'2026预测',q:'「酱油（Soy Sauce）」的酿造过程中，负责产生鲜味（Umami）的主要物质是？',opts:{A:'食盐（NaCl）',B:'焦糖色素',C:'大豆蛋白水解产生的谷氨酸（Glutamic Acid）及多种氨基酸',D:'醋酸（Acetic Acid）'},ans:'C',exp:'酱油鲜味来源：大豆（黄豆）在霉菌（Aspergillus oryzae）作用下发酵，大豆蛋白水解为谷氨酸（Glutamic Acid）、天冬氨酸等游离氨基酸——谷氨酸是「鲜味（Umami）」的核心物质，与人工鲜味剂味精（MSG，谷氨酸钠）的原理相同。'},
+  {id:60,g:'C',src:'2026预测',q:'「满汉全席」的代表标志不包含以下哪项？',opts:{A:'佳肴繁多',B:'厨艺高超',C:'器皿精致',D:'繁文缛节'},ans:'D',exp:'满汉全席（清朝宫廷宴席顶峰，结合满族与汉族饮食精华）的代表标志：①佳肴繁多（108~196道菜）；②厨艺高超（精细烹调工艺）；③器皿精致（金银玉石餐具）。「繁文缛节（繁复的礼仪节奏）」不是其代表标志——满汉全席强调的是菜肴品质与器皿规格。'},
+];
+const writtenData = [
+  {
+    id:'B-W1', type:'mandatory', label:'甲组·必答题（10%）—— 1题必答',
+    stem:'1. 以下为一款布朗尼（Brownie）蛋糕的配方。已知低筋面粉重量为 200g，巧克力百分比为150%，无盐黄油百分比为125%，细砂糖百分比为150%，鸡蛋百分比为125%，可可粉百分比为25%。',
+    subqs:[
+      {label:'(a)', text:'重抄下表并计算各材料的实际重量（g）。（7%）',
+       table:[
+         {m:'低筋面粉',p:'100%',w:'200g'},
+         {m:'黑巧克力',p:'150%',w:'___'},
+         {m:'无盐黄油',p:'125%',w:'___'},
+         {m:'细砂糖',p:'150%',w:'___'},
+         {m:'鸡蛋',p:'125%',w:'___'},
+         {m:'可可粉',p:'25%',w:'___'},
+         {m:'合计',p:'675%',w:'___'},
+       ]},
+      {label:'(b)', text:'说明布朗尼蛋糕中「巧克力」的烘焙功能（至少三点）。（3%）'}
+    ],
+    answer:'(a) 计算（各原料重量 = 面粉200g × 百分比）：\n• 黑巧克力：200 × 150% = 300g\n• 无盐黄油：200 × 125% = 250g\n• 细砂糖：200 × 150% = 300g\n• 鸡蛋：200 × 125% = 250g\n• 可可粉：200 × 25% = 50g\n• 合计：200+300+250+300+250+50 = 1350g\n\n(b) 巧克力的烘焙功能：\n① 提供浓郁巧克力风味与香气（可可脂与可可固形物）\n② 提供脂肪：可可脂替代部分黄油，产生湿润浓稠的质地\n③ 提供天然乳化性：可可脂的结晶特性有助于面糊稳定\n④ 增添深棕色泽（可可固形物中的棕色素）\n⑤ 调节甜度平衡：苦巧克力的苦味平衡配方中大量糖分'
+  },
+  {
+    id:'B-W2', type:'optional', label:'乙组·选答题（30%）—— 7题选答3题',
+    questions:[
+      {id:2, stem:'2. 天然酸种面包（Sourdough Bread）近年来在精品烘焙界极为盛行。\n(a) 解释天然酸种酵母（Sourdough Starter）的发酵原理及其给面包带来的独特特征。（5%）\n(b) 说明「自解（Autolyse）」技法的操作步骤及目的。（3%）\n(c) 为何酸种面包的保质期比商业酵母面包更长？（2%）',
+       answer:'(a) 酸种发酵原理：天然酸种由捕获自空气与面粉中的【野生酵母菌（Wild Yeast，如Saccharomyces cerevisiae变种）】与【乳酸菌（Lactobacillus）】共生培育。酵母菌分解糖分产生CO₂使面包膨胀；乳酸菌产生乳酸（温和酸感）与醋酸（强烈酸感），赋予复杂风味。独特特征：①复杂酸香风味（无法用商业酵母复制）；②外壳更酥脆坚实；③内部大不规则孔洞；④保存期更长（有机酸抑菌）。\n\n(b) 自解（Autolyse）：将面粉与水混合（不加盐、酵母）静置20~60分钟，让淀粉充分吸水、面筋自然排列延展。目的：①减少机械搅拌时间→降低面团温度；②改善面团延展性→更易整型；③改善最终成品孔洞结构→更开放大孔。\n\n(c) 保质期更长原因：乳酸菌产生的【乳酸与醋酸】降低面团pH值（约pH3.5~4.5），酸性环境抑制霉菌、杂菌生长繁殖，同时乳酸本身具有一定抗微生物活性，因此酸种面包可在室温保存3~5天而不发霉。'},
+      {id:3, stem:'3. 现代西式糕点中，「慕斯（Mousse）」是精品蛋糕的灵魂。\n(a) 慕斯的基本结构组成（Base + Aeration + Setting Agent）各包含什么？（4%）\n(b) 制作镜面果冻（Mirror Glaze / Nappage）时，需注意哪些关键操作？（3%）\n(c) 列出制作提拉米苏（Tiramisu）的主要材料及制作要点。（3%）',
+       answer:'(a) 慕斯三层结构：\n① 基底（Base）——主风味来源：巧克力甘纳许、水果泥（果泥+糖浆）、卡士达酱等；\n② 充气（Aeration）——提供轻盈质感：打发鲜奶油（Whipped Cream）或意式蛋白霜（Italian Meringue）；\n③ 凝固剂（Setting Agent）——使慕斯定型：吉利丁（Gelatin，最常用）或琼脂（Agar，素食用）。\n\n(b) 镜面果冻关键操作：\n①温度控制：镜面须在30~35℃（接近体温）时淋覆，太热会融化慕斯，太冷则凝固太快无法均匀流动；②慕斯须冷冻至-18℃以下，淋面时温差使镜面快速凝固；③一次从中心均匀淋下，不要来回涂抹；④避免气泡（可提前过筛）。\n\n(c) 提拉米苏（Tiramisu）：主材料：马斯卡彭奶酪（Mascarpone）、蛋黄、细砂糖、鲜奶油、手指饼干（Ladyfinger/Savoiardi）、浓缩咖啡（Espresso）、可可粉。制作要点：蛋黄+糖隔水打发→拌入Mascarpone→拌入打发鲜奶油→手指饼干快速浸咖啡液（不泡软）→层叠→冷藏4小时→撒可可粉。'},
+      {id:4, stem:'4. 食品安全是厨艺专业的基本守则。\n(a) 解释HACCP系统的七大原则。（7%）\n(b) 说明「危险温度带（Danger Zone）」并列举两种高风险食品。（3%）',
+       answer:'(a) HACCP七大原则：\n① 危害分析（Hazard Analysis）——识别潜在生物/化学/物理危害；\n② 确定关键控制点（CCPs）——找出可控制危害的关键工艺步骤；\n③ 建立关键限制值（Critical Limits）——每个CCP的安全参数（如温度、时间）；\n④ 建立监控程序——定期监测CCP参数是否在控制范围内；\n⑤ 建立纠偏措施——当CCP超出限制时的应急处理程序；\n⑥ 建立验证程序——定期验证HACCP系统有效性（如微生物检测）；\n⑦ 建立记录保存系统——完整记录所有监控数据与操作记录，便于追溯。\n\n(b) 危险温度带：5~60℃。此范围内大多数致病细菌（如沙门氏菌、大肠杆菌、金黄色葡萄球菌）繁殖最活跃，食品不应在此温度带停留超过2小时。\n高风险食品：①禽肉类（鸡、鸭）——沙门氏菌风险；②海鲜（鱼、虾、贝类）——肠炎弧菌风险。'},
+      {id:5, stem:'5. 马来西亚是多元文化美食的天堂，有丰富的亚洲烹调传统。\n(a) 试描述马来西亚四种叻沙（Laksa）的特点与区别。（4%）\n(b) 说明「亚参（Asam / Tamarind）」在马来西亚烹调中的主要应用。（3%）\n(c) 列举马来西亚三道国菜或代表性美食并简述其特色。（3%）',
+       answer:'(a) 四种叻沙：\n① 咖喱叻沙（Curry Laksa）——以椰浆＋咖喱为汤底，浓郁微辣，配米粉或面，槟城/吉隆坡常见；\n② 亚参叻沙（Asam Laksa）——以鱼汤＋罗望子调酸，不加椰奶，酸辣鲜，槟城名物；\n③ 砂劳越叻沙（Sarawak Laksa）——以采用砂捞越特制参巴酱为底，加椰浆，配粗米粉、鸡肉、虾；\n④ 东海岸叻沙（East Coast Laksa）——偏甜，以鱼高汤为底，配宽粗米粉，吉兰丹/登嘉楼风格。\n\n(b) 亚参（Tamarind/罗望子）应用：亚参果肉含丰富有机酸（酒石酸、柠檬酸），主要应用：①调酸（替代醋）用于鱼类、虾类烹调去腥增酸；②制作亚参虾（Udang Masak Asam）；③亚参叻沙汤底；④亚参甜酸酱；⑤嫩化肉类（酸性软化肌肉纤维）。\n\n(c) 马来西亚代表美食（任3道）：\n① 椰浆饭（Nasi Lemak）——以椰浆与香兰叶煮饭，搭配参巴辣酱、炸花生、凤尾鱼、水煮蛋，是国民早餐；\n② 肉骨茶（Bak Kut Teh）——猪肋骨以中药香料长时间熬炖，汤底清鲜药香；\n③ 炒贵刁（Char Kway Teow）——宽粁条以猪油大火爆炒，加虾、蛤蜊、豆芽、韭黄，焦香四溢。'},
+      {id:6, stem:'6. 中餐烹调技法丰富多彩，各有其科学原理。\n(a) 解释「焰(Yan)」「煨(Wei)」「扒(Pa)」三种烹调方法的定义与特点。（3%）\n(b) 试列出中餐12大热菜烹调技法中的任意8种，并各举一例代表菜。（4%）\n(c) 说明中餐「上浆」处理肉类的科学原理及其效果。（3%）',
+       answer:'(a) 三种烹调法：\n① 焰——将腌制好的食材以明火（炭火）直接烧烤，外焦香脆，内鲜嫩，如北京烤鸭（挂炉焰烤）；\n② 煨——食材与汤汁一同置于密封容器（砂锅/瓦罐）中，文火长时间缓慢加热，汤汁浓缩醇厚，如煨猪蹄；\n③ 扒——将原料整齐排列，加酱汁原汁小火慢煮至熟，大翻炒瓢成型保持形态，整体上盘，如扒整鸡。\n\n(b) 12大技法（任8种）：\n① 炒（清炒虾仁）② 滑（滑炒肉片）③ 爆（葱爆羊肉）④ 炖（清炖排骨汤）⑤ 蒸（清蒸石斑）⑥ 炸（糖醋里脊）⑦ 煎（煎饺子）⑧ 烤（叉烧肉）⑨ 溜（糖醋咕噜肉）⑩ 煨（煨牛腩）⑪ 扒（扒整鸡）⑫ 腌（腌酱牛肉）\n\n(c) 上浆科学原理：\n上浆（Velveting）= 生粉（淀粉）＋蛋白/蛋黄＋少量油，包裹在肉类表面。\n①淀粉糊化形成保护膜，锁住肉类天然水分；\n②低温滑油时（100~120℃），浆粉迅速糊化固化在肉表面；\n③阻断高温与肉类蛋白质直接接触，防止急速收缩失水；\n④效果：肉质保持极度嫩滑，口感顺滑有弹性，无干柴感。'},
+      {id:7, stem:'7. 现代烘焙融合了传统工艺与科技创新。\n(a) 解释「低温慢煮（Sous-Vide）」在布丁/焦糖布丁制作中的应用与优势。（4%）\n(b) 说明「万能蒸烤炉（Combi Oven）」的三种基本工作模式及各自适用场景。（3%）\n(c) 试列出「天然发酵酸种（Sourdough）」面包与「商业酵母面包」在口感、风味、外壳、保存期」方面的主要区别。（3%）',
+       answer:'(a) Sous-Vide布丁应用：\n布丁食材（如Crème Brûlée原料：蛋黄、鲜奶油、糖、香草）混合后，以真空袋密封或置于密封容器，放入精确控温水浴（约80~82℃）中烹调45~60分钟。\n优势：①温度精确——蛋白质在80℃温和变性凝固，避免超过100℃产生气泡孔洞；②全体均匀受热——水浴四面导热，无烤箱热梯度差异；③质地极为细腻——没有过度凝固或橡皮感的风险；④可批量标准化生产，品质稳定一致。\n\n(b) Combi Oven三种模式：\n① 纯热风模式（Convection Mode）——循环热风干热烘烤，适合：饼干、酥皮类、焦糖布丁表面上色；\n② 纯蒸汽模式（Steam Mode）——100%蒸汽，适合：蔬菜、海鲜保鲜蒸制、布丁制作；\n③ 混合模式（Combi Mode）——热风＋蒸汽同时，适合：硬式面包（初期蒸汽促膨胀，后期热风上色成脆皮）、禽肉（外脆内嫩）。\n\n(c) 酸种vs商业酵母面包对比：\n• 口感：酸种→内部大不规则气孔，嚼劲有深度；商业→气孔均匀细腻，柔软\n• 风味：酸种→复杂酸香（乳酸＋醋酸）＋坚果麦香；商业→简单酵母香，风味较单一\n• 外壳：酸种→极厚实酥脆，噼啪声响；商业→外壳较薄软\n• 保存期：酸种→3~5天室温（有机酸抑菌）；商业→1~2天（易变霉）'}
+    ]
+  }
+];
+
+// 2. Application State
+let currentMode = 'instant'; // 'instant' or 'exam'
+let currentFilter = 'all';   // 'all', 'unans', 'ans', 'wrong'
+let userAnswers = {};        // qId: selectedOption ('A','B','C','D')
+let examSubmitted = false;
+let timerSeconds = 80 * 60;  // 80 minutes
+let timerInterval = null;
+
+// Group definitions
+const groupNames = {
+  'A': '甲组 · 烘焙理论与实务 (Q01~Q40)',
+  'B': '乙组 · 西餐烹调艺术 (Q41~Q50)',
+  'C': '丙组 · 亚洲烹调艺术 (Q51~Q60)'
+};
+
+// 3. Render Functions
+function renderMCQ() {
+  const container = document.getElementById('questionsContainer');
+  container.innerHTML = '';
+
+  let lastGroup = null;
+
+  mcqData.forEach(q => {
+    // Group divider
+    if (q.g !== lastGroup) {
+      lastGroup = q.g;
+      const div = document.createElement('div');
+      div.className = 'group-divider';
+      div.innerHTML = `<div class="gd-line"></div>
+        <div class="gd-badge">${groupNames[q.g] || '组别'}</div>
+        <div class="gd-line"></div>`;
+      container.appendChild(div);
+    }
+
+    const card = document.createElement('div');
+    card.className = 'question-card';
+    card.id = `qCard_${q.id}`;
+    card.dataset.qid = q.id;
+    card.dataset.group = q.g;
+
+    const answered = userAnswers[q.id] !== undefined;
+    const isCorrect = answered && userAnswers[q.id] === q.ans;
+    const isWrong = answered && !isCorrect;
+
+    // Filter visibility
+    if (currentFilter === 'unans' && answered) card.style.display = 'none';
+    else if (currentFilter === 'ans' && !answered) card.style.display = 'none';
+    else if (currentFilter === 'wrong' && (!answered || isCorrect)) card.style.display = 'none';
+    else card.style.display = 'block';
+
+    const numStr = q.id < 10 ? '0' + q.id : q.id;
+    const groupLabel = q.g === 'A' ? '甲组·烘焙' : (q.g === 'B' ? '乙组·西餐' : '丙组·亚洲');
+
+    let optionsHtml = '';
+    ['A', 'B', 'C', 'D'].forEach(letter => {
+      const text = q.opts[letter] || '';
+      let optClass = 'opt-btn';
+      if (currentMode === 'instant' || examSubmitted) {
+        if (answered) {
+          optClass += ' locked';
+          if (letter === q.ans) optClass += ' correct';
+          else if (userAnswers[q.id] === letter && letter !== q.ans) optClass += ' wrong';
+        }
+      } else {
+        if (userAnswers[q.id] === letter) optClass += ' selected-exam';
+      }
+
+      optionsHtml += `
+        <div class="${optClass}" onclick="handleSelectOption(${q.id}, '${letter}')">
+          <div class="opt-badge">${letter}</div>
+          <div class="opt-txt">${text}</div>
+        </div>`;
+    });
+
+    const showExp = (currentMode === 'instant' && answered) || examSubmitted;
+
+    card.innerHTML = `
+      <div class="q-top">
+        <div class="q-top-left">
+          <span class="q-num-pill">第 ${numStr} 题</span>
+          <span class="q-grp-pill">${groupLabel}</span>
+        </div>
+        <span class="q-source-tag">${q.src || '统考真题'}</span>
+      </div>
+      <div class="q-stem">${q.q}</div>
+      <div class="options-col">${optionsHtml}</div>
+      <div class="exp-box ${showExp ? 'visible' : ''}" id="exp_${q.id}">
+        <div class="exp-top">
+          <span class="exp-ans-badge">正确答案：${q.ans}</span>
+          <span class="exp-title">💡 深度考点解析</span>
+        </div>
+        <div class="exp-body">${q.exp || '暂无详细机理解析'}</div>
+      </div>
+    `;
+
+    container.appendChild(card);
+  });
+
+  renderPalette();
+  updateHUD();
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+
+  mcqData.forEach(q => {
+    const btn = document.createElement('button');
+    btn.className = 'pal-btn';
+    btn.textContent = q.id;
+    btn.onclick = () => scrollToQuestion(q.id);
+
+    if (userAnswers[q.id] !== undefined) {
+      if (currentMode === 'instant' || examSubmitted) {
+        if (userAnswers[q.id] === q.ans) btn.classList.add('correct');
+        else btn.classList.add('wrong');
+      } else {
+        btn.classList.add('answered');
+      }
+    }
+
+    grid.appendChild(btn);
+  });
+}
+
+function renderWritten() {
+  const container = document.getElementById('writtenContainer');
+  container.innerHTML = '';
+
+  writtenData.forEach((sec, idx) => {
+    if (sec.type === 'mandatory') {
+      const card = document.createElement('div');
+      card.className = 'written-card';
+      
+      let subqsHtml = '';
+      if (sec.subqs) {
+        sec.subqs.forEach(sq => {
+          let tblHtml = '';
+          if (sq.table) {
+            tblHtml = `<table class="w-table">
+              <thead><tr><th>原料材料名称</th><th>烘焙百分比(%)</th><th>实际重量(g)</th></tr></thead>
+              <tbody>` + sq.table.map(r => `<tr><td><strong>${r.m}</strong></td><td>${r.p}</td><td>${r.w}</td></tr>`).join('') +
+              `</tbody></table>`;
+          }
+          subqsHtml += `<div style="margin-bottom:12px;">
+            <div style="font-weight:700;color:#1E293B;">${sq.label} ${sq.text}</div>
+            ${tblHtml}
+          </div>`;
+        });
+      }
+
+      card.innerHTML = `
+        <div class="wc-head">
+          <span class="wc-label">${sec.label}</span>
+          <span class="wc-pts">满分 10 分 · 必答</span>
+        </div>
+        <div class="wc-stem">${sec.stem}</div>
+        ${subqsHtml}
+        <div class="draft-box">
+          <div class="draft-label"><span>✍️ 考生作答思考草稿区：</span><span>(本地实时输入，不计分)</span></div>
+          <textarea class="draft-area" placeholder="请在此输入您的作答提纲或计算步骤..."></textarea>
+        </div>
+        <button class="wc-ans-btn" onclick="toggleWrittenAns('ans_mand_${idx}')">
+          <span>👁️ 查看标准参考答案与评分要点</span>
+          <span>▼</span>
+        </button>
+        <div class="wc-ans-panel" id="ans_mand_${idx}">
+          <div class="wc-ans-text">${sec.answer}</div>
+        </div>
+      `;
+      container.appendChild(card);
+    } else if (sec.type === 'optional') {
+      const header = document.createElement('div');
+      header.className = 'group-divider';
+      header.innerHTML = `<div class="gd-line"></div>
+        <div class="gd-badge">${sec.label}</div>
+        <div class="gd-line"></div>`;
+      container.appendChild(header);
+
+      if (sec.questions) {
+        sec.questions.forEach(q => {
+          const card = document.createElement('div');
+          card.className = 'written-card';
+          card.innerHTML = `
+            <div class="wc-head">
+              <span class="wc-label">乙组选答 · 第 ${q.id} 题</span>
+              <span class="wc-pts">10 分</span>
+            </div>
+            <div class="wc-stem">${q.stem}</div>
+            <div class="draft-box">
+              <div class="draft-label"><span>✍️ 考生作答思考草稿区：</span><span>(本地实时输入，不计分)</span></div>
+              <textarea class="draft-area" placeholder="请在此输入您的作答提纲或核心考点..."></textarea>
+            </div>
+            <button class="wc-ans-btn" onclick="toggleWrittenAns('ans_opt_${q.id}')">
+              <span>👁️ 查看标准参考答案与评分细则</span>
+              <span>▼</span>
+            </button>
+            <div class="wc-ans-panel" id="ans_opt_${q.id}">
+              <div class="wc-ans-text">${q.answer}</div>
+            </div>
+          `;
+          container.appendChild(card);
+        });
+      }
+    }
+  });
+}
+
+// 4. Interactive Logics
+function handleSelectOption(qid, letter) {
+  if (currentMode === 'instant' && userAnswers[qid] !== undefined) {
+    return; // Already answered in instant mode
+  }
+  if (examSubmitted) return;
+
+  userAnswers[qid] = letter;
+  renderMCQ();
+}
+
+function scrollToQuestion(qid) {
+  const el = document.getElementById(`qCard_${qid}`);
+  if (el) {
+    if (el.style.display === 'none') {
+      setFilter('all');
+    }
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+
+function togglePalette() {
+  const p = document.getElementById('paletteBox');
+  p.classList.toggle('hidden');
+}
+
+function toggleWrittenAns(panelId) {
+  const panel = document.getElementById(panelId);
+  if (panel) {
+    panel.classList.toggle('visible');
+  }
+}
+
+function switchSection(secNum) {
+  const t1 = document.getElementById('tabBtn1');
+  const t2 = document.getElementById('tabBtn2');
+  const sMcq = document.getElementById('sectionMcq');
+  const sWritten = document.getElementById('sectionWritten');
+
+  if (secNum === 1) {
+    t1.classList.add('active');
+    t2.classList.remove('active');
+    sMcq.style.display = 'block';
+    sWritten.classList.remove('active');
+  } else {
+    t2.classList.add('active');
+    t1.classList.remove('active');
+    sMcq.style.display = 'none';
+    sWritten.classList.add('active');
+  }
+}
+
+function setFilter(filterType) {
+  currentFilter = filterType;
+  ['fAll', 'fUnans', 'fAns', 'fWrong'].forEach(id => {
+    const btn = document.getElementById(id);
+    if (btn) btn.classList.remove('active');
+  });
+  const activeBtn = document.getElementById(
+    filterType === 'all' ? 'fAll' : (filterType === 'unans' ? 'fUnans' : (filterType === 'ans' ? 'fAns' : 'fWrong'))
+  );
+  if (activeBtn) activeBtn.classList.add('active');
+
+  renderMCQ();
+}
+
+function setMode(mode) {
+  currentMode = mode;
+  const b1 = document.getElementById('btnModeInstant');
+  const b2 = document.getElementById('btnModeExam');
+  const tBox = document.getElementById('hudTimerBox');
+  const fBar = document.getElementById('floatingBar');
+
+  if (mode === 'instant') {
+    b1.classList.add('active');
+    b2.classList.remove('active');
+    tBox.style.display = 'none';
+    fBar.classList.add('hidden');
+    stopTimer();
+  } else {
+    b2.classList.add('active');
+    b1.classList.remove('active');
+    tBox.style.display = 'flex';
+    fBar.classList.remove('hidden');
+    startTimer();
+  }
+  renderMCQ();
+}
+
+function updateHUD() {
+  const answeredCount = Object.keys(userAnswers).length;
+  let correctCount = 0;
+  Object.keys(userAnswers).forEach(qid => {
+    const q = mcqData.find(item => item.id == qid);
+    if (q && userAnswers[qid] === q.ans) correctCount++;
+  });
+
+  document.getElementById('hudAnswered').textContent = `${answeredCount} / ${mcqData.length}`;
+  const accuracy = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+  document.getElementById('hudAccuracy').textContent = `${accuracy}%`;
+  
+  const fsInfo = document.getElementById('fsAnsweredInfo');
+  if (fsInfo) fsInfo.textContent = `已答 ${answeredCount} / ${mcqData.length}`;
+}
+
+function startTimer() {
+  stopTimer();
+  timerInterval = setInterval(() => {
+    if (timerSeconds <= 0) {
+      stopTimer();
+      alert('考试时间到！系统正在自动为您交卷结算。');
+      submitExam();
+      return;
+    }
+    timerSeconds--;
+    const m = Math.floor(timerSeconds / 60);
+    const s = timerSeconds % 60;
+    const mStr = m < 10 ? '0' + m : m;
+    const sStr = s < 10 ? '0' + s : s;
+    document.getElementById('hudTimer').textContent = `${mStr}:${sStr}`;
+  }, 1000);
+}
+
+function stopTimer() {
+  if (timerInterval) clearInterval(timerInterval);
+  timerInterval = null;
+}
+
+function submitExam() {
+  examSubmitted = true;
+  stopTimer();
+
+  let correctCount = 0;
+  let grpScores = { 'A': { c: 0, t: 40 }, 'B': { c: 0, t: 10 }, 'C': { c: 0, t: 10 } };
+
+  mcqData.forEach(q => {
+    if (userAnswers[q.id] === q.ans) {
+      correctCount++;
+      if (grpScores[q.g]) grpScores[q.g].c++;
+    }
+  });
+
+  const pct = Math.round((correctCount / mcqData.length) * 100);
+  let grade = 'A1 (极优)';
+  let emoji = '🏆';
+  if (pct >= 85) { grade = 'A1 (优等第一级)'; emoji = '🏆'; }
+  else if (pct >= 80) { grade = 'A2 (优等第二级)'; emoji = '🌟'; }
+  else if (pct >= 75) { grade = 'B3 (良好)'; emoji = '✨'; }
+  else if (pct >= 70) { grade = 'B4 (良好)'; emoji = '👍'; }
+  else if (pct >= 60) { grade = 'B5/B6 (及格)'; emoji = '📈'; }
+  else { grade = '需加强巩固'; emoji = '💪'; }
+
+  document.getElementById('modalEmoji').textContent = emoji;
+  document.getElementById('modalScore').textContent = `${correctCount} / ${mcqData.length}`;
+  document.getElementById('modalGrade').textContent = `得分率：${pct}% · 统考预估：${grade}`;
+  document.getElementById('modalBreakdown').innerHTML = `
+    <strong>各模块答题详情：</strong><br>
+    🥐 甲组·烘焙理论：${grpScores['A'].c} / 40 (${Math.round(grpScores['A'].c/40*100)}%)<br>
+    🥩 乙组·西餐烹调：${grpScores['B'].c} / 10 (${Math.round(grpScores['B'].c/10*100)}%)<br>
+    🥢 丙组·亚洲烹调：${grpScores['C'].c} / 10 (${Math.round(grpScores['C'].c/10*100)}%)
+  `;
+
+  document.getElementById('examModal').classList.add('visible');
+  document.getElementById('floatingBar').classList.add('hidden');
+  renderMCQ();
+}
+
+function closeModalAndReview() {
+  document.getElementById('examModal').classList.remove('visible');
+}
+
+function resetAll() {
+  if (confirm('确定要清空本卷的作答记录重新开始吗？')) {
+    userAnswers = {};
+    examSubmitted = false;
+    timerSeconds = 80 * 60;
+    document.getElementById('hudTimer').textContent = '80:00';
+    document.getElementById('examModal').classList.remove('visible');
+    renderMCQ();
+    if (currentMode === 'exam') {
+      startTimer();
+      document.getElementById('floatingBar').classList.remove('hidden');
+    }
+  }
+}
+
+// Initialize
+renderMCQ();
+renderWritten();
+</script>
+</body>
+</html>

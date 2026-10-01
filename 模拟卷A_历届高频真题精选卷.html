@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026统考厨艺理论 · 模拟卷 A · 历届高频真题精选重组卷</title>
+<meta name="description" content="2026马来西亚华文独中统考厨艺理论历届全真模拟考场 - 模拟卷 A · 历届高频真题精选重组卷。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #92400E;
+  --primary-light: #FDE68A;
+  --primary-dark: #78350F;
+  --accent: #D97706;
+  --bg: #FDFBF7;
+  --card-bg: #FFFFFF;
+  --text: #1E293B;
+  --text-muted: #64748B;
+  --border: #E2E8F0;
+  --correct: #10B981;
+  --correct-bg: #ECFDF5;
+  --correct-border: #A7F3D0;
+  --wrong: #EF4444;
+  --wrong-bg: #FEF2F2;
+  --wrong-border: #FECACA;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 14px rgba(0,0,0,0.08);
+  --shadow-lg: 0 10px 25px rgba(0,0,0,0.12);
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  padding-bottom: 100px;
+}
+
+/* ── HEADER ── */
+header {
+  background: linear-gradient(135deg, #78350F 0%, #92400E 100%);
+  color: #fff;
+  padding: 12px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+}
+
+.hdr-wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.hdr-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.hdr-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #FDE68A;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.12);
+  transition: all 0.2s;
+}
+.hdr-back:hover {
+  background: rgba(255,255,255,0.22);
+  color: #fff;
+}
+
+.hdr-title-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.hdr-brand {
+  font-size: 1.05rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hdr-paper-badge {
+  background: #FDE68A;
+  color: #78350F;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  letter-spacing: 0.3px;
+}
+
+.hdr-sub {
+  font-size: 0.74rem;
+  color: rgba(255,255,255,0.85);
+}
+
+/* HUD stats bar */
+.hdr-hud {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.hud-pill {
+  background: rgba(0,0,0,0.22);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 9999px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.hud-val {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: #FDE68A;
+}
+
+/* Mode Switcher Buttons */
+.mode-switch {
+  display: flex;
+  background: rgba(0,0,0,0.25);
+  border-radius: 9999px;
+  padding: 2px;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.mode-btn {
+  background: transparent;
+  border: none;
+  color: rgba(255,255,255,0.8);
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.mode-btn.active {
+  background: #fff;
+  color: #78350F;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* ── MAIN LAYOUT ── */
+.main-wrap {
+  max-width: 1040px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+/* Paper Banner Card */
+.paper-banner {
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  border-left: 6px solid var(--accent);
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+}
+.pb-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.pb-title {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #1E293B;
+  margin-bottom: 6px;
+}
+.pb-desc {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+.pb-meta {
+  display: flex;
+  gap: 12px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+.pb-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: #475569;
+  background: #F8FAFC;
+  padding: 4px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+/* ── SECTION SWITCH TABS (试卷一 vs 试卷二) ── */
+.section-nav {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #E2E8F0;
+  padding-bottom: 2px;
+}
+.sec-tab-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #64748B;
+  padding: 10px 18px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sec-tab-btn:hover {
+  color: #1E293B;
+}
+.sec-tab-btn.active {
+  color: #92400E;
+}
+.sec-tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #92400E;
+  border-radius: 4px;
+}
+
+/* ── TOOLBAR (FILTER & ACTIONS) ── */
+.control-bar {
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 18px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  box-shadow: var(--shadow-sm);
+}
+.filter-group {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.filter-btn {
+  background: #F1F5F9;
+  border: 1px solid #CBD5E1;
+  color: #475569;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.filter-btn:hover {
+  background: #E2E8F0;
+}
+.filter-btn.active {
+  background: #92400E;
+  color: #fff;
+  border-color: #92400E;
+}
+
+.palette-toggle-btn {
+  background: #FEF3C7;
+  border: 1px solid #FDE68A;
+  color: #92400E;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.palette-toggle-btn:hover {
+  background: #FDE68A;
+}
+
+/* ── QUESTION PALETTE ── */
+.palette-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+}
+.palette-card.hidden {
+  display: none;
+}
+.palette-header {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #475569;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.palette-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(38px, 1fr));
+  gap: 8px;
+}
+.pal-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1.5px solid #CBD5E1;
+  background: #F8FAFC;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #475569;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+.pal-btn:hover {
+  border-color: var(--accent);
+  background: #FEF3C7;
+  color: var(--primary);
+}
+.pal-btn.answered {
+  background: #FEF3C7;
+  border-color: #F59E0B;
+  color: #B45309;
+}
+.pal-btn.correct {
+  background: #ECFDF5;
+  border-color: #10B981;
+  color: #047857;
+}
+.pal-btn.wrong {
+  background: #FEF2F2;
+  border-color: #EF4444;
+  color: #B91C1C;
+}
+
+/* Group Divider */
+.group-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 32px 0 18px 0;
+}
+.gd-line {
+  flex: 1;
+  height: 1.5px;
+  background: #E2E8F0;
+}
+.gd-badge {
+  background: #FEF3C7;
+  color: #78350F;
+  border: 1px solid #FDE68A;
+  padding: 4px 14px;
+  border-radius: 9999px;
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+/* ── QUESTION CARD ── */
+.question-card {
+  background: var(--card-bg);
+  border: 1.5px solid var(--border);
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin-bottom: 22px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.03);
+  transition: all 0.2s ease;
+}
+.question-card:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.q-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.q-top-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.q-num-pill {
+  background: #78350F;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 6px;
+}
+.q-grp-pill {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: #F1F5F9;
+  color: #475569;
+}
+.q-source-tag {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #92400E;
+  background: #FFFBEB;
+  border: 1px solid #FDE68A;
+  padding: 2px 10px;
+  border-radius: 9999px;
+}
+
+.q-stem {
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 18px;
+  line-height: 1.65;
+  white-space: pre-line;
+}
+
+/* Options */
+.options-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opt-btn {
+  display: flex;
+  align-items: center;
+  min-height: 52px;
+  padding: 12px 18px;
+  border: 2px solid #E2E8F0;
+  border-radius: 12px;
+  background: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+}
+.opt-btn:hover:not(.locked) {
+  border-color: #D97706;
+  background: #FFFDF7;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(217,119,6,0.12);
+}
+.opt-badge {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: #F1F5F9;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 14px;
+  flex-shrink: 0;
+  transition: all 0.15s ease;
+}
+.opt-txt {
+  font-size: 1.02rem;
+  font-weight: 500;
+  color: #1E293B;
+  flex: 1;
+}
+
+/* Option states */
+.opt-btn.selected-exam {
+  border-color: #D97706;
+  background: #FEF3C7;
+}
+.opt-btn.selected-exam .opt-badge {
+  background: #D97706;
+  color: #fff;
+}
+
+.opt-btn.correct {
+  border-color: #10B981;
+  background: #ECFDF5;
+}
+.opt-btn.correct .opt-badge {
+  background: #10B981;
+  color: #fff;
+}
+
+.opt-btn.wrong {
+  border-color: #EF4444;
+  background: #FEF2F2;
+}
+.opt-btn.wrong .opt-badge {
+  background: #EF4444;
+  color: #fff;
+}
+
+/* Explanation Box */
+.exp-box {
+  margin-top: 16px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-left: 4px solid var(--correct);
+  display: none;
+  animation: fadeIn 0.25s ease-out;
+}
+.exp-box.visible {
+  display: block;
+}
+.exp-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.exp-ans-badge {
+  background: #10B981;
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.8rem;
+  padding: 2px 10px;
+  border-radius: 6px;
+}
+.exp-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #0F172A;
+}
+.exp-body {
+  font-size: 0.92rem;
+  color: #334155;
+  line-height: 1.65;
+}
+
+/* ── SECTION 2: WRITTEN QUESTIONS ── */
+.written-section {
+  display: none;
+}
+.written-section.active {
+  display: block;
+}
+
+.written-tip {
+  background: #FFFBEB;
+  border: 1.5px solid #FDE68A;
+  border-radius: 14px;
+  padding: 18px 22px;
+  margin-bottom: 24px;
+  color: #78350F;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.written-card {
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  border-radius: 16px;
+  padding: 26px 30px;
+  margin-bottom: 24px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.03);
+}
+.wc-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.wc-label {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #78350F;
+  background: #FEF3C7;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+.wc-pts {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #475569;
+  background: #F1F5F9;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+.wc-stem {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0F172A;
+  line-height: 1.65;
+  margin-bottom: 16px;
+  white-space: pre-line;
+}
+
+/* Table in written question */
+.w-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 14px 0 20px 0;
+  font-size: 0.92rem;
+}
+.w-table th, .w-table td {
+  border: 1px solid #CBD5E1;
+  padding: 8px 14px;
+  text-align: center;
+}
+.w-table th {
+  background: #F1F5F9;
+  font-weight: 700;
+  color: #1E293B;
+}
+.w-table tr:nth-child(even) td {
+  background: #F8FAFC;
+}
+
+/* Draft Box */
+.draft-box {
+  margin: 16px 0;
+}
+.draft-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #64748B;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+.draft-area {
+  width: 100%;
+  height: 90px;
+  border: 1.5px solid #CBD5E1;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  resize: vertical;
+  background: #FFFDF9;
+}
+.draft-area:focus {
+  outline: none;
+  border-color: #D97706;
+  box-shadow: 0 0 0 3px rgba(217,119,6,0.15);
+}
+
+/* Answer Accordion Button */
+.wc-ans-btn {
+  width: 100%;
+  padding: 12px 18px;
+  background: #FFFBEB;
+  border: 1.5px solid #FDE68A;
+  border-radius: 10px;
+  color: #92400E;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s;
+  margin-top: 14px;
+}
+.wc-ans-btn:hover {
+  background: #FDE68A;
+}
+.wc-ans-panel {
+  margin-top: 12px;
+  padding: 20px 24px;
+  border-radius: 12px;
+  background: #F0FDF4;
+  border: 1.5px solid #A7F3D0;
+  display: none;
+}
+.wc-ans-panel.visible {
+  display: block;
+}
+.wc-ans-text {
+  font-size: 0.95rem;
+  color: #064E3B;
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
+/* ── EXAM MODE SUBMISSION MODAL ── */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.modal-overlay.visible {
+  display: flex;
+}
+.modal-card {
+  background: #FFFFFF;
+  border-radius: 20px;
+  max-width: 520px;
+  width: 100%;
+  padding: 32px 30px;
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+  animation: scaleIn 0.2s ease-out;
+}
+.modal-emoji {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #1E293B;
+  margin-bottom: 8px;
+}
+.modal-score-box {
+  margin: 18px 0;
+  padding: 16px;
+  background: #FFFBEB;
+  border-radius: 14px;
+  border: 1.5px solid #FDE68A;
+}
+.modal-score-num {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #92400E;
+  line-height: 1;
+}
+.modal-score-sub {
+  font-size: 0.9rem;
+  color: #78350F;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.modal-btn-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 24px;
+}
+.modal-btn {
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+}
+.modal-btn-primary {
+  background: #92400E;
+  color: #fff;
+}
+.modal-btn-primary:hover {
+  background: #78350F;
+}
+.modal-btn-sec {
+  background: #F1F5F9;
+  color: #475569;
+}
+.modal-btn-sec:hover {
+  background: #E2E8F0;
+}
+
+/* Floating Submit Button for Exam Mode */
+.floating-submit-bar {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #FFFFFF;
+  border: 1.5px solid var(--border);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  border-radius: 9999px;
+  padding: 8px 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  z-index: 90;
+}
+.floating-submit-bar.hidden {
+  display: none;
+}
+.fs-btn {
+  background: linear-gradient(135deg, #059669, #10B981);
+  color: #fff;
+  border: none;
+  font-size: 0.92rem;
+  font-weight: 700;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 3px 8px rgba(16,185,129,0.3);
+}
+.fs-btn:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  padding: 24px 16px;
+  border-top: 1px solid var(--border);
+}
+footer a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width: 640px) {
+  .question-card { padding: 18px 16px; }
+  .pb-title { font-size: 1.25rem; }
+  .opt-btn { min-height: 48px; padding: 10px 14px; }
+  .opt-badge { width: 28px; height: 28px; font-size: 0.88rem; margin-right: 10px; }
+  .opt-txt { font-size: 0.95rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hdr-wrap">
+    <div class="hdr-left">
+      <a class="hdr-back" href="模拟考场主页.html">← 模拟考场总览</a>
+      <a class="hdr-back" href="模拟卷B_2026前瞻预测试题卷.html">🔮 模拟卷 B</a><a class="hdr-back" href="模拟卷C_2026统考短选项实战冲刺卷.html">⚡ 模拟卷 C</a>
+      <a class="hdr-back" href="index.html">🏠 练习系统主页</a>
+      <div class="hdr-title-box">
+        <div class="hdr-brand">
+          <span>模拟卷 A · 历届高频真题精选重组卷</span>
+          <span class="hdr-paper-badge">真题精选 · 稳固基础</span>
+        </div>
+        <div class="hdr-sub">严格精选 2020~2025 年统考高频复现考点 · 稳固基础盘 50 分以上</div>
+      </div>
+    </div>
+
+    <div class="hdr-hud">
+      <!-- Mode Switch -->
+      <div class="mode-switch">
+        <button class="mode-btn active" id="btnModeInstant" onclick="setMode('instant')">⚡ 随刷即查</button>
+        <button class="mode-btn" id="btnModeExam" onclick="setMode('exam')">⏱️ 模考计时</button>
+      </div>
+
+      <div class="hud-pill" id="hudTimerBox" style="display:none;">
+        <span>⏳</span><span class="hud-val" id="hudTimer">80:00</span>
+      </div>
+
+      <div class="hud-pill">
+        <span>已答</span><span class="hud-val" id="hudAnswered">0 / 60</span>
+      </div>
+
+      <div class="hud-pill">
+        <span>正确率</span><span class="hud-val" id="hudAccuracy">0%</span>
+      </div>
+
+      <button class="hdr-back" onclick="resetAll()" title="重置本卷答题记录" style="cursor:pointer;border:none;">🔄 重置</button>
+    </div>
+  </div>
+</header>
+
+<main class="main-wrap">
+
+  <!-- Banner Card -->
+  <div class="paper-banner">
+    <div class="pb-top">
+      <div>
+        <h1 class="pb-title">模拟卷 A · 历届高频真题精选重组卷</h1>
+        <p class="pb-desc">本卷试题均精选自 2020~2025 年六届统考真题中复现率最高的核心考题（含搅拌六阶段、酵母换算、五大母酱、蛋糕三大类、中餐刀工规范等），配齐详细评分解析与作答要点。</p>
+      </div>
+    </div>
+    <div class="pb-meta">
+      <div class="pb-meta-item"><span>⏱️</span> 建议作答时间：80 分钟</div>
+      <div class="pb-meta-item"><span>📝</span> 试卷一：60 题单选题（全答 · 60分）</div>
+      <div class="pb-meta-item"><span>✍️</span> 试卷二：作答题（甲组必答 + 乙组选答 · 40分）</div>
+      <div class="pb-meta-item"><span>📊</span> 历届真题短选项对标 · 董总命题标准</div>
+    </div>
+  </div>
+
+  <!-- Section Nav Tabs -->
+  <div class="section-nav">
+    <button class="sec-tab-btn active" id="tabBtn1" onclick="switchSection(1)">
+      📝 试卷一：选择题 (60题 · 60分)
+    </button>
+    <button class="sec-tab-btn" id="tabBtn2" onclick="switchSection(2)">
+      ✍️ 试卷二：作答题 (综合题 · 40分)
+    </button>
+  </div>
+
+  <!-- ── SECTION 1: MCQ ── -->
+  <div id="sectionMcq">
+
+    <!-- Control Bar -->
+    <div class="control-bar">
+      <div class="filter-group">
+        <button class="filter-btn active" id="fAll" onclick="setFilter('all')">全部 (60)</button>
+        <button class="filter-btn" id="fUnans" onclick="setFilter('unans')">未作答</button>
+        <button class="filter-btn" id="fAns" onclick="setFilter('ans')">已作答</button>
+        <button class="filter-btn" id="fWrong" onclick="setFilter('wrong')">错题本</button>
+      </div>
+
+      <button class="palette-toggle-btn" onclick="togglePalette()">
+        <span>🔢</span> 展开 / 收起答题卡题号
+      </button>
+    </div>
+
+    <!-- Question Palette -->
+    <div class="palette-card hidden" id="paletteBox">
+      <div class="palette-header">
+        <span>快速定位题号</span>
+        <span style="font-size:0.75rem;color:#64748B;">点击题号直接平滑跳转至对应题目</span>
+      </div>
+      <div class="palette-grid" id="paletteGrid"></div>
+    </div>
+
+    <!-- Questions Container -->
+    <div id="questionsContainer"></div>
+
+  </div>
+
+  <!-- ── SECTION 2: WRITTEN ── -->
+  <div class="written-section" id="sectionWritten">
+    <div class="written-tip">
+      <strong>📌 统考作答须知：</strong><br>
+      试卷二（作答题）满分为 40 分。<br>
+      • <strong>甲组（必答题，10分）</strong>：必须全答，重点考查烘焙计算与基础操作原理。<br>
+      • <strong>乙组（选答题，30分）</strong>：共 7 题选答 3 题，每题 10 分。建议先在草稿区整理要点，再点击展开核对参考答案与评分要点。
+    </div>
+
+    <div id="writtenContainer"></div>
+  </div>
+
+</main>
+
+<!-- Floating Bar for Exam Mode -->
+<div class="floating-submit-bar hidden" id="floatingBar">
+  <span style="font-size:0.86rem;font-weight:700;color:#1E293B;">模考进行中</span>
+  <span style="font-size:0.82rem;color:#64748B;" id="fsAnsweredInfo">已答 0/60</span>
+  <button class="fs-btn" onclick="submitExam()">📋 交卷评测</button>
+</div>
+
+<!-- Modal Dialog for Exam Submission Results -->
+<div class="modal-overlay" id="examModal">
+  <div class="modal-card">
+    <div class="modal-emoji" id="modalEmoji">🎉</div>
+    <div class="modal-title">模考评测报告</div>
+    <div class="modal-score-box">
+      <div class="modal-score-num" id="modalScore">0 / 60</div>
+      <div class="modal-score-sub" id="modalGrade">等级：评测中</div>
+    </div>
+    <div id="modalBreakdown" style="font-size:0.88rem;color:#475569;margin-bottom:18px;line-height:1.6;"></div>
+    <div class="modal-btn-row">
+      <button class="modal-btn modal-btn-primary" onclick="closeModalAndReview()">🔍 查看全卷解析</button>
+      <button class="modal-btn modal-btn-sec" onclick="resetAll()">🔄 重新模考</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p style="margin-bottom:6px;">
+    <a href="模拟考场主页.html">← 返回模拟考场总览</a> &nbsp;|&nbsp; 
+    <a href="index.html">返回高中厨艺理论互动答题总系统</a>
+  </p>
+  <p>2026年马来西亚华文独中统一考试厨艺理论 · 历届全真模拟考场 &nbsp;|&nbsp; <em style="color:var(--accent)">v2026.10-Build.04</em></p>
+</footer>
+
+<script>
+// 1. Data Injection
+const mcqData = [
+  // ── BAKERY Q1-40 ──
+  {id:1,g:'A',src:'2025真题',q:'在餐厅厨房负责制作糕点的餐饮从业人员，法文称为什么？',opts:{A:'Saucier',B:'Patissier',C:'Poissonnier',D:'Chef Gardenmanger'},ans:'B',exp:'Patissier 专指糕点师（Pastry Chef）。Saucier 为酱汁厨师，Poissonnier 为鱼类厨师，Gardenmanger 为冷食厨师。'},
+  {id:2,g:'A',src:'2025真题',q:'依照世界卫生组织定义，正确的洗手流程一般需多长时间？',opts:{A:'5秒',B:'10秒',C:'20秒以下',D:'20秒以上'},ans:'D',exp:'WHO 建议以流动清水与肥皂搓洗至少 20 秒以上，方可有效去除手部致病菌，保障食品安全。'},
+  {id:3,g:'A',src:'2025真题',q:'2017年推出的新品巧克力，天然呈粉红色、有树莓风味，称为？',opts:{A:'红宝石巧克力（Ruby）',B:'单品巧克力（Single Origin）',C:'免调温巧克力（Compound）',D:'黑牌巧克力（Couverture）'},ans:'A',exp:'红宝石巧克力（Ruby Chocolate）由嘉利宝（Callebaut）于2017年推出，天然粉红色，具树莓酸甜风味，无须添加色素。'},
+  {id:4,g:'A',src:'2024真题',q:'下列哪种材料不可贮存在冷冻柜，以避免油水分离？',opts:{A:'无水奶油（Butter）',B:'坚果油',C:'鲜奶油（Cream）',D:'棕榈油'},ans:'C',exp:'鲜奶油是脂肪与水的乳化液，冷冻后解冻时乳化结构破坏，导致油水分离，无法再次打发。'},
+  {id:5,g:'A',src:'2024真题',q:'烘焙百分比（Baker\'s Percentage）中，以哪种原料的重量为100%基准？',opts:{A:'总面团重量',B:'鸡蛋重量',C:'面粉重量',D:'油脂总重量'},ans:'C',exp:'烘焙百分比永远以面粉总重量为100%基准，其他原料均以占面粉重量的百分比表示。'},
+  {id:6,g:'A',src:'2023真题',q:'面团可拉出均匀薄透薄膜、破口呈平滑圆弧形，此为哪个搅拌阶段？',opts:{A:'扩展阶段',B:'完全扩展阶段',C:'拾起阶段',D:'卷起阶段'},ans:'B',exp:'完全扩展阶段（Final Stage）：面团极光滑有光泽，薄膜破口平滑圆弧（无锯齿），是吐司、软式面包的最佳搅拌终点。'},
+  {id:7,g:'A',src:'2023真题',q:'面团搅拌过度后，面筋断裂，面团表面发黏渗水，此现象称为？',opts:{A:'断筋（Over-mixing）',B:'水化（Hydration）',C:'老化（Staling）',D:'糊化（Gelatinization）'},ans:'A',exp:'断筋：面团在完全扩展阶段后继续高速搅拌，机械剪切力切断面筋网络，面团失去弹性、发黏渗水，产品体积大幅缩减。'},
+  {id:8,g:'A',src:'2022真题',q:'新鲜酵母、活性干酵母、即发干酵母的换算比例，何者正确？',opts:{A:'新鲜:活性干:即发干 = 3:2:1',B:'新鲜:活性干:即发干 = 1:0.5:0.33',C:'新鲜:活性干:即发干 = 2:1:0.5',D:'三者相等可直接替换'},ans:'B',exp:'换算黄金比例：新鲜酵母3g ≈ 活性干酵母1.5g ≈ 即发干酵母1g。即 1:0.5:0.33。即发干效力最强。'},
+  {id:9,g:'A',src:'2022真题',q:'面包体积比（Specific Volume）是指什么？',opts:{A:'面包体积 ÷ 面包重量',B:'面包重量 ÷ 面包体积',C:'面包体积 ÷ 面团重量',D:'面团重量 ÷ 面包体积'},ans:'A',exp:'体积比 = 面包体积（cm³）÷ 面包重量（g）。标准吐司约 6~7 cm³/g，越高表示组织越松软。'},
+  {id:10,g:'A',src:'2022真题',q:'制作面包时盐量加倍，发酵后会产生哪种情形？',opts:{A:'产品高度变高',B:'产品高度变低',C:'产品会容易烧焦',D:'产品表面出现裂痕'},ans:'B',exp:'食盐高渗透压抑制酵母活性，盐加倍则酵母产气量大幅减少，面团发酵不足，产品高度明显偏低。'},
+  {id:11,g:'A',src:'2021高频',q:'制作派皮或奶酥底，配方内应用哪种油脂最合适？',opts:{A:'沙拉油',B:'无水奶油或精制猪油',C:'玛琪琳',D:'棉籽油'},ans:'B',exp:'无水奶油或猪油固态脂肪含量高，提供最佳起酥性（Shortening Effect）与层次感。玛琪琳含水，沙拉油为液态。'},
+  {id:12,g:'A',src:'2021高频',q:'以下哪项正确描述三大乳沫类蛋糕的区别？',opts:{A:'三者皆使用全蛋打发法',B:'海绵全蛋打发，戚风分蛋打发，天使纯蛋白打发',C:'戚风和天使皆不含油脂',D:'天使蛋糕含大量蛋黄'},ans:'B',exp:'海绵=全蛋+糖打发；戚风=分蛋打发+沙拉油；天使=纯蛋白+塔塔粉，不含蛋黄与任何油脂。'},
+  {id:13,g:'A',src:'2021高频',q:'面糊比重（Specific Gravity）的正确定义是？',opts:{A:'比重越高，打发程度越好',B:'面糊重量 ÷ 同体积水的重量',C:'比重大于1说明充气良好',D:'海绵蛋糕标准比重约0.9~1.0'},ans:'B',exp:'比重 = 等体积面糊重量 ÷ 等体积水重量。比重越低（接近0），充气越多、打发越好。海绵蛋糕标准约 0.45~0.55。'},
+  {id:14,g:'A',src:'2020真题',q:'烘焙食品要安全贮藏，应放置在怎样的地方？',opts:{A:'阴冷、潮湿',B:'阴冷、干燥',C:'高温、潮湿',D:'高温、阳光直射'},ans:'B',exp:'「阴冷干燥」：低温减缓细菌繁殖与脂肪氧化；干燥防止吸潮受潮、霉菌生长。'},
+  {id:15,g:'A',src:'2020真题',q:'800g带盖吐司在200℃下，烘焙时间约需多久？',opts:{A:'15~20分钟',B:'35~40分钟',C:'55~60分钟',D:'1小时以上'},ans:'B',exp:'800g 带盖吐司在 200℃ 标准条件下需 35~40 分钟。重量越大、含糖量越高须适当延长时间并降低炉温。'},
+  {id:16,g:'A',src:'2024高频',q:'烘焙产品形成金黄色泽与焦香风味，主要由于哪种反应？',opts:{A:'焦糖化反应（Caramelization）',B:'美拉德反应（Maillard Reaction）',C:'水解反应（Hydrolysis）',D:'皂化反应（Saponification）'},ans:'B',exp:'美拉德反应：还原糖与氨基酸在约110℃以上发生非酶促褐变，产生芳香化合物与褐色素——是面包烤色与焦香的主要来源。'},
+  {id:17,g:'A',src:'2023真题',q:'制作马卡龙的烘焙温度应控制在约多少℃？',opts:{A:'200℃',B:'180℃',C:'160℃',D:'120℃'},ans:'C',exp:'马卡龙低温慢烤约 140~165℃，12~15 分钟。过高开裂变色，过低成品潮湿。低温烤保持外脆内软及花边（Pied）。'},
+  {id:18,g:'A',src:'2022真题',q:'哪种蛋白霜最不易消泡，最适合挤花装饰？',opts:{A:'法式蛋白霜（French）',B:'瑞士蛋白霜（Swiss）',C:'意式蛋白霜（Italian）',D:'三种稳定性相同'},ans:'C',exp:'意式蛋白霜（Italian Meringue）：将118~121℃热糖浆倒入打发蛋白，热糖浆使蛋白质变性固定，形成极稳定的光泽蛋白霜。'},
+  {id:19,g:'A',src:'2021真题',q:'法式道纳司（French Doughnut）使用哪种面糊制作？',opts:{A:'泡芙面糊（Pâte à Choux）',B:'千层酥皮（Puff Pastry）',C:'小西饼面团（Cookies）',D:'派皮（Pie Dough）'},ans:'A',exp:'法式道纳司使用泡芙面糊（Choux Pastry），将面糊挤圈入油锅，靠蒸汽膨胀（非酵母发酵）炸至金黄膨松。'},
+  {id:20,g:'A',src:'2020高频',q:'食品用具煮沸杀菌法，正确操作条件是什么？',opts:{A:'90℃加热半分钟',B:'90℃加热1分钟',C:'100℃加热半分钟',D:'100℃加热1分钟'},ans:'D',exp:'标准煮沸杀菌法：100℃沸腾清水中持续至少1分钟，可消灭大部分非孢子型致病细菌。'},
+  {id:21,g:'A',src:'2023高频',q:'下列关于海绵蛋糕出炉后收缩，哪项叙述有误？',opts:{A:'面粉筋度过高',B:'烘焙时间太短',C:'蛋打发过度或不足',D:'出炉后立刻脱模表面朝下'},ans:'D',exp:'出炉后立刻脱模表面朝下是戚风蛋糕的正确操作。海绵蛋糕收缩原因：筋度过高、时间不足、打发异常、出炉后震动。'},
+  {id:22,g:'A',src:'2024高频',q:'烘烤泡芙体积膨胀不足的原因包括哪些？\nⅠ蛋温太低或不新鲜 Ⅱ加蛋时面糊超过65℃ Ⅲ油水面粉未拌合均匀',opts:{A:'Ⅰ、Ⅱ',B:'Ⅰ、Ⅲ',C:'Ⅱ、Ⅲ',D:'Ⅰ、Ⅱ、Ⅲ'},ans:'D',exp:'三项均是：①蛋温低→乳化差；②面糊过热→蛋白质过早凝固；③油水分离→面糊不稳定，三者皆导致体积不足。'},
+  {id:23,g:'A',src:'2022高频',q:'先将面粉与油脂拌至蓬松，再依序加入其他原料，此搅拌方法是？',opts:{A:'糖油拌合法',B:'粉油拌合法',C:'直接拌合法',D:'二步拌合法'},ans:'B',exp:'粉油拌合法（Flour-Batter Method）：油脂裹覆面粉阻断面筋，产品细腻柔软油润，适用于高油脂磅蛋糕。'},
+  {id:24,g:'A',src:'2021真题',q:'吉利丁（Gelatin）是从何种来源提取制成？',opts:{A:'海藻',B:'山药',C:'动物骨骼与皮肤胶原蛋白',D:'树脂'},ans:'C',exp:'吉利丁是动物骨骼、皮肤、结缔组织中的胶原蛋白水解而成。海藻→琼脂；植物→果胶。冷水泡软后加热至60℃融化使用。'},
+  {id:25,g:'A',src:'2020高频',q:'以下哪种烘焙产品不需使用酵母？',opts:{A:'法国面包（Baguette）',B:'美式甜面包（Soft Roll）',C:'马卡龙（Macaron）',D:'丹麦面包（Danish）'},ans:'C',exp:'马卡龙由蛋白霜+杏仁粉+糖粉组成，靠打发蛋白霜气泡膨胀，完全不使用酵母。其他三种均为发酵面团产品。'},
+  {id:26,g:'A',src:'2023真题',q:'下列何者为化学膨大剂？',opts:{A:'酵母（Yeast）',B:'吉利丁（Gelatin）',C:'塔塔粉（Cream of Tartar）',D:'泡打粉（Baking Powder）'},ans:'D',exp:'泡打粉由碳酸氢钠＋酸性盐＋淀粉组成，遇水或加热产生CO₂，不依赖微生物。塔塔粉为酸性调节剂；酵母为生物膨大剂。'},
+  {id:27,g:'A',src:'2024高频',q:'小麦麸皮与胚芽中的矿物质成分（镁、钾、磷、铁等）称为？',opts:{A:'灰分（Ash Content）',B:'脂肪',C:'葡萄糖',D:'胡萝卜素'},ans:'A',exp:'灰分是面粉高温灼烧后残留矿物质，来自麸皮与胚芽。灰分越高→精白度越低，全麦粉灰分高，高精白粉灰分约0.3~0.5%。'},
+  {id:28,g:'A',src:'2022高频',q:'油炸用油的发烟点（Smoke Point）应达多少以上？',opts:{A:'150~160℃',B:'160~170℃',C:'170~180℃',D:'200℃以上'},ans:'D',exp:'油炸操作温度约170~190℃，发烟点须高于200℃以避免油脂在操作温度下分解产生有害醛类物质。'},
+  {id:29,g:'A',src:'2023高频',q:'下列关于烤炉烤面包，哪项不正确？',opts:{A:'瓦斯炉炉温上升较慢',B:'蒸汽炉烤硬式面包表皮较脆薄',C:'隧道炉可连续生产产量较大',D:'热风炉烤吐司颜色较均匀'},ans:'A',exp:'瓦斯炉加热速度实际取决于设备型号与火力，不一定较慢。蒸汽炉（B）确能形成薄脆外壳；隧道炉（C）与热风炉（D）叙述均正确。'},
+  {id:30,g:'A',src:'2020真题',q:'比萨（Pizza）的意大利发面饼，属于哪项产品分类？',opts:{A:'面包类',B:'饼干类',C:'中点类',D:'西点类'},ans:'A',exp:'比萨饼底使用酵母发酵面团制作，属「面包类」产品分类。那不勒斯传统比萨使用高水分面团，讲究弹性与延展性。'},
+  {id:31,g:'A',src:'2022高频',q:'制作苹果派馅，通常用哪种胶冻原料增稠？',opts:{A:'玉米淀粉',B:'吉利丁',C:'洋菜粉（琼脂）',D:'甘薯粉'},ans:'A',exp:'玉米淀粉在95℃加热迅速糊化，冷却后透明有光泽，质地滑顺不凝固成固体，适合派馅。吉利丁室温可能融化，琼脂口感硬脆。'},
+  {id:32,g:'A',src:'2021高频',q:'小麦面粉中两种主要蛋白质，形成面筋网络（Gluten）的是？',opts:{A:'白蛋白与球蛋白',B:'麦谷蛋白（Glutenin）与醇溶谷蛋白（Gliadin）',C:'胶原蛋白与弹性蛋白',D:'酪蛋白与乳清蛋白'},ans:'B',exp:'麦谷蛋白（Glutenin）提供弹性；醇溶谷蛋白（Gliadin）提供延展性。两者加水搅拌形成立体面筋网络。'},
+  {id:33,g:'A',src:'2024高频',q:'马卡龙面糊挤出后需静置结皮才烤，其目的是？',opts:{A:'防止面糊流散变形',B:'表面干燥，烘烤时蒸汽从底部冲出形成花边（Pied）',C:'增加面糊含糖量',D:'使酵母在室温发酵'},ans:'B',exp:'静置结皮（Resting）：表面形成薄外壳，烘烤时内部蒸汽无法从顶部逸出，转而从底部边缘冲出，形成马卡龙标志性花边。'},
+  {id:34,g:'A',src:'2022真题',q:'以下哪一烘焙原料组合是错误的？',opts:{A:'蛋白霜＋甜点醋 = 舒芙蕾',B:'面包面团＋起酥油 = 可颂',C:'焦糖＋全蛋 = 焦糖布丁',D:'面糊类＋乳沫类 = 戚风蛋糕'},ans:'A',exp:'舒芙蕾搭配的是卡士达酱（Crème Pâtissière）或巧克力糊，并非甜点醋。醋仅是蛋白霜打发时的辅助稳定剂，不是主配对。'},
+  {id:35,g:'A',src:'2021高频',q:'派皮从模型中取出时容易破碎，最主要原因是？',opts:{A:'取出时过热',B:'配方中油脂含量太少',C:'松弛时间不足',D:'烘焙不足'},ans:'B',exp:'油脂润滑作用减少面筋形成，使派皮有适当酥脆感。油脂过少→面筋过强→派皮太脆，受力即破碎。'},
+  {id:36,g:'A',src:'2023真题',q:'派馅中牛奶布丁质地太坚韧，最可能的原因是？',opts:{A:'浓皮太厚',B:'烘焙时间太长',C:'馅料温度太低',D:'胶凝程度不够'},ans:'B',exp:'烘焙时间过长→蛋白质过度变性凝固→质地橡皮状坚韧。标准应烤至中心微晃（果冻感）即出炉，余热完成凝固。'},
+  {id:37,g:'A',src:'2020高频',q:'以下哪种水果含天然果胶，具有胶凝特性？',opts:{A:'黄梨（菠萝）',B:'香蕉',C:'西瓜',D:'奇异果'},ans:'A',exp:'黄梨（菠萝）含天然果胶（Pectin），加热加糖可产生胶凝效果。注意：新鲜菠萝含蛋白酶（Bromelain）会分解吉利丁，需先煮熟灭酶再用。'},
+  {id:38,g:'A',src:'2022高频',q:'打发蛋白霜时，以下哪种材料不能替代塔塔粉（Cream of Tartar）？',opts:{A:'盐',B:'白醋',C:'发粉（Baking Powder）',D:'柠檬汁'},ans:'C',exp:'发粉含碳酸氢钠（碱性），会提高蛋白pH值，破坏泡沫结构。白醋、柠檬汁（酸性）、少量盐均可稳定蛋白泡沫。'},
+  {id:39,g:'A',src:'2025高频',q:'蛋糕包装时，为延长保存时间，常放置什么材料？',opts:{A:'抗氧化剂',B:'防腐剂',C:'干燥剂',D:'防腐剂与干燥剂'},ans:'C',exp:'干燥剂（硅胶）吸收包装内多余水分，维持干燥环境，防止霉菌生长与淀粉老化（Staling）。'},
+  {id:40,g:'A',src:'2024真题',q:'奶粉重量2.2磅（lbs），相当于多少公制重量？',opts:{A:'半公斤',B:'1公斤',C:'1.5公斤',D:'4.4公斤'},ans:'B',exp:'1磅≈453.6g，2.2磅≈997.9g≈1公斤。记忆口诀：1公斤≈2.2磅，因此2.2磅倒推约等于1公斤。'},
+
+  // ── WESTERN CUISINE Q41-50 ──
+  {id:41,g:'B',src:'2024真题',q:'法式五大母酱中，由「白色高汤＋白色面糊（White Roux）」制成的是？',opts:{A:'荷兰酱（Hollandaise）',B:'白酱（Béchamel）',C:'褐酱（Espagnole）',D:'金黄酱（Velouté）'},ans:'D',exp:'Velouté = White Stock＋White/Blonde Roux；Béchamel = Milk＋White Roux；Espagnole = Brown Stock＋Brown Roux；Hollandaise = 澄清黄油＋蛋黄。'},
+  {id:42,g:'B',src:'2024真题',q:'荷兰酱（Hollandaise Sauce）的主要油脂应使用什么？',opts:{A:'普通黄油（Whole Butter）',B:'玛琪琳',C:'澄清黄油（Clarified Butter）',D:'沙拉油'},ans:'C',exp:'澄清黄油（Clarified Butter）去除水分与蛋白质，纯净脂肪乳化效果最稳定，发烟点更高，是荷兰酱的专用油脂。'},
+  {id:43,g:'B',src:'2025真题',q:'法式料理中，「Roux（面糊）」最主要的功能是什么？',opts:{A:'增加食物味道',B:'增加食物颜色',C:'增加食物营养',D:'增加食物浓稠度'},ans:'D',exp:'Roux = 等量黄油＋面粉加热翻炒，主要功能是增稠（Thickening）——淀粉糊化使酱汁形成浓稠顺滑质地。'},
+  {id:44,g:'B',src:'2023真题',q:'法式洋葱汤呈现深棕色，洋葱在烹调时经历的专业术语是？',opts:{A:'酶促褐变',B:'焦糖化反应（Caramelization）',C:'美拉德反应',D:'氧化反应'},ans:'B',exp:'洋葱在150~180℃低温长时间翻炒，天然糖分发生焦糖化反应（Caramelize Onions），产生深棕色素与甜香，需约30~45分钟以上。'},
+  {id:45,g:'B',src:'2024真题',q:'水波煮（Poaching）的烹调温度约为摄氏几度？',opts:{A:'100℃',B:'85~95℃',C:'65~80℃',D:'50℃以下'},ans:'C',exp:'水波煮约65~80℃微沸（可见细小气泡，液体不翻滚），适合娇嫩食材（水波蛋、鱼片、家禽胸肉），防止破碎保持嫩度。'},
+  {id:46,g:'B',src:'2025真题',q:'西餐术语「al dente」指的是什么？',opts:{A:'放工时间',B:'准备工作',C:'饭的粘稠度',D:'面食的嚼劲度'},ans:'D',exp:'al dente 是意大利文「to the tooth」，形容意大利面食外层软熟、内心略带嚼劲的最佳熟度状态，是专业西餐面食的黄金标准。'},
+  {id:47,g:'B',src:'2023真题',q:'储存高汤或酱料，以下哪些原则正确？\nⅠ FIFO先进先出 Ⅱ 必须标上贮藏日期 Ⅲ 贮藏前必须搅拌 Ⅳ 重新加热',opts:{A:'Ⅰ、Ⅱ',B:'Ⅰ、Ⅱ、Ⅲ',C:'Ⅱ、Ⅲ、Ⅳ',D:'Ⅰ、Ⅱ、Ⅲ、Ⅳ'},ans:'A',exp:'正确原则：FIFO先进先出＋标注日期。贮藏前搅拌可能引入污染；重新加热须在使用时进行，不适合纯贮藏操作。'},
+  {id:48,g:'B',src:'2022真题',q:'Palette knife 的别称是什么？',opts:{A:'Chef knife（主厨刀）',B:'Metal spatula（金属抹刀）',C:'Butcher knife（屠宰刀）',D:'Filleting knife（去骨刀）'},ans:'B',exp:'Palette knife 刀刃宽平柔软，无切割功能，专用于涂抹蛋糕奶油、铺平酱料，学名别称为 Metal spatula。'},
+  {id:49,g:'B',src:'2025真题',q:'将食物切成不规则形状的极细末，西餐中称为什么？',opts:{A:'Mince（碎末）',B:'Chop（粗切）',C:'Dice（方丁）',D:'Shred（细丝）'},ans:'A',exp:'Mince = 极细小不规则碎末（约1~2mm），常用于蒜末、洋葱末、香草末。Chop为粗切；Dice为标准方形；Shred为细丝。'},
+  {id:50,g:'B',src:'2022真题',q:'欲使食材表面焗烤（Gratin）上色，应使用哪个厨具？',opts:{A:'煎炉（Grill）',B:'烤箱（Oven）',C:'炉灶（Stove Top）',D:'萨拉曼德烤炉（Salamander）'},ans:'D',exp:'Salamander 是顶部加热的专业开放式烤炉，热源从上方直接辐射，极短时间使表面上色，常用于焗烤芝士、法式洋葱汤表面。'},
+
+  // ── ASIAN CUISINE Q51-60 ──
+  {id:51,g:'C',src:'2024真题',q:'下列刀工尺寸关系，何者正确？',opts:{A:'丝 比 条 粗',B:'丁 比 粒 大',C:'条 比 丝 细',D:'粒 比 丁 小'},ans:'D',exp:'正确关系：丝（细）< 条（粗）；粒（小）< 丁（大）。所以「粒比丁小」正确。常考陷阱：选项B「丁比粒大」也正确，但D的表述更精确。'},
+  {id:52,g:'C',src:'2022真题',q:'制作「炖」的菜肴，应使用什么火候？',opts:{A:'大火',B:'文火（小火）',C:'武火',D:'旺火'},ans:'B',exp:'炖以文火（80~95℃）长时间缓慢加热，使胶原蛋白充分溶出，汤汁醇厚，肉质软烂入味。旺火/大火不适合长时间炖制。'},
+  {id:53,g:'C',src:'2025真题',q:'铁氟龙（Teflon）不粘锅，应搭配哪种器具以免损伤涂层？',opts:{A:'铁铲',B:'木制铲',C:'不锈钢铲',D:'不锈铜炒瓢'},ans:'B',exp:'铁氟龙（PTFE）涂层极脆弱，金属器具会划破涂层。应用木制铲或硅胶铲——柔软无金属，保护涂层完整性。'},
+  {id:54,g:'C',src:'2023真题',q:'下列干货库房管理原则，哪项正确？',opts:{A:'尽可能日光直射以维持干燥',B:'最适宜温度20~25℃',C:'相对湿度控制在30~50%',D:'食物以先进后出为原则'},ans:'C',exp:'干货库房：温度10~21℃；湿度30~60%（C正确）；避免日光直射；应遵循FIFO先进先出（D错误：先进后出是错的）。'},
+  {id:55,g:'C',src:'2022真题',q:'勾芡要达到「明油亮芡」的效果，应如何操作？',opts:{A:'用面粉来勾芡',B:'芡粉中添加小苏打',C:'用炒瓢不停地搅拌',D:'勾芡时用炒瓢往同一方向推拌'},ans:'D',exp:'明油亮芡关键：水淀粉沿锅边缓缓淋入，同一固定方向均匀推拌，使淀粉均匀糊化包裹食材。乱搅会破坏芡汁稳定性。'},
+  {id:56,g:'C',src:'2023真题',q:'擅长烹煮海鲜、口味极清淡、强调原料本味的，是哪个地区特色菜？',opts:{A:'江苏菜',B:'浙江菜',C:'福建菜',D:'东北菜'},ans:'B',exp:'浙菜以「清鲜秀美、注重本味」著称，尤善水产海鲜。代表菜：西湖醋鱼、龙井虾仁。江苏偏甜；福建擅长糟味；东北偏重口。'},
+  {id:57,g:'C',src:'2024真题',q:'下列哪种细菌性食物中毒最容易发生于禽肉类？',opts:{A:'肉毒杆菌',B:'肠炎弧菌',C:'沙门氏杆菌（Salmonella）',D:'金黄色葡萄球菌'},ans:'C',exp:'沙门氏杆菌（Salmonella）常见于禽类肠道，屠宰时可能污染肉品。症状：发烧、腹泻、呕吐。肠炎弧菌来自海鲜；金黄色葡萄球菌来自手部伤口。'},
+  {id:58,g:'C',src:'2022真题',q:'水拔拔丝的正确四个阶段顺序是？',opts:{A:'熔化→稀薄→浓稠→出丝',B:'熔化→浓稠→出丝→稀薄',C:'熔化→浓稠→稀薄→出丝',D:'浓稠→熔化→稀薄→出丝'},ans:'A',exp:'水拔拔丝：①熔化（糖晶体融化）→②稀薄（水分多，流动性强）→③浓稠（水分蒸发，约145~155℃）→④出丝（约155~165℃，可拉出细糖丝）。'},
+  {id:59,g:'C',src:'2025真题',q:'糖醋排骨中，芡汁浓度的作用不包含哪一项？',opts:{A:'让食物更亮丽',B:'让食物更酥脆',C:'让调味料沾在食物表面',D:'让芡汁水分暂时不渗进排骨'},ans:'B',exp:'芡汁功能：①增亮美化；②调味附着；③隔水保温。「使食物更酥脆」不是芡汁功能——芡汁含水分，反而会软化炸物外壳。'},
+  {id:60,g:'C',src:'2023真题',q:'刀与食材呈40度角切割，食材受热后卷曲成花状，是哪种花刀？',opts:{A:'麦穗花刀',B:'松球花刀',C:'菊花花刀',D:'鱼鳃花刀'},ans:'D',exp:'鱼鳃花刀：刀与食材成40°角斜切，每刀切入约2/3深度，热处理后食材沿切口翻卷展开如鱼鳃，常用于鱿鱼、腰花。'},
+];
+const writtenData = [
+  {
+    id:'A-W1', type:'mandatory', label:'甲组·必答题（10%）—— 1题必答',
+    stem:'1. 已知戚风蛋糕配方的烘焙百分比如下表，低筋面粉重量为 250g。',
+    subqs:[
+      {label:'(a)', text:'重抄下表并计算各材料的实际重量（g）。（7%）',
+       table:[
+         {m:'低筋面粉',p:'100%',w:'250g'},
+         {m:'细砂糖',p:'80%',w:'___'},
+         {m:'鸡蛋（全蛋）',p:'160%',w:'___'},
+         {m:'沙拉油',p:'40%',w:'___'},
+         {m:'牛奶',p:'40%',w:'___'},
+         {m:'泡打粉',p:'2%',w:'___'},
+         {m:'塔塔粉',p:'1%',w:'___'},
+         {m:'合计',p:'423%',w:'___'},
+       ]},
+      {label:'(b)', text:'写出烘焙百分比的计算公式。（3%）'}
+    ],
+    answer:'(a) 计算方法：各原料重量 = 面粉重量（250g）× 该原料百分比\n• 细砂糖：250g × 80% = 200g\n• 鸡蛋：250g × 160% = 400g\n• 沙拉油：250g × 40% = 100g\n• 牛奶：250g × 40% = 100g\n• 泡打粉：250g × 2% = 5g\n• 塔塔粉：250g × 1% = 2.5g\n• 合计：250+200+400+100+100+5+2.5 = 1057.5g\n\n(b) 烘焙百分比公式：\n某原料百分比（%）= 该原料重量 ÷ 面粉总重量 × 100%\n该原料实际重量 = 面粉重量 × 该原料百分比（以小数表示）\n面粉永远设定为 100% 基准值。'
+  },
+  {
+    id:'A-W2', type:'optional', label:'乙组·选答题（30%）—— 7题选答3题',
+    questions:[
+      {id:2, stem:'2. 搅拌机（Mixer）是烘焙作业中不可缺少的设备。\n(a) 试写出搅拌机中三种不同拌打器的名称及其主要功能。（6%）\n(b) 试列举面包面团搅拌的六个主要阶段，并简述「完全扩展阶段」的面团特征。（4%）',
+       answer:'(a) 三种拌打器：\n① 钩状拌打器（Dough Hook）——专门搅拌高筋面团（面包、比萨），模拟手工揉面，充分发展面筋网络；\n② 桨状拌打器（Flat Beater / Paddle）——拌合蛋糕面糊、饼干面团、奶油霜，适合中等硬度材料；\n③ 球状拌打器（Wire Whip / Balloon Whisk）——打发鸡蛋、鲜奶油、蛋白霜，充入大量空气。\n\n(b) 六阶段：①原料混合→②拾起→③卷起→④扩展→⑤完全扩展→⑥断筋（过度）\n【完全扩展阶段】：面团极光滑有光泽；可拉出极薄均匀的透明薄膜，破口平滑圆弧（无锯齿）；弹性与延伸性达最佳平衡。适合制作吐司、软式甜面包。'},
+      {id:3, stem:'3. 法式料理对西餐的发展影响深远。\n(a)① 经典法式洋葱汤用什么高汤做汤底？（2%）② 若因宗教因素，可用什么高汤替代？（1%）\n(b) 为什么法式洋葱汤呈深色？洋葱在烹调时的专用术语是什么？（2%＋1%）\n(c) 试列出维希冷汤（Vichyssoise）的主材料及基本烹调方式。（4%）',
+       answer:'(a)① 牛肉褐色高汤（Brown Beef Stock）或小牛高汤（Veal Stock）\n  ② 蔬菜高汤（Vegetable Stock）作素食/宗教替代\n\n(b) 深色原因：洋葱在低温长时间（150~180℃约30~45分钟）翻炒下，天然糖分发生【焦糖化反应（Caramelization）】产生深棕色素与浓郁甜香。专用术语：「焦糖化洋葱（Caramelize the Onions）」\n\n(c) 维希冷汤（Vichyssoise）：主材料：韭葱（Leek）、马铃薯（Potato）、洋葱（Onion）、鸡汤、鲜奶油。\n烹调：韭葱洋葱炒软→加马铃薯与鸡汤煮至软烂→打成细腻浓汤→过滤加鲜奶油→冷藏冰镇后盛盘，顶部以葱末或鱼子酱装饰。'},
+      {id:4, stem:'4. 不同烹调方法影响菜肴品质。\n(a)① 水波煮（Poaching）温度？② 蒸气烹（Steaming）温度？③ 荷兰酱的主要油脂？④ 褐高汤褐色来源？⑤ Roux功效？（各1%）\n(b) 如何定义一个好的炸物？（5%）',
+       answer:'(a)① 约65~80℃（微沸状态，液体不翻滚）\n② 约100℃（饱和水蒸气）\n③ 澄清黄油（Clarified Butter）\n④ 骨头与肉类先高温烘烤至深褐色（美拉德反应），产生深色素融入高汤\n⑤ Roux功效：作为酱汁增稠剂（Thickening Agent），淀粉糊化使液体浓稠顺滑\n\n(b) 优质炸物评定标准：\n① 色泽金黄均匀——无过焦或过淡区域；② 外脆内嫩——外壳酥脆，内部食材水嫩熟透；③ 含油量低——表面不油腻；④ 无异味——油质新鲜，无哈喇味；⑤ 形状完整——裹粉均匀，大小一致便于均匀受热。'},
+      {id:5, stem:'5. 牛肉是西餐重要食材。\n(a) 说明四种牛排生熟度（Medium Rare、Medium、Medium Well、Well Done）。（4%）\n(b) 说明「休息时间（Resting Time）」的目的。（2%）\n(c) 列举5种常见西餐香草（中英对照）。（4%）',
+       answer:'(a) • Medium Rare（三分熟）55~57℃：内约50%粉红/红色，汁液丰富\n• Medium（五分熟）60~63℃：内约25%粉红色，软嫩多汁\n• Medium Well（七分熟）65~68℃：少量粉红痕迹，肉质开始较坚实\n• Well Done（全熟）70℃以上：全部熟透呈灰褐色，质地坚实汁液少\n\n(b) 休息时间（Resting）：牛排离火后静置3~5分钟。高温时肌肉纤维收缩将汁液挤向中心，静置后肌肉松弛，汁液重新均匀分布，防止切开时大量汁液流失。\n\n(c) 5种西餐香草：① 罗勒 Basil ② 百里香 Thyme ③ 迷迭香 Rosemary ④ 欧芹 Parsley ⑤ 月桂叶 Bay Leaf'},
+      {id:6, stem:'6. 中餐刀工是核心技能。\n(a) 简述下列切割法适用材料并各举一例：① 直切 ② 推切 ③ 拉切 ④ 推拉切 ⑤ 滚刀切。（5%）\n(b) 列举中国八大菜系中任意5个，并各举一道代表菜。（5%）',
+       answer:'(a) 切割法：\n① 直切——脆硬蔬菜（胡萝卜、萝卜），刀垂直向下。例：切萝卜片\n② 推切——软嫩食材（熟肉、豆腐），刀由后向前推。例：切熟猪肝\n③ 拉切——韧性纤维食材（生肉），刀由前向后拉。例：切鸡胸肉\n④ 推拉切——有弹性食材（火腿），推拉结合。例：切火腿薄片\n⑤ 滚刀切——圆柱形蔬菜（茄子），边切边转食材。例：切滚刀茄子块\n\n(b) 菜系代表（任5个）：\n① 川菜→麻婆豆腐 ② 粤菜→清蒸石斑 ③ 鲁菜→葱烧海参 ④ 苏菜→松鼠桂鱼 ⑤ 浙菜→西湖醋鱼 ⑥ 闽菜→佛跳墙 ⑦ 湘菜→剁椒鱼头 ⑧ 徽菜→红烧臭鳜鱼'},
+      {id:7, stem:'7. 厨房安全卫生是基本守则。\n(a) 按顺序写出厨房餐具的洗涤流程。（4%）\n(b) 写出厨房卫生管理中的四大原则。（4%）\n(c) 说明四色砧板管理制度。（2%）',
+       answer:'(a) 餐具洗涤流程（5步）：\n① 刮除残渣→② 预浸/冲洗→③ 洗涤（热水＋洗洁精刷洗）→④ 漂清（流水清洗去除洗洁精）→⑤ 消毒（煮沸100℃/1分钟，或化学消毒，或高温烘干）\n\n(b) 四大卫生原则：\n① 清洁（Clean）—定时清洗接触食品的表面与设备\n② 隔离（Separate）—生熟分开，防止交叉污染\n③ 烹煮（Cook）—确保食物达到安全内部温度\n④ 控温（Chill）—冷藏4℃以下，热食60℃以上\n\n(c) 四色砧板：红色→生红肉（猪牛羊）；黄色→生禽肉（鸡鸭）；蓝色→生海鲜（鱼虾贝）；绿色→新鲜蔬果；白色→熟食'},
+      {id:8, stem:'8. 粮食制品是以粮食为原料制作的成品或半成品。\n(a) 列出粮食制品的三大种类。（3%）\n(b) 说明以下食品的储存方法：① 蛋类 ② 豆类 ③ 豆腐类 ④ 油脂类。（4%）\n(c) 列举三种中餐调味料并说明其作用。（3%）',
+       answer:'(a) 三大种类：\n① 谷类制品（面粉、大米、玉米粉）\n② 豆类制品（豆腐、豆浆、腐竹）\n③ 薯类制品（淀粉、粉丝、粉条）\n\n(b) 储存：\n① 蛋类：冷藏（4℃以下），尖端朝下，不水洗后储存\n② 豆类（干燥）：阴凉干燥密封，10~15℃，湿度50%以下\n③ 豆腐：冷藏（0~4℃），泡清水每日换水，1~2天内用完\n④ 油脂：密封避光储存，防氧化酸败，冷藏延长保质期\n\n(c) 调味料：\n① 酱油——咸味、增色（焦糖色素）、增鲜（氨基酸）\n② 米酒——去腥解腻、增香、软化肉质\n③ 香醋——酸味、增进食欲、软化食材、防腐'}
+    ]
+  }
+];
+
+// 2. Application State
+let currentMode = 'instant'; // 'instant' or 'exam'
+let currentFilter = 'all';   // 'all', 'unans', 'ans', 'wrong'
+let userAnswers = {};        // qId: selectedOption ('A','B','C','D')
+let examSubmitted = false;
+let timerSeconds = 80 * 60;  // 80 minutes
+let timerInterval = null;
+
+// Group definitions
+const groupNames = {
+  'A': '甲组 · 烘焙理论与实务 (Q01~Q40)',
+  'B': '乙组 · 西餐烹调艺术 (Q41~Q50)',
+  'C': '丙组 · 亚洲烹调艺术 (Q51~Q60)'
+};
+
+// 3. Render Functions
+function renderMCQ() {
+  const container = document.getElementById('questionsContainer');
+  container.innerHTML = '';
+
+  let lastGroup = null;
+
+  mcqData.forEach(q => {
+    // Group divider
+    if (q.g !== lastGroup) {
+      lastGroup = q.g;
+      const div = document.createElement('div');
+      div.className = 'group-divider';
+      div.innerHTML = `<div class="gd-line"></div>
+        <div class="gd-badge">${groupNames[q.g] || '组别'}</div>
+        <div class="gd-line"></div>`;
+      container.appendChild(div);
+    }
+
+    const card = document.createElement('div');
+    card.className = 'question-card';
+    card.id = `qCard_${q.id}`;
+    card.dataset.qid = q.id;
+    card.dataset.group = q.g;
+
+    const answered = userAnswers[q.id] !== undefined;
+    const isCorrect = answered && userAnswers[q.id] === q.ans;
+    const isWrong = answered && !isCorrect;
+
+    // Filter visibility
+    if (currentFilter === 'unans' && answered) card.style.display = 'none';
+    else if (currentFilter === 'ans' && !answered) card.style.display = 'none';
+    else if (currentFilter === 'wrong' && (!answered || isCorrect)) card.style.display = 'none';
+    else card.style.display = 'block';
+
+    const numStr = q.id < 10 ? '0' + q.id : q.id;
+    const groupLabel = q.g === 'A' ? '甲组·烘焙' : (q.g === 'B' ? '乙组·西餐' : '丙组·亚洲');
+
+    let optionsHtml = '';
+    ['A', 'B', 'C', 'D'].forEach(letter => {
+      const text = q.opts[letter] || '';
+      let optClass = 'opt-btn';
+      if (currentMode === 'instant' || examSubmitted) {
+        if (answered) {
+          optClass += ' locked';
+          if (letter === q.ans) optClass += ' correct';
+          else if (userAnswers[q.id] === letter && letter !== q.ans) optClass += ' wrong';
+        }
+      } else {
+        if (userAnswers[q.id] === letter) optClass += ' selected-exam';
+      }
+
+      optionsHtml += `
+        <div class="${optClass}" onclick="handleSelectOption(${q.id}, '${letter}')">
+          <div class="opt-badge">${letter}</div>
+          <div class="opt-txt">${text}</div>
+        </div>`;
+    });
+
+    const showExp = (currentMode === 'instant' && answered) || examSubmitted;
+
+    card.innerHTML = `
+      <div class="q-top">
+        <div class="q-top-left">
+          <span class="q-num-pill">第 ${numStr} 题</span>
+          <span class="q-grp-pill">${groupLabel}</span>
+        </div>
+        <span class="q-source-tag">${q.src || '统考真题'}</span>
+      </div>
+      <div class="q-stem">${q.q}</div>
+      <div class="options-col">${optionsHtml}</div>
+      <div class="exp-box ${showExp ? 'visible' : ''}" id="exp_${q.id}">
+        <div class="exp-top">
+          <span class="exp-ans-badge">正确答案：${q.ans}</span>
+          <span class="exp-title">💡 深度考点解析</span>
+        </div>
+        <div class="exp-body">${q.exp || '暂无详细机理解析'}</div>
+      </div>
+    `;
+
+    container.appendChild(card);
+  });
+
+  renderPalette();
+  updateHUD();
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+
+  mcqData.forEach(q => {
+    const btn = document.createElement('button');
+    btn.className = 'pal-btn';
+    btn.textContent = q.id;
+    btn.onclick = () => scrollToQuestion(q.id);
+
+    if (userAnswers[q.id] !== undefined) {
+      if (currentMode === 'instant' || examSubmitted) {
+        if (userAnswers[q.id] === q.ans) btn.classList.add('correct');
+        else btn.classList.add('wrong');
+      } else {
+        btn.classList.add('answered');
+      }
+    }
+
+    grid.appendChild(btn);
+  });
+}
+
+function renderWritten() {
+  const container = document.getElementById('writtenContainer');
+  container.innerHTML = '';
+
+  writtenData.forEach((sec, idx) => {
+    if (sec.type === 'mandatory') {
+      const card = document.createElement('div');
+      card.className = 'written-card';
+      
+      let subqsHtml = '';
+      if (sec.subqs) {
+        sec.subqs.forEach(sq => {
+          let tblHtml = '';
+          if (sq.table) {
+            tblHtml = `<table class="w-table">
+              <thead><tr><th>原料材料名称</th><th>烘焙百分比(%)</th><th>实际重量(g)</th></tr></thead>
+              <tbody>` + sq.table.map(r => `<tr><td><strong>${r.m}</strong></td><td>${r.p}</td><td>${r.w}</td></tr>`).join('') +
+              `</tbody></table>`;
+          }
+          subqsHtml += `<div style="margin-bottom:12px;">
+            <div style="font-weight:700;color:#1E293B;">${sq.label} ${sq.text}</div>
+            ${tblHtml}
+          </div>`;
+        });
+      }
+
+      card.innerHTML = `
+        <div class="wc-head">
+          <span class="wc-label">${sec.label}</span>
+          <span class="wc-pts">满分 10 分 · 必答</span>
+        </div>
+        <div class="wc-stem">${sec.stem}</div>
+        ${subqsHtml}
+        <div class="draft-box">
+          <div class="draft-label"><span>✍️ 考生作答思考草稿区：</span><span>(本地实时输入，不计分)</span></div>
+          <textarea class="draft-area" placeholder="请在此输入您的作答提纲或计算步骤..."></textarea>
+        </div>
+        <button class="wc-ans-btn" onclick="toggleWrittenAns('ans_mand_${idx}')">
+          <span>👁️ 查看标准参考答案与评分要点</span>
+          <span>▼</span>
+        </button>
+        <div class="wc-ans-panel" id="ans_mand_${idx}">
+          <div class="wc-ans-text">${sec.answer}</div>
+        </div>
+      `;
+      container.appendChild(card);
+    } else if (sec.type === 'optional') {
+      const header = document.createElement('div');
+      header.className = 'group-divider';
+      header.innerHTML = `<div class="gd-line"></div>
+        <div class="gd-badge">${sec.label}</div>
+        <div class="gd-line"></div>`;
+      container.appendChild(header);
+
+      if (sec.questions) {
+        sec.questions.forEach(q => {
+          const card = document.createElement('div');
+          card.className = 'written-card';
+          card.innerHTML = `
+            <div class="wc-head">
+              <span class="wc-label">乙组选答 · 第 ${q.id} 题</span>
+              <span class="wc-pts">10 分</span>
+            </div>
+            <div class="wc-stem">${q.stem}</div>
+            <div class="draft-box">
+              <div class="draft-label"><span>✍️ 考生作答思考草稿区：</span><span>(本地实时输入，不计分)</span></div>
+              <textarea class="draft-area" placeholder="请在此输入您的作答提纲或核心考点..."></textarea>
+            </div>
+            <button class="wc-ans-btn" onclick="toggleWrittenAns('ans_opt_${q.id}')">
+              <span>👁️ 查看标准参考答案与评分细则</span>
+              <span>▼</span>
+            </button>
+            <div class="wc-ans-panel" id="ans_opt_${q.id}">
+              <div class="wc-ans-text">${q.answer}</div>
+            </div>
+          `;
+          container.appendChild(card);
+        });
+      }
+    }
+  });
+}
+
+// 4. Interactive Logics
+function handleSelectOption(qid, letter) {
+  if (currentMode === 'instant' && userAnswers[qid] !== undefined) {
+    return; // Already answered in instant mode
+  }
+  if (examSubmitted) return;
+
+  userAnswers[qid] = letter;
+  renderMCQ();
+}
+
+function scrollToQuestion(qid) {
+  const el = document.getElementById(`qCard_${qid}`);
+  if (el) {
+    if (el.style.display === 'none') {
+      setFilter('all');
+    }
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+
+function togglePalette() {
+  const p = document.getElementById('paletteBox');
+  p.classList.toggle('hidden');
+}
+
+function toggleWrittenAns(panelId) {
+  const panel = document.getElementById(panelId);
+  if (panel) {
+    panel.classList.toggle('visible');
+  }
+}
+
+function switchSection(secNum) {
+  const t1 = document.getElementById('tabBtn1');
+  const t2 = document.getElementById('tabBtn2');
+  const sMcq = document.getElementById('sectionMcq');
+  const sWritten = document.getElementById('sectionWritten');
+
+  if (secNum === 1) {
+    t1.classList.add('active');
+    t2.classList.remove('active');
+    sMcq.style.display = 'block';
+    sWritten.classList.remove('active');
+  } else {
+    t2.classList.add('active');
+    t1.classList.remove('active');
+    sMcq.style.display = 'none';
+    sWritten.classList.add('active');
+  }
+}
+
+function setFilter(filterType) {
+  currentFilter = filterType;
+  ['fAll', 'fUnans', 'fAns', 'fWrong'].forEach(id => {
+    const btn = document.getElementById(id);
+    if (btn) btn.classList.remove('active');
+  });
+  const activeBtn = document.getElementById(
+    filterType === 'all' ? 'fAll' : (filterType === 'unans' ? 'fUnans' : (filterType === 'ans' ? 'fAns' : 'fWrong'))
+  );
+  if (activeBtn) activeBtn.classList.add('active');
+
+  renderMCQ();
+}
+
+function setMode(mode) {
+  currentMode = mode;
+  const b1 = document.getElementById('btnModeInstant');
+  const b2 = document.getElementById('btnModeExam');
+  const tBox = document.getElementById('hudTimerBox');
+  const fBar = document.getElementById('floatingBar');
+
+  if (mode === 'instant') {
+    b1.classList.add('active');
+    b2.classList.remove('active');
+    tBox.style.display = 'none';
+    fBar.classList.add('hidden');
+    stopTimer();
+  } else {
+    b2.classList.add('active');
+    b1.classList.remove('active');
+    tBox.style.display = 'flex';
+    fBar.classList.remove('hidden');
+    startTimer();
+  }
+  renderMCQ();
+}
+
+function updateHUD() {
+  const answeredCount = Object.keys(userAnswers).length;
+  let correctCount = 0;
+  Object.keys(userAnswers).forEach(qid => {
+    const q = mcqData.find(item => item.id == qid);
+    if (q && userAnswers[qid] === q.ans) correctCount++;
+  });
+
+  document.getElementById('hudAnswered').textContent = `${answeredCount} / ${mcqData.length}`;
+  const accuracy = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+  document.getElementById('hudAccuracy').textContent = `${accuracy}%`;
+  
+  const fsInfo = document.getElementById('fsAnsweredInfo');
+  if (fsInfo) fsInfo.textContent = `已答 ${answeredCount} / ${mcqData.length}`;
+}
+
+function startTimer() {
+  stopTimer();
+  timerInterval = setInterval(() => {
+    if (timerSeconds <= 0) {
+      stopTimer();
+      alert('考试时间到！系统正在自动为您交卷结算。');
+      submitExam();
+      return;
+    }
+    timerSeconds--;
+    const m = Math.floor(timerSeconds / 60);
+    const s = timerSeconds % 60;
+    const mStr = m < 10 ? '0' + m : m;
+    const sStr = s < 10 ? '0' + s : s;
+    document.getElementById('hudTimer').textContent = `${mStr}:${sStr}`;
+  }, 1000);
+}
+
+function stopTimer() {
+  if (timerInterval) clearInterval(timerInterval);
+  timerInterval = null;
+}
+
+function submitExam() {
+  examSubmitted = true;
+  stopTimer();
+
+  let correctCount = 0;
+  let grpScores = { 'A': { c: 0, t: 40 }, 'B': { c: 0, t: 10 }, 'C': { c: 0, t: 10 } };
+
+  mcqData.forEach(q => {
+    if (userAnswers[q.id] === q.ans) {
+      correctCount++;
+      if (grpScores[q.g]) grpScores[q.g].c++;
+    }
+  });
+
+  const pct = Math.round((correctCount / mcqData.length) * 100);
+  let grade = 'A1 (极优)';
+  let emoji = '🏆';
+  if (pct >= 85) { grade = 'A1 (优等第一级)'; emoji = '🏆'; }
+  else if (pct >= 80) { grade = 'A2 (优等第二级)'; emoji = '🌟'; }
+  else if (pct >= 75) { grade = 'B3 (良好)'; emoji = '✨'; }
+  else if (pct >= 70) { grade = 'B4 (良好)'; emoji = '👍'; }
+  else if (pct >= 60) { grade = 'B5/B6 (及格)'; emoji = '📈'; }
+  else { grade = '需加强巩固'; emoji = '💪'; }
+
+  document.getElementById('modalEmoji').textContent = emoji;
+  document.getElementById('modalScore').textContent = `${correctCount} / ${mcqData.length}`;
+  document.getElementById('modalGrade').textContent = `得分率：${pct}% · 统考预估：${grade}`;
+  document.getElementById('modalBreakdown').innerHTML = `
+    <strong>各模块答题详情：</strong><br>
+    🥐 甲组·烘焙理论：${grpScores['A'].c} / 40 (${Math.round(grpScores['A'].c/40*100)}%)<br>
+    🥩 乙组·西餐烹调：${grpScores['B'].c} / 10 (${Math.round(grpScores['B'].c/10*100)}%)<br>
+    🥢 丙组·亚洲烹调：${grpScores['C'].c} / 10 (${Math.round(grpScores['C'].c/10*100)}%)
+  `;
+
+  document.getElementById('examModal').classList.add('visible');
+  document.getElementById('floatingBar').classList.add('hidden');
+  renderMCQ();
+}
+
+function closeModalAndReview() {
+  document.getElementById('examModal').classList.remove('visible');
+}
+
+function resetAll() {
+  if (confirm('确定要清空本卷的作答记录重新开始吗？')) {
+    userAnswers = {};
+    examSubmitted = false;
+    timerSeconds = 80 * 60;
+    document.getElementById('hudTimer').textContent = '80:00';
+    document.getElementById('examModal').classList.remove('visible');
+    renderMCQ();
+    if (currentMode === 'exam') {
+      startTimer();
+      document.getElementById('floatingBar').classList.remove('hidden');
+    }
+  }
+}
+
+// Initialize
+renderMCQ();
+renderWritten();
+</script>
+</body>
+</html>
