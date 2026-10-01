@@ -161,6 +161,78 @@
     }
 
     /* Premium Space-Saving Control Panel (Grid Layout, Perfectly Balanced) */
+    
+    /* Difficulty Filter Bar */
+    
+    .difficulty-filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 22px;
+      background: #F8FAFC;
+      padding: 10px 14px;
+      border-radius: 14px;
+      border: 1.5px solid #E2E8F0;
+      align-items: center;
+    }
+    .diff-tab-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1.5px solid #CBD5E1;
+      background: white;
+      color: #475569;
+      transition: all 0.2s ease;
+      user-select: none;
+    }
+    .diff-tab-btn:hover {
+      border-color: #94A3B8;
+      background: #F1F5F9;
+      transform: translateY(-1px);
+    }
+    .diff-tab-btn.active {
+      border-color: #2563EB;
+      background: #EFF6FF;
+      color: #1D4ED8;
+      box-shadow: 0 2px 4px rgba(37, 99, 235, 0.12);
+    }
+    .diff-tab-btn.easy.active {
+      border-color: #16A34A;
+      background: #DCFCE7;
+      color: #15803D;
+      box-shadow: 0 2px 4px rgba(22, 163, 74, 0.15);
+    }
+    .diff-tab-btn.medium.active {
+      border-color: #D97706;
+      background: #FEF3C7;
+      color: #B45309;
+      box-shadow: 0 2px 4px rgba(217, 119, 6, 0.15);
+    }
+    .diff-tab-btn.hard.active {
+      border-color: #DC2626;
+      background: #FEE2E2;
+      color: #B91C1C;
+      box-shadow: 0 2px 4px rgba(220, 38, 38, 0.15);
+    }
+    .diff-tab-btn.mistakes.active {
+      border-color: #9333EA;
+      background: #F3E8FF;
+      color: #7E22CE;
+      box-shadow: 0 2px 4px rgba(147, 51, 234, 0.15);
+    }
+    .diff-tab-btn .badge-pill {
+      font-size: 0.78rem;
+      padding: 1px 7px;
+      border-radius: 10px;
+      background: rgba(0,0,0,0.06);
+      font-weight: 700;
+    }
+
     .control-panel {
       display: grid;
       grid-template-columns: minmax(380px, 520px) 1fr;
@@ -169,7 +241,79 @@
     }
 
     @media (max-width: 860px) {
-      .control-panel {
+      
+    /* Difficulty Filter Bar */
+    
+    .difficulty-filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 22px;
+      background: #F8FAFC;
+      padding: 10px 14px;
+      border-radius: 14px;
+      border: 1.5px solid #E2E8F0;
+      align-items: center;
+    }
+    .diff-tab-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1.5px solid #CBD5E1;
+      background: white;
+      color: #475569;
+      transition: all 0.2s ease;
+      user-select: none;
+    }
+    .diff-tab-btn:hover {
+      border-color: #94A3B8;
+      background: #F1F5F9;
+      transform: translateY(-1px);
+    }
+    .diff-tab-btn.active {
+      border-color: #2563EB;
+      background: #EFF6FF;
+      color: #1D4ED8;
+      box-shadow: 0 2px 4px rgba(37, 99, 235, 0.12);
+    }
+    .diff-tab-btn.easy.active {
+      border-color: #16A34A;
+      background: #DCFCE7;
+      color: #15803D;
+      box-shadow: 0 2px 4px rgba(22, 163, 74, 0.15);
+    }
+    .diff-tab-btn.medium.active {
+      border-color: #D97706;
+      background: #FEF3C7;
+      color: #B45309;
+      box-shadow: 0 2px 4px rgba(217, 119, 6, 0.15);
+    }
+    .diff-tab-btn.hard.active {
+      border-color: #DC2626;
+      background: #FEE2E2;
+      color: #B91C1C;
+      box-shadow: 0 2px 4px rgba(220, 38, 38, 0.15);
+    }
+    .diff-tab-btn.mistakes.active {
+      border-color: #9333EA;
+      background: #F3E8FF;
+      color: #7E22CE;
+      box-shadow: 0 2px 4px rgba(147, 51, 234, 0.15);
+    }
+    .diff-tab-btn .badge-pill {
+      font-size: 0.78rem;
+      padding: 1px 7px;
+      border-radius: 10px;
+      background: rgba(0,0,0,0.06);
+      font-weight: 700;
+    }
+
+    .control-panel {
         grid-template-columns: 1fr;
         gap: 10px;
       }
@@ -548,11 +692,13 @@
       background: radial-gradient(circle at 50% 20%, #FFFDF9 0%, #F5EBE1 100%);
       z-index: 1000;
       overflow-y: auto;
-      padding: 40px 20px 60px;
+      padding: 28px 20px 14px;
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: space-between;
       transition: opacity 0.3s ease, visibility 0.3s ease;
+      box-sizing: border-box;
     }
 
     .portal-screen.hidden {
@@ -561,10 +707,54 @@
       pointer-events: none;
     }
 
+    
+    
+    /* Screen Level Footer (Centered, Italic, Minimalist - Font size increased 50%) */
+    .portal-screen-footer {
+      width: 100%;
+      text-align: center;
+      margin: auto auto 0 auto;
+      padding: 16px 10px 10px;
+      color: #94A3B8;
+      font-size: 0.75rem;
+      font-style: italic;
+      line-height: 1.6;
+      user-select: none;
+    }
+    .portal-screen-footer .tiny-line-1 {
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: #475569;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .portal-screen-footer .tiny-line-2 {
+      font-size: 0.72rem;
+      color: #94A3B8;
+      letter-spacing: 0.2px;
+    }
+    .portal-screen-footer .tiny-ver {
+      font-style: normal;
+      color: #2563EB;
+      font-weight: 600;
+      font-size: 0.72rem;
+      background: rgba(37, 99, 235, 0.08);
+      padding: 1px 7px;
+      border-radius: 4px;
+    }
+
     .portal-container {
       max-width: 1160px;
       width: 100%;
       margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 auto;
+      justify-content: center;
     }
 
     .portal-hero {
@@ -784,7 +974,7 @@
 </head>
 <body>
 
-  <!-- Grade Selection Portal Screen (登录与年段选择门户) -->
+    <!-- Grade Selection Portal Screen (登录与年段选择门户) -->
   <div id="gradePortal" class="portal-screen">
     <div class="portal-container">
       <div class="portal-hero">
@@ -847,9 +1037,16 @@
           <button class="grade-action-btn btn-secondary">进入高三专属题库</button>
         </div>
       </div>
+    </div>
 
-      <div class="portal-footer">
-        💡 提示：本系统已采用通用单页数据架构（Single HTML）。后续制作高二与高三题目时将直接加载于此，随时点击上方「切换年段」自由切换。
+    <!-- 整个画面的底部中间·极小字斜体版权条 -->
+    <div class="portal-screen-footer">
+      <div class="tiny-line-1">
+        <span>⚖️ 版权保护声明：© 2026 尤老师 ｜ 亚罗士打新民独中 ｜ 互动答题总系统</span>
+        <span class="tiny-ver">v2026.10-Build.01</span>
+      </div>
+      <div class="tiny-line-2">
+        欢迎分享本网页链接供学习使用；未经许可，不得复制、转载网页内的文字、题目及答案，不得公开发布于其他网站，亦不得用于商业销售。
       </div>
     </div>
   </div>
@@ -924,6 +1121,17 @@
 
     <!-- Questions Container -->
     <div id="questionsContainer"></div>
+  
+        <!-- 页面底部中间·极小字斜体版权条 -->
+    <footer class="portal-screen-footer" style="margin: 40px auto 10px; border-top: 1px dashed rgba(148, 163, 184, 0.35); max-width: 900px;">
+      <div class="tiny-line-1">
+        <span>⚖️ 版权保护声明：© 2026 尤老师 ｜ 亚罗士打新民独中 ｜ 互动答题总系统</span>
+        <span class="tiny-ver">v2026.10-Build.01</span>
+      </div>
+      <div class="tiny-line-2">
+        欢迎分享本网页链接供学习使用；未经许可，不得复制、转载网页内的文字、题目及答案，不得公开发布于其他网站，亦不得用于商业销售。
+      </div>
+    </footer>
   </main>
 
   <script>
@@ -959,21 +1167,71 @@
     let currentGrade = 'senior1';
     let rawData = [];
     let currentFilter = 'all';
+    let currentDifficulty = 'all'; // 'all', 'easy', 'medium', 'hard', 'mistakes'
     let searchQuery = '';
     let userAnswers = {}; // key: `uid`, value: { chosen: 'A', correct: true/false }
     let allQuestions = [];
 
     // Render questions - High-Performance Batch HTML
+    
+    function setDiffFilter(diff) {
+      currentDifficulty = diff;
+      document.querySelectorAll('.diff-tab-btn').forEach(btn => btn.classList.remove('active'));
+      if (diff === 'all') document.getElementById('tabAll').classList.add('active');
+      else if (diff === 'easy') document.getElementById('tabEasy').classList.add('active');
+      else if (diff === 'medium') document.getElementById('tabMed').classList.add('active');
+      else if (diff === 'hard') document.getElementById('tabHard').classList.add('active');
+      else if (diff === 'mistakes') document.getElementById('tabMistakes').classList.add('active');
+      render();
+    }
+
+    function updateDiffCounts() {
+      // Base questions by current chapter filter
+      let base = allQuestions;
+      if (currentFilter !== 'all') {
+        base = allQuestions.filter(q => q.chapter_id == currentFilter);
+      }
+      const countAll = base.length;
+      const countEasy = base.filter(q => q.difficulty === 'easy').length;
+      const countMed = base.filter(q => q.difficulty === 'medium').length;
+      const countHard = base.filter(q => q.difficulty === 'hard').length;
+      const countMistakes = base.filter(q => {
+        const rec = userAnswers[q.uid];
+        return rec && !rec.correct;
+      }).length;
+
+      const elAll = document.getElementById('badgeAll');
+      const elEasy = document.getElementById('badgeEasy');
+      const elMed = document.getElementById('badgeMed');
+      const elHard = document.getElementById('badgeHard');
+      const elMistakes = document.getElementById('badgeMistakes');
+
+      if (elAll) elAll.textContent = countAll;
+      if (elEasy) elEasy.textContent = countEasy;
+      if (elMed) elMed.textContent = countMed;
+      if (elHard) elHard.textContent = countHard;
+      if (elMistakes) elMistakes.textContent = countMistakes;
+    }
+
     function render() {
       const container = document.getElementById('questionsContainer');
 
       let filtered = allQuestions.filter(q => {
-        // Filter by Chapter or Mistakes
-        if (currentFilter === 'mistakes') {
+        // Filter by Chapter
+        if (currentFilter !== 'all') {
+          if (q.chapter_id != currentFilter) return false;
+        }
+
+        // Filter by Difficulty or Mistakes
+        if (currentDifficulty === 'mistakes') {
           const rec = userAnswers[q.uid];
           if (!rec || rec.correct) return false;
-        } else if (currentFilter !== 'all') {
-          if (q.chapter_id != currentFilter) return false;
+        } else if (currentDifficulty === 'easy') {
+          if (q.difficulty !== 'easy') return false;
+        } else if (currentDifficulty === 'medium') {
+          if (q.difficulty !== 'medium') return false;
+        } else if (currentDifficulty === 'hard') {
+          if (q.difficulty !== 'hard') return false;
         }
 
         // Search query
@@ -994,6 +1252,7 @@
           </div>
         `;
         updateHUD();
+      updateDiffCounts();
         return;
       }
 
@@ -1060,6 +1319,7 @@
 
       container.innerHTML = cardsHtml;
       updateHUD();
+      updateDiffCounts();
     }
 
     // Instant Zero-Lag Option Click
@@ -1070,7 +1330,14 @@
       if (!q) return;
 
       const isCorrect = (chosenLetter === q.answer);
+      
       userAnswers[uid] = { chosen: chosenLetter, correct: isCorrect };
+      try {
+        localStorage.setItem('uec_quiz_answers_' + currentGrade, JSON.stringify(userAnswers));
+      } catch (e) {
+        console.warn('LocalStorage save failed:', e);
+      }
+
 
       // Update targeted card DOM directly for instantaneous response
       const card = document.getElementById(`card-${uid}`);
@@ -1091,6 +1358,7 @@
       }
 
       updateHUD();
+      updateDiffCounts();
     };
 
     // Update HUD stats
@@ -1165,8 +1433,7 @@
             <div style="font-size:3.5rem; margin-bottom:16px;">${gradeKey === 'senior2' ? '🎂' : '👨‍🍳'}</div>
             <h2 style="font-size:1.6rem; font-weight:800; color:#1E293B; margin-bottom:12px;">${gradeData.grade_name} 题库架构已就绪</h2>
             <p style="color:#64748B; font-size:1.02rem; max-width:620px; margin:0 auto 24px; line-height:1.7;">
-              本系统已采用通用单页数据架构，为 <strong>${gradeData.grade_name}</strong> 预留了完全独立的题库数据接口。<br>
-              后续制作高二/高三题目时，直接录入数据即可无缝在此页面刷题与互动。
+              <strong>${gradeData.grade_name}</strong> 专属题库正在系统编排整理中，敬请期待！
             </p>
             <div style="display:flex; justify-content:center; gap:14px; flex-wrap:wrap;">
               <button onclick="selectGrade('senior1')" style="padding:12px 24px; background:linear-gradient(135deg, #92400E 0%, #78350F 100%); color:white; border:none; border-radius:10px; font-weight:700; cursor:pointer; font-size:1rem; box-shadow:0 4px 12px rgba(120,53,15,0.2);">

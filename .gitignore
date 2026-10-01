@@ -22,6 +22,11 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+__pycache__/
+*.pyc
+work/oct_scan_*.txt
+
+
 
 # Local backup / dump directories
 AI 生成图片/
@@ -30,3 +35,5 @@ yu 01 新增资料/
 高一校内 - 测验题目/
 简报及信息图生成/
 work/qa_word/
+OCT 2026 资料增加/
+

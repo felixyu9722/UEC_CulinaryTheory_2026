@@ -1,0 +1,81 @@
+{
+  "pageId": "3cb138c5-b398-814a-925a-c0f48de6f2ae",
+  "children": [
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "五、2026独中统考重点：西式汤类三大梯队与熬煮工艺对比"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "icon": {
+          "emoji": "🍲"
+        },
+        "color": "orange_background",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "【统考教研重点：清高汤 (Soup) vs 高汤 (Stock) vs 超浓骨汤 (Bone Broth)】\n西餐烹调根据熬煮时间、主料组织及用途，严格划分三大汤类体系：\n1. 清高汤（Soup / Broth）：以肉块、蔬菜和香料为主料直接炖煮。熬煮时间极短（仅需 1~2 小时），汤质轻盈，可单独作为成品汤饮用。\n   • 蔬菜基础底汤（Mirepoix）：法式经典“蔬菜三剑客”——洋葱（50%）、红萝卜（25%）、芹菜（25%），是各类西式清汤不可或缺的香气来源。\n   • 法式澄清汤（Consommé）：利用打散的【蛋清（蛋白）+ 碎肉蔬菜】在微沸汤水中形成蛋白质凝结过滤网，强力吸附汤中所有悬浮微粒杂质，使汤水如琥珀水晶般清澈见底。\n   • 巧达汤（Chowder / Potage）：源自美国与法国的浓稠海鲜浓汤，经典代表如新英格兰蛤蜊巧达汤（New England Clam Chowder）、曼哈顿巧达汤。\n   • 各国传统汤名品：俄罗斯罗宋汤（Borscht）、法国焗洋葱汤（French Onion Soup）、西班牙番茄冷汤（Gazpacho）、意大利通心粉蔬菜汤（Minestrone）。\n2. 基础高汤（Stock）：以小牛骨、软骨、结缔组织及香料为基底，慢火微沸慢熬 3~10 小时。富含溶出的明胶与谷氨酸，汤质较为浑浊浓稠，口感极厚重，是西餐所有母酱与调味汁的“生命之底（Base）”，极少单独饮用。\n   • 白高汤（White Stock）：选用新鲜生骨头（小牛骨/鸡骨/鱼骨）经漂洗焯水后直接与冷水慢炖，汤色呈乳白微黄浑浊状。\n   • 褐高汤（Brown Stock）：骨头与蔬菜（Mirepoix）必须先入烤箱经过 200℃ 高温烘烤，利用糖与蛋白质的【美拉德反应及焦化作用（Caramelization）】呈现深褐色并散发浓郁烤香，再加水熬煮，是制作深色肉汁的基石。\n3. 超浓骨汤（Bone Broth）：熬煮时间极长（通常超过 11 小时以上），骨质软化酥碎，胶原蛋白彻底水解，汤液极度浓稠呈果冻胶质状，专用于极高级浓缩酱汁。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "六、统考高频灵魂考点：法国料理五大母酱（Grand / Mother Sauces）"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "toggle",
+      "toggle": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "📌 统考必考大题：五大母酱配方基底、加稠方式与衍生酱汁"
+            }
+          }
+        ],
+        "children": [
+          {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "奥古斯特·埃斯考菲耶奠定了西餐经典的五大基础母酱（Mother Sauces），所有次级小酱汁均由此衍生：\n1. 荷兰酱（Hollandaise Sauce）：\n   • 主料与稠化：温热澄清黄油（Clarified Butter）＋ 蛋黄 ＋ 柠檬汁/白醋。\n   • 工艺机理：不使用面糊！完全依赖蛋黄中的天然【卵磷脂（Lecithin）】产生高强度物理乳化作用，形成质地如丝绒般轻盈顺滑的温热乳化酱，是班尼迪克蛋（Eggs Benedict）与芦笋的绝配。\n2. 白酱 / 贝夏媚酱（Béchamel Sauce）：\n   • 主料与稠化：白面糊（White Roux，黄油与面粉 1:1 炒至完全糊化但不上色）＋ 全脂牛奶 ＋ 豆蔻粉调味。\n   • 适用菜肴：焗烤千层面（Lasagna）、焗烤通心粉（Macaroni & Cheese）。\n3. 丝绒酱 / 白汁（Velouté Sauce）：\n   • 主料与稠化：金黄面糊（Blond Roux，炒至微泛金黄色）＋ 白高汤（鸡高汤/鱼高汤/小牛高汤）。\n   • 口味特质：极为柔滑细腻，专门用来搭配清蒸白肉、水煮鱼类或家禽。\n4. 西班牙酱 / 褐色母酱（Espagnole Sauce / Brown Sauce）：\n   • 主料与稠化：深褐色面糊（Brown Roux）＋ 烤牛骨褐高汤 ＋ 番茄膏 ＋ 香草束（Bouquet Garni）慢火炖煮浓缩。\n   • 经典衍生小酱汁：\n     - 勃艮第酱（Burgundy Sauce）：加入红葡萄酒、月桂叶炖煮；\n     - 猎人酱（Chasseur Sauce）：加入野菌蘑菇、青葱、白葡萄酒与番茄。\n5. 番茄母酱（Tomato Sauce）：\n   • 主料与稠化：新鲜番茄/番茄糊 ＋ 蔬菜底（洋葱、大蒜）＋ 白高汤/褐高汤 ＋ 香草束。通过慢火长时间加热熬煮，【水分蒸发浓缩（Reduction）】实现自然浓稠。\n   • 适用菜肴：披萨酱底、经典肉酱意大利面（Pasta Bolognese）。\n• 西餐酱汁加稠三大核心机理：\n  ① 炒面糊法（Roux：小麦淀粉糊化）；\n  ② 蛋黄天然乳化法（Emulsification）；\n  ③ 慢火加热蒸发浓缩法（Reduction）。"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

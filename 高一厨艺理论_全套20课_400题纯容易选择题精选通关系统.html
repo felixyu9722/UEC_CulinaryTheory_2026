@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026年统考厨艺（烘焙理论）高一第10至15课·生活常识互动答题系统</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #92400E;
+      --primary-light: #FDE68A;
+      --primary-dark: #78350F;
+      --accent: #D97706;
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --text: #1E293B;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+      --correct: #10B981;
+      --correct-bg: #ECFDF5;
+      --correct-border: #A7F3D0;
+      --wrong: #EF4444;
+      --wrong-bg: #FEF2F2;
+      --wrong-border: #FECACA;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+      background: #FDFBF7;
+      color: var(--text);
+      line-height: 1.6;
+      padding-bottom: 80px;
+    }
+
+    /* Header & Navigation - Slim & Compact */
+    header {
+      background: linear-gradient(135deg, #78350F 0%, #92400E 100%);
+      color: white;
+      padding: 10px 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-container {
+      max-width: 1060px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .brand-title {
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .brand-badge {
+      background: rgba(255, 255, 255, 0.2);
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .brand-sub {
+      font-size: 0.8rem;
+      color: #FDE68A;
+      opacity: 0.9;
+    }
+
+    /* Compact HUD Dashboard */
+    .hud-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 9999px;
+      padding: 3px 10px;
+    }
+
+    .hud-pill {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      font-size: 0.82rem;
+    }
+
+    .hud-label {
+      font-size: 0.74rem;
+      opacity: 0.85;
+      font-weight: 600;
+    }
+
+    .hud-value {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 0.98rem;
+    }
+
+    .pill-correct {
+      background: rgba(16, 185, 129, 0.22);
+      color: #A7F3D0;
+    }
+
+    .pill-wrong {
+      background: rgba(239, 68, 68, 0.22);
+      color: #FECACA;
+    }
+
+    .reset-btn {
+      padding: 6px 14px;
+      background: rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      border-radius: 8px;
+      color: white;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .reset-btn:hover {
+      background: rgba(255, 255, 255, 0.28);
+    }
+
+    /* Main Container */
+    main {
+      max-width: 1000px;
+      margin: 28px auto;
+      padding: 0 16px;
+    }
+
+    /* Premium Space-Saving Control Panel (Grid Layout, Perfectly Balanced) */
+    
+    /* Difficulty Filter Bar */
+    
+    .difficulty-filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 22px;
+      background: #F8FAFC;
+      padding: 10px 14px;
+      border-radius: 14px;
+      border: 1.5px solid #E2E8F0;
+      align-items: center;
+    }
+    .diff-tab-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1.5px solid #CBD5E1;
+      background: white;
+      color: #475569;
+      transition: all 0.2s ease;
+      user-select: none;
+    }
+    .diff-tab-btn:hover {
+      border-color: #94A3B8;
+      background: #F1F5F9;
+      transform: translateY(-1px);
+    }
+    .diff-tab-btn.active {
+      border-color: #2563EB;
+      background: #EFF6FF;
+      color: #1D4ED8;
+      box-shadow: 0 2px 4px rgba(37, 99, 235, 0.12);
+    }
+    .diff-tab-btn.easy.active {
+      border-color: #16A34A;
+      background: #DCFCE7;
+      color: #15803D;
+      box-shadow: 0 2px 4px rgba(22, 163, 74, 0.15);
+    }
+    .diff-tab-btn.medium.active {
+      border-color: #D97706;
+      background: #FEF3C7;
+      color: #B45309;
+      box-shadow: 0 2px 4px rgba(217, 119, 6, 0.15);
+    }
+    .diff-tab-btn.hard.active {
+      border-color: #DC2626;
+      background: #FEE2E2;
+      color: #B91C1C;
+      box-shadow: 0 2px 4px rgba(220, 38, 38, 0.15);
+    }
+    .diff-tab-btn.mistakes.active {
+      border-color: #9333EA;
+      background: #F3E8FF;
+      color: #7E22CE;
+      box-shadow: 0 2px 4px rgba(147, 51, 234, 0.15);
+    }
+    .diff-tab-btn .badge-pill {
+      font-size: 0.78rem;
+      padding: 1px 7px;
+      border-radius: 10px;
+      background: rgba(0,0,0,0.06);
+      font-weight: 700;
+    }
+
+    .control-panel {
+      display: grid;
+      grid-template-columns: minmax(380px, 520px) 1fr;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
+    @media (max-width: 860px) {
+      
+    /* Difficulty Filter Bar */
+    
+    .difficulty-filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 22px;
+      background: #F8FAFC;
+      padding: 10px 14px;
+      border-radius: 14px;
+      border: 1.5px solid #E2E8F0;
+      align-items: center;
+    }
+    .diff-tab-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1.5px solid #CBD5E1;
+      background: white;
+      color: #475569;
+      transition: all 0.2s ease;
+      user-select: none;
+    }
+    .diff-tab-btn:hover {
+      border-color: #94A3B8;
+      background: #F1F5F9;
+      transform: translateY(-1px);
+    }
+    .diff-tab-btn.active {
+      border-color: #2563EB;
+      background: #EFF6FF;
+      color: #1D4ED8;
+      box-shadow: 0 2px 4px rgba(37, 99, 235, 0.12);
+    }
+    .diff-tab-btn.easy.active {
+      border-color: #16A34A;
+      background: #DCFCE7;
+      color: #15803D;
+      box-shadow: 0 2px 4px rgba(22, 163, 74, 0.15);
+    }
+    .diff-tab-btn.medium.active {
+      border-color: #D97706;
+      background: #FEF3C7;
+      color: #B45309;
+      box-shadow: 0 2px 4px rgba(217, 119, 6, 0.15);
+    }
+    .diff-tab-btn.hard.active {
+      border-color: #DC2626;
+      background: #FEE2E2;
+      color: #B91C1C;
+      box-shadow: 0 2px 4px rgba(220, 38, 38, 0.15);
+    }
+    .diff-tab-btn.mistakes.active {
+      border-color: #9333EA;
+      background: #F3E8FF;
+      color: #7E22CE;
+      box-shadow: 0 2px 4px rgba(147, 51, 234, 0.15);
+    }
+    .diff-tab-btn .badge-pill {
+      font-size: 0.78rem;
+      padding: 1px 7px;
+      border-radius: 10px;
+      background: rgba(0,0,0,0.06);
+      font-weight: 700;
+    }
+
+    .control-panel {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+    }
+
+    .control-card {
+      background: white;
+      border: 1.5px solid #E2E8F0;
+      border-radius: 12px;
+      padding: 8px 14px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      transition: all 0.2s ease;
+    }
+
+    .control-card:focus-within {
+      border-color: #92400E;
+      box-shadow: 0 0 0 3px rgba(146, 64, 14, 0.12);
+    }
+
+    .card-label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .label-icon {
+      font-size: 1.15rem;
+    }
+
+    .label-text {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #334155;
+    }
+
+    .select-container {
+      position: relative;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      min-width: 0;
+    }
+
+    .chapter-select {
+      width: 100%;
+      height: 42px;
+      padding: 0 36px 0 12px;
+      font-size: 0.98rem;
+      font-weight: 600;
+      color: #1E293B;
+      background: #F8FAFC;
+      border: 1.5px solid #CBD5E1;
+      border-radius: 9px;
+      outline: none;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .chapter-select:hover {
+      background: #FFFDF7;
+      border-color: #D97706;
+    }
+
+    .chapter-select:focus {
+      background: white;
+      border-color: #92400E;
+    }
+
+    .select-arrow {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      color: #78350F;
+      font-size: 0.75rem;
+      font-weight: bold;
+    }
+
+    .search-container {
+      position: relative;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      min-width: 0;
+    }
+
+    .search-input {
+      width: 100%;
+      height: 42px;
+      padding: 0 34px 0 12px;
+      font-size: 0.95rem;
+      color: #1E293B;
+      background: #F8FAFC;
+      border: 1.5px solid #CBD5E1;
+      border-radius: 9px;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+
+    .search-input:focus {
+      background: white;
+      border-color: #92400E;
+    }
+
+    .clear-search-btn {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      border: none;
+      background: #E2E8F0;
+      color: #64748B;
+      font-size: 0.75rem;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+
+    .clear-search-btn:hover {
+      background: #CBD5E1;
+      color: #1E293B;
+    }
+
+    .action-btn {
+      padding: 9px 16px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .action-btn:hover {
+      background: #F1F5F9;
+    }
+
+    /* Question Cards - Spacious, High-Contrast & Clear */
+    .question-card {
+      background: var(--card-bg);
+      border: 1.5px solid #E2E8F0;
+      border-radius: 16px;
+      padding: 26px 30px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .question-card:hover {
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .q-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      gap: 12px;
+    }
+
+    .q-tag {
+      font-size: 0.84rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 8px;
+      background: #FEF3C7;
+      color: #92400E;
+    }
+
+    .q-tag.roman {
+      background: #EDE9FE;
+      color: #6D28D9;
+    }
+
+    .q-chapter-badge {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .q-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.65;
+      color: #0F172A;
+      margin-bottom: 22px;
+      white-space: pre-line;
+      letter-spacing: -0.2px;
+    }
+
+    /* Options List - Large, High-Contrast & Interactive */
+    .options-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .option-item {
+      display: flex;
+      align-items: center;
+      min-height: 64px;
+      padding: 16px 22px;
+      border: 2px solid #E2E8F0;
+      border-radius: 14px;
+      background: white;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      user-select: none;
+      position: relative;
+    }
+
+    .option-item:hover:not(.locked) {
+      border-color: #D97706;
+      background: #FFFDF7;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(217, 119, 6, 0.14);
+    }
+
+    .option-item:active:not(.locked) {
+      transform: scale(0.99);
+    }
+
+    .opt-letter {
+      width: 42px;
+      height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      background: #F1F5F9;
+      font-weight: 800;
+      font-size: 1.2rem;
+      margin-right: 18px;
+      flex-shrink: 0;
+      color: #475569;
+      transition: all 0.2s ease;
+    }
+
+    .opt-text {
+      font-size: 1.15rem;
+      font-weight: 500;
+      line-height: 1.5;
+      flex: 1;
+      color: #1E293B;
+    }
+
+    /* Option Selected States */
+    .option-item.correct {
+      border-color: #10B981;
+      background: #F0FDF4;
+      box-shadow: 0 4px 16px rgba(16, 185, 129, 0.16);
+    }
+
+    .option-item.correct .opt-letter {
+      background: #10B981;
+      color: white;
+      box-shadow: 0 2px 6px rgba(16, 185, 129, 0.35);
+    }
+
+    .option-item.correct .opt-text {
+      font-weight: 600;
+      color: #065F46;
+    }
+
+    .option-item.wrong {
+      border-color: #EF4444;
+      background: #FEF2F2;
+      box-shadow: 0 4px 16px rgba(239, 68, 68, 0.16);
+    }
+
+    .option-item.wrong .opt-letter {
+      background: #EF4444;
+      color: white;
+      box-shadow: 0 2px 6px rgba(239, 68, 68, 0.35);
+    }
+
+    .option-item.wrong .opt-text {
+      font-weight: 600;
+      color: #991B1B;
+    }
+
+    .option-item.should-have-chosen {
+      border-color: #10B981;
+      border-style: dashed;
+      background: #F0FDF4;
+    }
+
+    .option-item.should-have-chosen .opt-letter {
+      background: #ECFDF5;
+      border: 2px solid #10B981;
+      color: #10B981;
+    }
+
+    /* Explanation Box */
+    .explanation-box {
+      margin-top: 22px;
+      padding: 20px 24px;
+      background: #F0F9FF;
+      border-left: 5px solid #0284C7;
+      border-radius: 12px;
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .explanation-box.show {
+      display: block;
+    }
+
+    .exp-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #0369A1;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+
+    .exp-body {
+      font-size: 1.05rem;
+      color: #1E293B;
+      line-height: 1.7;
+    }
+
+
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Responsive */
+    /* Responsive */
+    @media (max-width: 768px) {
+      header { padding: 8px 12px; }
+      .brand-title { font-size: 1rem; }
+      .brand-sub { display: none; }
+      .hud-bar { padding: 2px 6px; gap: 4px; }
+      .hud-pill { padding: 2px 6px; }
+      .hud-label { font-size: 0.7rem; }
+      .hud-value { font-size: 0.88rem; }
+      .question-card { padding: 18px 20px; }
+      .q-title { font-size: 1.12rem; }
+      .option-item { min-height: 56px; padding: 12px 16px; }
+      .opt-letter { width: 34px; height: 34px; font-size: 1.05rem; margin-right: 12px; }
+      .opt-text { font-size: 1.02rem; }
+    }
+    /* Grade Portal Screen (登录与年段选择门户) */
+    .portal-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at 50% 20%, #FFFDF9 0%, #F5EBE1 100%);
+      z-index: 1000;
+      overflow-y: auto;
+      padding: 28px 20px 14px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+      box-sizing: border-box;
+    }
+
+    .portal-screen.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    
+    
+    /* Screen Level Footer (Centered, Italic, Minimalist - Font size increased 50%) */
+    .portal-screen-footer {
+      width: 100%;
+      text-align: center;
+      margin: auto auto 0 auto;
+      padding: 16px 10px 10px;
+      color: #94A3B8;
+      font-size: 0.75rem;
+      font-style: italic;
+      line-height: 1.6;
+      user-select: none;
+    }
+    .portal-screen-footer .tiny-line-1 {
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: #475569;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .portal-screen-footer .tiny-line-2 {
+      font-size: 0.72rem;
+      color: #94A3B8;
+      letter-spacing: 0.2px;
+    }
+    .portal-screen-footer .tiny-ver {
+      font-style: normal;
+      color: #2563EB;
+      font-weight: 600;
+      font-size: 0.72rem;
+      background: rgba(37, 99, 235, 0.08);
+      padding: 1px 7px;
+      border-radius: 4px;
+    }
+
+    .portal-container {
+      max-width: 1160px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 auto;
+      justify-content: center;
+    }
+
+    .portal-hero {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .portal-badge {
+      display: inline-block;
+      background: #FEF3C7;
+      color: #92400E;
+      border: 1px solid #FCD34D;
+      padding: 4px 16px;
+      border-radius: 9999px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 14px;
+    }
+
+    .portal-title {
+      font-size: 2.3rem;
+      font-weight: 800;
+      color: #78350F;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+
+    .portal-desc {
+      font-size: 1.05rem;
+      color: #64748B;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .grade-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-bottom: 36px;
+    }
+
+    @media (max-width: 960px) {
+      .grade-cards-grid {
+        grid-template-columns: 1fr;
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .portal-title {
+        font-size: 1.8rem;
+      }
+    }
+
+    .grade-card {
+      background: white;
+      border: 2px solid #E2E8F0;
+      border-radius: 20px;
+      padding: 30px 24px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+    }
+
+    .grade-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 36px rgba(120, 53, 15, 0.12);
+      border-color: #D97706;
+    }
+
+    .grade-card.ready {
+      border-color: #FCD34D;
+      background: linear-gradient(180deg, #FFFFFF 0%, #FFFDF8 100%);
+    }
+
+    .grade-card.ready:hover {
+      border-color: #92400E;
+    }
+
+    .card-status-badge {
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      align-self: flex-start;
+      margin-bottom: 16px;
+    }
+
+    .badge-ready {
+      background: #DCFCE7;
+      color: #15803D;
+      border: 1px solid #86EFAC;
+    }
+
+    .badge-pending {
+      background: #F1F5F9;
+      color: #64748B;
+      border: 1px solid #CBD5E1;
+    }
+
+    .card-icon {
+      font-size: 3rem;
+      margin-bottom: 12px;
+      line-height: 1;
+    }
+
+    .grade-num {
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: #D97706;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .grade-name {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: #1E293B;
+      line-height: 1.35;
+      margin-bottom: 12px;
+    }
+
+    .grade-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+
+    .grade-tags span {
+      background: #F8FAFC;
+      border: 1px solid #E2E8F0;
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      color: #475569;
+      font-weight: 600;
+    }
+
+    .grade-summary {
+      font-size: 0.92rem;
+      color: #64748B;
+      line-height: 1.6;
+      margin-bottom: 24px;
+      flex: 1;
+    }
+
+    .grade-action-btn {
+      width: 100%;
+      padding: 12px;
+      border-radius: 12px;
+      font-size: 0.98rem;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .btn-active {
+      background: linear-gradient(135deg, #92400E 0%, #78350F 100%);
+      color: white;
+      box-shadow: 0 4px 12px rgba(120, 53, 15, 0.25);
+    }
+
+    .btn-active:hover {
+      box-shadow: 0 6px 18px rgba(120, 53, 15, 0.35);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: #F8FAFC;
+      color: #475569;
+      border: 1px solid #CBD5E1;
+    }
+
+    .btn-secondary:hover {
+      background: #E2E8F0;
+      color: #1E293B;
+    }
+
+    .portal-footer {
+      text-align: center;
+      font-size: 0.88rem;
+      color: #94A3B8;
+      max-width: 720px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .portal-switch-btn {
+      padding: 6px 12px;
+      background: rgba(255, 255, 255, 0.22);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: 8px;
+      color: white;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .portal-switch-btn:hover {
+      background: rgba(255, 255, 255, 0.35);
+      border-color: white;
+    }
+  </style>
+</head>
+<body>
+
+    <!-- Grade Selection Portal Screen (登录与年段选择门户) -->
+  <div id="gradePortal" class="portal-screen">
+    <div class="portal-container">
+      <div class="portal-hero">
+        <div class="portal-badge">2026 马来西亚华文独中高中统考（UEC）</div>
+        <h1 class="portal-title">高中厨艺（烘焙理论）互动答题总系统</h1>
+        <p class="portal-desc">全套校内考点与统考大纲精选试题库 · 智能评分与机理解析系统</p>
+      </div>
+
+      <div class="grade-cards-grid">
+        <!-- Grade 1: Senior 1 -->
+        <div class="grade-card ready" onclick="selectGrade('senior1')">
+          <div class="card-status-badge badge-ready">🟢 800题已就绪 · 立即练习</div>
+          <div class="card-icon">🥐</div>
+          <div class="grade-num">01 | 高一年级</div>
+          <h2 class="grade-name">烘焙基础理论</h2>
+          <div class="grade-tags">
+            <span>全20课</span>
+            <span>800道精选</span>
+            <span>生活常识与校内测验</span>
+            <span>ABCD均等分布</span>
+          </div>
+          <p class="grade-summary">
+            覆盖烘焙概论、历史分类、器具设备、度量衡精准称量、核心原辅料（面粉/油脂/糖/蛋/乳制品/酵母）、膨大乳化作用与烘焙百分比计算。
+          </p>
+          <button class="grade-action-btn btn-active">🚀 进入高一练习 (800题)</button>
+        </div>
+
+        <!-- Grade 2: Senior 2 -->
+        <div class="grade-card" onclick="selectGrade('senior2')">
+          <div class="card-status-badge badge-pending">🟡 扩展架构已就绪 · 题库编排中</div>
+          <div class="card-icon">🎂</div>
+          <div class="grade-num">02 | 高二年级</div>
+          <h2 class="grade-name">蛋糕、面包与西餐理论</h2>
+          <div class="grade-tags">
+            <span>蛋糕烘烤工艺</span>
+            <span>面包发酵成型</span>
+            <span>西餐基础与烹饪原理</span>
+          </div>
+          <p class="grade-summary">
+            涵盖海绵/戚风/重油蛋糕工艺、面团直接与中种发酵法、西餐烹调法与菜肴组配标准等高二核心知识点。
+          </p>
+          <button class="grade-action-btn btn-secondary">进入高二专属题库</button>
+        </div>
+
+        <!-- Grade 3: Senior 3 -->
+        <div class="grade-card" onclick="selectGrade('senior3')">
+          <div class="card-status-badge badge-pending">🟣 扩展架构已就绪 · 题库编排中</div>
+          <div class="card-icon">👨‍🍳</div>
+          <div class="grade-num">03 | 高三年级</div>
+          <h2 class="grade-name">西式点心、酱汁与亚洲烹调</h2>
+          <div class="grade-tags">
+            <span>法式点心与派塔</span>
+            <span>五大经典母酱</span>
+            <span>亚洲特色烹饪</span>
+            <span>统考实作冲刺</span>
+          </div>
+          <p class="grade-summary">
+            深度解析法式泡芙与酥皮折叠、经典西餐母酱调配、亚洲风味烹调工艺与独中董总总技术鉴定统考冲刺题型。
+          </p>
+          <button class="grade-action-btn btn-secondary">进入高三专属题库</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 整个画面的底部中间·极小字斜体版权条 -->
+    <div class="portal-screen-footer">
+      <div class="tiny-line-1">
+        <span>⚖️ 版权保护声明：© 2026 尤老师 ｜ 亚罗士打新民独中 ｜ 互动答题总系统</span>
+        <span class="tiny-ver">v2026.10-Build.01</span>
+      </div>
+      <div class="tiny-line-2">
+        欢迎分享本网页链接供学习使用；未经许可，不得复制、转载网页内的文字、题目及答案，不得公开发布于其他网站，亦不得用于商业销售。
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-container">
+      <div class="nav-left">
+        <div class="brand-title">
+          <span id="headerTitleText">2026 UEC 高一烘焙精选题库</span>
+          <span class="brand-badge" id="headerBadge">全套800题·统考全覆盖</span>
+        </div>
+        <div class="brand-sub" id="headerSub">高一全套20课大满贯（烘焙概论·历史·中西面食·设备器具·度量衡·核心原料·添加剂·烘焙百分比）</div>
+      </div>
+
+      <div class="hud-bar">
+        <div class="hud-pill">
+          <span class="hud-label">进度</span>
+          <span class="hud-value" id="hudAnswered">0 / 400</span>
+        </div>
+        <div class="hud-pill">
+          <span class="hud-label">正确率</span>
+          <span class="hud-value" id="hudAccuracy">0%</span>
+        </div>
+        <div class="hud-pill pill-correct">
+          <span class="hud-label">做对</span>
+          <span class="hud-value" id="hudCorrect">0</span>
+        </div>
+        <div class="hud-pill pill-wrong">
+          <span class="hud-label">错题</span>
+          <span class="hud-value" id="hudWrong">0</span>
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <button class="portal-switch-btn" onclick="showPortal()" title="点击切换高一/高二/高三">
+          🎓 <span id="currentGradeTag">切换年段 (高一)</span>
+        </button>
+        <button class="reset-btn" id="resetAllBtn" onclick="resetAll()">
+          🔄 重新答题
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Beautiful, Space-Saving Control Panel (Balanced & Complete) -->
+    <div class="control-panel">
+      <!-- Chapter Selector Card -->
+      <div class="control-card chapter-card">
+        <div class="card-label">
+          <span class="label-icon">📖</span>
+          <span class="label-text">课时筛选</span>
+        </div>
+        <div class="select-container">
+          <select id="chapterSelect" class="chapter-select"></select>
+          <span class="select-arrow">▼</span>
+        </div>
+      </div>
+
+      <!-- Search Card -->
+      <div class="control-card search-card">
+        <div class="card-label">
+          <span class="label-icon">🔍</span>
+          <span class="label-text">考点检索</span>
+        </div>
+        <div class="search-container">
+          <input type="text" id="searchInput" class="search-input" placeholder="输入考点关键词（如：手套膜、黄油打发、蛋白霜、发酵温水...）">
+          <button id="clearSearchBtn" class="clear-search-btn" title="清空搜索" onclick="clearSearch()">✕</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Questions Container -->
+    <div id="questionsContainer"></div>
+  
+        <!-- 页面底部中间·极小字斜体版权条 -->
+    <footer class="portal-screen-footer" style="margin: 40px auto 10px; border-top: 1px dashed rgba(148, 163, 184, 0.35); max-width: 900px;">
+      <div class="tiny-line-1">
+        <span>⚖️ 版权保护声明：© 2026 尤老师 ｜ 亚罗士打新民独中 ｜ 互动答题总系统</span>
+        <span class="tiny-ver">v2026.10-Build.01</span>
+      </div>
+      <div class="tiny-line-2">
+        欢迎分享本网页链接供学习使用；未经许可，不得复制、转载网页内的文字、题目及答案，不得公开发布于其他网站，亦不得用于商业销售。
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Universal Multi-Grade Single-HTML Database Architecture
+    const quizDatabase = {
+      senior1: {
+        id: 'senior1',
+        grade_num: '01',
+        grade_name: '高一：烘焙基础理论',
+        badge: '全套800题·统考全覆盖',
+        sub: '高一全套20课大满贯（烘焙概论·历史·中西面食·设备器具·度量衡·核心原料·添加剂·烘焙百分比）',
+        chapters: [{"chapter_id": "01", "chapter_title": "第01课 烘焙概论", "intro": "", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "在烹饪理论中，“烘焙”（Baking）最主要的热力熟化方式属于下列哪一种？", "options": {"A": "依靠热汤的对流烹煮", "B": "依靠烤炉的干热熟化", "C": "依靠食用热油炸透", "D": "依靠沸水蒸汽的蒸熟"}, "answer": "B", "explanation": "烘焙本质上属于干热（Dry-heat）加热工艺，主要利用烤箱内的热空气对流、炉壁辐射及烤盘传导使面坯熟化。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "刚出炉的面包如果立刻放在平整的密闭金属台面上冷却，最容易导致的翻车现象是：", "options": {"A": "面包表皮变硬破裂", "B": "面包体积瞬间缩减一半", "C": "底部积聚水汽泡软", "D": "内部面包心快速发霉"}, "answer": "C", "explanation": "刚出炉面包温度极高且散发大量水蒸气，若直接接触不透气的冷金属台面，水汽凝结于底部无法排出，会导致底部潮湿黏烂。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "烘焙师傅常说“刚出炉的吐司出炉后要震一下烤盘”，其主要目的是：", "options": {"A": "震松底部以便于切片", "B": "震出热气防止塌陷收腰", "C": "加速面包表面迅速上色", "D": "使面包组织变密实紧致"}, "answer": "B", "explanation": "出炉瞬间震盘可以破坏面团内部过饱和的过热蒸汽压力，促使外界较冷空气进入气孔支撑网状骨架，防止吐司冷却时收腰塌陷。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "日常存放未吃完的新鲜白吐司时，下列哪一种储存方式最容易加速其“变硬老化”？", "options": {"A": "置于室温避光阴凉处", "B": "放入四度普通冷藏室", "C": "密封放入负十八度冷冻", "D": "用保鲜袋常温密闭保存"}, "answer": "B", "explanation": "淀粉老化的最高峰温度区间为2℃~6℃。家用冰箱冷藏室（约4℃）恰好处于这一区间，淀粉分子会极速重结晶导致面包硬化掉渣。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "烘焙面包受热熟化过程中，下列哪些现象是正常且必须发生的物理化学变化？\nⅠ. 面坯中的酵母在升温中灭活\nⅡ. 面粉中的淀粉吸收水分糊化\nⅢ. 面团中面筋蛋白质受热凝固\nⅣ. 面包表皮产生诱人的美拉德反应", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅲ、Ⅳ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "D", "explanation": "在烘焙加热过程中，酵母在约55℃~60℃失去活性，淀粉在55℃~65℃糊化，面筋蛋白在60℃~75℃凝固形成定型骨架，高温下表皮发生美拉德反应生成金黄焦香外壳，四者皆是核心熟化变化。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "我们在烤面包时闻到的浓郁金黄麦香味，主要是哪种化学反应的功劳？", "options": {"A": "酵母菌无氧发酵产生乳酸", "B": "油脂完全酸败氧化反应", "C": "还原糖与氨基酸的美拉德反应", "D": "纯淀粉与纤维素的水解反应"}, "answer": "C", "explanation": "美拉德反应（Maillard reaction）是还原糖与氨基酸在140℃~165℃高温烘烤下发生的非酶褐变，产生诱人的金黄色泽与复合烘烤香气。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "家用烤箱在烘烤蛋糕或面包之前，必须提前执行的关键步骤是：", "options": {"A": "提前预热至设定烘烤温度", "B": "在内胆底部注满冷水", "C": "用酒精全腔喷雾消毒", "D": "打开烤箱门通风半小时"}, "answer": "A", "explanation": "烘烤前必须充分预热（通常预热10~15分钟达到指定温度），否则冷炉升温慢，面糊或生面坯遇低温会导致油脂融化流淌、膨胀不足或塌陷。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "制作烘焙西点时，如果面包刚出炉趁热立刻用菜刀用力切开，最容易出现的现象是：", "options": {"A": "内部水分瞬间全部挥发变干", "B": "面包皮瞬间变得极度硬脆", "C": "面包内部气孔迅速膨大发泡", "D": "切面被挤压粘连形成死面"}, "answer": "D", "explanation": "热面包内部的水分分布尚未平衡，淀粉与蛋白质结构尚温热柔软，此时立刻挤压切割会导致内部组织粘连塌陷，形成粘牙难嚼的“死面”截面。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "在大型商业面包房中，用于将出炉面包快速均匀散热的核心工器具是：", "options": {"A": "塑料加盖防潮特大保鲜盒", "B": "实木密封防尘储存大木箱", "C": "多层镂空不锈钢网状冷却架", "D": "不锈钢全封闭保温运送推车"}, "answer": "C", "explanation": "网状冷却架具备上下左右全方位空气流通的特点，能使烘焙产品四面均匀散热并散逸水分，避免底部产生冷凝积水。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "焦糖化反应（Caramelization）与美拉德反应的最大区别在于，焦糖化反应需要的是：", "options": {"A": "酵母菌对糖类的快速消化", "B": "单纯糖类物质的高温热分解", "C": "淀粉与纯净水的快速结合", "D": "蛋白质与无机盐的水解变化"}, "answer": "B", "explanation": "焦糖化反应是单一糖类在高温（通常超过160℃）下发生的脱水裂解与聚合反应，不需要蛋白质或氨基酸的参与。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "烘焙面包的主要三大传热方式中，由烤盘直接将热量传递给面团底部属于：", "options": {"A": "固体分子间直接接触的热传导", "B": "箱内高温热空气流动的热对流", "C": "红外线加热管穿透的热辐射", "D": "高频微波分子的电磁震荡"}, "answer": "A", "explanation": "高温金属烤盘与面坯底部直接物理紧密接触传递热量，属于典型的固体热传导（Conduction）。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "为了让吃不完的新鲜欧包保存2周且复烤后口感如初，最科学的保存方法是：", "options": {"A": "包裹湿毛巾放在常温桌面上", "B": "敞开包装直接放入四度冷藏室", "C": "切片密封后放入负十八度冷冻", "D": "放入发酵箱中保温三十五度"}, "answer": "C", "explanation": "-18℃急速冷冻可使面包内的水分瞬间锁成微细冰晶，停止淀粉老化链条；食用前无需解冻，直接喷水入烤箱复烤即可完美还原酥脆口感。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "下列关于现代专业烘焙车间环境要求的叙述，哪些是符合食品安全与操作规范的？\nⅠ. 保持操作间通风良好且温湿度可控\nⅡ. 生料处理区与熟食冷却包装区严格分开\nⅢ. 烘烤区地面定期清洁并防滑防烫\nⅣ. 烘焙出炉产品可以直接裸露在风扇下强力直吹", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅱ、Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "面包绝不能用风扇直接强力对着吹，强风直吹会导致面包表皮水分急速流失而发生脱水龟裂，同时容易吹起地面灰尘与落菌污染熟食。Ⅳ项错误。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "面团在烤箱烘烤前期的头几分钟里体积迅速蹿高膨大，这在烘焙专业中常被称为：", "options": {"A": "基础面团发酵（Bulk Proofing）", "B": "烤炉急速膨胀（Oven Spring）", "C": "面团松弛阶段（Bench Rest）", "D": "面筋过度水合（Over Hydration）"}, "answer": "B", "explanation": "生面坯入炉后前5~8分钟，酵母在达到灭活温度前活性暴增产气，同时内部气体受热膨胀、水分汽化，使体积快速蹿高，这一现象称为Oven Spring（烤炉急胀）。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "烘焙食品相较于中式清蒸食品，最显著的物理特征与外观风味区别是：", "options": {"A": "完全没有任何油脂与糖分存在", "B": "内部水分子含量高达百分之九十", "C": "表面具有金黄硬脆外壳与焦香", "D": "只能呈现白色且质地极度松散"}, "answer": "C", "explanation": "烘焙采用高温干热熟化，表面水分迅速蒸发并形成硬脆的金黄外壳（Crust），同时伴随美拉德与焦糖化香气；蒸制温度受限于100℃水蒸汽，无褐变焦脆表皮。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "在戚风蛋糕出炉后的标准操作流程中，防止蛋糕中心受重力塌陷的关键动作是：", "options": {"A": "立即倒扣在网架上彻底冷却", "B": "趁热立刻用脱模刀强行刮下", "C": "立刻浸入冷水盆中快速降温", "D": "立刻放入微波炉再次加热三分钟"}, "answer": "A", "explanation": "戚风蛋糕含水量高且蛋白骨架轻盈，出炉后若正立放置，脆弱的淀粉蛋白结构会在重力作用下下陷；倒扣悬空冷却可利用重力拉伸网状骨架，保持蓬松高挺。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "烘焙行业常说的“干性原料”通常不包括下列哪一种厨房常见食材？", "options": {"A": "烘焙高筋面粉", "B": "全脂纯牛奶液", "C": "幼砂糖细颗粒", "D": "全脂原味奶粉"}, "answer": "B", "explanation": "鲜牛奶中约88%为水分，属于典型的湿性（液体）原料；面粉、砂糖、奶粉等常温粉粒均归属于干性配料。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "制作烘焙曲奇饼干时，如果烤箱温度过低（如仅120℃慢烤），最容易出现的不良现象是：", "options": {"A": "饼干内部生成大量透明蜂窝", "B": "表面瞬间焦黑碳化散发苦味", "C": "饼干快速隆起变成圆形球体", "D": "黄油融化花纹严重摊平走样"}, "answer": "D", "explanation": "烘烤曲奇需要适度高温使外层淀粉蛋白快速定型。若底温过低，黄油在面粉糊化定型前过早全部融化流淌，会导致原本挤出的精致花纹瘫塌成扁平油饼。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "西点烘焙中制作“面包”与“蛋糕”最根本的蓬松膨发原理区别在于：", "options": {"A": "面包依靠高温油炸膨胀，蛋糕依靠烤箱慢火烘烤定型膨胀", "B": "面包依靠大量加入泡打粉，蛋糕依靠加入活酵母缓慢发酵", "C": "面包完全不使用水分调制，蛋糕需要添加百分之八十水分", "D": "面包主靠酵母生物发酵，蛋糕多靠打发充气或化学膨松"}, "answer": "D", "explanation": "面包以酵母发酵产生二氧化碳气体为主；蛋糕则以蛋液或黄油的物理高速搅打充气（如海绵、戚风）或泡打粉化学产气为主。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "在烘焙生产中，如果将刚刚拌匀的面糊遗忘在高温操作台暴晒两小时，最主要的危害是：", "options": {"A": "面糊颜色变为鲜艳金黄色", "B": "膨松气体逸散导致组织死硬", "C": "面糊含水量升高一倍以上", "D": "烘烤后体积增大三倍以上"}, "answer": "B", "explanation": "打发好的蛋糕面糊中充盈着微细气泡，泡打粉遇水也在持续产气。久置常温下气泡会因表面张力破裂消泡，烤出成品变矮小结实、质地如同死胶。"}]}, {"chapter_id": "02", "chapter_title": "第02课 烘焙的历史与发展", "intro": "", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "在人类文明早期，最初诞生的最原始形态的面包通常是：", "options": {"A": "组织极其轻盈的戚风蛋糕", "B": "未经发酵的平整硬质扁饼", "C": "层层开酥起层的可颂面包", "D": "经过酵母发酵的松软吐司"}, "answer": "B", "explanation": "人类最早的面包出现于石器时代，人们将野生谷物捣碎加水调成面糊，在灼热的平坦石块上烙熟，这是一种未发酵的扁平硬饼（Flatbread）。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "在世界烘焙历史上，最早发明并普及“封闭式圆顶烤炉”与利用空气中野生菌发酵面团的古老文明是：", "options": {"A": "北欧峡湾的古维京部落", "B": "美洲森林的古玛雅文明", "C": "尼罗河流域的古埃及文明", "D": "澳洲内陆的土著原住民"}, "answer": "C", "explanation": "古埃及人被誉为“世界上最早的面包师”，他们不仅建造了泥土砌成的圆顶封闭烤炉，还偶然发现了面团受野生酵母发酵膨大的秘密。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "古希腊人在烘焙发展史上的突出贡献之一是：", "options": {"A": "研制出超过七十种不同风味的糕饼", "B": "发明了自动化电脑控制工业旋转炉", "C": "首次提炼出高纯度的现代化学塔塔粉", "D": "完全禁止民间生产任何带有甜味的点心"}, "answer": "A", "explanation": "古希腊人对烘焙进行了极大的品种创新与风味提升，史料记载他们能使用蜂蜜、奶酪、坚果和葡萄酒制作出多达70多种各具特色的面包和点心。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "在古罗马帝国时期，烘焙业发展的一个标志性社会制度是：", "options": {"A": "由宫廷独占所有谷物严禁制作面包", "B": "强制所有士兵只能食用生麦粒度日", "C": "建立了官方受法律保障的面包师公会", "D": "禁止民间建立任何水磨和石磨磨坊"}, "answer": "C", "explanation": "古罗马时期烘焙业已经高度专业化与职业化，公元前168年左右成立了官方面包师公会（Collegium Pistorum），烘焙师享有受法律保护的崇高特权。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "下列关于古代中西方早期面食加工技术的叙述，哪些是符合历史事实的？\nⅠ. 古代西方多以火烤麦作硬面包为主\nⅡ. 中华传统面食早期多以蒸煮烹调为主\nⅢ. 石磨的普及推动了面粉的精细加工\nⅣ. 古代早已有完全纯净的工业压缩鲜酵母", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "B", "explanation": "西方因燃料和气候传统演变为以烘烤干热面包为主，中国自汉代石磨普及后面食多采用蒸（馒头、包子）和煮（汤饼、面条）。纯培养工业酵母直至19世纪后半叶才诞生。Ⅳ项错误。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "19世纪60年代，彻底揭开酵母发酵神秘面纱并奠定现代微生物酿造学的著名法国科学家是：", "options": {"A": "万有引力发现者艾萨克·牛顿", "B": "微生物学奠基人路易斯·巴斯德", "C": "元素周期表编制者门捷列夫", "D": "现代进化论提出者查尔斯·达尔文"}, "answer": "B", "explanation": "法国科学家路易斯·巴斯德（Louis Pasteur）通过实验证实了发酵是由活的酵母微生物所引起的生理代谢活动，彻底终结了“发酵自发产生论”。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "在工业革命之前，千百年来欧洲家庭和烘焙坊制作面包主要依赖的发酵引子是：", "options": {"A": "留存留种的天然老面酸酵面团", "B": "超市购买的真空高活性干酵母", "C": "工业化提纯的双重反应型泡打粉", "D": "食用无水碳酸氢铵臭粉结晶"}, "answer": "A", "explanation": "在人工纯化酵母工业化生产前，人类依赖代代相传的天然老面种（Sourdough / Levain），依靠面粉与空气中的天然酵母和乳酸菌共生发酵。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "19世纪后半叶，一种革命性的机械磨粉设备诞生，使得高纯度精白面粉得以大规模普及，该设备是：", "options": {"A": "依靠重力往复冲击的木质舂米臼", "B": "古老传统慢速运转的手摇石磨", "C": "微差速旋转的铸铁冷硬辊磨机", "D": "小型家庭手动不锈钢刀片粉碎机"}, "answer": "C", "explanation": "1870年代发明的微差速铸铁辊磨机（Roller Mill）能够通过多道微差速碾压剥皮，彻底将小麦胚乳与外层麸皮和胚芽高效分离，使精白面粉走向大众。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "十字军东征对欧洲中世纪后期烘焙甜点发展起到的最大推动作用是带回了：", "options": {"A": "成套的现代食品卫生检验专业设备", "B": "精炼大豆色拉油与人造植物黄油", "C": "耐高糖型全自动微电脑数控烤箱", "D": "来自东方的大量蔗糖和名贵香料"}, "answer": "D", "explanation": "十字军东征打通了东西方贸易路线，将东方产区的甘蔗糖、肉桂、肉豆蔻等名贵香料带回欧洲，极大地丰富了中世纪晚期欧洲宫廷烘焙的点心品类。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "在文艺复兴时期，将意大利精湛的宫廷糕点与冰淇淋技艺带入法国并促进法式西点繁荣的关键历史人物是：", "options": {"A": "法兰西第一帝国皇帝拿破仑一世", "B": "嫁入法国王室的卡特琳·德·美第奇", "C": "英国都铎王朝君主亨利八世", "D": "俄罗斯帝国开创者彼得大帝"}, "answer": "B", "explanation": "1533年意大利佛罗伦萨美第奇家族的卡特琳（Catherine de' Medici）嫁给法国国王亨利二世，随行带来了精通甜点与冰淇淋的意大利厨师团队，推动了法点革命。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "现代市面上最常见、保质期长达一至两年且极为便于储运的商品酵母形态是：", "options": {"A": "冷藏储运的液态天然酵母浓浆", "B": "水分含量达到百分之七十的新鲜酵母", "C": "低水分真空包装的高活性干酵母", "D": "混有大量面粉颗粒的古法干燥老面头"}, "answer": "C", "explanation": "高活性干酵母（Instant Dry Yeast）水分脱除至5%~8%并抽真空包装，休眠状态下无需冷藏即可常温保存1~2年，使用时无需预泡水，极为便捷。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "在近代烘焙工业发展中，面包切片包装机的发明彻底改变了人们的生活习惯，该划时代事件发生在：", "options": {"A": "二十世纪初二十年代末的美国市场", "B": "十四世纪初黑死病时期的意大利", "C": "公元一世纪罗马帝国征服高卢时期", "D": "十八世纪工业革命前夕的英国伦敦"}, "answer": "A", "explanation": "1928年美国发明家罗哈维德（Otto Rohwedder）发明了世界上第一台自动切片并包装面包的机器，“Sliced bread”从此风靡全球成为现代生活象征。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "下列关于天然酵种酸面团（Sourdough）与现代商业酵母面包的对比叙述，哪些是正确的？\nⅠ. 天然酵种含有丰富的乳酸菌使面包带有特殊微酸香气\nⅡ. 现代纯种商业酵母发酵速度快且生产效率极高\nⅢ. 天然酵种生成的酸性环境有助于延缓面包的老化与霉变\nⅣ. 现代纯种酵母完全无法制作出任何能吃的面包产品", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅱ、Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "现代商业纯种酵母发酵效率高、品质稳定，绝大多数日常面包均由此制作。Ⅳ项叙述荒谬错误。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "近代食品工业中“人造黄油（Margarine）”的诞生，最初是为了解决下列哪一个历史危机？", "options": {"A": "为了彻底消除面点烘烤时表皮的焦香味", "B": "为了彻底淘汰世界上所有的奶牛养殖场", "C": "为了应对全球白糖生产严重不足的危机", "D": "战争时期军队与平民天然黄油供应短缺"}, "answer": "D", "explanation": "1869年法国拿破仑三世悬赏征集一种低成本黄油替代品以供海军和贫困阶层食用，化学家梅热-穆里耶成功发明了人造黄油（玛琪琳）。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "在烘焙发展史上，标志着“法式可颂（Croissant）”这种新月形起酥面包成型的典型历史渊源是：", "options": {"A": "法国大革命时期巴黎市民自创的面食", "B": "古罗马军团在远征埃及途中偶然发明", "C": "中国明代郑和下西洋船队途经带入", "D": "奥地利维也纳糕点传入法国后的演变"}, "answer": "D", "explanation": "可颂起源于奥地利维也纳的牛角面包（Kipferl），19世纪传入巴黎后，法国师傅用开酥折叠黄油的方法将其改良为层次轻盈多孔的现代法式可颂。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "在现代绿色健康烘焙理念的推动下，越来越多消费者青睐的“全谷物全麦面包”主要是指：", "options": {"A": "仅使用去除了所有纤维的纯精白胚乳粉", "B": "保留了小麦麸皮、胚芽和胚乳全部成分", "C": "配方中完全不含有任何水分与麦类物质", "D": "使用大量人工食用色素将面包心染成棕色"}, "answer": "B", "explanation": "全麦粉是由整颗小麦完整研磨而成，保留了外层富含纤维与矿物质的麸皮、富含维生素E与优质油脂的胚芽以及胚乳，具有更高的营养价值。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "18世纪末化学膨松剂（如小苏打）在西方家庭的普及，对烘焙行业带来的最大直接影响是：", "options": {"A": "使得松饼与饼干免去了耗时的酵母发酵等待", "B": "彻底取代了所有传统法式硬欧包的生产", "C": "导致所有烤箱温度必须提高至四百度烘烤", "D": "使所有面粉蛋白质完全无法生成任何面筋"}, "answer": "A", "explanation": "化学膨松剂（如小苏打、泡打粉）遇酸和热迅速产气，催生了“快速面包（Quick Bread）”、美式松饼（Pancake）和司康，无需漫长的数小时酵母发酵。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "在东方烘焙发展历程中，将西式面包结合东方本土口味改良出“红豆面包、菠萝包”等软面包的国家是：", "options": {"A": "远在南美洲赤道森林深处的原始农业小国", "B": "十二世纪中叶蒙古高原上的古代游牧部族", "C": "二十世纪初明治维新时期的日本及港台地区", "D": "地处非洲撒哈拉沙漠南缘的传统农耕国家"}, "answer": "C", "explanation": "1874年日本木村安兵卫将西方硬面包结合东方和菓子豆沙馅，发明了风靡全亚洲的红豆面包，开启了日式与台式柔软调理面包的演进繁荣。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "现代高档面包房中，使用“冷藏中种发酵法”或“低温隔夜慢发酵法”的历史演进优势是：", "options": {"A": "能够让面包在烤炉中完全不需要任何烘烤时间", "B": "充分水合使面团熟成并生成更复杂的风味物质", "C": "彻底消灭面团中的蛋白质以制作无麸质产品", "D": "减少烘烤后面包体积以方便货架紧凑摆放销售"}, "answer": "B", "explanation": "低温长时间慢发酵（通常4℃~6℃冷藏12~24小时）让小麦淀粉和蛋白质有充分时间被自身的酶缓慢水解，生成更丰富的小分子糖类与氨基酸，极大改善保水性与麦香味。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "20世纪中叶以来，推动大型连锁烘焙坊能够跨区域当天现烤现售的核心现代技术是：", "options": {"A": "取消所有发酵工序直接烘烤未发酵生粉浆面", "B": "完全依靠人工骑自行车长途快速运送熟面包", "C": "在面包配方中加入大量工业防腐剧毒化学物", "D": "中央工厂冷冻面团冷链配送控制技术"}, "answer": "D", "explanation": "中央厨房集中打面、成型并通过-35℃极速速冻成冷冻面团，通过冷链配送到各门店，各店只需每日现场解冻、醒发、现烤，保证了高品质现烤面包的标准化连锁。"}]}, {"chapter_id": "03", "chapter_title": "第03课 中式面食分类", "intro": "", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "在制作中式水饺皮和手擀面时，为了使面皮筋道抗煮耐拉伸，最适合采用的面团类型是：", "options": {"A": "完全依靠黄油擦匀的干油酥", "B": "沸水直接泼烫的沸水烫面团", "C": "水温低于三十度的冷水面团", "D": "加入大量泡打粉的发酵面糊"}, "answer": "C", "explanation": "冷水（水温低于30℃）能让面粉中的麦谷蛋白和麦胶蛋白充分吸收水分并紧密结合，形成致密而富有强弹性的面筋网络，煮制时不破皮、口感爽滑劲道。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "制作中式蒸饺或翡翠烧卖时，为了让面皮柔软半透明且冷却后不易发硬，常采用的面团是：", "options": {"A": "冰镇冰水调制的强筋面团", "B": "沸水直接烫熟糊化的烫面团", "C": "加入大量酵母的蓬松发面团", "D": "纯猪油与低筋粉混合的油酥"}, "answer": "B", "explanation": "烫面（水温通常在70℃~100℃）使面粉中的淀粉充分吸水糊化，同时蛋白质变性失去部分弹性，面团极其柔软糯滑，蒸熟后呈现半透明状且久放不易变硬。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "中式点心开酥制作中，由中筋面粉、水和适量油脂共同调制而成的外层包裹皮料称为：", "options": {"A": "具有良好延展性的水油面皮", "B": "纯油脂与面粉擦匀的干油酥", "C": "未经任何揉捏的干燥生面粉", "D": "经过长时间发酵的酸味老面"}, "answer": "A", "explanation": "中式层酥面团由两部分构成：外层的“水油皮”（含水、粉、油，提供筋度延展性负责包裹）和内层的“干油酥”（纯粉加纯油脂，负责物理隔层起酥）。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "蒸制中式馒头或大肉包熄火后，如果立刻猛然掀开蒸笼盖，最容易引起的翻车现象是：", "options": {"A": "包子内部馅料温度瞬间沸腾喷溅", "B": "面皮瞬间完全溶化成浓白米汤", "C": "表皮遭遇骤冷空气塌陷起皱", "D": "包子体积瞬间膨胀增大两倍以上"}, "answer": "C", "explanation": "关火后笼内充满高压热蒸汽，若立即揭盖，冷空气瞬间涌入会造成气压与温度骤降，未完全稳固的气室会瞬间遇冷收缩，导致包子表皮塌陷起皱（俗称“鬼捏青”）。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "下列关于中式传统面点中不同水温调制面团特性的叙述，哪些是正确的？\nⅠ. 冷水面团面筋充分形成，筋力强且抗拉扯\nⅡ. 烫水面团淀粉大量糊化，口感软糯易消化\nⅢ. 温水面团性质介于冷水面与烫面之间\nⅣ. 沸水烫面可以形成比冷水面更强韧的面筋网络", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "B", "explanation": "沸水会使面粉中的面筋蛋白质发生热变性而凝固，完全破坏了面筋的延展生成能力，因此烫面几乎无面筋网络，质地以软糯为主。Ⅳ项错误。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "制作蛋黄酥、苏式月饼、老婆饼等点心时，酥层藏在饼皮内部、外观光滑的开酥工艺属于：", "options": {"A": "酥层完全显露在外的明酥工艺", "B": "表面不露层纹的暗酥工艺", "C": "完全依靠蒸汽膨胀的清酥工艺", "D": "未经折叠直接搓揉的混酥工艺"}, "answer": "B", "explanation": "暗酥是指水油皮将油酥彻底包裹、擀卷后将收口捏严，烘烤后酥层完全蕴藏在内部，成品表面平整光洁（如蛋黄酥、徽州酥饼）。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "中式点心中的“荷花酥、佛手酥、千层酥”，层层酥皮向外清晰翻绽开花，这种开酥形态属于：", "options": {"A": "直接油炸未熟粉团的油炸工艺", "B": "完全密封看不见层次的暗酥工艺", "C": "刀口展现层层次序的明酥工艺", "D": "仅依靠水蒸气蒸熟的冷水工艺"}, "answer": "C", "explanation": "明酥是指在擀卷下剂或成型时，用刀将起酥面坯切开露出层次断面，烘烤或油炸时酥层由内向外层层舒展开花（如荷花酥、眉毛酥）。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "在煎烙中式葱油饼或家常大饼时，为了达到“外层香脆、内部层层柔软多汁”的绝佳口感，老师傅最推荐调制的面团是：", "options": {"A": "一半沸水烫面搭配一半冷水的半烫面", "B": "完全使用零度冰水调制的纯冷水面", "C": "纯用干油脂搓揉而成的纯干油酥", "D": "只使用大米磨粉调制的无筋度粉浆"}, "answer": "A", "explanation": "半烫面（先用热水烫熟一半面粉，再用冷水揉和剩余面粉）结合了烫面的软糯保水与冷水面的延展成型骨架，烙出的饼皮外焦里嫩、久放不硬。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "在中式点心厨房制作水油皮包干油酥时，老师傅强调两者的软硬度必须保持：", "options": {"A": "干油酥必须坚硬如石而水油皮极软", "B": "两者的柔软硬度必须完全保持一致", "C": "水油皮必须干硬结块而干油酥极稀", "D": "软硬度完全无所谓无需任何特别控制"}, "answer": "B", "explanation": "开酥成败的第一铁律是“水油皮与干油酥软硬度一致”。若油酥硬水皮软，擀压时油酥会顶破水皮（破酥）；若油酥太软水皮硬，油酥会被挤出流淌（混酥）。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "中式传统发面点心（如馒头、包子）在揉面排气工序中，师傅常用手反复揉压并适量戗入干面粉，其主要作用是：", "options": {"A": "使馒头蒸熟后内部呈现极大的中空大洞", "B": "彻底消灭面团中所有的活性酵母菌株", "C": "排出粗大气泡使成品组织致密细腻洁白", "D": "大幅增加面团中的游离水分以便流淌"}, "answer": "C", "explanation": "充分揉面排气（甚至戗面）能将发酵产生的不均匀大孔洞挤碎排出，使二氧化碳重新均匀分布在微细气室中，蒸出的馒头表皮光滑如镜、切面细腻无大孔。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "制作广东著名早茶点心“澄粉虾饺”时，其晶莹剔透的水晶外皮所使用的主要原料是：", "options": {"A": "含有丰富膳食纤维与油脂的大麦新鲜胚芽", "B": "富含高达百分之十四蛋白质的高筋小麦粉", "C": "质地坚硬颗粒粗大的全麦黑麦混合粗粉", "D": "去除了面筋蛋白质的小麦纯淀粉（澄粉）"}, "answer": "D", "explanation": "澄粉即无筋面粉（小麦淀粉），通过沸水冲烫糊化后具有极高的透明度与滑爽感，包入鲜虾蒸熟后透亮如水晶，是广式虾饺皮的灵魂原料。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "在中式油酥制作中，如果配方使用的是纯猪油而不是植物油，其最大的工艺与风味优势是：", "options": {"A": "能够让开酥面团在开水中直接煮沸而不化散", "B": "具有良好的起酥塑性且成品带有浓郁动物脂香", "C": "使面团在常温下完全不需要包裹水油面皮", "D": "能够彻底阻断所有高温烘烤热量的传导渗透"}, "answer": "B", "explanation": "传统熟猪油常温下呈现半固态结晶，塑性范围极佳，易于与面粉擦匀形成隔离层，且烘烤后起酥层次分明、入口即化，伴有独特的传统酥香风味。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "下列关于中式传统发酵面食制作技巧的叙述，哪些是符合烹饪科学规律的？\nⅠ. 和发酵面团加入微量白糖有助于给酵母提供初期营养\nⅡ. 蒸制馒头必须在冷水或温水上屉以便面坯有后发酵过程\nⅢ. 蒸熟关火后必须在锅内焖三至五分钟后再揭盖\nⅣ. 刚出锅的滚烫馒头可以用手掌紧紧压扁挤出水分", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅱ、Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "蒸熟的馒头组织娇嫩，若趁热用力压瘪会导致气孔被破坏粘连形成死面块，无法弹回。Ⅳ项严重违反常理错误。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "北方传统名点“锅贴”在成熟工艺上最典型的复合熟制方法是：", "options": {"A": "悬挂在炭火深炉中利用干燥空气慢火烤透", "B": "深锅高温沸油彻底油炸透彻后撒上白糖", "C": "底部平锅油煎焦脆搭配加盖注水水蒸汽焖熟", "D": "完全浸入冷盐水中腌制浸泡三天后生食"}, "answer": "C", "explanation": "锅贴属于典型的“水油煎焖法”：平底锅刷油码入生生坯，先煎出微黄硬底，再浇入面粉水或清水盖严，利用蒸汽迅速焖熟上部馅皮，待水分收干底板再次煎出金黄冰花脆皮。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "中式面点制作生煎包时，生坯底部通常会粘上一层白芝麻，其主要作用除了提升香气还包括：", "options": {"A": "防止面团在煎制过程中吸收锅底任何热量", "B": "增加煎制底部的香酥口感与美观视觉效果", "C": "利用芝麻吸收生煎包内部所有的多余汤汁", "D": "消灭生煎包猪肉馅料中所有的脂肪与胆固醇"}, "answer": "B", "explanation": "芝麻经过底油煎烤后散发浓烈芳香，富含油脂的芝麻能增加底板的香脆层次，提升整体色泽与食欲感。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "制作中式传统油炸面点“油条”时，面团需要经过长时间松弛，其主要的力学目的是：", "options": {"A": "让面粉中的蛋白质彻底凝固变性失去延展度", "B": "使面团内部产生坚硬的结晶骨架防止膨胀", "C": "使面团中的水分完全蒸发达到干燥坚硬状态", "D": "消除揉面产生的内部应力使面筋充分松弛延伸"}, "answer": "D", "explanation": "揉面会使面筋分子处于紧绷状态，经过数小时醒面（松弛），面筋弹性回缩力减弱、延展性达到最佳，下锅前用手轻轻一拉即可顺畅拉长而不回弹扯断。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "制作传统广式叉烧包时，其标志性的顶部自然开裂成“三瓣花”，配方中必不可少的核心辅料是：", "options": {"A": "适量食用臭粉（碳酸氢铵）与复合泡打粉", "B": "大量高纯度工业级无水硫酸铜晶体粉末", "C": "只加入纯天然酵母菌完全不添加任何疏松剂", "D": "加入大量纯蛋清打发成硬性发泡蛋白霜"}, "answer": "A", "explanation": "正宗广式叉烧包选用低筋粉或特制包子粉，使用老酵面配合适量碳酸氢铵（臭粉）和泡打粉，在强蒸汽笼屉中剧烈瞬间产气，顶冲开裂形成漂亮的“雀笼形三瓣开花”。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "在夏季高温天气（室温超过30℃）进行水油皮开酥操作时，面案操作最常遇到的翻车问题是：", "options": {"A": "面团内部水分瞬间暴沸产生巨大空心大洞", "B": "面皮迅速结冰冻结完全无法用擀面杖擀平", "C": "油脂融化溢出导致酥层粘连的混酥现象", "D": "面皮颜色从纯白色自发变为深黑色碳化皮"}, "answer": "C", "explanation": "黄油或猪油熔点一般在28℃~36℃。高温环境下油脂变软融化成液体，擀压时油酥冲破面皮与水油皮混杂在一起，破坏了层状结构（称为“混酥”），烤后变成死硬油饼。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "制作春卷皮或北京烤鸭春饼时，面皮要求薄如蝉翼且柔韧不易破，调制面糊时通常采用：", "options": {"A": "完全依靠热水将生淀粉全部熬熟成的硬果冻", "B": "只使用纯粗粮玉米碎粒加冷水调成的松散干渣", "C": "加入大量干油酥快速擦拌揉成的无水油酥面", "D": "高筋或中筋粉加水加盐顺一个方向搅出强筋力的稀面浆"}, "answer": "D", "explanation": "春卷皮通过手工在热铁铛上“一抹一提”烙制成型，依靠的是高筋面粉在加盐和充足水分下搅打出的极高面筋网络，既薄如薄纸又极富韧性不破裂。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "中式面点中制作“发糕”或“松糕”时，面团形态通常与馒头包子不同，其显著特点是：", "options": {"A": "质地呈半流动的黏稠面糊或松散潮湿的粉粒状", "B": "揉捏成坚硬如同石头般完全无延展性的面团", "C": "必须经过十次以上千层折叠包裹干油酥开酥", "D": "含水量控制在百分之五以内的绝对干燥状态"}, "answer": "A", "explanation": "发糕含水量极高，通常呈流体糊状倒入模具发酵蒸熟；松糕（如定胜糕）则是将米粉拌入适量水搓成微潮松散颗粒过筛入模蒸制，不需要像馒头那样用力揉成光面团。"}]}, {"chapter_id": "04", "chapter_title": "第04课 西式烘焙分类", "intro": "", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "在西式烘焙四大基础产品品类划分中，通常不包括下列哪一项？", "options": {"A": "中式清蒸发面大肉包", "B": "发酵类的各类西式面包", "C": "乳沫与面糊类的各式蛋糕", "D": "酥脆可口的各类饼干点心"}, "answer": "A", "explanation": "西式烘焙四大基础大类为：面包（Bread）、蛋糕（Cake）、饼干（Cookie/Biscuit）以及西点派塔酥（Pastry）。中式清蒸包子属于中式面点蒸制工艺。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "烘烤戚风蛋糕时，为了让蛋糕面糊能够顺着模具内壁顺畅攀爬长高，必须选用的模具是：", "options": {"A": "表面涂有特氟龙的不粘涂层模具", "B": "无涂层的阳极氧化铝合金模具", "C": "内壁提前刷满厚厚黄油的不粘模", "D": "完全光滑不吸水的镜面不锈钢盆"}, "answer": "B", "explanation": "戚风蛋糕主要依靠蛋白霜泡沫支撑，烘烤受热时面糊需要附着抓牢模具侧壁的微细孔隙才能稳定攀爬上升；若用不粘模或刷油，面糊无法附着，会滑脱塌陷长不高。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "制作传统法式千层酥皮（Puff Pastry）和可颂面包时，使面皮形成数以百计超薄层次的工艺称为：", "options": {"A": "在开水中将全部生粉浆烫熟成冻状", "B": "将所有原料放入搅拌机高速剧烈打碎", "C": "面团反复折叠擀卷的开酥叠层工艺", "D": "用手掌将生面团连续拍打三小时至透明"}, "answer": "C", "explanation": "法式开酥工艺（Tourage）是将整块片状裹入黄油包裹在面团中，经过多次三折（Single Turn）或四折（Double Turn）反复擀延，形成数百层“面皮-黄油-面皮”交替分布的微观多层结构。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "制作法式泡芙（Choux）时，生面糊送入高温烤箱烘烤，其能够膨胀出巨大中空内腔的核心膨发动力是：", "options": {"A": "面糊中大量水分受高温剧烈汽化产生的水蒸气", "B": "配方中添加的超大剂量耐高糖鲜酵母产气", "C": "鸡蛋清在打蛋缸中被打发出的坚硬蛋白泡沫", "D": "纯黄油分子在高温下自发裂变产生的氮气流"}, "answer": "A", "explanation": "泡芙依靠前期烫面糊化吸收了高比例的水分，入炉遇高温时内部水分瞬间沸腾，产生巨大的水蒸气急剧膨胀，将外层受热凝固的面皮撑开成巨大的中空气室。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "西式烘焙产品按照物理化学膨大机理进行科学分类，主要包括下列哪些方式？\nⅠ. 酵母呼吸产生二氧化碳的生物膨发（如法棍）\nⅡ. 搅打蛋白霜卷入空气的物理充气膨发（如戚风）\nⅢ. 泡打粉遇酸受热反应的化学产气膨发（如松饼）\nⅣ. 水分在烘烤中沸腾汽化的水蒸气剧烈膨发（如千层酥）", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "D", "explanation": "西式烘焙四大经典膨发动力为：生物膨发（酵母）、物理膨发（机械搅打空气）、化学膨发（膨松剂）以及物理水蒸气膨发（千层酥与泡芙），四项完全属于考纲核心定义。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "在可颂（Croissant）面包进行最后发酵（二发）时，发酵箱温度绝对不能超过二十八度，最致命的翻车诱因是：", "options": {"A": "温度过高会导致面团水分瞬间全部化为纯氢气", "B": "温度过高导致裹入黄油融化流淌破坏层次", "C": "温度过高会使面团表面的面粉完全自燃着火", "D": "温度过高会导致酵母菌瞬间全部彻底死亡"}, "answer": "B", "explanation": "天然黄油的融化熔点一般在28℃~32℃之间。若发酵箱温度超过28℃，层间包裹的固体黄油片会彻底融化流出浸湿烤盘，烤制时层次黏连消失，可颂彻底沦为油腻死面包。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "法式传统糕点“玛德琳（Madeleine）”蛋糕最标志性的经典外观造型特征是：", "options": {"A": "表面铺满一层厚厚的纯白色硬质防潮糖霜", "B": "顶部完全凹陷成如同火山口般的巨大深洞", "C": "一面呈现贝壳条纹且背部凸起漂亮小肚腩", "D": "呈现正方体几何造型且四角完全硬脆透明"}, "answer": "C", "explanation": "玛德琳使用特制贝壳模具烘烤，底面带有细腻贝壳凹槽纹路，烘烤时受高温热对流推动，面糊中心急速向上爆裂隆起，形成标志性的可爱“胖肚腩”。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "制作经典法式水果塔皮时，常采用将冰冷坚硬的黄油切小丁与干面粉用指尖对搓成“粗细沙粒状”的方法，该手法被称为：", "options": {"A": "高速搅打黄油使其膨胀的油糖打发法", "B": "阻断水分生成面筋的沙化法（Sablage）", "C": "将液体全部煮沸蒸发水分的浓缩糖浆法", "D": "将面粉直接倒入沸水中烫熟的糊化开水法"}, "answer": "B", "explanation": "沙化法（Sablage / Rubbing-in）是用指尖或切拌刀将冷硬黄油与干粉搓成粗玉米沙粒状，使黄油微粒包裹住面粉微粒阻断水分接触，防止揉出面筋，烤出酥松脆爽的塔皮。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "美式烘焙中常制作的“玛芬蛋糕（Muffin）”与“司康（Scone）”，其内部疏松多孔主要依赖的膨松原料是：", "options": {"A": "双重反应型复合泡打粉或小苏打", "B": "经过十二小时低温冷藏的老面酸酵种", "C": "高速持续打发十分钟的坚挺纯蛋白霜", "D": "在阳光下暴晒干燥的天然麦芽酶浸出物"}, "answer": "A", "explanation": "玛芬和司康属于快速面包（Quick Bread），制作极其迅速，不依靠酵母发酵或蛋白打发，而是利用泡打粉遇液体及遇烘烤高温分步释放二氧化碳气体膨大组织。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "制作传统法式长棍面包（Baguette）时，最纯正且受法国法律严格保护的四种基础原料是：", "options": {"A": "低筋面粉、纯鸡蛋液、泡打粉与香草精", "B": "高筋面粉、鲜牛奶、纯白糖与无盐黄油", "C": "小麦面粉、饮用水、酵母与食用食盐", "D": "玉米淀粉、人造黄油、防腐剂与白砂糖"}, "answer": "C", "explanation": "根据法国著名的1993年《面包法令》（Décret Pain），纯正的传统法式面包（Pain de tradition française）只能包含四种基本原料：小麦粉、水、酵母（或天然酸种）和食盐，严禁添加油脂、糖或化学添加剂。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "意大利传统硬饼干“意式脆饼（Biscotti）”口感极其酥脆坚硬，其独特的烘烤熟化工艺是：", "options": {"A": "在深油锅中以二百度极高温连续油炸三次", "B": "先整条初烤定型切片后再回炉进行二次复烤", "C": "放在强力蒸汽蒸箱中连续大火清蒸三小时", "D": "完全不需要任何加热只依靠抽真空自然风干"}, "answer": "B", "explanation": "Biscotti在意大利语中意为“烤两次（Twice-baked）”：先将坚果面团整成扁长条入炉初烤至半熟定型，出炉斜切成薄片，平铺在烤盘中再次低温慢烤彻底脱水烘干，极其干脆耐储。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "在蛋糕分类中，完全不添加任何一滴蛋黄或油脂、纯靠蛋清打发支撑的雪白蛋糕品类是：", "options": {"A": "层层涂抹咖啡糖浆的提拉米苏（Tiramisu）", "B": "高油脂厚重的古典磅蛋糕（Pound Cake）", "C": "湿润浓郁的重乳酪芝士蛋糕（Cheesecake）", "D": "纯白轻盈的天使蛋糕（Angel Food Cake）"}, "answer": "D", "explanation": "天使蛋糕属于纯乳沫类蛋糕，仅用蛋白、细砂糖、低筋粉及塔塔粉制作，完全不含蛋黄和油脂，烤出的蛋糕心如同雪白云朵般纯净弹韧，热量较低。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "下列关于“海绵蛋糕（Sponge Cake）”与“戚风蛋糕（Chiffon Cake）”制作特征的区别，哪些是正确的？\nⅠ. 传统海绵蛋糕多采用全蛋直接加糖温热打发\nⅡ. 戚风蛋糕采用蛋清与蛋黄完全分开的分蛋打发法\nⅢ. 戚风蛋糕配方中加入了植物油与水分，质地比海绵更湿润柔软\nⅣ. 海绵蛋糕的含水量和柔软度永远高于戚风蛋糕", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "B", "explanation": "海绵多为全蛋法（韧性与支撑力强）；戚风为分蛋法并加入液态植物油和液体（水或牛奶），因此戚风的柔软度与湿润弹性显著高于传统海绵。Ⅳ项错误。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "烘烤传统法式甜点“舒芙蕾（Soufflé）”时，刚出炉极度高挺松软但必须在几分钟内端给客人食用的原因是：", "options": {"A": "蛋糕表面会在室温下瞬间长满厚厚的绿霉斑点", "B": "出炉超过五分钟后舒芙蕾内部会自发变硬成坚石", "C": "内部充满受热膨胀空气，接触冷空气后会迅速回缩塌陷", "D": "舒芙蕾碗壁会在五分钟后发生自发性爆裂破碎"}, "answer": "C", "explanation": "舒芙蕾完全依靠充气蛋白霜在烘烤时受热气压膨胀顶出碗口，内部几乎没有淀粉骨架支撑，出炉冷却后气压减弱，数分钟内就会受重力和降温影响软塌凹陷，必须争分夺秒赏味。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "制作曲奇饼干挤花时，如果面糊太干太硬无法从裱花嘴挤出，最安全科学的调整方式是：", "options": {"A": "加入双倍于原配方的干燥低筋生面粉继续揉捏", "B": "往裱花袋内直接倒入半碗滚烫的沸腾开水搅拌", "C": "将裱花嘴拆下改用铁锤直接击打面团出花纹", "D": "适当微量增加配方中的软化黄油或微量常温蛋液"}, "answer": "D", "explanation": "挤花曲奇面糊过硬通常是因室温较低黄油变硬或液体不足所致。回温软化面糊或微量增加常温软化黄油/蛋液，可以恢复面糊的顺滑可塑性，切忌盲目乱加热水。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "烘焙中著名的“布里欧修面包（Brioche）”，其配方最显著的奢华特点是：", "options": {"A": "加入大量天然黄油与鸡蛋，几乎完全不用水和面", "B": "完全不使用任何小麦面粉全部采用纯白糖揉面", "C": "烘烤成熟后在冷油锅中连续深层浸泡一整夜", "D": "面坯必须在强酸溶液中腌制发酵三天三夜"}, "answer": "A", "explanation": "布里欧修是法国高油脂高蛋软面包的代表，配方中黄油含量常达到面粉重量的40%~60%以上，且全靠鸡蛋提供水分，质地如同蛋糕般金黄柔软、奶香浓郁。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "在派塔类西点制作中，为了防止塔皮在烘烤时底部受热隆起鼓包变形，标准的操作规范是：", "options": {"A": "将塔皮放入冰柜冷冻三天彻底冻硬后再直接加生水", "B": "在塔皮底部抹上一层厚度达三厘米的纯小苏打粉", "C": "在塔皮底部用叉子戳出小孔并压上烘焙重石盲烤", "D": "烘烤全程开启烤箱最高风速以吹平底部鼓起的气泡"}, "answer": "C", "explanation": "盲烤（Blind Baking）规范：在塔皮底部用叉子扎排气孔，垫上油纸并压上烘焙压炉石（或烘焙豆），能利用重量压平底皮并使热气排出，保证烤出平整酥脆的塔壳。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "制作巧克力布朗尼（Brownie）蛋糕时，烘焙师傅通常追求的理想质构是：", "options": {"A": "内部充满极大空洞像法棍一样坚硬抗嚼韧性足", "B": "外层有一层极薄糖壳且内部绵密湿润浓郁微溶", "C": "像棉花糖一样完全雪白且不带任何可可风味", "D": "完全呈现半透明液态可以像清汤一样直接饮用"}, "answer": "B", "explanation": "正宗美式布朗尼属于高糖高脂面糊蛋糕，烘烤讲究“恰到好处”，表面呈现光亮微裂的薄糖壳（Shiny crinkly top），内部质地湿润、致密如软糖（Fudge-like），浓郁化口。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "日常烘焙制作蛋挞（Egg Tart）时，澳门著名的“葡式蛋挞”其塔皮类型主要属于：", "options": {"A": "完全依靠酵母发酵膨大的厚重柔软松饼皮", "B": "结实致密如同饼干一般的生酥沙布列甜塔皮", "C": "层层酥脆薄如纸片的千层起酥皮（Puff Pastry）", "D": "用开水冲烫澄粉制作的水晶透明虾饺皮"}, "answer": "C", "explanation": "葡式蛋挞（Pastel de Nata）使用类似千层酥的折叠开酥油皮，烘烤后外皮焦脆层层分明如花瓣，内馅为带有焦糖斑点的浓香焦糖蛋奶羹。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "制作经典法式闪电泡芙（Éclair）时，挤出生面糊时最常用的挤花手法是：", "options": {"A": "使用圆形或齿状花嘴在烤盘上均匀挤出笔直长条形", "B": "将面糊像挤水饺馅一样捏成半圆形小包袱状", "C": "将面糊倒满整个大平盘烘烤后用菜刀切成细丝", "D": "用手掌将粘稠面糊搓成极其坚硬的正方形小方块"}, "answer": "A", "explanation": "闪电泡芙（Éclair）以细长条形为经典标志，使用大号多齿或平口花嘴匀速挤出约10~12厘米笔直长条，烤出空心酥皮后，内部填入卡士达馅，表面淋覆甘纳许糖霜。"}]}, {"chapter_id": "05", "chapter_title": "第05课 烘焙设备", "intro": "", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "在烘焙作坊中，能够独立分别精确设定“上火温度”与“底火温度”的传统专业烤箱是：", "options": {"A": "依靠单一风机吹风的家用热风机", "B": "完全使用木炭明火加热的户外烤架", "C": "主要依靠微波震荡分子的微波炉", "D": "配有独立温控的平炉（层炉）"}, "answer": "D", "explanation": "平炉（Deck Oven）的每一层都具备独立的面火（上火）与底火电热管及温控系统，能根据产品要求灵活调整上下温差（如上火200℃、底火180℃）。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "烘烤大批量曲奇饼干、马卡龙和酥皮泡芙时，最能保证多层烤盘同时受热均匀的烤箱是：", "options": {"A": "完全依靠自然日照阳光晒干的玻璃温室", "B": "底部没有发热管的简易单层电热箱", "C": "专门用来蒸熟馒头包子的高压蒸汽柜", "D": "腔内热空气强制循环的热风对流烤箱（风炉）"}, "answer": "D", "explanation": "风炉（Convection Oven）内置后置风机与导风系统，强力循环热空气，使箱内各层温场高度一致，支持4~10层同时烘烤，且水分带走快，出品酥脆。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "在立式行星搅拌机（打蛋机）配件中，用于高速打发蛋白霜或搅打鲜奶油充气的核心配件是：", "options": {"A": "带有锋利旋转刀片的切碎不锈钢刀盘", "B": "厚重坚硬粗壮的螺旋形金属面团钩", "C": "扁平宽大的树叶形状金属搅拌叶桨", "D": "密布多根细不锈钢丝的打蛋网（球形打蛋头）"}, "answer": "D", "explanation": "钢丝打蛋网（Wire Whip）线数多、间隙密，在高速运转公转自转时能高频切割液体并卷入海量微小空气分子，使蛋白或稀奶油迅速充气蓬松。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "制作面包时，专用于将面团快速揉出均匀延展面筋且面团自身温升极慢的专业打面设备是：", "options": {"A": "搅拌钩与面桶同时旋转的双动双速螺旋搅拌机", "B": "用来将大块水果切成细丁的手动果蔬切碎机", "C": "专门用来给果酱杀菌消毒的高温煮浆反应釜", "D": "用来将整颗小麦研磨成细粉的小型石磨研磨机"}, "answer": "A", "explanation": "螺旋打面机（Spiral Mixer）的螺旋搅拌杆与搅拌缸双向低速/高速联动旋转，机械剪切温和且对全缸面团充分挤压拉伸，面筋成型极快且摩擦生热低。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "立式行星搅拌机（Planetary Mixer）标配的三大功能搅拌配件通常包括下列哪些？\nⅠ. 搅打蛋白与奶油的球形打蛋网（Whip）\nⅡ. 搅打黄油与曲奇面糊的扁平叶形桨（Beater）\nⅢ. 搅拌面包面团的螺旋形面团钩（Hook）\nⅣ. 专门用来冷冻制冰的旋转冷冻刮刀", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "B", "explanation": "立式行星搅拌机标准三大件为：打蛋网（充气）、叶形桨（拌和乳化打发黄油）、面团钩（和面揉筋）。Ⅳ项为冰淇淋机专属部件，非标配。Ⅰ、Ⅱ、Ⅲ正确。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "专业发酵箱（醒发箱）在给普通甜面包面团提供最后醒发环境时，最标准的温湿度设定范围通常是：", "options": {"A": "温度在八十度至九十度，相对湿度在百分之百完全沸腾", "B": "温度在十度至十五度，相对湿度在百分之二十至三十", "C": "温度在三十五至三十八度，相对湿度在百分之七十五至八十五", "D": "温度在零度至四度，相对湿度在百分之五十完全干燥"}, "answer": "C", "explanation": "面包最终醒发环境金标准：温度35℃~38℃（略低于酵母失活临界点，产气最活跃），相对湿度75%~85%（保证面坯表皮柔软湿润不干裂结皮，也不过湿流淌）。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "面包发酵箱如果内部湿度过低（如低于百分之五十），面坯表面最容易产生的致命质量缺陷是：", "options": {"A": "面团表面瞬间变黑并生成大量浓烈的焦糖液体", "B": "面团内部的酵母菌在五分钟内全部发生自爆死亡", "C": "表面水分过快蒸发结成一层干燥坚硬的硬皮阻碍膨胀", "D": "使得面团从发酵箱内自发漂浮飞出撞击天花板"}, "answer": "C", "explanation": "湿度不足时，干燥空气带走生面坯表皮水分，使表皮提早脱水结硬壳，面筋失去弹性，烘烤时无法顺利向上蹿高胀大，且容易造成表皮开裂发暗。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "制作法式可颂和丹麦千层酥时，用来将面团与包裹黄油均匀压薄到指定毫米厚度的机械是：", "options": {"A": "大型中央厨房用于清洗塑料烤盘的全自动洗碗机", "B": "专门用于将熟蛋糕胚切成薄片的电动蛋糕切片机", "C": "用于将干硬面包碎屑研磨成面包糠的粉碎机", "D": "双向往复式运行的电动开酥压面机（起酥机）"}, "answer": "D", "explanation": "开酥机（Dough Sheeter）通过前后运转的传送带和间隙精细可调的重型轧辊，能将大块冰冷黄油与面团分段均匀碾压至精准薄度（如2~4mm），彻底杜绝手工开酥薄厚不均。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "在工业化烘焙大厂中，能够一次性推入整辆满载几十层烤盘的推车并匀速旋转烘烤的设备是：", "options": {"A": "大型热风旋转台车烤炉（旋转炉）", "B": "只有一层且完全没有风机的简易平炉", "C": "放在桌面上专门解冻肉类的微波烤箱", "D": "依靠人工用铁铲逐一送入的柴火土窑炉"}, "answer": "A", "explanation": "旋转炉（Rotary Rack Oven）拥有超大烘烤室，烘焙推车整体推入悬挂或置于旋转底盘上，烘烤时推车缓慢360度旋转，侧面强风均匀穿透各层烤盘，生产产能极大。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "大型烘焙车间中，将打好发酵的大面团自动按照相同重量均等切块并揉圆的成套设备是：", "options": {"A": "专门用来测试液体酸碱度的数显笔式检测仪", "B": "带有锯齿刀刃的手持式不锈钢面包切刀", "C": "面团自动分块机搭配面团连续滚圆机", "D": "放置在仓库角落用于防潮的小型除湿机"}, "answer": "C", "explanation": "分块机（Divider）通过体积或气动活塞精准下剂等重小面团，紧接着进入圆锥形或轨道式滚圆机（Rounder）进行连续机械滚圆，几秒钟即可完成几十个光滑球状剂子。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "在平炉（Deck Oven）内部，烘焙硬质欧包和法棍时通常需要底板铺设耐火石板，其最突出的性能是：", "options": {"A": "石板能吸收烤箱内所有的水蒸气使湿度降至绝对零", "B": "石板在高温烘烤时能融化为液态黄油自动润滑", "C": "石板完全不导热能使面包底部保持常温冰冷状态", "D": "蓄热容量巨大且传热温和稳定，不易瞬间烤焦底壳"}, "answer": "D", "explanation": "石板（Baking Stone）比热容大、导热温和均一。面团直接滑入石板，蓄积的热量瞬间持续注入底部，使面筋气室急速受热起发成高挑圆鼓外形，同时形成香脆底壳。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "现代高档智能发酵箱配备的“冷冻冷藏延时醒发系统”，对面包房师傅最实际的工作便利是：", "options": {"A": "夜晚低温冷藏休眠面团，清晨自动升温醒发以便清早现烤", "B": "完全不需要连接任何电源只依靠外部空气温差工作", "C": "自动将面粉中的生水转化为高浓度纯天然鲜牛奶", "D": "将生面团在发酵箱内直接加热到二百五十度彻底烤熟"}, "answer": "A", "explanation": "冷冻醒发一体箱（Retarder-Proofer）可预设程序：晚上整形入箱后先以-5℃~4℃低温冷藏抑制发酵休眠，凌晨4点电脑自动转为35℃+80%湿度发酵，早晨上班面团正好发满开烤。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "下列关于风炉（热风对流烤箱）与平炉（层炉）烘烤特性对比的叙述，哪些是正确的？\nⅠ. 风炉内部温度极度均匀，适合曲奇、马卡龙多层烘烤\nⅡ. 平炉可分别调节上下火，适合吐司、欧包、戚风蛋糕\nⅢ. 用大风力风炉烘烤轻盈的戚风蛋糕容易吹歪面糊或吹裂表皮\nⅣ. 风炉与平炉的烘烤原理完全相同，没有任何工作机制区别", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "B", "explanation": "风炉靠强制热对流（风力强），平炉靠温和辐射与热传导，两者原理与应用场景截然不同。Ⅳ项叙述错误。Ⅰ、Ⅱ、Ⅲ正确。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "如果操作发酵箱时发现顶部凝结出大量大水滴并频繁滴落在正在发酵的面包表面，最容易引发的缺陷是：", "options": {"A": "水滴会使整个面包内部瞬间膨大十倍变成巨大气球", "B": "滴落水滴会使面包烘烤完成后呈现如黄金般的纯金色", "C": "水滴接触面团后会导致整个烤盘金属完全生锈粉碎", "D": "面坯被水滴滴中的部位形成死斑软烂凹坑与起泡烂皮"}, "answer": "D", "explanation": "发酵箱冷凝水滴落在面团表面，会导致落水处局部面筋过湿窒息甚至烫死糊化，烘烤后局部出现白斑、起水泡或凹陷烂皮。专业设备顶部通常设计为弧形或加装加热丝防滴水。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "在操作立式行星搅拌机给全蛋液高速打发时，为确保操作安全，机械设备上必须配备的关键保护装置是：", "options": {"A": "在机器外壳上安装的高分贝全自动音乐播放喇叭", "B": "在搅拌缸下方安装的大功率连续冷水喷淋系统", "C": "未完全闭合就无法启动机器的安全防护隔离网罩", "D": "防止机器生锈而涂抹在搅拌杆上的厚重工业润滑油"}, "answer": "C", "explanation": "工业搅拌机具有极高扭矩与转速。必须装配联动安全防护罩，罩子打开时微动开关自动切断电路停机，严防操作人员手指或异物卷入高速旋转的搅拌头造成严重伤残。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "清洗立式打蛋机的搅拌桶和搅拌配件时，最安全规范的操作前提是：", "options": {"A": "彻底切断总电源并拔掉电源插头确保机器绝对断电", "B": "让机器保持最高转速运转并在旋转中用水管直冲内部", "C": "在搅拌桶内倒入半桶汽油并用打火机点燃高温消毒", "D": "戴上棉纱手套一边用手紧抓旋转搅拌头一边擦拭"}, "answer": "A", "explanation": "所有电动机械清洁维护第一安全铁律：必须“切断总电源、挂牌锁定（Lockout/Tagout）”，绝对严禁在带电或运转状态下将抹布和手伸入机械内部擦拭。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "在烘焙厨房中，用来测量烤箱内部实际空间温度是否精准的核心测温工具是：", "options": {"A": "用于测量汽车蓄电池电压的万用直流电表笔", "B": "家庭用来测量房间空气相对湿度的室内干湿球挂表", "C": "用于测量人体腋下体温的水银玻璃医用体温计", "D": "放置在烤箱中层的耐高温机械或数字探针烤箱温度计"}, "answer": "D", "explanation": "烤箱自带旋钮或电脑面板显示常有温差（温偏），使用耐高温不锈钢烤箱专用温度计（耐受300℃）校准炉内实际中心温度，是烘焙师保障出品稳定的基本功。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "用于制作马卡龙、蛋白霜糖等极度害怕潮湿的西点时，风炉上的哪一项功能起着决定性作用：", "options": {"A": "持续不断向烤箱内注入大量浓厚高温水蒸气的蒸汽阀", "B": "能够随时开启并排出多余水汽的烤箱排湿风门（阀门）", "C": "能够将烤箱内部空气完全抽空的超高真空抽气机", "D": "将烤箱内部温度在十秒钟内急降至零度的液氮喷嘴"}, "answer": "B", "explanation": "马卡龙与蛋白糖需要极其干燥的烘烤环境。打开风门（Damper）能利用风道将食材烘烤散逸出的水汽强行抽出排至室外，降低腔内湿度，保证马卡龙裙边挺立、蛋白糖干脆。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "大型工厂用于将烘烤出炉的面包自动送往数米高处进行自然风冷的大型传送设备通常被称为：", "options": {"A": "立体螺旋式上升冷却传送塔（冷却塔）", "B": "完全浸没在冰水里的水下密封运输履带", "C": "依靠重力让熟面包自由跌落的垂直深滑梯", "D": "利用大口径加压气枪直接吹送面包的管道"}, "answer": "A", "explanation": "螺旋冷却塔（Spiral Cooling Tower）占用极小的车间地表面积，通过垂直多层环形螺旋网状传送带缓慢上升运送面包，耗时1~2小时自然降温至包装温度，极其高效。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "在烘焙工场中，用于快速切片吐司面包的电动吐司切片机，其切刀的运动方式通常是：", "options": {"A": "使用极细的尼龙鱼线依靠人工拉力左右反复锯断", "B": "单把巨大厚重的生铁菜刀以极慢速度连续向下猛剁", "C": "使用超高温激光束直接将整条吐司瞬间烧蚀分割", "D": "多片平行的细密锯齿形薄刀片进行高频上下往复运动"}, "answer": "D", "explanation": "商用面包切片机配备一排等间距（如12mm）的高碳钢锯齿细刀条，在电机带动下高频上下微幅往复对拉，吐司滑落经过时被锋利锯切，切口平整不起屑、不压扁软吐司。"}]}, {"chapter_id": "06", "chapter_title": "第06课 烘焙制作器具", "intro": "", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "烘烤戚风蛋糕时，为了让面糊能够牢固附着在模具内壁爬升，最推荐选用的模具是：", "options": {"A": "无不粘涂层的阳极氧化铝合金模具", "B": "内部喷涂特氟龙的高润滑不粘模具", "C": "内壁提前抹满一层厚黄油的铁质模具", "D": "表面极其平滑反光的纯镜面不锈钢碗"}, "answer": "A", "explanation": "阳极铝合金模具（Anodized Aluminum）导热极佳，其微观表面具有细微孔隙，能为轻盈的蛋白面糊提供足够的附着摩擦力，支撑戚风平稳向上爬升不滑落。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "在烘焙厨房中，用来刮净搅拌缸内壁残留面糊并翻拌蛋白霜的核心手工工具是：", "options": {"A": "用来从热油锅中捞取油条的长竹木筷子", "B": "带有锋利双面刀刃的不锈钢剔骨菜刀", "C": "具有柔韧弹性的食品级耐热硅胶刮刀", "D": "表面粗糙坚硬带有铁锈的工业重型铁铲"}, "answer": "C", "explanation": "耐热硅胶刮刀（Silicone Spatula）质地柔软贴合，弧形边缘能彻底刮净盆壁面糊减少原料损耗，且翻拌轻柔，能最大限度减少蛋白霜消泡。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "切割外表皮酥脆坚硬、内部组织极为柔嫩的欧式法棍或吐司面包时，最适合使用的刀具是：", "options": {"A": "带有长波浪形锯齿刀刃的专业面包切刀", "B": "刀背厚重沉重用于砍断牛骨的大铁剁刀", "C": "刀面极短用于雕刻苹果萝卜的精细果雕刀", "D": "完全没有开刃的儿童手工折纸小塑料刀"}, "answer": "A", "explanation": "锯齿面包刀（Serrated Knife）依靠齿尖的小锯齿刺破硬脆表皮，通过前后拉动顺畅锯开内部柔韧组织，不会像平刃菜刀那样向下用力将面包压瘪压实。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "在烘焙配方称量微量原料（如干酵母、食盐、泡打粉、塔塔粉）时，最规范的称量器具是：", "options": {"A": "使用盛汤用的大铁勺凭目测大概估计半勺", "B": "菜市场用来称量几十斤西瓜的弹簧吊钩秤", "C": "精度达到零点一克的微量高精度电子秤", "D": "完全依靠烘焙师徒手用手指抓取一把估算"}, "answer": "C", "explanation": "微量辅料（盐、酵母、改良剂）在配方中通常仅占几克，0.1g精度电子秤才能避免哪怕1克的致命偏差（如1克盐误差会导致发酵严重迟缓或失控）。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "下列关于烘焙常用手工称量与量取器具容量换算关系的叙述，哪些是符合国际烘焙通则的？\nⅠ. 一标准量勺大匙（1 tbsp）标准容积约为 15 ml\nⅡ. 一标准量勺小匙/茶匙（1 tsp）标准容积约为 5 ml\nⅢ. 一大匙（1 tbsp）的容积相当于三小匙（3 tsp）\nⅣ. 一大匙（1 tbsp）的水在常温下重量约为 15 克", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "D", "explanation": "国际量匙标准：1 tbsp = 15ml = 3 tsp（每tsp为5ml）。纯水密度为1g/ml，因此1大匙清水重量正好约为15g。四项叙述全部完全正确。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "制作重油磅蛋糕、费南雪、布朗尼时，为了使高油脂点心烤后能轻松脱模且模具好清洁，最宜选用：", "options": {"A": "内壁粗糙且未涂油的纯木质蒸馒头屉子", "B": "完全没有打磨去锈的生铁粗糙模具", "C": "表面带有优质特氟龙涂层的不粘金属模具", "D": "吸水性极强容易受潮变形的普通纸板盒"}, "answer": "C", "explanation": "特氟龙不粘模具（PTFE coating）表面能量极低，重油蛋糕烘烤定型后倒扣即可轻松滑落脱模，表面平整光洁，无需繁琐涂油抹粉。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "在蛋糕抹面装饰时，用于平整涂抹鲜奶油、手柄带有特定折角以防手指触碰蛋糕的刀具是：", "options": {"A": "两端带有锋利尖刺专门叉取牛排的铁叉子", "B": "用于修剪花草树木的锋利园艺双刃大剪刀", "C": "刀面呈扇形用来刮除墙皮的建筑油漆铲刀", "D": "手柄处带有弯折角度的曲柄不锈钢抹刀"}, "answer": "D", "explanation": "曲柄抹刀（Offset Spatula）的手柄向上抬高弯折，使操作人员手掌远离奶油操作面，持刀在蛋糕顶面抹平时指节绝不会误碰弄脏奶油表层。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "在制作派皮、塔底或披萨饼底时，为了防止面皮烘烤时内部热气积聚鼓大包，常使用的滚刺工具是：", "options": {"A": "布满密集钝针的烘焙排气打孔滚轮（打孔器）", "B": "专门用于压碎大蒜的重型不锈钢手动挤蒜器", "C": "带有圆形波浪花边的金属饺子皮压切模具", "D": "用于将整块熟奶酪擦成极细丝的四面擦丝器"}, "answer": "A", "explanation": "打孔滚轮（Docking Roller）在生派皮上快速滚过，可均等扎出密密麻麻的排气微孔，烘烤时受热蒸汽由此通道顺畅逸散，保证底皮平整贴盘不鼓大泡。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "制作法式硬欧包进行割口划线时，为了割出整齐锐利的裂口并形成漂亮的爆耳，最专业锋利的工具是：", "options": {"A": "用来给水果削皮的弯曲双刃刨皮器刀具", "B": "用来剁碎带骨鸡肉的厚重大铁中式菜刀", "C": "带有弧度手柄的专用刮胡双面超薄弧形割包刀", "D": "完全钝化生锈的家庭用普通铁制大剪刀"}, "answer": "C", "explanation": "法式割包刀（Lame / Grignette）装配超薄锋利的不锈钢双面剃须刀片，刀身通常弯曲呈弧度，能以30度斜切角度顺滑切开面皮筋膜，形成完美的单侧翻卷“爆耳（Ear）”。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "制作酥脆饼干时，为了确保整盘饼干被擀压出来的厚度完全绝对一致，烘焙师常使用的辅助工具是：", "options": {"A": "完全依靠自己单手手掌力量随意拍打压平", "B": "两端套有固定厚度硅胶圈的定厚刻度擀面杖", "C": "用脚踩踏实木砧板将生面团整体踩平踩扁", "D": "将面团丢入高速旋转的搅拌缸中剧烈摇晃"}, "answer": "B", "explanation": "定厚擀面杖（或在面团两侧垫上等厚度的实木平衡尺），两侧胶圈紧贴案板滚动，中间间隙恒定，能保证整张面皮厚度分毫不差，烘烤受热与上色完全一致。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "在烘焙制作中，用于将干燥面粉、糖粉中的硬结块搓散并混入空气使其蓬松的核心器具是：", "options": {"A": "用来把大块冰糖砸成碎块的纯铜金属药臼", "B": "带有大孔洞用来捞出开水饺子的金属漏勺", "C": "配有不锈钢细密网眼的食品专用面粉过筛网", "D": "用来将鲜果汁抽成高真空状态的真空玻璃管"}, "answer": "C", "explanation": "面粉过筛网（Sifter / Flour Sieve）能阻截杂质与受潮硬团粒，并将密实的干粉颗粒打散，使粉粒间充满微小空气，拌和面糊时极易分散、绝不起死疙瘩。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "制作慕斯蛋糕或免烤冷藏芝士蛋糕时，为了让蛋糕冷藏定型后能完好无损地垂直脱模，最常用的模具是：", "options": {"A": "完全没有底板或底部可分离的慕斯圈与活底模", "B": "底部彻底焊死全封闭的深筒型不锈钢水桶", "C": "四壁涂抹厚重沥青防水涂层的木质大花盆", "D": "只能在四百度火炉中烘烤的高温铸铁平底锅"}, "answer": "A", "explanation": "慕斯质地娇嫩无法倒扣，使用无底不锈钢慕斯圈（Cake Ring）或活底模，定型后只需用热毛巾或喷枪微热模具外壁使凝胶微溶，即可轻松向上垂直抽出模具。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "下列关于手动打蛋器（打蛋抽 / Balloon Whisk）结构特征与使用技巧的叙述，哪些是正确的？\nⅠ. 钢丝线数多（如 12~16 根线）更有利于高速搅打充气\nⅡ. 粗钢丝打蛋抽更适合搅拌质地浓稠厚重的蛋黄糊与甘纳许\nⅢ. 打发全蛋时应快速大幅度画圆或走之字形以最大化卷入空气\nⅣ. 手动打蛋器可以用来在热油锅里连续翻炒油炸大块带骨排骨", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "B", "explanation": "打蛋抽是西点烘焙精细充气工具，细密多线充气快，粗线抗阻力好；但绝不能用于热油锅油炸翻炒大骨硬物，不仅会严重烫损手部还会刮断脆弱钢丝。Ⅳ项错误。Ⅰ、Ⅱ、Ⅲ正确。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "在手工开酥折叠法式可颂或开千层酥皮时，最适合用来切割面皮边缘使其切口整齐平直不拉扯的工具是：", "options": {"A": "带有深波浪齿容易撕裂面筋的手工木工钢锯", "B": "旋转式不锈钢轮刀（滚刀）搭配食品级长直尺", "C": "用来夹取烧红煤炭的长铁钳子前端用力夹断", "D": "徒手用双手大拇指指甲用力沿直线掐断面皮"}, "answer": "B", "explanation": "轮转滚刀（Pastry Wheel）在面皮上滚动下压切割，瞬间利落下刀切断，切口截面酥层垂直平整分明；普通菜刀拖拉下刀容易带动黄油延展粘连导致封死酥层。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "烘烤传统法式硬欧包时，将割好包的面团生坯顺畅、平稳滑送至烤箱高温石板上的长柄工具是：", "options": {"A": "木质或铝合金薄板制成的烘焙面包进炉铲（面包铲）", "B": "用来给花坛浇水的大型塑料长嘴洒水壶", "C": "专门用来给汽车轮胎充气的高压脚踏气筒", "D": "大型建筑工地上用来装载水泥沙子的翻斗手推车"}, "answer": "A", "explanation": "面包进炉铲（Baker's Peel）前缘薄且平滑，上面撒少许谷物细粉防粘，将软面团托起后轻推入炉、手腕快速一抽，面坯便平顺滑落到滚烫石板上，防烫防变形。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "在烘焙厨房中，用来在蛋糕表层刷糖浆或在面包出炉前刷蛋黄液最卫生、不掉毛的现代刷具是：", "options": {"A": "带有大量毛絮容易脱线的普通棉纱脱脂抹布", "B": "容易严重脱落动物硬毛的老式劣质油漆刷", "C": "用于洗刷地面瓷砖缝隙的粗硬钢丝铁刷", "D": "食品级一体成型的耐高温柔软硅胶毛刷"}, "answer": "D", "explanation": "天然猪毛羊毛刷使用久了极易掉毛残留在食品中引发严重客诉且根部难洗易发霉；一体成型硅胶毛刷（Silicone Basting Brush）耐高温、不掉毛、极易清洗消毒。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "制作巧克力手工夹心或法式西点表面淋面时，用于快速无接触测定液体表面温度的核心测温仪器是：", "options": {"A": "必须插入肉类深处的厚重粗针机械肉温表", "B": "远距离激光瞄准的红外线表面测温枪", "C": "用来测量游泳池水温的浮力漂浮塑料温度计", "D": "完全依靠烘焙师伸入食指直接感受冷热烫感"}, "answer": "B", "explanation": "红外测温枪（Infrared Thermometer）无需接触食品表面，扣动扳机一秒即可精准读取大理石台面温度或巧克力调温液面温度，极速且避免交叉污染。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "在蛋糕装饰裱花作业中，用来盛装打发鲜奶油并安装各式金属花嘴的锥形软袋被称为：", "options": {"A": "包装快递用的双层带充气防震泡泡缓冲薄膜袋", "B": "从菜市场带回来的薄塑料手提黑色垃圾袋", "C": "食品级加厚一次性或可重复清洗的挤花袋（裱花袋）", "D": "用于将衣服放入洗衣机机洗的带拉链尼龙网兜"}, "answer": "C", "explanation": "裱花袋（Piping Bag / Pastry Bag）呈锥形，尖端剪口旋紧花嘴，内部装入奶油糊，依靠手掌虎口与手心协同加压匀速挤出各式精美花纹，材质柔韧抗爆裂。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "制作经典法式可丽露（Cannelé）小蛋糕时，为了烤出标志性的外层厚重焦糖深脆壳与柔嫩蜂巢内芯，最传统的经典模具材质是：", "options": {"A": "导热极快且内壁涂抹纯蜂蜡黄油的纯铜制沟纹模具", "B": "导热极差且极为厚重的普通无釉粗陶土瓦盆", "C": "极度容易融化的薄塑料一次性透明饮水杯", "D": "吸水性强烘烤容易燃烧起火的实木雕刻印章"}, "answer": "A", "explanation": "波尔多可丽露的灵魂模具是传统纯铜模（Copper Mold）：铜的热传导系数极高，能瞬间将超高热量均匀传递至模具内壁，配合蜂蜡融液，烘烤出坚脆焦香的深铜色外壳。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "在西点工坊制作果酱、煮卡士达酱或熬制焦糖时，最理想的锅具材质通常优先选用：", "options": {"A": "表面生锈掉黑渣且容易与酸性水果发生化学反应的生铁大铁锅", "B": "锅底极薄受热不均容易瞬间局部焦糊的廉价单层薄铝锅", "C": "厚底受热极均匀、不易局部糊底的不锈钢复合厚底锅或纯铜锅", "D": "完全不耐明火高温一烧就融化变形的彩色塑料小汤锅"}, "answer": "C", "explanation": "熬制浓稠卡士达酱或果酱极易焦底。厚三层复合不锈钢锅（或纯铜果酱锅）储热好、导热极均匀，无局部炽热点，且不与酸性水果（柠檬、草莓）发生金属氧化反应。"}]}, {"chapter_id": "07", "chapter_title": "第07课 器具使用、安全与维护", "intro": "", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "在烘焙厨房中从高温烤箱中端出滚烫的金属烤盘时，必须佩戴的劳保防护装备是：", "options": {"A": "加长型专业耐高温干燥隔热防烫手套", "B": "医院医生做外科手术用的极薄乳胶手套", "C": "冬天骑摩托车用的普通透风线织针织手套", "D": "完全不需要任何手套直接徒手快速抓取"}, "answer": "A", "explanation": "烤盘温度常达180℃~250℃，必须使用干燥耐高温加厚防烫手套，加长袖口可防止手腕手臂触碰烤箱侧壁或发热管引发严重烫伤。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "烘焙学徒如果使用被冷水浸湿的湿毛巾或湿手套去端刚出炉的热烤盘，最致命的严重危害是：", "options": {"A": "湿手套会使烤盘内的面包在三秒钟内自发发霉变质", "B": "湿毛巾中的冷水会导致金属烤盘瞬间彻底粉碎爆炸", "C": "水的高导热性使湿布瞬间产生高压蒸汽导致严重烫伤", "D": "湿布会彻底吸收烤箱内所有的热量使烤箱电路烧毁"}, "answer": "C", "explanation": "水的导热速度是空气的20倍以上。湿布接触两百度高温烤盘瞬间，布内水分沸腾汽化为高温蒸汽，热量极速穿透织物，手掌瞬间被滚烫蒸汽严重烫伤起大水泡。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "烘焙师打开高温烘烤中的烤箱门时，最规范、安全的肢体站位与防烫操作是：", "options": {"A": "开门的同时往烤箱内泼入一大盆冷水以帮助烤箱降温", "B": "正脸紧紧贴在门玻璃正前方并在开门瞬间深吸一口气", "C": "用脚将烤箱门以超音速猛烈踹开然后立刻把头探入", "D": "身体侧立微退后，微开门缝散尽湿热气流后再完全打开"}, "answer": "D", "explanation": "炉内积聚两百度热空气与高压蒸汽，猛然开门热浪直扑面部会导致严重面部及角膜灼伤。必须侧身站在门侧，微开门缝5秒释放热浪后方可正向操作。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "在烘焙操作车间，为了防止地面油污和水渍引发滑倒摔伤骨折事故，员工必须穿着的鞋子是：", "options": {"A": "具有优异防油防滑鞋底且鞋头加固的专业厨师安全鞋", "B": "鞋底光滑磨平且完全不防滑的高跟皮鞋或拖鞋", "C": "底部带有锋利金属钢钉的户外专业攀岩登山鞋", "D": "鞋面带有无数大网孔极易渗水烫伤的轻便慢跑鞋"}, "answer": "A", "explanation": "后厨地面常有油脂面粉水渍，专业防滑厨师鞋（Safety Shoes）特制吸盘橡胶大底抓地力强，包头坚硬防砸，能抵御热油泼溅并杜绝滑倒重伤。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "下列关于烘焙车间个人卫生与着装规范的叙述，哪些是符合食品安全法规的？\nⅠ. 长发必须完全盘起并严密包裹在工作厨师帽或发网内\nⅡ. 操作食品前必须按照七步洗手法彻底清洗双手并酒精消毒\nⅢ. 工作时严禁佩戴手表、戒指、手链等易脱落金属饰品\nⅣ. 感冒咳嗽且发高烧时可以不用请假继续在包装间徒手包装熟食", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "B", "explanation": "患有传染性疾病、呼吸道发热症状者严禁接触即食食品生产包装，必须调离岗位就医。Ⅳ项严重违背食品安全法。Ⅰ、Ⅱ、Ⅲ全属于严格规范。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "打面机或压面机在高速运转工作过程中，机器发生故障卡住面团时，最正确的操作顺序是：", "options": {"A": "立即按下红色急停按钮切断电源并拔掉插头后再行检修", "B": "在机器高速运转的同时直接将双手伸入缝隙强行掏取", "C": "拿起金属铁棍在机器运转中用力猛力敲击旋转齿轮", "D": "完全不管机器任由电机堵转冒烟直至发生剧烈火灾"}, "answer": "A", "explanation": "机械卡料处理铁律：第一步必须立即拍下红色蘑菇头急停键（E-Stop），挂牌断电，等待机械完全停稳后方可使用工具排障，严禁运转中徒手抓取导致断指绞伤。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "清洗带有特氟龙不粘涂层的蛋糕模具或烤盘时，最安全规范的清洁工具是：", "options": {"A": "带有硬质金刚砂颗粒专门研磨金属生锈的粗砂纸", "B": "表面粗糙锋利由纯钢丝制成的重工业金属钢丝球", "C": "柔软的海绵块或纯棉抹布蘸中性温和洗洁精温水清洗", "D": "用锋利的不锈钢削皮刀在涂层表面用力刮削去污"}, "answer": "C", "explanation": "特氟龙涂层极娇嫩，钢丝球或硬砂布会刮花并撕碎涂层，破坏不粘性能并导致涂层碎片混入食品；必须使用软海绵温水软化洗涤，轻轻擦拭。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "烘焙厨房中使用的不同颜色案板分色管理体系中，“绿色”案板通常严格规定用于切配：", "options": {"A": "新鲜洁净的水果、蔬菜沙拉等生食果蔬类配料", "B": "带有大量血水的带骨生牛肉生猪肉等畜肉原料", "C": "带有浓重腥味和鱼鳞的新鲜深海海鲜生鱼类", "D": "刚刚从高温烤箱中烘烤出炉并准备切片的熟吐司"}, "answer": "A", "explanation": "国际厨房色彩管理标色通用规范：绿色案板用于蔬菜与新鲜水果；红色用于生红肉；蓝色用于生海鲜；白色用于烘焙面点与即食熟食，严格防止微生物交叉污染。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "在烘焙厨房中，用来擦拭操作台面的抹布每日下班前最科学彻底的卫生消毒措施是：", "options": {"A": "完全不需要任何清洗直接放在生肉案板上过夜待用", "B": "直接揉成一团塞入不通风的潮湿抽屉底部关紧抽屉", "C": "用冷水冲洗两秒钟后立刻挂在没有阳光的卫生间马桶旁", "D": "彻底清洗干净后放入沸水中持续煮沸十五分钟或浸泡消毒液"}, "answer": "D", "explanation": "抹布含有丰富面粉与油脂残留，是细菌滋生温床。每日收档必须用洗涤剂洗净油污，投入沸水中大火煮沸15分钟物理灭菌，或用有效氯消毒液浸泡，悬挂通风烘干。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "当大型立式行星搅拌机正在以最高转速飞速打发蛋白时，操作人员绝对禁止的危险行为是：", "options": {"A": "站在机器一米开外仔细观察蛋白霜的膨胀发泡程度", "B": "按下调速旋钮按部就班逐级降低机器的运转速度档位", "C": "将不锈钢刮刀或手指直接伸入旋转的打蛋网内部刮取蛋白", "D": "在机器正常运转且安全罩完好的状态下记录发泡时间"}, "answer": "C", "explanation": "高速旋转的打蛋网具有极强剪切惯性，伸手或伸入硬刮刀会瞬间被卷入击碎，造成工具飞溅、电机烧毁及手部骨折等重大工伤事故。加料刮盆必须先关机停机。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "烘焙厨房中使用的插座和电源线，如果发现电线绝缘外皮破损露出内部铜线，必须采取的措施是：", "options": {"A": "立即停止使用该设备，切断电源并报请专业电工更换修复", "B": "用透明透明办公薄胶带随便缠绕两圈后继续插电使用", "C": "用水管向裸露的铜线喷水以降低电线工作时的温度", "D": "用手直接捏住裸露的铜线检查电线内部是否有电流通过"}, "answer": "A", "explanation": "后厨潮湿多水汽，裸露电线极易引发漏电电击身亡事故或短路火灾；必须立刻断电停机并由持证专业电工更换合规电缆，严禁违规自修或带病作业。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "在烘焙设备上普遍配备的“红色凸起大蘑菇头按钮”，其核心功能与专用名称是：", "options": {"A": "将整台机器的外壳颜色在红色与黄色之间快速切换的变色键", "B": "用来将机器运转速度在零点一秒内提升至最高档位的加速键", "C": "每逢重要节假日播放欢快音乐并向全场喷射彩带的庆祝键", "D": "在突发紧急险情时单手瞬间拍击切断整机电力的紧急停止开关（E-Stop）"}, "answer": "D", "explanation": "紧急停止按钮（Emergency Stop Button，俗称急停拍菇）采用自锁大蘑菇头设计，在发生卷入、触电等险情时，工人无需寻找小按键，拍击即可瞬间物理切断控制回路断电停机。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "下列关于烘焙车间火灾预防与初期火灾扑救规范的叙述，哪些是完全正确的？\nⅠ. 油脂锅加热起火时，绝对严禁直接泼冷水灭火以防火海炸裂\nⅡ. 油脂起火应立即关闭热源并用灭火毯或大金属锅盖盖严窒息灭火\nⅢ. 电气设备起火必须先切断电源，严禁使用导电的清水直接灭火\nⅣ. 车间内必须常备合格有效的干粉灭火器或二氧化碳灭火器", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "D", "explanation": "油锅起火泼水会导致水在热油底部瞬间汽化爆炸形成巨大火球冲顶；电器着火泼水会引发致命触电；盖锅盖隔绝氧气窒息灭火及使用干粉/二氧化碳灭火器是厨房消防法定规范。四项全对。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "在后厨清洗完大批量的金属烘焙模具后，为了彻底防止模具生锈并延长寿命，必须立即执行的是：", "options": {"A": "往潮湿的模具内部撒上一层食用精制细盐帮助其慢慢风干", "B": "将湿漉漉的模具紧紧重叠堆放在潮湿阴暗的储物塑料大箱中", "C": "将模具送入微温烤箱烘干全部水汽或用干布擦干存放在通风处", "D": "将洗好的湿模具全部直接泡在装满冷水的洗碗池中浸泡一周"}, "answer": "C", "explanation": "铁质或碳钢烤模极易氧化生锈，清洗后若潮湿堆积，接缝残留水份几小时即可生出锈斑。利用烤箱余温（约80℃~100℃）烘烤5分钟将水分彻底烘干，是保洁防锈标准SOP。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "在使用手持式均质机（均浆棒）搅打奶油淋面或果酱时，为防止液体四处飞溅并保护电机，正确的操作是：", "options": {"A": "刀头必须完全没入液体液面下方后方可开机启动", "B": "在半空中高高举起刀头开启最高转速再慢慢插入液体中", "C": "一边运转一边将高速旋转的刀头在液面上方剧烈甩动", "D": "将整台机器包括电线和电机全部浸入滚烫的沸水中运转"}, "answer": "A", "explanation": "均质机转速高达每分钟万转以上，若在空气中或液面附近空转开机，高压涡流会将高温液体瞬间飞溅到员工脸上导致烫伤，必须“先没入液面以下，再点动开机；停机完全静止后方可提出”。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "烘焙厨房中的所有刀具在清洗完毕后的安全存放规范是：", "options": {"A": "把多把切刀刀尖朝外直接丢在员工经常走动的走廊过道地面", "B": "将锋利刀具刀刃朝上随意丢在洗碗水池充满泡沫的深水底", "C": "擦干水分后插入专门的刀架内或吸附在磁性刀架上收纳", "D": "将刀具刀刃用透明胶水粘在烤箱拉手把手上方便随时拿取"}, "answer": "C", "explanation": "将刀具淹没在洗碗池泡沫水中会导致洗碗人员伸手摸刀时被割断指动脉造成大出血；刀具必须随用随擦净、刀刃归入专用刀鞘或吸附在紫外线磁吸刀架上，明刀明放。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "在大型中央厨房机械设备清洁中，“原地清洗（CIP系统 / Clean-In-Place）”的核心技术特征是：", "options": {"A": "将整台重达几吨的大型机器人工搬出车间丢入河水中冲洗", "B": "无需拆卸管道和设备，通过自动化程序循环泵送清洗液与热水冲洗", "C": "完全不需要任何水和清洗剂只依靠操作工用嘴对着管道吹气", "D": "在机器管道内部点燃炸药依靠微型爆炸震落管壁上的所有污垢"}, "answer": "B", "explanation": "CIP（Clean-In-Place）是现代工业级管道系统的标准全自动清洗技术：系统自动按序泵送清水预冲、热碱液去油脂、酸液中和去水垢、最后纯水冲洗消毒，全程密闭循环，无微生物死角。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "烘焙操作间中使用的垃圾桶，在卫生管理规范上的硬性要求通常包括：", "options": {"A": "垃圾桶可以直接作为临时盛放揉好的面包面团的发酵容器", "B": "严禁配备任何桶盖且必须长期敞口摆放在打面缸正上方", "C": "垃圾桶装满后可以存放一个月以上不需要进行任何清理清运", "D": "必须配备桶盖且最好采用脚踏式开启，内部套专用塑料垃圾袋"}, "answer": "D", "explanation": "脚踏式加盖垃圾桶能实现“非手触式投弃”，杜绝手部触碰桶盖造成的严重交叉污染；带盖防止飞虫苍蝇孽生和异味外泄，且内套塑料袋每日下班前必须彻底清运刷洗消毒。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "操作人员如果在双手完全湿漉漉沾满自来水的情况下，直接去拔插烤箱两百二十伏高压电源插头，最易发生的危险是：", "options": {"A": "会使插座内部的金属铜片在三秒钟内自发转化为纯黄金", "B": "极易导致电流通过潮湿水膜导入人体引发致命恶性触电", "C": "会导致烤箱内部正在烘烤的蛋糕体积瞬间缩小一百倍", "D": "会使得车间内的所有自来水管道水流自发逆向倒流"}, "answer": "B", "explanation": "人体潮湿时皮肤电阻急剧下降至不足几百欧姆，湿手插拔电器极易使自来水导电桥接带电插脚，高压电流瞬间通过心脏引发心室纤颤致死。插拔电器双手必须绝对干燥。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "在烘焙厨房中，天然毛刷（如猪毛羊毛刷）相比一体成型硅胶毛刷，在日常食品卫生上最常见的客诉隐患是：", "options": {"A": "刷毛老化脱落混入蛋糕面包中形成异物被顾客投诉", "B": "天然动物毛发在接触烘焙黄油时会自动发生核爆炸", "C": "刷毛会吸收所有鸡蛋液中的胆固醇使其完全消失", "D": "天然刷毛会散发出强烈的剧毒农药气体毒死面团酵母"}, "answer": "A", "explanation": "传统毛刷根部用金属箍绑扎，清洗难透易发黑霉变，且使用频次高后毛根松动，刷毛极易随蛋液脱落粘在面包表面烘烤出炉，是引发顾客“吃出毛发异物”食品安全投诉的常见隐患。"}]}, {"chapter_id": "08", "chapter_title": "第08课 度量衡与准确秤量", "intro": "", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "在专业西点烘焙配方中，相较于容积量杯，要求所有干湿原料必须使用电子秤以“重量（克/g）”计量的根本原因是：", "options": {"A": "烘焙师傅普遍不认识量杯上的刻度数字只认识电子显示屏", "B": "电子秤的耗电量远远小于使用塑料量杯所消耗的体力", "C": "粉类原料松散与压实状态下体积差异巨大，重量称量最精准可控", "D": "为了彻底防止配方中的水分子在称量过程中发生自发性聚变"}, "answer": "C", "explanation": "面粉过筛前后、舀取手法不同，一量杯的重量可在110g~160g之间剧烈波动（误差达40%以上），直接导致面糊干湿失衡；以克（g）称重能彻底消除体积膨胀误差，保证每次出品一致。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "在日常西点烘焙配方换算中，国际通行的英美制重量单位“1磅（Pound / lb）”约折合为公制多少克？", "options": {"A": "约折合一千整整一千克（1000 g）", "B": "约折合四百五十四克（454 g）", "C": "约折合一百五十点五克（150 g）", "D": "约折合两千五百整大克（2500 g）"}, "answer": "B", "explanation": "国际标准常衡制中：1磅（lb）= 16盎司（oz）≈ 453.59克。在烘焙实操与统考教学理论中，通常规范取整数为454克。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "烘焙标准量勺中，一大匙（1 Tablespoon / tbsp）在容积上相当于多少茶匙（Teaspoon / tsp）？", "options": {"A": "正好相当于半茶匙（0.5 tsp）", "B": "正好相当于十茶匙（10 tsp）", "C": "正好相当于三茶匙（3 tsp）", "D": "正好相当于八茶匙（8 tsp）"}, "answer": "C", "explanation": "国际标准量匙分级体系：1大匙（tbsp）= 15毫升（ml），1茶匙（tsp）= 5毫升（ml），因此1大匙正好等于3茶匙容积。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "使用电子秤称量原料时，将空容器放在秤盘上，使显示屏数字重新变回“0.0g”的按键功能是：", "options": {"A": "扣重归零去皮键（TARE / ZERO）", "B": "将整台电子秤彻底恢复出厂设置键", "C": "在开尔文与摄氏度之间切换温控键", "D": "向外界无线发送紧急求救警报按键"}, "answer": "A", "explanation": "去皮键（TARE）可扣除托盘、搅拌盆等容器自重并使数值清零，便于在同一容器中依次连续精准称入各项不同原料。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "下列关于常温纯水在标准状态下公制容量与重量对应关系的叙述，哪些是完全正确的？\nⅠ. 1 毫升（ml）纯水的重量正好约为 1 克（g）\nⅡ. 1000 毫升（1升 / L）纯水的重量正好约为 1 千克（kg）\nⅢ. 1 标准大匙（15 ml）纯水的重量约为 15 克\nⅣ. 1 标准量杯（240 ml）纯水的重量约为 240 克", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "D", "explanation": "在常温标准大气压下，水的密度为1.0 g/cm³（即1g/ml）。因此毫升体积数与克重数在水溶液中完全一一等值对应。四项叙述全部严谨准确。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "烘焙微量辅料（如即发耐高糖干酵母、精制细盐、双效泡打粉），推荐使用的电子秤量程与精度是：", "options": {"A": "精度为五十克且最大称重五十公斤的货运地磅", "B": "精度达到零点一克（0.1 g）的微量精密秤", "C": "完全依靠刻度盘指针抖动的机械弹簧小圆秤", "D": "量程为一吨且误差在五公斤以内的重型行车秤"}, "answer": "B", "explanation": "微量辅料在面团中占比极低（通常仅占1%~2%，几克重）。普通厨房大秤（精度1g~5g）起跳误差极大，容易导致1克酵母称成3克引发严重过度发酵，必须使用0.1g精度精密电子秤。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "在美制标准烘焙量具规范中，一标准美制量杯（1 Cup）的法定量度容积通常为：", "options": {"A": "标准容积为二百四十毫升（240 ml）", "B": "标准容积为一千整毫升（1000 ml）", "C": "标准容积仅为五十毫升（50 ml）", "D": "标准容积为五百整毫升（500 ml）"}, "answer": "A", "explanation": "美制标准烘焙量杯：1 US Cup = 16 tbsp = 8 fluid ounces ≈ 236.6 ml，在西点行业通用标准化换算中通常规范取整为240 ml（英联邦部分国家量杯为250 ml）。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "在英美制烘焙配方中，经常出现的重量符号“oz”代表的质量单位是：", "options": {"A": "常衡盎司（约合二十八点三五克）", "B": "英制千米（约合一千六百米长度）", "C": "公制微克（约合百万分之一克重）", "D": "体积加仑（约合三点七八升容积）"}, "answer": "A", "explanation": "oz是盎司（Ounce）的国际英文缩写。在常衡制质量单位中，1 oz ≈ 28.3495克，在烘焙计算中常规按28.35克换算（16 oz = 1 lb = 454克）。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "用量匙称取一平匙泡打粉或干酵母时，最标准、消除视觉误差的手法是：", "options": {"A": "用手指在量匙内部用力向下死死压紧压成坚硬固体", "B": "舀取成堆后，用平直刮刀刀背沿量匙边缘平削刮平", "C": "让粉末高高隆起呈金字塔尖顶形状直接倒入盆中", "D": "用嘴对着量匙猛吹一口气将多余粉末吹散到空气中"}, "answer": "B", "explanation": "量匙的标准取量原则永远是“刮平（Level Spoon）”：用小勺舀满粉末后，用平直黄油刀或刮板沿量匙平口横向刮去高出边缘的浮粉，既不紧压也不留尖顶，确保容积精准。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "一茶匙（1 tsp）的标准容量为5 ml，如果配方要求称取“1/2 茶匙”的食盐，其标准容积为：", "options": {"A": "标准容积为零点一毫升（0.1 ml）", "B": "标准容积为十点零毫升（10.0 ml）", "C": "标准容积为二点五毫升（2.5 ml）", "D": "标准容积为七点五毫升（7.5 ml）"}, "answer": "C", "explanation": "1 tsp = 5 ml，半茶匙即 5 ml ÷ 2 = 2.5 ml。成套烘焙量匙均标配有1 tbsp(15ml)、1 tsp(5ml)、1/2 tsp(2.5ml)及1/4 tsp(1.25ml)独立量匙。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "用量杯测量一量杯（240 ml）低筋面粉时，其真实的实际克重通常最接近下列哪一个数值：", "options": {"A": "通常在一百二十克至一百三十克左右", "B": "正好与水完全相同等于二百四十克", "C": "重达五百克以上相当于一斤重面粉", "D": "仅为两克左右极其轻盈如空气微粒"}, "answer": "A", "explanation": "面粉颗粒间含有海量微隙，干松面粉比重仅为0.5~0.55 g/ml。因此一量杯（240ml）松散面粉重量约为120g~130g左右，绝非240g！切不可将液体体积毫升数生搬硬套到干粉重量上。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "在电子秤使用规范中，如果将电子秤放置在不水平的柔软毛巾或倾斜台面上，最直接导致的测量后果是：", "options": {"A": "放置在上面的金属搅拌盆会在三秒钟内自发悬浮", "B": "电子秤显示屏内的数字会自发转化为彩色风景图片", "C": "传感器受力不均导致称量数据严重漂移失真或偏小", "D": "称量出来的面粉重量在烘烤时会自动转化为纯白糖"}, "answer": "C", "explanation": "电子秤依靠底部的应变片悬臂梁感受重力垂直向下的正压力。台面倾斜或支撑面过软（如垫抹布）会分解重力分力并吸收形变，导致称重示数严重偏轻且跳字不稳。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "下列关于在后厨操作电子秤的正确动作规范，哪些是符合标准化作业的？\nⅠ. 电子秤必须放置在水平、坚固、无晃动的平整操作台上\nⅡ. 严禁放置在强力电风扇正下方，以防垂直向下风压引起示数跳变\nⅢ. 称量物重量严禁超过该电子秤标定的最大安全量程负荷\nⅣ. 每次称量完毕后必须用硬铁锤重重敲击秤盘中心以便校准复位", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "B", "explanation": "敲击电子秤会直接震碎应变片传感器永久损坏设备。Ⅳ项极其荒唐错误。Ⅰ、Ⅱ、Ⅲ全属于高精度电子秤标准保护守则。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "当烘焙师傅需要量取高粘稠液体（如转化糖浆、麦芽糖或蜂蜜）时，为了减少原料粘在容器壁上的残留损耗，最推荐的称量方法是：", "options": {"A": "在桌面上随意倾倒一滩糖浆凭肉眼目测直径大小", "B": "先倒入塑料量杯再用铁汤匙慢慢挖入面糊盆中", "C": "将搅拌盆放在电子秤上去皮后，直接将糖浆淋入盆中精准称取", "D": "用嘴含着糖浆吸入腹中然后再吐入搅拌盆内部"}, "answer": "C", "explanation": "粘稠糖浆极易挂壁（转移一次损耗可达10g以上）。最科学的方法是“直接称量法”：将和面盆置于秤上去皮归零，将糖浆瓶缓慢直接倾倒注入盆中至目标克重，零损耗且无需额外洗洗量具。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "在烘焙配方中，常常会看到少许食盐标为“1 Pinch（一撮）”，在专业实际操作中，一撮通常相当于：", "options": {"A": "双手双掌合拢死死捧起的大满满一大捧食盐", "B": "用拇指和食指两个指尖捏取的微量原料（约小于一克）", "C": "用大型水泥铁铲完整铲起的一满铁铲纯食盐", "D": "整整一袋重量为五百克的市售未开封精制食用盐"}, "answer": "B", "explanation": "Pinch（一撮）是西点传统微量术语，指拇指与食指捏取的极微量粉末（通常约1/8~1/16茶匙，重量约0.3g~0.5g），常用于调节风味平衡甜味。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "测量液体体积时，使用带有刻度的透明玻璃量杯，眼睛视线与量杯内液面的正确读数观察方式是：", "options": {"A": "视线必须与液体弯月面（凹液面）的最低处保持水平齐平", "B": "站得高高地居高临下从量杯正上方垂直斜向下俯视", "C": "蹲在极低处以向上仰视的角度观察液面最高挂壁处", "D": "完全闭上双眼凭耳朵听量杯内部水分子振动的声音"}, "answer": "A", "explanation": "物理测量铁律：透明液体受毛细现象影响边缘微翘，读数时视线必须与凹液面（弯月面）中央最低点处于同一水平线。俯视读数偏大，仰视读数偏小。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "烘焙理论中，若配方写有“1加仑（Gallon / gal）”液体原料，其在美制标准下约折合公制多少升？", "options": {"A": "约折合五十整升（50 L）", "B": "约折合整整一百升（100 L）", "C": "约折合零点零五升（0.05 L）", "D": "约折合三点七八升（约 3.785 L）"}, "answer": "D", "explanation": "美制液量单位：1美制加仑（US gal）= 4夸脱（qt）= 8品脱（pt）= 128液量盎司（fl oz）≈ 3.785升（在大型烘焙工场工业配方中常见）。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "使用量杯测量一杯纯白细砂糖时，由于细砂糖比重远高于面粉，其一量杯（240 ml）的重量约为：", "options": {"A": "重达整整一千克相当于一公斤铁块", "B": "仅重十克相当于一片轻薄树叶重量", "C": "约重达二百克至二百一十克左右", "D": "重量为零克完全处于物理失重状态"}, "answer": "C", "explanation": "细砂糖结晶紧密，堆积密度约为0.85 g/ml左右。因此1美制量杯（240 ml）装满刮平的细白砂糖，实际克重约为200g~210g，比同体积面粉重约60%以上。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "如果烘焙电子秤显示屏上出现“ERR”或“O-Ld”报警字符，其通常表达的仪器状态是：", "options": {"A": "称量物品的重量已经严重超过了该电子秤的最大负荷量程", "B": "电子秤内部的锂电池电量已经充满至百分之百状态", "C": "表示正在称量的原料已经被彻底加热到了烤熟状态", "D": "表示电子秤已经成功连接上了外界的高速无线网络"}, "answer": "A", "explanation": "“O-Ld”代表Overload（超载过载），表示秤盘承重超出了传感器最大额定负荷，必须立即移去重物，否则会导致称重传感器发生不可逆塑性形变彻底损坏报废。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "将1公斤（1 kg）面粉换算为公制克（g），其准确对应的质量数值是：", "options": {"A": "准确对应十克（10 g）", "B": "准确对应一百克（100 g）", "C": "准确对应一万克（10000 g）", "D": "准确对应一千克（1000 g）"}, "answer": "D", "explanation": "国际单位制词头千（Kilo-）代表10³，1千克（kg）= 1000克（g），是公制日常称重换算中最基础的乘除基准。"}]}, {"chapter_id": "09", "chapter_title": "第09课 烘焙材料的性质与功能", "intro": "", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "在烘焙原料功能分类中，负责构建面包和蛋糕立体骨架、支撑成品不塌陷的“韧性骨架材料”是：", "options": {"A": "用于调节面糊酸碱度平衡的食用化学塔塔粉", "B": "用于提供强烈甜味的纯白精制幼砂糖", "C": "用于提供酥松可塑性的无盐天然动物黄油", "D": "含有麦谷蛋白的小麦面粉与受热凝固的鸡蛋"}, "answer": "D", "explanation": "面粉中的面筋蛋白质水合形成网架，鸡蛋受热蛋白质变性凝固，二者是烘焙产品形成坚挺结构与体积骨架的最主要“强筋/骨架原料（Tougheners）”。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "烘焙配方中，油脂（如黄油、起酥油、植物油）最主要的基础物理功能属于下列哪一类：", "options": {"A": "包裹面筋阻断水化、软化面团组织的柔性材料", "B": "与小苏打发生剧烈酸碱中和反应产生气体的膨大材料", "C": "完全由纯粗纤维构成用以增加面包硬度的填充原料", "D": "用于给蛋糕面糊染上浓郁天然纯黑色的着色原料"}, "answer": "A", "explanation": "油脂具有疏水性，能在面筋和淀粉颗粒表面形成油膜隔层，阻止面筋过度水合粘连，削弱面筋拉力，使烘焙成品组织柔软酥松、延缓老化，是典型的“柔性材料（Tenderizers）”。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "在面团制作中，食盐（NaCl）除了提供微弱咸味提升整体风味层次外，对“面筋网络”的关键理化作用是：", "options": {"A": "收紧并强化面筋结构，增强面团弹性和持气能力", "B": "彻底溶解所有的蛋白质使面团完全失去任何弹性", "C": "促使酵母菌以十倍速度超高速进行有氧呼吸产气", "D": "吸收烤箱内所有的红外线辐射以防止面包上色"}, "answer": "A", "explanation": "食盐中的钠离子和氯离子能中和面筋蛋白胶体微粒表面的同种负电荷，消除静电斥力，促使蛋白质分子链靠拢盘绕，紧实收紧面筋网架，增强面团弹力与保气性。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "砂糖在烘焙中不仅能提供甜味，在高温烘烤下赋予面包和饼干金黄诱人诱人色泽的核心反应是：", "options": {"A": "糖晶体在微波作用下自发发生的核式裂变反应", "B": "糖分子在常温下自然发生的酒精无氧发酵反应", "C": "砂糖与空气中的氮气化合生成的纯白色硝酸盐", "D": "高温下的焦糖化反应与配合氨基酸的美拉德反应"}, "answer": "D", "explanation": "高温（>140℃）下，配方中的还原糖与蛋白质分解出的游离氨基酸发生美拉德褐变反应；在更高温（>160℃）下多余糖分发生焦糖化脱水裂解，共同生成诱人的金黄棕褐色与烘烤芳香。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "烘焙材料学中，下列哪些原料属于能够软化产品质地、增加适口性的“柔性材料（Tenderizers）”？\nⅠ. 细砂糖与高果糖浆\nⅡ. 无盐天然黄油与植物起酥油\nⅢ. 含有丰富卵磷脂的纯新鲜蛋黄\nⅣ. 富含麦谷蛋白的高筋小麦粉", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "B", "explanation": "糖（吸湿保水抑制面筋）、油脂（润滑阻断面筋）、蛋黄（乳化润泽）均属于典型的柔性原料（Tenderizers）；而高筋面粉提供强劲网架，属于骨架强筋原料（Tougheners）。Ⅳ项排除。Ⅰ、Ⅱ、Ⅲ正确。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "制作蛋糕时，如果在配方中盲目大幅过量增加细砂糖和植物油的用量，蛋糕出炉后最易产生的翻车后果是：", "options": {"A": "蛋糕体积膨大十倍并从烤箱排气孔中如气球般飞出", "B": "蛋糕内部骨架坚硬如铁完全无法用不锈钢锯齿刀切开", "C": "面筋骨架被严重削弱软化，无法支撑高度导致严重塌瘪缩腰", "D": "蛋糕表皮呈现出完全透明如同纯净玻璃一般的质地"}, "answer": "C", "explanation": "糖和油均属于极强的柔性材料（Tenderizers），若添加严重超标，面筋和蛋清蛋白骨架被彻底软化无法定型支撑，蛋糕在出炉降温失去热气压后瞬间塌瘪成死面饼。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "在面团发酵过程中，食盐（Salt）对酵母菌生长繁殖速度所起到的生理调控作用通常是：", "options": {"A": "利用高渗透压适度抑制酵母活性，防止发酵过速产酸失控", "B": "为酵母菌提供海量营养促使其生长繁殖速度暴增百倍", "C": "完全替代水分的作用直接在面团中产生大量的氧气", "D": "彻底杀死面团中百分之百的所有酵母菌使其完全停发"}, "answer": "A", "explanation": "盐能提供适度渗透压，抑制酵母菌过速产气，使发酵过程平稳温和可控；若完全无盐（白坯面团），发酵极快但面筋松软易塌、面团发酸且容易产生巨大空洞。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "在西点蛋糕配方中，同时承担“提供水分、天然乳化剂与优质蛋白质骨架”的多功能原料是：", "options": {"A": "经过脱水干燥处理的高纯度工业糖粉颗粒", "B": "从工厂购买的高纯度白色精制细盐粉末", "C": "全蛋液（包含蛋白与蛋黄的完整鸡蛋）", "D": "烘焙专门使用的双重作用型化学复合泡打粉"}, "answer": "C", "explanation": "鸡蛋是烘焙界的全能冠军：蛋清含水88%并提供热凝固蛋白骨架；蛋黄含天然两亲性乳化剂卵磷脂（促进水油乳化）并富含油脂柔润组织，兼具水分、骨架、乳化和风味。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "制作曲奇饼干时，如果将配方中的黄油全部替换为等量清水，烤出来的成品最直观的变化是：", "options": {"A": "饼干膨胀变大十倍且入口如同棉花糖般化开", "B": "饼干在烘烤过程中自发融化成流动性纯植物油", "C": "失去酥松酥脆口感，面粉起筋变得坚硬干韧难咬", "D": "饼干表面呈现出极其光滑鲜艳的彩虹色条纹"}, "answer": "C", "explanation": "油脂是曲奇起酥松脆的核心。去掉黄油换成水，面粉中的面筋蛋白质在大量水中揉动极速形成强韧面筋，烤出成品不仅无油香酥松感，反而变成坚硬如石的面疙瘩硬饼。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "在烘焙材料分类中，属于“干性原料（Dry Ingredients）”的组合是下列哪一组：", "options": {"A": "生鸡蛋清、新鲜柠檬汁、生淡奶油与植物色拉油", "B": "全脂鲜牛奶、纯饮用水、融化黄油与新鲜全蛋液", "C": "自来水、天然香草精、甘油与蜂蜜浓缩流质糖浆", "D": "小麦面粉、原味全脂奶粉、玉米淀粉与精幼砂糖"}, "answer": "D", "explanation": "干性原料指水分含量极低或干燥粉体颗粒，如面粉、奶粉、淀粉、砂糖、可可粉、泡打粉、食盐等；牛奶、蛋液、蜂蜜、油等均属于湿性/液体范畴。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "在蛋糕配方中，如果面粉和鸡蛋等骨架材料比例严重偏高，而糖和油等柔性材料严重偏少，成品最常见的质构缺陷是：", "options": {"A": "蛋糕整体瘫成一滩稀薄流质完全无法凝固成型", "B": "蛋糕表皮呈现出像镜子一样完全反光的纯白色", "C": "蛋糕在常温下存放一年依然保持极度水润不干燥", "D": "质地坚韧粗糙干硬、弹性过大掉渣且吞咽卡喉"}, "answer": "D", "explanation": "骨架原料（粉、蛋）过多而柔性原料（糖、油）不足，面筋和凝固蛋白无足够油脂包裹润滑，也无足够糖分保水吸湿，成品致密坚硬如发糕或粗橡胶，口感干硬粗糙。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "在烘焙中加入微量天然香草精（Vanilla）或柠檬皮屑，其最核心的原料理化与感官功能是：", "options": {"A": "掩盖鸡蛋和乳制品可能带有的腥气，赋予优雅复合风味", "B": "使蛋糕在烤箱内部膨胀增大五倍以上以节省面粉", "C": "使面团中的所有蛋白质在两秒钟内彻底分解变性", "D": "提高面团的沸点使其在三百度的超高温下不被烤焦"}, "answer": "A", "explanation": "烘焙常大量使用蛋类和动物油脂，天然香草醛（香草精）或柠檬烯（皮屑）能有效掩盖蛋腥味和油脂腻感，与乳脂麦香协同产生令人愉悦的高级芳香，属于调香风味改良原料。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "下列关于天然牛奶（Milk）在面包制作中所发挥的多重烘焙功能的叙述，哪些是完全正确的？\nⅠ. 所含乳糖不被酵母代谢，烘烤时能极佳促进表皮金黄着色\nⅡ. 所含优质乳脂能软化面包组织，使面包心更加细腻洁白\nⅢ. 牛奶蛋白具有适度缓冲作用，防止面团发酵中pH值过度暴跌\nⅣ. 牛奶能够使面包完全失去水分并转变为纯固态压缩饼干", "options": {"A": "Ⅰ、Ⅱ", "B": "Ⅰ、Ⅱ、Ⅲ", "C": "Ⅲ、Ⅳ", "D": "Ⅰ、Ⅱ、Ⅲ、Ⅳ"}, "answer": "B", "explanation": "牛奶多重烘焙功能：乳糖为非发酵糖（留存至烘烤提供美拉德着色）；乳脂软化面筋提供奶香；乳清蛋白与酪蛋白具酸碱缓冲能力保护面筋。Ⅳ项错误。Ⅰ、Ⅱ、Ⅲ全正确。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "白砂糖因具有强烈的“吸湿性（Hygroscopicity）”，在烘焙产品储存过程中起到的至关重要的保质作用是：", "options": {"A": "促使储存环境中的所有霉菌以超高速生长以测试面包抗病力", "B": "将面包内部的所有水分子在室温下全部吸收并转化为干粉末", "C": "牢固吸附结合水分，延缓淀粉老化回生并保持产品长期湿润柔软", "D": "使面包在放置三天后自发发热并烘烤成熟至焦黑状态"}, "answer": "C", "explanation": "砂糖亲水基团极多，具有强大的保水吸水性。它能紧密锁住蛋糕面包内的水分不向外干燥挥发，减缓淀粉脱水重新结晶（老化回生）的速率，保持糕点持久湿润柔嫩。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "在蛋糕配方中，将一部分低筋面粉用等重量的“玉米淀粉”替换（如用20%玉米淀粉），其主要的工艺目的是：", "options": {"A": "稀释降低面粉中的面筋蛋白质比例，使蛋糕组织更加松软细腻", "B": "大幅度提高蛋糕面糊的筋度与韧性以利于拉伸出手套膜", "C": "彻底消灭蛋糕中所有的热量使其成为绝对零卡路里食物", "D": "使蛋糕在出炉后即使摔在坚硬水泥地上也绝对不会变形"}, "answer": "A", "explanation": "纯玉米淀粉不含面筋蛋白。在低筋面粉中掺入10%~20%玉米淀粉，能进一步降低总蛋白质筋度，阻碍面筋链过度形成，使烤出的蛋糕（如海绵、戚风）质地更加轻盈柔嫩、化口性更佳。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "在制作戚风蛋糕蛋白霜时，常加入微量酸性物质（如塔塔粉或新鲜柠檬汁），其核心的化学功能是：", "options": {"A": "使打发出来的蛋白泡沫呈现出如同深煤炭一般的纯黑色", "B": "提高蛋白液的碱性程度促使蛋白质瞬间完全分解为纯水", "C": "促使蛋白中的所有脂肪分子完全蒸发消失在空气中", "D": "降低蛋白pH值使其接近等电点，增强蛋白气泡膜的韧性与稳定性"}, "answer": "D", "explanation": "新鲜鸡蛋清呈弱碱性（pH约8.8~9.2），起泡快但泡沫脆弱易破。加入酸性的塔塔粉或柠檬汁使pH降至弱酸性（约5.5~6.5，接近蛋白等电点），泡沫表面张力降低、黏度增加，打出的蛋白霜极其坚挺细腻不易消泡。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "在制作美式巧克力曲奇饼干时，如果将普通白细砂糖部分替换为“红糖（Brown Sugar）”，成品口感与质构最明显的变化是：", "options": {"A": "红糖会使曲奇饼干的硬度增加一百倍变得像花岗岩一样", "B": "红糖会导致饼干在烤箱中瞬间自发着火燃烧变成灰烬", "C": "吸收更多水分使饼干心更具湿润嚼劲（Chewy），并带有焦香糖蜜风味", "D": "饼干完全不上色且烘烤完成后呈现如同雪白纸张的纯白"}, "answer": "C", "explanation": "红糖（黑糖）含有天然糖蜜（Molasses）和微量酸与转化糖，吸湿保水性极强且有微酸；在曲奇中应用不仅赋予深邃焦香，还会使饼干呈现外沿酥脆、中心湿润柔韧带嚼劲（Chewy）的经典美式口感。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "在烘焙行业中，无盐黄油（Unsalted Butter）相较于含盐黄油（Salted Butter）在专业生产中更受青睐的原因是：", "options": {"A": "含盐黄油中含有大量的工业有毒杂质严禁用于人类食品烘焙", "B": "无盐黄油水分与盐分为零或固定，便于烘焙师精准独立控制配方盐量", "C": "无盐黄油在常温下一百度的高温环境中永远绝对不会融化", "D": "含盐黄油的价格是无盐黄油的十倍以上严重增加原料成本"}, "answer": "B", "explanation": "不同品牌的含盐黄油含盐率差异极大（通常在1.5%~3%波动），极难标准化控制；无盐黄油风味纯净新鲜，烘焙师可以根据产品需求（如甜点或咸点）分毫不差地精准添加所需食盐量。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "水在烘焙面团调制过程中，起到的最基础、不可或缺的物理与生化媒介功能是：", "options": {"A": "水化面筋蛋白使其生成三维面筋网络，并溶解盐糖激活酶和酵母", "B": "水只是作为廉价填充物，完全不参与任何面团的生物化学反应", "C": "水在面团揉和过程中会自动转化为纯植物油脂以增加柔软度", "D": "水的作用是降低面团温度至零下以便于面筋在冰冻中生长"}, "answer": "A", "explanation": "水是生命与化学反应之源：麦胶蛋白和麦谷蛋白必须吸收足够水分子（结合自身重量约1~2倍的水）才能延展交联成面筋网架；同时水是溶剂，溶解糖、盐，激活淀粉酶水解淀粉，并唤醒休眠酵母。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "在蛋糕配方分类中，属于纯粹依靠“化学膨松剂”产气来支撑膨胀的糕点代表是：", "options": {"A": "完全依靠蛋白霜高速打发充气的无油纯白天使蛋糕", "B": "纯靠天然酵母长时间发酵十六小时的法式长棍面包", "C": "主要依靠泡打粉产气膨胀的传统美式玛芬与松饼", "D": "完全依靠纯开水烫面水蒸气剧烈爆开中空的法式泡芙"}, "answer": "C", "explanation": "玛芬（Muffin）和美式松饼属于典型的快速化学膨松蛋糕（Quick Bread），制作时干湿料简单拌匀不过度搅拌，完全依赖泡打粉遇水和受热双重释放CO2撑起疏松蜂窝孔。"}]}, {"chapter_id": 10, "chapter_title": "第10课｜面粉 (Flour)", "intro": "高一厨艺理论基础：认识面粉分类、家庭常识、过筛要领与面团状态（生活常识版）", "questions": [{"id": 1, "type": "single", "question": "在制作拉丝且高耸饱满的吐司面包（Toast Bread）时，通常首选哪种面粉？", "options": {"A": "完全无面筋且仅用于勾芡增稠的玉米淀粉（Cornstarch）", "B": "筋度低且口感松软易碎的低筋面粉（Cake Flour）", "C": "筋度中等且适合做包子馒头的中筋面粉（All-Purpose）", "D": "筋度高且骨架支撑力强的高筋面粉（Bread Flour）"}, "answer": "D", "explanation": "吐司面包需要强韧的面筋网络来包裹发酵气体，高筋面粉蛋白质含量高，能揉出坚韧有弹性的薄膜支撑面包膨胀长高，是做面包的首选原料。", "difficulty": "easy"}, {"id": 2, "type": "single", "question": "制作入口即化的轻盈戚风蛋糕或酥脆曲奇饼干时，最适合选用的面粉是：", "options": {"A": "吸水力极强且吃起来非常劲道有嚼劲的高筋面粉", "B": "研磨粗糙且带有大量粗纤维麦麸颗粒的全麦面粉", "C": "专门用于制作法式硬长棍面包的特高筋硬质小麦粉", "D": "蛋白质含量低且不易起筋发硬的低筋面粉（Cake Flour）"}, "answer": "D", "explanation": "蛋糕和曲奇追求轻盈松软或酥脆无韧性的口感，低筋面粉筋度最低，搅拌时最不容易产生强韧面筋，可以避免蛋糕烤出来硬得像发糕。", "difficulty": "easy"}, {"id": 4, "type": "single", "question": "家中长辈平时常用来包饺子、蒸馒头、烙大饼的普通面粉，在烘焙分类中通常对应：", "options": {"A": "专门烘烤重油磅蛋糕的极低筋蛋糕粉", "B": "完全去除了淀粉的小麦活性面筋粉", "C": "完全不含面筋蛋白的澄粉与生淀粉", "D": "蛋白质适中且用途广泛的中筋面粉"}, "answer": "D", "explanation": "中筋面粉（蛋白质含量通常在9.5%~11.5%左右）用途最广，做出的中式面点既有一定嚼劲又不会过分坚硬，是家庭最常备的面粉。", "difficulty": "easy"}, {"id": 6, "type": "single", "question": "在混合蛋糕面糊前，配方步骤通常强烈要求将面粉用细筛网“过筛”，其核心作用是：", "options": {"A": "筛除面粉结块并充入微量空气，使粉质蓬松更易拌匀", "B": "将面粉颗粒筛得像食盐结晶一样大以增加面筋韧性", "C": "在筛网物理摩擦中产生高温直接把面粉提前烤熟", "D": "将面粉中所有的天然淀粉全部过滤掉只保留纯蛋白质"}, "answer": "A", "explanation": "面粉在包装储存中容易受潮结成小粉疙瘩。过筛能打散结块、混入空气，让面粉变得蓬松细腻，拌入蛋糊时能迅速分散，不易消泡或形成面疙瘩。", "difficulty": "easy"}, {"id": 9, "type": "single", "question": "如果手头没有低筋面粉，家里只有普通中筋面粉，西点烘焙中常用来临时降低面粉筋度的方法是：", "options": {"A": "在面粉中掺入大约 20% 左右无筋度的玉米淀粉", "B": "在面粉中直接倒入大量工业用高浓度酿造白米醋", "C": "将面粉直接放入微波炉高火连续加热三个小时", "D": "在面粉中加入适量高活性面包干酵母搅拌均匀"}, "answer": "A", "explanation": "玉米淀粉完全不含面筋蛋白。中筋面粉与玉米淀粉按大约 4:1 的比例混合，稀释了整体蛋白质百分比，从而达到接近低筋面粉的低起筋特性。", "difficulty": "easy"}, {"id": 10, "type": "single", "question": "面粉在厨房中的正确储存环境应该是：", "options": {"A": "敞口长期放在煤气灶旁边任由油烟水汽日常喷溅", "B": "拆开袋子敞口放在潮湿且阳光直射曝晒的水槽旁边", "C": "直接紧靠在常年散发强烈香精气味的洗衣皂箱上方", "D": "放置在阴凉、通风、干燥、密封且避光的食品柜中"}, "answer": "D", "explanation": "面粉极易吸潮发霉和吸收周围异味，潮湿温热环境还容易生象鼻虫。因此开封后必须密封放入保鲜盒，存放在阴凉干燥避光处。", "difficulty": "easy"}, {"id": 12, "type": "single", "question": "判断面粉是否变质不能食用的直观方法不包括：", "options": {"A": "凑近闻面粉时闻到明显发霉、酸馊或刺鼻陈宿气味", "B": "抓一把面粉轻轻一捏能成团且松开手指后自然散开", "C": "看到面粉中出现黑色小甲虫或结出细小虫丝网结块", "D": "手抓面粉感觉受潮发硬结块且用手指无法轻易压碎"}, "answer": "B", "explanation": "抓一把新鲜面粉轻捏成团再散开是测试面粉湿度和筋度的正常物理手感，并不代表变质；发酸、发霉结块、生虫网则是绝对不可食用的变质特征。", "difficulty": "easy"}, {"id": 14, "type": "single", "question": "吃起来带有麦麸颗粒感、颜色偏暗黄且膳食纤维更丰富的面包，通常使用的是：", "options": {"A": "经过精细多道研磨且去除了全部外皮胚芽的特级精白面粉", "B": "由纯木薯淀粉与食用胶质精细合成的高透光免蒸水晶粉", "C": "保留了麦粒外层麸皮与胚芽营养组织的全麦面粉（Whole Wheat）", "D": "主要用于煎炸海鲜且外裹金黄粗颗粒的市售日式油炸面包糠"}, "answer": "C", "explanation": "全麦面粉保留了整颗小麦的麸皮和胚芽，膳食纤维含量高、升糖慢，麦香味浓郁，但麸皮的物理切割作用会削弱面筋延展，因此全麦面包口感相对紧密有粗糙感。", "difficulty": "easy"}, {"id": 16, "type": "single", "question": "在常温状态下，干燥的面粉中其实并不存在现成的“面筋”，面筋形成的先决条件是：", "options": {"A": "面粉在完全无水干燥状态下加热烘烤至二百摄氏度", "B": "面粉中的麦谷蛋白与麦胶蛋白吸水并经过物理揉搓结合", "C": "在干燥面粉中直接掺入高浓度的纯工业合成酒精融化", "D": "将干燥面粉装入密闭容器在冰箱冷冻室中静置存放三天"}, "answer": "B", "explanation": "面筋（Gluten）是面粉里的麦谷蛋白（弹性）和麦胶蛋白（延展性）在加水湿润后，通过外力揉捏挤压相互交织缠绕，形成的三维立体弹性网状结构。", "difficulty": "easy"}, {"id": 17, "type": "single", "question": "用手抓一把面粉紧握再松开，能较容易聚集成团且不易散开的面粉通常是：", "options": {"A": "颗粒粗糙且流动性好、松手后自然散落的高筋面粉", "B": "完全没有黏性且干燥散落像细黄沙粒的玉米粗粉", "C": "颗粒极细、密度轻且易聚集成团不易散落的低筋面粉", "D": "外壳坚硬且颗粒感极强的完整未脱壳脱皮燕麦粒"}, "answer": "C", "explanation": "低筋面粉颗粒细小、比表面积大、静电吸附和团聚性强，抓握后容易成团；高筋面粉颗粒较粗且较为松散滑爽，抓握松开后容易自行散开。这是后厨盲测面粉筋度的实用经验。", "difficulty": "easy"}, {"id": 18, "type": "single", "question": "烘焙学中常说的“洗面筋”生活小实验，洗掉的白色浑浊液体主要成分是：", "options": {"A": "面粉中天然含有的大量小麦淀粉乳（Wheat Starch）", "B": "面团中添加的大量人造化学反式脂肪酸油脂乳液", "C": "纯天然微量维生素与水溶性有机矿物质合成溶剂", "D": "从自来水龙头中流出的纯净自来水矿物漂白沉淀物"}, "answer": "A", "explanation": "把揉好的面团放在清水中反复揉搓漂洗，可溶于水的小麦淀粉被洗脱悬浮在水里（沉淀后即澄粉），最后留在手中那一团富有弹性拉不烂的胶状物就是纯面筋（纯蛋白质）。", "difficulty": "easy"}, {"id": 20, "type": "single", "question": "开封后的面粉如果长期放在潮湿热带雨季环境中，最容易引发的安全隐患是：", "options": {"A": "面粉的所有蛋白质会自动挥发变成纯净氧气消散空", "B": "面粉会发生剧烈核聚变反应并释放出超高温热蒸汽", "C": "面粉会自发转化成高浓度的食用纯白砂糖结晶颗粒", "D": "面粉受潮霉变滋生黄曲霉毒素且招引大量米象小害虫"}, "answer": "D", "explanation": "潮湿温热是霉菌和仓储害虫繁殖的温床。受潮霉变的面粉可能产生强致癌的黄曲霉毒素，对人体肝脏危害极大，绝不能食用。", "difficulty": "easy"}, {"id": 22, "type": "single", "question": "制作传统法式泡芙（Choux）外壳面糊时，需要将面粉倒入沸腾的黄油水中翻炒“烫熟”，主要目的是：", "options": {"A": "彻底烧毁面粉中全部营养，使外壳像玻璃薄片一样脆弱易碎", "B": "使淀粉高温充分糊化吸水，形成能包裹空气与水汽的弹性膜", "C": "促使面粉发生深度焦糖化，使泡芙呈现深黑且焦苦浓重风味", "D": "阻止油脂融化分解，使面粉与冷水完全分层以便于挤出造型"}, "answer": "B", "explanation": "泡芙膨胀靠水汽爆发。烫面使淀粉在高温下糊化，吸收大量水分，从而调制出具有黏弹性的面糊，烘烤时水分剧烈汽化顶起中空大肚皮，冷却后外脆内空。", "difficulty": "easy"}, {"id": 24, "type": "single", "question": "制作蛋挞皮、葡挞皮等层层分明的起酥点心时，最常利用的面粉与油脂特性是：", "options": {"A": "油脂能彻底消灭面团中所有的水分，使面皮在烤箱中瞬间碳化发黑", "B": "面粉中的淀粉与油脂在零下三十度时能自发凝结成坚硬如铁的冰块", "C": "面团与油脂层层交替折叠，烘烤时油脂融化水汽顶开形成轻薄酥层", "D": "面粉会吸收所有的油脂并膨胀五百倍，从而自动炸裂形成无数孔洞"}, "answer": "C", "explanation": "千层酥皮原理：面团（提供面筋支撑）与片状黄油（提供物理隔离）层层叠叠。烘烤时黄油中的水分汽化产生向上推力，受面筋皮阻隔无法散逸，从而将一层层面皮顶起形成千层酥脆。", "difficulty": "easy"}, {"id": 26, "type": "single", "question": "如果做馒头或包子时不小心错买了“自发粉（Self-raising Flour）”，其原料常识特点是：", "options": {"A": "这种面粉只要开袋倒入搅拌盆中，不需要加水即可自动膨胀成面包", "B": "面粉中含有大量的活性面包鲜酵母活菌，只要加温水即可无限发酵", "C": "面粉完全由纯玉米淀粉与高浓度食用胶质混合而成，没有任何面筋", "D": "面粉出厂前已预先按比例掺入了化学膨松剂（如泡打粉等酸碱起发剂）"}, "answer": "D", "explanation": "自发面粉（Self-raising Flour）是在普通中筋粉中预先添加了适量化学泡打粉和微量盐，遇水受热即可释放二氧化碳膨胀，常用于做松饼、快速发糕等快手点心。", "difficulty": "easy"}, {"id": 30, "type": "single", "question": "做面包时，判断面团是否已经揉到“完全扩展阶段（手套膜状态）”的标准常识做法是：", "options": {"A": "揪出一小块面团慢慢拉开，能撑出薄如蝉翼且破洞边缘平整光滑的半透明薄膜", "B": "面团在揉面垫上完全融化摊开成稀糊糊像水一样流动，说明面筋已经展开了", "C": "面团表面变得非常干燥粗糙，轻轻一拉就断裂成无数小碎块，且失去弹性", "D": "用手指用力戳面团表面时发出坚硬的金属回响声，说明面团骨架达到硬度"}, "answer": "A", "explanation": "完全扩展阶段（Final/Windowpane Stage）的面筋经充分延展，能撑出极薄且有韧性的半透明手套薄膜；用手指戳破小洞，破洞边缘光滑平整圆润，代表面筋网络达到最佳成熟度。", "difficulty": "easy"}, {"id": 32, "type": "single", "question": "在蛋糕搅拌中，所谓“面糊消泡”通常与面粉加入后的哪种错误实操操作直接相关？", "options": {"A": "面粉在加入前预先经过了细筛网进行两次充分的过筛松散充气处理", "B": "面粉加入打发的蛋糊后用刮刀快速、大力且长时间顺时针画圈搅拌", "C": "使用软质硅胶刮刀以翻拌手法自底部向上轻柔翻拌直至粉粒消失", "D": "在称量面粉时严格按照电子秤的准确配方克数进行投放且没有撒落"}, "answer": "B", "explanation": "打发的全蛋或蛋白霜极其娇嫩，气泡全靠薄弱蛋白膜包裹。加入面粉后大力画圈剧烈搅拌，不仅会快速破坏微小气泡导致面糊迅速变稀消泡，还会使面粉起筋导致蛋糕组织硬韧。", "difficulty": "easy"}, {"id": 33, "type": "single", "question": "用普通小麦制作澄粉（无筋面粉）时，将面团反复水洗分离后，最后沉淀干燥得到的主要物质是：", "options": {"A": "耐高温且无法溶于水的纯天然小麦粗纤维素（Cellulose）", "B": "弹性极强且不溶于水的纯小麦湿面筋蛋白凝胶（Gluten）", "C": "洁白纯净且几乎不含面筋蛋白的小麦纯淀粉（Wheat Starch）", "D": "富含大量活性酶的小麦表皮粗纤维麸皮沉淀（Wheat Bran）"}, "answer": "C", "explanation": "澄粉（Wheat Starch）就是去除了面筋的小麦纯淀粉。加沸水烫熟后会呈现半透明水晶质感，是制作广式水晶虾饺、肠粉等高透明度中点必不可少的原料。", "difficulty": "easy"}, {"id": 34, "type": "single", "question": "在西点面包烘焙中，如果配方规定需要 300g 面粉，不使用电子秤而是用普通饭碗随意盛装，最容易导致的后果是：", "options": {"A": "面粉用量出现巨大偏差，导致面团过干成团困难或过稀软瘫黏无法成型", "B": "面粉颗粒会在饭碗中与瓷器表面发生剧烈化学反应产生有害毒气", "C": "无论盛装多少克，烤箱在烘烤时都会自动调节面团达到完美平衡", "D": "面团中的蛋白质会自发转化成高浓度的食用合成色素与人工增稠剂"}, "answer": "A", "explanation": "烘焙是一门精密科学。面粉具有压实度差异（压实与蓬松时体积重量差异可达30%以上），用碗或量勺舀取误差极大，只有使用精确到0.1g的电子秤称重才能保证水粉比例和发酵稳定。", "difficulty": "easy"}, {"id": 40, "type": "single", "question": "平时在厨房中，如果发现开封的面粉包装袋内部出现了丝状织网甚至有小黑甲虫在蠕动，最合理的处理方式是：", "options": {"A": "将面粉全部放入细筛网把虫子筛掉，剩下的面粉继续用来烤蛋糕供家人食用", "B": "在生虫的面粉袋中倒入大量食用漂白粉搅拌均匀，在阳光下暴晒一天继续使用", "C": "彻底将整袋面粉密封丢弃不再食用，并彻底清理消毒储存柜以防止交叉污染", "D": "把生虫的面粉放入烤箱两百度高温干烤十分钟杀死成虫后，用来制作家庭面包"}, "answer": "C", "explanation": "生虫的面粉内部已经布满肉眼难见的虫卵、排泄物及分泌物，并伴有严重的细菌和霉菌滋生，即便把大虫筛掉也存在食品安全隐患，必须果断丢弃并清理橱柜。", "difficulty": "easy"}]}, {"chapter_id": 11, "chapter_title": "第11课｜油脂 (Fats & Oils)", "intro": "高一厨艺理论基础：认识烘焙油脂种类、打发充气、起酥原理与储存常识（生活常识版）", "questions": [{"id": 1, "type": "single", "question": "在烘焙高档西点或传统法式可颂时，赋予浓郁天然奶香且入口即化的首选油脂是：", "options": {"A": "常温呈半透明流动液体且带有强烈青草辛辣味的橄榄油", "B": "耐高温精炼且几乎没有任何天然奶香味的大豆色拉油", "C": "常温下极易结块凝固且带有显著动物肉脂气味的生猪油", "D": "乳脂提炼且熔点接近人体口腔温度的天然黄油（Butter）"}, "answer": "D", "explanation": "天然黄油（Butter）是从牛奶中提炼的乳脂肪，熔点约在 28℃~34℃ 之间，恰好低于人体口腔温度（37℃），因此含在口中会迅速融化，带来独特的浓郁奶香与丝滑口感。", "difficulty": "easy"}, {"id": 2, "type": "single", "question": "制作轻盈细腻、冷藏后依然柔嫩湿润的戚风蛋糕胚时，面糊中通常选用：", "options": {"A": "冷藏后会迅速结块发硬且带有浓厚膻味的牛油块", "B": "无特殊气味且冷藏后依然保持流动清澈的植物色拉油", "C": "常温下极易凝结硬化且带有肉类香气的中式精炼猪油", "D": "熔点极高且必须经过高温完全融化的人造起酥白油"}, "answer": "B", "explanation": "戚风蛋糕追求冷藏后依然柔软湿润。固态黄油或猪油放进冰箱会凝固变硬，而液体植物色拉油（如玉米油、芥花油）即使冷藏也保持液态，使蛋糕保持蓬松湿润。", "difficulty": "easy"}, {"id": 4, "type": "single", "question": "在制作经典曲奇饼干时，黄油通常需要与细砂糖一同高速搅打，这一工序常识称为：", "options": {"A": "利用强酸液体破坏油脂结构的化学水解酸化操作", "B": "通过高温加热将黄油内部水分彻底蒸发排尽过程", "C": "将油脂与砂糖加热熬煮至深褐色焦糖化反应阶段", "D": "包裹微小空气形成细腻气泡的黄油打发（Creaming）"}, "answer": "D", "explanation": "黄油具有良好的打发充气性（Creaming Property）。与细砂糖摩擦搅打能包裹进无数微小空气泡，烤箱受热时气泡膨胀，使曲奇饼干酥松化口。", "difficulty": "easy"}, {"id": 6, "type": "single", "question": "在制作中式点心（如苏式月饼、老婆饼、蛋黄酥）的油皮油酥时，首选的油脂通常是：", "options": {"A": "带有浓烈特殊焦香苦涩风味的未过滤冷榨初榨橄榄油", "B": "常温下呈现透明液体状态且完全无法塑型的菜籽油", "C": "起酥性强且能使层层外皮极具层次酥脆感的传统猪油", "D": "主要用于煎炸牛排且熔点极高不易消化的浓缩牛板油"}, "answer": "C", "explanation": "猪油（Lard）的晶体结构特殊（以β'晶型为主），在室温下具有极宽的塑性范围，起酥性（Shortening Power）在所有常规油脂中名列前茅，能隔离面团形成轻薄酥层。", "difficulty": "easy"}, {"id": 9, "type": "single", "question": "如果做黄油曲奇时，直接将黄油加热成完全融化的液态黄油水拌入面粉，最容易出现的烘烤灾难是：", "options": {"A": "饼干会在烤箱中瞬间膨胀变大为热气球飞出烤箱门", "B": "花纹挤出后烘烤时全部坍塌瘫化成一张大薄饼且坚硬", "C": "曲奇饼干无论烘烤多长时间颜色都永远保持纯白色", "D": "饼干会自发分解成高纯度的二氧化碳气泡完全消散"}, "answer": "B", "explanation": "曲奇花纹依赖打发黄油内部无数微细气孔和固态脂肪支撑。若融化成液态油，面糊失去充气骨架，进烤箱受热油流淌摊开，花纹彻底消失，烤出的曲奇扁平硬脆像煎饼。", "difficulty": "easy"}, {"id": 10, "type": "single", "question": "黄油在常温长期暴露在空气和阳光下，容易散发出一股刺鼻难闻的“哈喇味”，这种变质现象在化学常识中属于：", "options": {"A": "黄油中的乳清蛋白质完全转化成了高纯度食用酒精", "B": "面粉淀粉在常温环境中由于受潮发生的天然糖化反应", "C": "油脂吸收空气中的氧气发生氧化酸败反应（Rancidity）", "D": "油脂在避光条件下自动生成了强碱性的碳酸钠结晶"}, "answer": "C", "explanation": "油脂中的不饱和脂肪酸暴露在氧气、光照和高温下会发生自动氧化，生成过氧化物并分解出低级醛、酮、酸，产生刺鼻恶臭的哈喇味（氧化酸败），酸败油脂不仅破坏风味且有害健康。", "difficulty": "easy"}, {"id": 12, "type": "single", "question": "在烘焙面包中，配方里添加适量油脂的最重要常识作用不包括：", "options": {"A": "使面包切面气孔柔嫩细腻，并延长面包松软保质期", "B": "赋予面包成品令人愉悦的芳香风味与金黄诱人外观", "C": "在面团揉制后期增加面筋延展润滑性并使薄膜更薄", "D": "彻底代替酵母菌的呼吸作用在面团中产生大量二氧化碳"}, "answer": "D", "explanation": "油脂是柔性原料，起润滑面筋、保持水分、延缓老化和增添风味作用；二氧化碳气体全靠酵母菌发酵或化学膨松剂产生，油脂绝不可能代替酵母产气。", "difficulty": "easy"}, {"id": 14, "type": "single", "question": "用来抹烤盘防止面包粘盘的熟练操作，属于利用了油脂在厨房中的：", "options": {"A": "使烤盘与生面团之间产生强大物理永久粘接力的特性", "B": "在高温下与铁质烤盘发生剧烈化学反应生成坚固漆膜", "C": "形成的疏水油膜阻隔面糊与烤盘直接粘连的防粘脱模性", "D": "能将烤盘表面所有的不锈钢金属分子全部快速腐蚀掉"}, "answer": "C", "explanation": "烘焙油脂具有防粘性（Anti-sticking）。抹油或喷脱模油能在模具表面形成一层疏水保护层，面团受热时蛋白质和淀粉不会粘附在金属上，出炉轻轻一倒即可完整脱模。", "difficulty": "easy"}, {"id": 16, "type": "single", "question": "如果做戚风蛋糕时没有玉米油，随手倒了厨房平时用来炒青菜的浓香花生油或初榨橄榄油，烤出的蛋糕通常：", "options": {"A": "蛋糕内部的面筋会瞬间被油脂溶解，导致蛋糕化为一滩清水", "B": "蛋糕充斥着强烈的花生或橄榄特殊异味，掩盖蛋糕本身清香", "C": "蛋糕在烤箱中会因为油温过高而剧烈起火爆炸冲破烤箱门", "D": "蛋糕组织会变得像果冻布丁一样透明且具有超强橡皮弹性"}, "answer": "B", "explanation": "烘焙用液体油讲究“无色无味”。色拉油、玉米油、葵花籽油几乎没有气味，不影响西点天然奶蛋风味；花生油、芝麻油、初榨橄榄油风味过重，烤出的蛋糕味道怪异难以下咽。", "difficulty": "easy"}, {"id": 17, "type": "single", "question": "面包配方中通常将黄油称作“阻碍面筋形成的柔化原料”，在面团搅拌初期，如果过早加入大量油脂会导致：", "options": {"A": "面团发酵速度加快五百倍并在三分钟之内完全溢出搅拌盆", "B": "面团中的蛋白质会直接转化成高纯度的食用级液态果葡糖浆", "C": "面团会自发吸收搅拌缸内的不锈钢金属元素变成黑色泥浆", "D": "油脂包裹面粉颗粒阻碍蛋白质充分吸水，使面筋形成极其迟缓"}, "answer": "D", "explanation": "后油法原理：油脂具有强疏水性，若一开始就和干粉、水混在一起，油膜包裹面粉阻隔水分子渗入蛋白质，极大延缓面筋形成。因此后厨通常先让水粉搅拌至初步出筋，再加入黄油揉匀。", "difficulty": "easy"}, {"id": 18, "type": "single", "question": "储存开封后的块状动物黄油，最规范的生活常识保存方法是：", "options": {"A": "直接放入盛满滚烫沸水的保温杯中盖紧盖子常温静置一个月", "B": "拆开包装直接敞口裸露放置在厨房灶台旁边的高温阳光下", "C": "将黄油浸泡在装满高浓度食醋的玻璃大坛子中常温密封保存", "D": "用锡纸或保鲜膜严密包好放冰箱冷藏，并远离切开的洋葱大蒜"}, "answer": "D", "explanation": "黄油极易吸收周围气味（吸味性极强），且暴露在空气和光照下易氧化变质。开封后必须用铝箔或密封盒封好，放入 0℃~4℃ 冷藏室，远离葱蒜等强烈异味食材。", "difficulty": "easy"}, {"id": 20, "type": "single", "question": "做酥皮馅饼（Shortcrust Pastry）时，将黄油与面粉搓成粗砂粒状，其“起酥作用（Shortening）”的本质是：", "options": {"A": "油脂能使面粉在烤箱中像爆米花一样瞬间炸裂成无数小碎屑块", "B": "油脂彻底消灭了面团中的所有水分，使面皮变得坚硬如同石头", "C": "油脂隔断了面筋网络的长链连接，使烤出的面皮松散易碎酥脆", "D": "油脂能将面粉中的全部淀粉成分彻底转化为高浓度的纯白砂糖"}, "answer": "C", "explanation": "起酥的本质是“阻断面筋连续性”。油脂包裹面粉颗粒，限制了面粉与水结合，将坚韧的长面筋网剪断、弱化为短小片段，烘烤后成品失去强韧性，变得酥松易碎、落屑化口。", "difficulty": "easy"}, {"id": 22, "type": "single", "question": "常温下（25℃）呈现为清澈透明液体，倒入水中会漂浮在水面上的植物油，在烘焙中属于：", "options": {"A": "常温下质地极其坚硬且必须使用钢锯锯开的纯人造氢化极度硬化油", "B": "常温呈液态且无法直接打发包裹空气的液体植物油（Liquid Oils）", "C": "必须通过零下四十度极速深冷冻结才能勉强成型的特级发酵酸奶", "D": "含有大量活性面筋蛋白质且遇水瞬间拉出坚韧手套薄膜的液体粉浆"}, "answer": "B", "explanation": "玉米油、大豆油等植物油常温下分子链不饱和度高，呈流动液态，不具备固态脂肪的结晶网络，因此无法单独通过搅打包裹空气，主要用于提供湿润度和柔韧性。", "difficulty": "easy"}, {"id": 24, "type": "single", "question": "做磅蛋糕（Pound Cake）时，常温鸡蛋液必须“分多次、少量缓慢”加入打发的黄油中，主要目的是：", "options": {"A": "防止大量冷蛋液一次性冲入破坏乳化体系，导致面糊产生严重水油分离", "B": "为了通过缓慢搅拌将鸡蛋中的水分全部挥发掉以避免蛋糕烤熟后变软", "C": "为了让蛋液在搅拌盆中受剧烈机械摩擦直接发生高温熟化形成炒鸡蛋", "D": "让黄油中的油脂彻底分解为纯净的二氧化碳气泡以便蛋糕自然膨胀"}, "answer": "A", "explanation": "打发的黄油是油包水体系（W/O），蛋液含水约75%。一次性加入过多冰冷蛋液，水分无法被黄油中的卵磷脂充分乳化，黄油遇冷凝结析出水珠，面糊瞬间变成豆腐渣状（水油分离），蛋糕质地粗糙易塌陷。", "difficulty": "easy"}, {"id": 26, "type": "single", "question": "在后厨配方中，如果看到原料写着“无盐黄油（Unsalted Butter）”，而在日常实操中错用了“加盐黄油”，会导致：", "options": {"A": "黄油中的乳脂肪会瞬间全部转化为工业用粗粒海盐并在烤盘中结晶析出", "B": "蛋糕在烤箱烘烤过程中会自动生成大量强酸性气体导致烤盘严重腐蚀", "C": "面糊无论如何加热烘烤都永远无法烤熟且颜色永远保持像纯白雪花一样", "D": "西点成品带有意外的明显咸味，且多余的盐分可能抑制面包酵母发酵"}, "answer": "D", "explanation": "加盐黄油通常含有 1.5%~2% 的食盐，主要是为了常温延长保质期。烘焙首选无盐黄油以便精准控制配方盐量；若错用含盐黄油，甜品会出现突兀咸味，做面包时额外的盐更会抑制作物酵母。", "difficulty": "easy"}, {"id": 30, "type": "single", "question": "如果在烘焙饼干时，烤盘没有垫高温烘焙油纸也没有抹任何油脂，最可能发生的糟糕结果是：", "options": {"A": "饼干会因为没有油纸阻隔而在烤箱中无限制疯狂膨胀直至撑满整个烤箱内部", "B": "烤盘会在烤箱加热烘烤过程中自发发生剧烈化学爆炸并冲破烤箱强化玻璃门", "C": "饼干底部与金属烤盘产生严重粘连，出炉铲起时饼干破裂碎烂难以完整脱落", "D": "烤盘中的饼干会自发分解成高纯度的纯净水蒸气完全蒸发消散于厨房空气中"}, "answer": "C", "explanation": "面团中的糖和蛋白质在高温烘烤下会发生焦化粘附在烤盘金属细孔中。垫硅油纸或刷薄油能提供有效物理滑脱隔离层，避免出炉后死死粘在盘上无法铲起。", "difficulty": "easy"}, {"id": 32, "type": "single", "question": "做家庭面包面团时，通常建议在面团揉出初步光滑弹性薄膜后再加入室温软化黄油，这种工艺称为：", "options": {"A": "冷冻醒面法（Deep Freeze），能利用零下温度使面团停止一切生物发酵进程", "B": "先油法（Early Fat Process），能通过油脂将干面粉全部提前炸至金黄酥脆", "C": "隔水加热法（Water Bath），能利用沸水的高温将生面粉在搅拌盆中直接烫熟", "D": "后油法（Late Fat Addition），能避免过早加油阻碍面筋顺利生成与吸水"}, "answer": "D", "explanation": "后油法是面包制作的金科玉律：先让面粉充分吸收水分形成坚固的初步网状面筋骨架（扩展阶段），然后再加入软化黄油。黄油渗入面筋间隙充当润滑剂，能助推面筋拉出完美的透明薄膜。", "difficulty": "easy"}, {"id": 33, "type": "single", "question": "制作重油磅蛋糕（Pound Cake）时，出炉趁热在蛋糕表面刷上一层香浓的朗姆酒糖浆，配合油脂的作用主要是：", "options": {"A": "使高温蛋糕瞬间降温结冰，以便于烘焙师立即切块打包放入冷冻冰柜销售", "B": "糖浆渗入内部锁住油脂与水分，并增添优雅复合酒香，使蛋糕湿润陈香可口", "C": "利用酒精杀灭蛋糕表面全部细菌，以取代烤箱两百度高温的天然烘烤杀菌", "D": "使蛋糕表面的面粉淀粉在酒精作用下彻底脱水干燥硬化变成坚固防摔硬壳"}, "answer": "B", "explanation": "重油蛋糕（黄油含量高）出炉时表皮毛孔张开，趁热刷糖浆酒，水分和糖分被高油组织锁住。密封冷藏熟成 1~2 天后，黄油与酒香深度交融，口感极其湿润醇厚细腻。", "difficulty": "easy"}, {"id": 34, "type": "single", "question": "在家庭厨房中，开封后的整块动物黄油若预计在两周内无法使用完毕，最科学的长期储存方式是：", "options": {"A": "分切成平时常用的小份用锡纸独立密封包裹，放入零下十八度冷冻室冷冻保存", "B": "直接敞口丢在常温厨房料理台上，任由其在三十多度热带夏日阳光下自然化水", "C": "将黄油块直接泡在盛满生自来水的塑料盆里，放在水槽底下阴暗潮湿死角处", "D": "放入微波炉中连续高火加热两个小时将其彻底熬煮成深黑色的高温焦苦热油"}, "answer": "A", "explanation": "黄油冷藏（0℃~4℃）保质期通常在数月内，但开封后容易氧化吸味；将其切成50g或100g小块用铝箔纸和密封袋紧密包好，放入 -18℃ 冰冻冷冻室可保存大半年，用时取一块解冻即可。", "difficulty": "easy"}, {"id": 40, "type": "single", "question": "在后厨清理沾满固态黄油的打蛋盆和打蛋器时，最省时省力的生活常识清洗技巧是：", "options": {"A": "直接用大量冰水或冷自来水死命冲洗，并用干抹布大力来回干擦油垢", "B": "先用温热水与适量洗洁精浸泡融化乳化油脂，再用洗碗海绵轻松刷洗冲净", "C": "把沾满黄油的打蛋盆直接丢入强酸工业浓硫酸浸泡池中进行强行腐蚀", "D": "无需任何清洗处理，直接将沾满生黄油的打蛋盆放在烈日暴晒自然风干"}, "answer": "B", "explanation": "黄油熔点约在 30℃ 上下。用冰冷水冲洗不仅洗不掉，还会让黄油迅速凝结牢固粘在不锈钢盆上；而 45℃ 以上的温热水能瞬间融化固态油脂，配合洗洁精的乳化表面活性剂，油脂一冲即净。", "difficulty": "easy"}]}, {"chapter_id": 12, "chapter_title": "第12课｜糖 (Sugar)", "intro": "高一厨艺理论基础：认识糖类原料、烘焙上色、保水防老化、打发稳定与储存常识（生活常识版）", "questions": [{"id": 1, "type": "single", "question": "在家庭烘焙中，制作普通戚风蛋糕、海绵蛋糕时最常使用、容易溶解的糖是：", "options": {"A": "主要用来腌制咸菜且带有浓厚咸味的粗粒海盐（Sea Salt）", "B": "结晶粗大坚硬且在打蛋时难以化开的大块老冰糖（Rock Sugar）", "C": "颗粒细小均匀且极易溶入蛋液的细砂糖（Granulated Sugar）", "D": "中药店购买的带有强烈苦涩味的天然干甘草研磨粉（Licorice）"}, "answer": "C", "explanation": "细砂糖颗粒细腻均匀，在打发蛋清或全蛋时能迅速溶入蛋液，帮助蛋白霜形成坚固细腻的气泡，是烘焙中最常用的糖。", "difficulty": "easy"}, {"id": 2, "type": "single", "question": "面包在烤箱中烘烤时，表面会慢慢变成诱人的金黄色并散发出浓郁扑鼻的甜香，这主要是因为：", "options": {"A": "面粉在高温烘烤环境中瞬间自发燃烧释放出的黑色油烟", "B": "糖分在高温受热时发生的美拉德反应与天然焦糖化褐变", "C": "烤箱内部金属烤管涂抹的黄色油漆受热融化渗入面包表皮", "D": "面团里的所有活性酵母菌在高温下自发变成金黄色的沙粒"}, "answer": "B", "explanation": "烘烤金黄色彩与香气主要由两部分决定：糖分高温焦糖化，以及还原糖与蛋白质在受热时产生的美拉德反应，带来诱人色泽与焦甜风味。", "difficulty": "easy"}, {"id": 4, "type": "single", "question": "糖在烘焙蛋糕中除了提供美味的甜味，在保持口感方面还有什么极其重要的“保水常识作用”？", "options": {"A": "把蛋糕里的水分全部吸走，使蛋糕变得干裂坚硬如同石头", "B": "在烤箱门内侧形成一层隔热膜以阻止热量在烤箱内部集中", "C": "天然吸湿保水，锁住蛋糕水分并延缓淀粉老化变硬（Moisture）", "D": "使蛋糕在切开时会像冰块一样直接脆裂破碎成干燥小粉末"}, "answer": "C", "explanation": "糖是天然的保水剂（吸湿性好）。适量的糖能锁住水分，让出炉的蛋糕放置两三天依然柔嫩湿润；如果私自大量减糖，蛋糕会变得干硬粗糙、极易老化掉渣。", "difficulty": "easy"}, {"id": 6, "type": "single", "question": "在制作传统法式马卡龙（Macaron）或给曲奇饼干挤花时，为了让表面光滑细腻、花纹不易摊塌，通常首选：", "options": {"A": "带有粗大硬晶体且在常温低温下极难融化的粗粒大砂糖", "B": "带有极浓烈酸味且会使面糊快速变稀的未成熟青柠檬汁", "C": "专门用来给中餐红烧肉上色增稠的浓稠黑褐色老抽酱油", "D": "研磨极其细腻且如面粉般洁白的纯糖粉（Icing Sugar）"}, "answer": "D", "explanation": "糖粉颗粒极其微细，能与杏仁粉完美贴合，不会在面糊中留下未化开的粗糖粒，使马卡龙烤出光滑如镜的表面和漂亮裙边。", "difficulty": "easy"}, {"id": 9, "type": "single", "question": "如果在做戚风蛋糕时，嫌配方太甜，自己随意将糖量大幅减少了 80% 以上（只剩微量糖），最可能出现的烘烤问题是：", "options": {"A": "蛋糕在烤箱中会自发分解成高纯度的纯净水蒸气完全蒸发", "B": "蛋白霜缺乏糖分支撑极易消泡，蛋糕出炉严重塌陷且干硬粗糙", "C": "蛋糕出炉后会无限制持续膨胀直至把整个厨房完全塞满", "D": "蛋糕完全无法烤熟且颜色永远保持像纯白雪花一样洁白"}, "answer": "B", "explanation": "糖在蛋糕中不仅提供甜味，更起着“支撑气泡结构”与“锁水保湿”的物理功能。大幅过度减糖会导致蛋白霜稳定性断崖式下跌，拌粉易消泡，烤出的蛋糕体积矮小、口感干硬掉渣且极易塌陷回缩。", "difficulty": "easy"}, {"id": 10, "type": "single", "question": "带有独特浓郁焦香蔗糖风味、富含微量矿物质、颜色呈深褐色的糖，在家庭中常用来制作姜饼或红糖红枣糕的是：", "options": {"A": "完全由纯化学化工合成的人造无热量零卡代糖阿斯巴甜粉末", "B": "经过多道现代精炼脱色去杂质处理的超高纯度白砂糖晶体", "C": "保留了较多天然甘蔗糖蜜成分的传统黑糖或红糖（Brown Sugar）", "D": "专门用于制作水果硬糖且质地极度透明黏稠的高麦芽糖浆"}, "answer": "C", "explanation": "红糖/黑糖（Brown Sugar）精炼程度较低，保留了甘蔗中天然的糖蜜（Molasses）和铁、钙等矿物质，具有浓郁独特的焦香蔗香，并带有微酸性，常用于制作传统姜饼、桂圆红枣蛋糕等特色西点。", "difficulty": "easy"}, {"id": 12, "type": "single", "question": "厨房中开封后的白砂糖如果储存不当，常常会吸潮结成硬硬的大糖块，最规范的家庭防结块储存常识是：", "options": {"A": "拆开袋子敞口放在水槽旁边阴暗潮湿且阳光直射的位置", "B": "将白砂糖装入洗净彻底干燥的密封罐中，置于阴凉干燥处", "C": "将白砂糖直接倒在大碗中放入冰箱冷冻室中冷冻结成冰砖", "D": "在砂糖中倒入大量自来水搅拌成浓糖水放在常温桌上保存"}, "answer": "B", "explanation": "白砂糖具有较强的吸湿性。暴露在潮湿空气中吸收水分，随后水分蒸发会在糖晶体接触面形成微型糖桥，使砂糖板结成硬块。因此开封后必须装入密封罐封紧，存放在干燥阴凉处。", "difficulty": "easy"}, {"id": 14, "type": "single", "question": "在制作传统广式中秋月饼时，月饼皮配方中必须加入“转化糖浆（Invert Sugar Syrup）”，其主要常识作用是：", "options": {"A": "使烤好的月饼皮坚硬如铁板，即使从十层楼掉落也绝不破损", "B": "防止面粉在常温下自然发酵，以彻底取代烤箱烘烤加热工序", "C": "能将月饼馅料中的全部植物油脂瞬间分解吸收转化为空气消散", "D": "富含果糖葡萄糖，强吸湿保水并促进美拉德反应，使饼皮回油柔润"}, "answer": "D", "explanation": "转化糖浆由蔗糖经柠檬酸水解为葡萄糖与果糖而成。单糖分子小、吸湿保水性极强，且还原糖含量极高，烘烤时上色快且均匀，更赋予月饼“回油”特性，使饼皮放置1~2天后变得晶莹剔透、柔软油润。", "difficulty": "easy"}, {"id": 16, "type": "single", "question": "如果做戚风蛋糕时误将大颗粒的粗粒大冰糖直接丢入打蛋盆打发蛋白，最常出现的后果是：", "options": {"A": "蛋白霜会瞬间膨胀一百倍并将整个厨房的天花板完全顶破", "B": "粗糖粒会在打发过程中发生核聚变反应把打蛋盆彻底熔化掉", "C": "粗糖粒沉底无法融化，蛋白霜无法形成稳定气泡且烤出硬颗粒", "D": "烤箱温度会自动升高五百度导致蛋糕在十秒钟内完全碳化"}, "answer": "C", "explanation": "大粒粗糖在常温蛋清中极难溶化。不仅无法形成保护气泡的黏性糖液，硬糖粒沉入盆底还会物理扎破脆弱气泡导致消泡，烤出的蛋糕底部会有未化开的焦糖硬块，内部组织粗糙塌陷。", "difficulty": "easy"}, {"id": 17, "type": "single", "question": "在烘焙面包中，酵母菌在发酵过程中最直接“喜欢吃”并能迅速转化为二氧化碳和酒精的糖分是：", "options": {"A": "由高科技纯化工合成的零卡路里人工合成代糖糖精钠颗粒", "B": "由木材中提取的完全无法被任何生物酶水解的纯天然木质素", "C": "面粉淀粉酶解生成的葡萄糖、果糖及麦芽糖等可发酵单糖双糖", "D": "海滩中含有的大量坚硬且不可食用的天然硅酸盐海沙结晶"}, "answer": "C", "explanation": "酵母菌是活的微生物，它通过体内的转化酶将面团中的葡萄糖、果糖、蔗糖和麦芽糖分解代谢，释放出二氧化碳气体（撑起面包蜂窝孔洞）和微量乙醇（带来发酵香气）。", "difficulty": "easy"}, {"id": 18, "type": "single", "question": "市售部分防潮糖粉（Snow Powder）在常温潮湿天气洒在蛋糕表面依然不易化水受潮，其常识配方中通常添加了：", "options": {"A": "高浓度的强碱性工业漂白粉以漂白白糖表面的颜色杂质", "B": "微量的食用玉米淀粉或耐油脂抗凝结物包裹隔离水分（Starch）", "C": "大量纯金属细铁粉以增加糖粉附着在蛋糕表面的物理重量", "D": "强效化学杀虫剂以防止常温储存环境中滋生甜食蚂蚁害虫"}, "answer": "B", "explanation": "防潮糖粉（又称装饰糖粉）通常添加了 3%~8% 的熟化玉米淀粉或微胶囊植物油脂包裹。淀粉和油脂充当物理屏障，阻止糖分子吸收空气中的水分或蛋糕内部的水汽，使其长时间保持干爽洁白。", "difficulty": "easy"}, {"id": 20, "type": "single", "question": "在烘焙焦糖布丁（Caramel Pudding）底部铺设一层深棕色焦糖时，熬煮焦糖的常识火候控制原则是：", "options": {"A": "只要水煮沸即刻关火，哪怕白糖颗粒完全没有溶解也直接倒入模具", "B": "全程使用喷火枪最强蓝焰猛火轰击，直至糖浆完全烧焦起火成灰", "C": "必须在糖浆中加入大量强酸性工业盐酸以加速蔗糖的物理溶解", "D": "小火慢熬至琥珀金褐色散发焦甜香时离火，切忌熬成深黑焦炭苦味"}, "answer": "D", "explanation": "焦糖熬制是纯糖的高温热解反应（160℃~180℃）。必须温和控温，当糖浆从金黄渐变为晶莹透亮的琥珀红褐色并散发焦糖甜香时迅速离火降温，过火一秒就会变黑焦苦、散发糊味无法食用。", "difficulty": "easy"}, {"id": 22, "type": "single", "question": "在制作纯天然蜂蜜蛋糕（如长崎蛋糕）时，加入的天然蜂蜜在糖类特性上主要富含：", "options": {"A": "只能在零下一百摄氏度深冷环境中勉强保持固态的纯纯液态酒精", "B": "结晶极其粗糙坚硬且需要用铁锤才能敲碎的未提炼高浓度粗海盐", "C": "完全由纯化学合成且不含任何天然有机糖分的人造甜味剂糖精", "D": "极易吸收空气水分且带来浓郁复合花香的天然果糖与葡萄糖单糖"}, "answer": "D", "explanation": "蜂蜜是蜜蜂采集花蜜经体内转化酶分解而成的天然糖蜜，约含 70%~80% 的单糖（葡萄糖和果糖）。果糖是所有天然糖中甜度最高、吸湿保水性最强的糖，赋予蜂蜜蛋糕湿润绵密的独特质感与天然花香。", "difficulty": "easy"}, {"id": 24, "type": "single", "question": "在制作传统英式水果蛋糕（Fruit Cake）时，常使用深黑色的糖蜜（Molasses）或深黑糖，主要的生活常识益处是：", "options": {"A": "能使面粉中的淀粉在常温搅拌时自发分解成高纯度的纯净水蒸气散发", "B": "能将果干中所有的维生素全部彻底消灭以防止蛋糕烤熟后口感太软烂", "C": "赋予蛋糕深沉诱人的黑褐色泽与醇厚微酸的独特焦香风味，并增强保水", "D": "使蛋糕出炉后像橡胶轮胎一样富有弹性，可以在地面上随意摔打弹起"}, "answer": "C", "explanation": "糖蜜是制糖过程结晶分离后的浓缩液体，含丰富矿物质和有机酸，色泽深黑、香气深沉微苦，能赋予传统重果干蛋糕标志性的醇厚色泽、深邃风味及优异的长期湿润保水防腐力。", "difficulty": "easy"}, {"id": 26, "type": "single", "question": "在西点饼干烘焙中，如果细砂糖完全被等量的纯糖粉替换，烤出的饼干在外观花纹与口感上的显著常识变化是：", "options": {"A": "饼干无论烘烤多长时间颜色都永远保持纯白透明且质地坚硬如同钻石", "B": "饼干会在烤箱中瞬间自发膨胀变大为热气球并从烤箱排气孔飞出厨房", "C": "表面更加细腻平滑、延展摊开程度减少、花纹更立体且口感酥软化口", "D": "饼干中的面粉淀粉会自发转化成高纯度的食用级液态果葡糖浆淌满烤盘"}, "answer": "C", "explanation": "细砂糖颗粒在烘烤初期融化会促使面团向外延展扩散；而糖粉极细且溶解快，面糊流动延展性小，烤出的曲奇花纹极清晰立体、不易摊塌，表面平整细腻，口感也由脆硬转为酥软酥松。", "difficulty": "easy"}, {"id": 30, "type": "single", "question": "日常烘焙制作生巧克力（Nama Chocolate）或甘纳许（Ganache）时，配方中加入适量水饴（玉米糖浆/麦芽糖浆）的核心生活常识目的是：", "options": {"A": "借助葡萄糖浆的抗结晶特性，防止蔗糖与油脂结晶返砂，保持丝滑光泽质感", "B": "为了将鲜奶油中的水分全部彻底蒸发排尽以使巧克力变成干燥坚硬石头块", "C": "让黑巧克力在常温环境中与糖浆发生剧烈发酵反应产生大量浓烈酒精气味", "D": "将巧克力的熔点强行提高到一百五十摄氏度以上以便于在开水锅中直接煮熟"}, "answer": "A", "explanation": "水饴/淀粉糖浆富含多糖与糊精，分子量交错，能强力阻碍蔗糖分子彼此拼合结晶（Anti-crystallization），同时提供良好的光泽度和保湿性，使甘纳许内馅如丝绒般顺滑细腻、永不返砂粗糙。", "difficulty": "easy"}, {"id": 32, "type": "single", "question": "在烘焙柠檬蛋糕或橙香磅蛋糕时，将新鲜柠檬皮屑与细砂糖预先用手用力揉搓混合，主要的生活常识益处是：", "options": {"A": "能将柠檬果皮中所有的营养成分全部彻底烧毁，以使蛋糕面糊变得更清澈透明", "B": "砂糖颗粒的坚硬棱角能划破果皮油胞，将天然芳香精油充分析出并包裹在糖中", "C": "能使白砂糖在常温不加水的情况下瞬间完全溶解成深黑色的高温焦苦热糖浆", "D": "能利用砂糖中的微量矿物质将新鲜柠檬皮中的全部柠檬酸彻底中和成纯自来水"}, "answer": "B", "explanation": "后厨秘技：柑橘类（柠檬、橙子）表皮含有珍贵的芳香油胞。细砂糖的细小结晶如同微小研磨砂纸，揉搓摩擦能刺破油胞，让天然精油（Limonene）均匀渗入糖中，烘烤出的蛋糕具有扑鼻清新的天然果香。", "difficulty": "easy"}, {"id": 33, "type": "single", "question": "做家庭西点时，如果细砂糖不慎倒在灶台旁边的湿抹布上浸湿受潮，随后水分自然风干，此时白糖通常会：", "options": {"A": "自发转化成高浓度的食用纯酒精并散发出刺鼻难闻的医用消毒药水气味", "B": "在抹布表面发生剧烈核聚变反应并释放出超高温度的强腐蚀性酸性蒸汽", "C": "表面糖分子结晶交联形成硬邦邦的大硬块，手感如同石块般坚硬且不易捏碎", "D": "所有糖分全部在空气中自发分解成完全透明的纯净氧气消散得无影无踪"}, "answer": "C", "explanation": "糖极易溶于水，水分蒸发时残留在颗粒间的饱和糖液会重新析出微晶，将相邻的所有糖颗粒牢牢粘连在一起形成坚硬的“糖结块（Cake）”，必须用擀面杖敲打或隔水加热才能重新化开。", "difficulty": "easy"}, {"id": 34, "type": "single", "question": "在面包工业烘焙中，烘焙师常常通过观察面包在烤箱中“出炉上色快慢”，来判断面团发酵是否充分，主要常识依据是：", "options": {"A": "发酵过度面团中残余糖分全被酵母吃光，烤出面包表皮苍白不上色（Pale）", "B": "发酵时间越长面团内部生成的糖分越多，出炉的面包表皮一定变得越焦黑", "C": "无论酵母发酵多长时间，面团中糖分含量永远绝对恒定没有任何增减变化", "D": "烤箱内部的高温发热管能智能识别酵母菌的呼吸频率从而自动改变发光颜色"}, "answer": "A", "explanation": "面包上色靠“残余糖（Residual Sugar）”。若发酵过度（发过头），酵母把面团中的糖消耗殆尽，没有足够的糖参与焦糖化和美拉德反应，烤出的面包表皮惨白、无光泽、缺少香气；反之发酵不足糖残留多，极易上色焦糊。", "difficulty": "easy"}, {"id": 40, "type": "single", "question": "平时在厨房中，如果发现开封的纯白砂糖袋子中爬入了大量甜食蚂蚁，最符合食品安全卫生常识的处理原则是：", "options": {"A": "将砂糖全部倒入细筛网把蚂蚁筛掉，剩下的白糖继续给家庭做蛋糕和甜点食用", "B": "把爬满蚂蚁的白砂糖放入微波炉高温加热五分钟把蚂蚁烤焦成黑粉末混在糖里", "C": "在爬满蚂蚁的白砂糖中直接喷洒大剂量化学杀虫剂，在太阳下晒干后继续使用", "D": "彻底将整袋受污染白砂糖报废处理不再食用，并清洗密封罐阻断蚂蚁信息素路线"}, "answer": "D", "explanation": "蚂蚁爬行极易从外界携带大量病原微生物和杂菌，其分泌的蚁酸和排泄物会严重污染整袋砂糖，具有明确卫生健康风险，不能为了省小钱危害健康，应彻底丢弃并清洁储物柜。", "difficulty": "easy"}]}, {"chapter_id": 13, "chapter_title": "第13课｜鸡蛋 (Eggs)", "intro": "高一厨艺理论基础：认识鸡蛋结构、打发特性、乳化机理与新鲜度鉴别（生活常识版）", "questions": [{"id": 1, "type": "single", "question": "在家庭厨房打发蛋白霜制作戚风蛋糕时，打蛋盆中绝对不能混入哪怕一丁点的成分是：", "options": {"A": "能帮助蛋白霜形成细腻光泽稳定气泡的极细高品质纯细砂糖", "B": "含有丰富脂肪且会迅速破坏蛋白泡沫的蛋黄或油脂（Fat）", "C": "能微弱调节蛋清酸碱度促使泡沫更稳定的微量天然新鲜柠檬汁", "D": "能微弱增加蛋白表面张力与泡沫韧性的极微量优质食用食盐"}, "answer": "B", "explanation": "油脂是蛋白发泡的头号杀手！蛋黄含有约30%的油脂。只要有一丝蛋黄或打蛋盆带油，油脂分子会迅速抢占蛋白界面，破坏气泡膜的表面张力，使蛋白霜无论如何拼命搅打都无法膨胀打发。", "difficulty": "easy"}, {"id": 2, "type": "single", "question": "制作蛋黄沙拉酱（美乃滋）或曲奇饼干时，蛋黄能将水分子和植物油牢牢锁在一起不分层，主要因为蛋黄富含：", "options": {"A": "能使面糊在常温下瞬间凝结发硬如同石块的粗纤维木质素", "B": "具有强大天然表面活性乳化功能的天然卵磷脂（Lecithin）", "C": "完全由纯化学化工人工合成的高浓度工业防腐剂防腐乳液", "D": "具有强烈刺激性酸辣辛辣气味的纯天然高纯度挥发性芥末精"}, "answer": "B", "explanation": "蛋黄是烘焙中最强大的天然乳化剂。其含有的卵磷脂（Lecithin）分子一端亲水、一端亲油，能在微小油滴外包裹一层亲水保护层，使油和水分子均匀混合交融，形成稳定细腻的乳化液（如蛋黄酱）。", "difficulty": "easy"}, {"id": 4, "type": "single", "question": "在家庭中判断生鸡蛋是否新鲜，将其轻轻放入一碗冷水中，新鲜度极佳的鸡蛋表现是：", "options": {"A": "像充满气的气球一样完全漂浮在水面上且无法按入水底", "B": "在水中发生剧烈剧毒化学反应导致水质瞬间变得漆黑如墨", "C": "完全横躺沉在碗底，气室极小且沉重平稳（Fresh Egg）", "D": "在水中自发快速旋转并释放出高浓度的纯净二氧化碳气泡"}, "answer": "C", "explanation": "新鲜鸡蛋内部水分饱满，钝端气室极其微小，整体密度大于水，因此会平稳横躺沉在水底；随着存放变久水分蒸发气室变大，鸡蛋会逐渐倾斜、直立，完全浮在水面上的则是严重散黄变质的坏蛋。", "difficulty": "easy"}, {"id": 6, "type": "single", "question": "在打发纯蛋清制作天使蛋糕或戚风蛋糕时，配方常常要求加入几滴柠檬汁或塔塔粉，主要常识原理是：", "options": {"A": "使蛋清在打蛋盆中直接凝结成豆腐脑硬块以便于倒出切片", "B": "利用酸液的高腐蚀性把打蛋盆内壁的铝合金层完全溶解吸收", "C": "弱酸性环境使蛋白质等电点接近最适状态，泡沫坚挺细腻不易消泡", "D": "为了彻底消灭蛋清中全部蛋白质分子，使蛋清变成纯纯白开水"}, "answer": "C", "explanation": "新鲜蛋清呈弱碱性（pH约8.8~9.2），起泡快但泡沫较脆弱易破。加入微量酸（柠檬汁或塔塔粉/酒石酸氢钾）将pH值调节至偏中性酸性（pH约5.0~5.5），使蛋白质分子更富韧性，打出的蛋白霜洁白细腻、坚挺不易塌陷消泡。", "difficulty": "easy"}, {"id": 9, "type": "single", "question": "制作提拉米苏（Tiramisu）或高级法式慕斯等无需高温烘烤的甜点时，为了防止沙门氏菌食物中毒，应选用：", "options": {"A": "从农贸市场购买且蛋壳沾满禽类粪便与羽毛的未经检验生鸡蛋", "B": "主要用于制作中式凉拌菜且带有浓厚石灰碱味的传统皮蛋松花蛋", "C": "已经在常温厨房死角处连续放置了三个月且有裂纹的变质散黄蛋", "D": "经过低温巴氏消毒杀菌处理的无菌可生食鸡蛋（Pasteurized）"}, "answer": "D", "explanation": "生鸡蛋极易被沙门氏菌（Salmonella）污染，食用未熟化的受污染鸡蛋会导致剧烈呕吐、腹泻和发烧。免烤甜点涉及生蛋黄或生蛋白霜时，必须严格使用经过巴氏杀菌认证的“可生食无菌鸡蛋”或使用高温糖浆烫熟。", "difficulty": "easy"}, {"id": 10, "type": "single", "question": "在冰箱冷藏室中储存带壳新鲜鸡蛋时，最科学规范的摆放生活常识朝向是：", "options": {"A": "将新鲜鸡蛋直接放入微波炉中每天定时加温三分钟进行保温", "B": "小头（尖端）朝上、大头（钝端）朝下紧紧塞在密闭塑料袋里", "C": "将全部鸡蛋直接浸泡在盛满自来水的敞口洗脸盆中常温放置", "D": "大头（钝端）朝上、小头（尖端）朝下立着放置在蛋托格中"}, "answer": "D", "explanation": "鸡蛋的大头（钝端）含有天然气室，且系带将蛋黄固定在中心。大头朝上能让气室位于最高点，蛋黄不易上浮贴在蛋壳上（贴壳蛋容易变质），呼吸微孔更畅通，保鲜时间显著更长。", "difficulty": "easy"}, {"id": 12, "type": "single", "question": "刚从超市买回来的新鲜鸡蛋，在放进冰箱冷藏储存前，最忌讳的错误生活常识操作是：", "options": {"A": "将鸡蛋放入专用的洁净透气纸浆蛋盒中整齐排列防震防碎裂", "B": "直接用大量自来水把蛋壳表面那一层天然胶质保护膜彻底清洗刷掉", "C": "轻轻用干纸巾将蛋壳表面附着的一点点干草屑碎屑轻轻擦拭拂去", "D": "将整盒鸡蛋平稳放置在冰箱冷藏保鲜层温度稳定的中间搁架位置"}, "answer": "B", "explanation": "鸡蛋产出时表面附有一层天然胶护膜（Cuticle），能封闭气孔阻止外界细菌和霉菌入侵。用水大力清洗会破坏洗掉这层防线，水分渗入蛋壳微孔反而把外界细菌带入蛋内，使鸡蛋急剧腐败变质。", "difficulty": "easy"}, {"id": 14, "type": "single", "question": "制作轻盈蓬松的舒芙蕾（Souffle）或戚风蛋糕时，打发蛋白霜至“干性发泡（硬性发泡）”的标准状态是：", "options": {"A": "打蛋盆完全倒扣过来时蛋白霜像稀蛋汤一样瞬间全部泼洒在地面上", "B": "提起打蛋头时蛋白霜拉出短小直立且绝不弯曲的尖角（Stiff Peak）", "C": "蛋白霜表面结出坚硬如冰块的厚厚透明硬壳且完全无法用刮刀搅拌", "D": "蛋白霜剧烈沸腾翻滚并冒出大量高达一百摄氏度的深褐色浓烈油烟"}, "answer": "B", "explanation": "干性/硬性发泡（Stiff Peak）：蛋白霜极其坚挺光亮，慢慢提起打蛋头，蛋白尖端呈现短小、直立、挺拔的小尖角，不弯曲不垂头；倒扣打蛋盆稳如泰山绝不滑落，常用于制作经典戚风蛋糕与蛋白糖。", "difficulty": "easy"}, {"id": 16, "type": "single", "question": "做海绵蛋糕（全蛋打发）时，如果刚从冰箱冷藏室拿出的冰凉鸡蛋（约4℃）不经任何回温直接全速搅打，最容易导致：", "options": {"A": "全蛋液会在打蛋器高速旋转带动下直接凝结成一块坚硬如铁的白石头", "B": "冰鸡蛋会在打蛋盆中自发与金属摩擦发生爆炸冲破厨房的窗户玻璃", "C": "全蛋液黏度过大且蛋黄表面张力高，极其难打发且打出的泡沫极粗糙易塌", "D": "打出的蛋糊在常温下会自动升温到一百度以上导致打蛋盆严重烫手"}, "answer": "C", "explanation": "全蛋打发对温度极敏感：冷藏蛋液表面张力极高、黏稠度大，空气极难打入，打发极度费时且气孔粗大不均。必须提前室温回温或隔 40℃ 温水浴轻微加温，全蛋液才能打发出丰富细腻、如丝绸般的蓬松面糊。", "difficulty": "easy"}, {"id": 17, "type": "single", "question": "如果打发蛋白霜时打发过度（Over-beaten），蛋白霜呈现一团团棉花渣状、没有光泽且开始渗水析出，这种状态常称为：", "options": {"A": "蛋白质分子完全水解消散成完全透明的纯净水蒸气消失在空气中", "B": "蛋白霜在打蛋器搅拌下自发转化成高浓度的食用纯白砂糖结晶颗粒", "C": "蛋白质过度变性紧缩变硬排斥水分的离浆断絮粗糙状态（Curdling）", "D": "蛋白霜结构由于吸收了大量空气而变得坚硬如刚玉完全无法切开"}, "answer": "C", "explanation": "打发过度（Over-beaten）：机械过度搅打使蛋白质分子过度交联紧缩，气泡壁变硬发脆破裂，水分被彻底挤出（离浆分水/Syneresis），蛋白霜失去光泽与延展性，变成一坨坨粗糙干燥的棉花渣，拌入面糊极易消泡沉底。", "difficulty": "easy"}, {"id": 18, "type": "single", "question": "制作传统法式焦糖炖蛋（Creme Brulee）或葡式蛋挞水时，配方中通常只使用纯蛋黄而不使用蛋清，主要常识理由是：", "options": {"A": "蛋黄比蛋清便宜一百倍，使用纯蛋黄纯粹是为了大幅降低甜点烘焙成本", "B": "蛋清在烤箱中会自发产生强烈剧毒气体导致所有食客产生剧烈食物中毒", "C": "纯蛋清无论如何烘烤加热都永远无法凝固，会一直保持像清水一样的生蛋水", "D": "蛋黄富含油脂与卵磷脂，凝固温度更柔和，带来极其浓郁细腻丝滑化口质感"}, "answer": "D", "explanation": "蛋清凝固后质地偏硬韧有弹性（像果冻蛋白），而蛋黄富含脂肪与天然乳化剂，凝固后的蛋白质网状结构非常柔嫩松软。纯蛋黄与鲜奶油结合，烘烤出炉的布蕾如丝绒般在舌尖瞬间融化化口，风味醇厚无比。", "difficulty": "easy"}, {"id": 20, "type": "single", "question": "在家庭厨房敲开一颗生鸡蛋打入碗中，观察其内部形态，能够一目了然确认其“极其新鲜”的生动特征是：", "options": {"A": "蛋黄表面长满浓密黑绿毛霉菌丝且散发出极度刺鼻窒息的恶臭气味", "B": "蛋黄瞬间散开如泥浆淌开，蛋清完全稀如清水并在碗底到处流动", "C": "蛋黄高耸饱满呈半球形，浓厚蛋白紧紧包裹在周围边界清晰分明", "D": "蛋壳内部完全空空如也，没有任何蛋黄也没有任何哪怕一滴蛋清"}, "answer": "C", "explanation": "新鲜鸡蛋的卵黄膜紧绷坚韧，蛋黄高高隆起呈浑圆半球状；浓厚蛋白黏度极大，如一层透明护垫紧紧环绕在蛋黄四周不流散，系带粗大清晰；陈旧鸡蛋卵黄膜松弛易破，浓厚蛋白变稀散开一片。", "difficulty": "easy"}, {"id": 22, "type": "single", "question": "在制作轻盈松脆的法式蛋白脆饼（Meringue Cookies）时，配方主要由纯蛋清与细砂糖构成，在烤箱中适宜的烘烤温度与工艺是：", "options": {"A": "在开水锅中使用大火直接隔水蒸煮两个小时以彻底蒸熟蛋白饼", "B": "使用二百五十摄氏度超高温猛火急速烘烤三分钟以烤出深黑外壳", "C": "使用九十至一百摄氏度低温长时间慢烘，慢慢将水分完全烘干（Drying）", "D": "完全不需要任何加热，直接在常温阳光直射下暴晒一个月自然风干"}, "answer": "C", "explanation": "蛋白糖（马林糖）的烘烤本质是“低温脱水干燥（Dehydration）”而非传统烘烤。通常用 90℃~100℃ 低温烘烤 1.5~2 小时，慢慢排尽水分，既能防止糖分高温焦糖化变黄变褐，又能使蛋白饼保持纯白无瑕、入口酥脆即化。", "difficulty": "easy"}, {"id": 24, "type": "single", "question": "做戚风蛋糕分蛋操作时，如果一不小心手滑把一小滴蛋黄滴进了装满蛋清的大打蛋盆里，最规范稳妥的补救常识做法是：", "options": {"A": "在蛋清中加入一把点燃的火柴把蛋黄彻底烧成灰烬后继续烘烤蛋糕", "B": "直接开动电动打蛋器全速疯狂搅拌，把蛋黄彻底打散融化在蛋清内部", "C": "往蛋清里直接倒入大量食用花生油把蛋黄彻底包裹溶解掉继续打发", "D": "立即用干净干燥的半个大蛋壳边缘小心将其完整舀出捞尽，确保无残留"}, "answer": "D", "explanation": "油脂是蛋白打发的克星。如果刚滴入微量蛋黄，因密度和表面张力蛋黄通常悬浮在表面，用洗净干燥的蛋壳瓣能产生表面张力将其完整托起舀出；切忌用手乱摸或用打蛋器打散，一旦蛋黄油脂分散，整盆蛋清彻底报废无法打发。", "difficulty": "easy"}, {"id": 26, "type": "single", "question": "在西点面包烘焙中，如果配方中含有鸡蛋，烘焙成品在烘烤出炉后的显著常识品质优势是：", "options": {"A": "质地更加松软柔韧、面包心呈现诱人淡金黄色泽、营养更丰富且风味浓郁", "B": "面包会在烤箱中瞬间自发膨胀变大为热气球并从烤箱排气孔飞出厨房", "C": "面包无论烘烤多长时间颜色都永远保持纯白透明且质地坚硬如同钻石", "D": "面包中的面粉淀粉会自发转化成高纯度的食用级液态果葡糖浆淌满烤盘"}, "answer": "A", "explanation": "鸡蛋是面包的“全能营养与品质改良剂”：水分（75%）参与水合，蛋白提供烘烤定型骨架与松软孔壁，蛋黄卵磷脂乳化面团油脂延缓老化，天然类胡萝卜素赋予金黄诱人瓤色，并带来浓郁蛋香。", "difficulty": "easy"}, {"id": 30, "type": "single", "question": "如果在烘烤海绵蛋糕时，全蛋打发严重不足（蛋糊稀薄、气泡粗大且很快消泡），烤出的蛋糕最容易出现的缺陷是：", "options": {"A": "蛋糕在烤箱内部完全无法膨胀，出炉扁平、死硬黏牙且密实沉重如同年糕", "B": "蛋糕会在烤箱中瞬间自发膨胀变大为热气球并从烤箱排气孔飞出厨房", "C": "蛋糕无论烘烤多长时间颜色都永远保持纯白透明且质地坚硬如同钻石", "D": "蛋糕中的面粉淀粉会自发转化成高纯度的食用级液态果葡糖浆淌满烤盘"}, "answer": "A", "explanation": "传统海绵蛋糕不依赖化学泡打粉，完全依靠全蛋打发裹入的微小气泡受热膨胀支撑。若打发不充分，蛋糊中缺乏足够的气泡骨架，受热无法膨起，出炉后变成又薄又硬、湿黏发韧的死面块。", "difficulty": "easy"}, {"id": 32, "type": "single", "question": "在烘焙配方称量原料时，如果没有标明大蛋或小蛋，烘焙行业标准中一颗标准中号母鸡鲜蛋的带壳去壳平均重量常识是：", "options": {"A": "带壳重量达到五百克左右，去壳后全蛋净液重量达到四百五十克左右", "B": "带壳约 55g~60g，去壳后全蛋净液重量约为 50g 左右（标准蛋）", "C": "带壳重量大约五克左右，去壳后全蛋净液重量大约仅有三克左右大小", "D": "无论任何品种母鸡蛋，去壳后蛋液重量绝对恒定正好为一百克整"}, "answer": "B", "explanation": "国际与烘焙教材通用标准：一颗标准大鸡蛋带壳重约 55g~60g（蛋壳占约10%即6g，蛋清占约60%即30~35g，蛋黄占约30%即15~18g），去壳纯蛋液净重约为 50g。精准掌握此常识有助于按配方准确折算鸡蛋个数。", "difficulty": "easy"}, {"id": 33, "type": "single", "question": "用普通鸡蛋做西点时，如果从冰箱冷藏室取出鸡蛋后发现蛋壳表面有一道明显的细微裂纹并流出微量发黏液体，最妥当的常识处理是：", "options": {"A": "直接闻一下气味如果没酸臭味就立刻用来给家庭制作常温免烤慕斯蛋糕", "B": "将破壳鸡蛋直接丢进盛满漂白粉的消毒水盆里浸泡三天后再拿来烤蛋糕", "C": "用透明强力胶水把蛋壳裂纹粘紧封牢后，放回冷藏室继续存放两个月", "D": "为了食品卫生与安全健康，绝对不再用于任何免烤西点，甚至直接废弃"}, "answer": "D", "explanation": "蛋壳一旦产生裂纹，天然防菌屏障彻底失效，冰箱或外界环境中的细菌（尤其是沙门氏菌与假单胞菌）会在几小时内顺着裂缝大量涌入蛋内极速繁殖，极具致病安全隐患，严禁用于制作点心。", "difficulty": "easy"}, {"id": 34, "type": "single", "question": "在制作经典法式可丽露（Canele）面糊时，配方通常要求将混合好的蛋奶面糊放进冰箱冷藏静置 24~48 小时，主要常识目的是：", "options": {"A": "为了让面糊在冷藏低温环境中彻底冻结成一块坚硬如铁的方形大冰砖", "B": "让蛋液与面粉充分水合融合、彻底消除搅打裹入的微小气泡并使风味醇厚", "C": "利用长时间冷藏将面糊中所有的糖分与蛋白质全部彻底消灭分解干净", "D": "使面糊在冷藏室中与空气中的氧气发生剧烈化学爆炸以提升烘烤膨胀力"}, "answer": "B", "explanation": "可丽露面糊流动性极强且含大量全蛋和蛋黄。静置冷藏24~48小时（熟成/Resting）具有双重作用：一是让搅打产生的大量细小气泡完全浮出排尽（防止烘烤时过度膨胀顶出模具变蘑菇顶）；二是让淀粉与蛋白质分子充分水合，香草朗姆风味深度交融，烤出标志性的外脆焦黑内如蜂巢般软嫩卡士达布丁质感。", "difficulty": "easy"}, {"id": 40, "type": "single", "question": "在家庭厨房中，如果发现开封使用的生鸡蛋敲入碗中后，蛋黄完全散架发黑、蛋清呈现浑浊灰绿色且伴有一股窒息扑鼻的臭鸡蛋恶臭，正确的处理方式是：", "options": {"A": "在臭蛋中加入大量高度白酒搅拌均匀后，倒入面粉中继续用来烤戚风蛋糕", "B": "将臭鸡蛋放入微波炉高火加热十分钟把臭味全部烤散后继续留给家人食用", "C": "果断将变质腐败鸡蛋密封倒入厨余垃圾桶，并立即用洗洁精彻底清洗消毒碗具与双手", "D": "把臭鸡蛋放入冰箱冷冻室急冻三天杀死全部细菌后，用来制作家庭蛋挞水"}, "answer": "C", "explanation": "臭鸡蛋散发的恶臭主要是蛋白质腐败被假单胞菌等腐败菌分解生成的硫化氢（H2S）、尸胺和肉毒毒素，含有严重剧毒与致命致病菌，任何高温烹煮都无法清除毒素，必须坚决彻底丢弃并严格消毒器具，杜绝食物中毒。", "difficulty": "easy"}]}, {"chapter_id": 14, "chapter_title": "第14课｜乳制品 (Dairy Products)", "intro": "高一厨艺理论基础：认识鲜奶、淡奶油、奶粉与奶酪，掌握打发要领与乳脂常识（生活常识版）", "questions": [{"id": 1, "type": "single", "question": "大盒装鲜牛奶（Fresh Milk）拆封开盖后，在家庭中最正确的规范保存方法是：", "options": {"A": "敞开大口摆在厨房燃气灶旁边常温放置一个月任由水汽挥发", "B": "盖紧盖子放入冰箱冷藏室（2℃~6℃），并在2~3天内尽快喝完", "C": "倒在阳光充足的窗台边高温暴晒蒸发水分使其浓缩变稠成乳块", "D": "直接倒入装满自来水的未洗拖把桶中搅拌均匀进行常温密封保存"}, "answer": "B", "explanation": "巴氏杀菌鲜牛奶富含蛋白质与水分，拆封后接触空气中的杂菌，在常温下细菌会呈几何级数快速繁殖导致变酸变质；必须拧紧盖子冷藏保存并在2~3天内用完。", "difficulty": "easy"}, {"id": 2, "type": "single", "question": "用来抹生日蛋糕表面、挤裱花动物造型时最常用、打发后轻盈醇香的动物性鲜奶油是：", "options": {"A": "脂肪含量仅有百分之一左右的市售极稀薄脱脂纯牛奶液体", "B": "主要用来涂抹中式烤鸭且带有极浓烈咸甜酱香的风味甜面酱", "C": "乳脂含量通常在35%以上且需冷藏打发的动物淡奶油（Cream）", "D": "纯天然无任何油脂的脱水喷雾干燥乳清高纯度水溶性蛋白粉"}, "answer": "C", "explanation": "动物淡奶油（Whipping Cream）乳脂含量通常在 35%~38% 之间。必须在 4℃~8℃ 低温下搅打，冰凉的微细脂肪球相互碰撞抱团，形成坚固三维网状骨架包裹住空气，才能打发出轻盈立体的裱花奶油霜。", "difficulty": "easy"}, {"id": 4, "type": "single", "question": "在面包面团中加入适量奶粉或鲜牛奶，烤出的面包在色泽与香气上最显著的生活常识变化是：", "options": {"A": "面包表皮在烤箱中瞬间自发爆裂成无数小碎屑并飞出烤箱门外", "B": "乳糖与蛋白质高温发生美拉德反应，表皮金黄油润且奶香浓郁", "C": "面包无论烘烤多长时间颜色都永远保持纯白如同未烤生面团", "D": "面包内部的所有面筋网络全部被牛奶溶解使得面包彻底瘫软"}, "answer": "B", "explanation": "牛奶中富含独特的乳糖（Lactose）。面包酵母不消耗乳糖，烘烤时所有乳糖完整保留在面团表皮，与牛奶蛋白质发生剧烈的美拉德褐变反应，使面包烤出极其均匀诱人的金褐光泽与醉人奶香。", "difficulty": "easy"}, {"id": 6, "type": "single", "question": "在打发动物淡奶油给蛋糕抹面时，如果搅拌机全速打发时间过长，原本细腻的奶油霜最容易变成：", "options": {"A": "奶油霜所有的脂肪分子全部自发分解成纯净的水蒸气彻底蒸发消失", "B": "奶油霜在常温打蛋盆中瞬间冻结成一块坚硬如铁的极厚透明大冰砖", "C": "奶油霜自发发生剧烈化学爆炸并在厨房空气中释放出刺激性浓烟", "D": "表面像豆腐渣一样粗糙渗水，最终分离出淡黄色的黄油与乳清液体"}, "answer": "D", "explanation": "打发过度（Over-whipping）现象：脂肪球过度聚集破裂，游离液态油脂完全连接在一起，将包裹的水分全部排挤挤出，发生严重的“水油分离”。此时奶油结成粗硬豆腐渣，析出淡黄色黄油块和乳清水（即自制黄油过程），无法再用于抹面。", "difficulty": "easy"}, {"id": 9, "type": "single", "question": "制作正宗意式提拉米苏（Tiramisu）内馅慕斯膏体时，赋予其宛如天鹅绒般丝滑醇厚质感、不可替代的传统意大利新鲜软质奶酪是：", "options": {"A": "常温下坚硬干燥且必须用钢锯才能勉强锯开的传统瑞士大孔干酪", "B": "主要用来涂抹在切片法棍面包表面且带有浓厚羊膻味的新鲜纯山羊奶酪", "C": "由鲜奶油加酸凝结提炼、乳脂丰富丝滑的马斯卡彭奶酪（Mascarpone）", "D": "在常温厨房自然发酵腐败长出黑色霉菌且散发刺鼻恶臭的变质酸奶块"}, "answer": "C", "explanation": "马斯卡彭（Mascarpone）是意大利国宝级新鲜奶油乳酪，由高脂鲜奶油酸化凝结而成，脂肪含量高达70%~75%，质地极其细腻丝滑、乳香浓郁厚重微甜，与意式浓缩咖啡、手指饼干和朗姆酒搭配，造就提拉米苏经典风味。", "difficulty": "easy"}, {"id": 10, "type": "single", "question": "在家庭厨房打发动物淡奶油前，为了确保能够顺利打发蓬松且不软塌，打发器具与淡奶油最核心的准备要求是：", "options": {"A": "把淡奶油倒入小锅中加热至完全沸腾烫手状态后再立刻开机高速搅打", "B": "将淡奶油与打蛋头、打蛋盆预先在冰箱充分冷藏至 4℃~8℃ 冰凉状态", "C": "在打发前向淡奶油中倒入等量刚烧开的沸腾开水以降低打发时的阻力", "D": "将淡奶油敞口放置在炎炎夏日三十八度高温阳光直射窗台暴晒半天"}, "answer": "B", "explanation": "动物淡奶油打发全靠“冷藏温度”。当温度高于10℃时，微细脂肪球开始软化融解成液态油，无法形成支撑气泡的坚固骨架，打发极易失败或迅速化水塌陷。提前将奶油和打蛋盆冷藏（4℃~8℃），打发快且持久坚挺。", "difficulty": "easy"}, {"id": 12, "type": "single", "question": "在家庭烘焙中，烘焙师常常更偏爱使用“全脂奶粉（Whole Milk Powder）”代替鲜牛奶制作面包，主要生活常识优势不包括：", "options": {"A": "乳固体浓度高，能大幅增强面包奶香味并使面包心组织更加柔嫩细腻", "B": "能彻底取代面粉中的小麦蛋白质在面团中独自揉出超长拉丝手套薄膜", "C": "常温密封保质期远长于鲜牛奶，取用储存极其方便不易腐败变质", "D": "水分已被完全脱除，不会额外增加面团液体量，更利于精准控水调湿"}, "answer": "B", "explanation": "奶粉提供浓郁奶香、乳糖上色和面筋强化缓冲，但奶粉中的乳蛋白不具备面筋蛋白的弹性延展网络结构，绝不可能代替面粉起筋；A、B、D都是烘焙中奶粉的无可争议的实用优势。", "difficulty": "easy"}, {"id": 14, "type": "single", "question": "制作蛋挞水、葡挞水或烘烤焦糖布丁时，将鲜牛奶与动物淡奶油按比例混合调制，主要常识目的是：", "options": {"A": "使蛋挞水在烤箱烘烤过程中像爆米花一样自发炸裂成无数小碎渣", "B": "彻底消灭蛋挞水中的所有水分以使出炉后的蛋挞馅干燥如石膏硬块", "C": "让蛋挞水在常温常压状态下直接自然结成坚固晶莹剔透的水晶冰块", "D": "淡奶油补充高乳脂带来丝滑醇厚浓郁口感，鲜牛奶降低黏稠度便于流动"}, "answer": "D", "explanation": "黄金配比常识：全用纯牛奶做出的蛋挞馅口感偏单薄寡淡、容易出水出蜂窝孔；全用纯淡奶油又过于油腻糊口。将牛奶与淡奶油按科学比例调和，既有淡奶油的高乳脂奶香与丝滑凝冻感，又有牛奶的轻盈流动性，口感层次完美平衡。", "difficulty": "easy"}, {"id": 16, "type": "single", "question": "如果在西点蛋糕烘焙配方中看到“炼乳（Condensed Milk）”，其最显著的物理成分与风味常识特点是：", "options": {"A": "在常温二十度环境下呈现坚硬大石块且必须用铁锤才能砸碎的固态砖块", "B": "完全去除了全部营养成分且没有任何甜味也没有任何奶香的纯透明清水", "C": "由鲜牛奶经真空浓缩去除大部分水分并通常添加大量蔗糖的高黏稠甜乳制品", "D": "含有极高浓度酒精且散发着强烈医用消毒药水刺鼻气味的纯化学发酵溶剂"}, "answer": "C", "explanation": "加糖炼乳是将鲜牛奶蒸发浓缩去除了约60%的水分，并添加了约40%~45%的蔗糖制成。质地极其黏稠厚重、甜度极高、乳香浓郁，由于高糖产生的高渗透压，炼乳在常温下即可长期储存，常用于制作葡式蛋挞、港式甜点和特浓面包。", "difficulty": "easy"}, {"id": 17, "type": "single", "question": "储存开封后的块状“奶油奶酪（Cream Cheese）”，在家庭厨房中千万不能采取的致命错误保存做法是：", "options": {"A": "用干净保鲜膜紧密贴面包好，放入冰箱 2℃~6℃ 的保鲜冷藏室中冷藏", "B": "直接丢进冰箱零下十八度冷冻室冷冻成硬冰砖，导致解冻后完全豆腐渣化", "C": "每次切取时都严格使用用开水烫过并擦干的无水无油专用洁净西餐刀具", "D": "装入专用的保鲜密封盒中并放置在冰箱冷藏室温度最稳定的内部搁架上"}, "answer": "B", "explanation": "奶油奶酪严禁冷冻！奶油奶酪含水量较高，一旦冷冻，内部水分结成巨大粗糙冰晶刺破脂肪乳化结构；解冻后发生灾难性的油水分离，变成一盆粗糙碎烂、颗粒斑斑的豆腐渣，彻底丧失顺滑涂抹性，做芝士蛋糕极易颗粒沉底失败。", "difficulty": "easy"}, {"id": 18, "type": "single", "question": "在制作传统法式酥皮或欧式面包时，配方中加入适量奶粉对未烘烤面团面筋网络的重要物理影响是：", "options": {"A": "奶粉能使面团在常温搅拌缸内部瞬间发生剧烈自燃并产生大量黑色浓烟", "B": "奶粉会彻底消灭面团中所有的面筋蛋白质，使调制的面团变成稀烂泥浆液体", "C": "奶粉中的微量无机矿物质与蛋白质能起到良好的面筋酸碱缓冲与结构强化作用", "D": "奶粉会直接杀死面团中所有的活性酵母菌细胞以使面包完全停止生长膨胀"}, "answer": "C", "explanation": "奶粉在烘焙中被称为“面团改良剂”：奶粉中富含钙、磷等矿物质与酪蛋白，具有优异的酸碱缓冲能力（防止面团在发酵后期酸度过高导致面筋软化破坏），能强化面筋弹性骨架，使面团耐搅拌、抗拉伸，烘烤出的面包体积更挺拔丰满。", "difficulty": "easy"}, {"id": 20, "type": "single", "question": "在家庭烘焙中，如果闻到刚打开盖子的鲜牛奶有一股明显的酸馊味、倒在碗里出现许多棉絮状小凝块，正确的做法是：", "options": {"A": "放进微波炉连续高火加热三十分钟把所有酸块煮化后直接大口一饮而尽", "B": "说明鲜奶已经升级成了顶级高级浓缩酸奶，应立即用来直接给婴儿冲调奶粉", "C": "加入半袋食用苏打粉把酸味彻底中和掉，然后拿来烘烤面包供全家人日常早餐", "D": "说明鲜奶已经严重酸败变质滋生大量杂菌，必须坚决彻底倒掉废弃绝不食用"}, "answer": "D", "explanation": "鲜奶发酸并出现棉絮凝块是微生物（如乳酸菌、大肠杆菌、假单胞菌）疯狂增殖产酸、导致酪蛋白沉淀的典型变质表征。变质牛奶极易伴随致病菌和毒素滋生，食用会引发急性细菌性肠胃炎，严禁食用或掩盖使用。", "difficulty": "easy"}, {"id": 22, "type": "single", "question": "常温纯牛奶开封后如果一次性喝不完，在炎热潮湿的夏天随意敞口放置在没有空调的厨房桌上，最快变质的时间通常是：", "options": {"A": "半天至大半天（数小时内）就会发酸变质并析出酸败凝块（Spoilage）", "B": "在高温三十八度下随意敞口放置三年依然完全新鲜如初绝不会坏", "C": "敞口放置两天后牛奶会自动在碗中自发凝固成纯天然顶级黄金黄油块", "D": "敞口放置半天后牛奶中的所有液体水分会自发分解成可燃性纯天然氢气"}, "answer": "A", "explanation": "常温纯牛奶（无菌砖包装）未开封时常温保质半年，但一旦开盖，无菌环境瞬间打破，热带夏日高温（30℃以上）正是细菌繁殖的最适温区，短短数小时内细菌数量即可爆增数十万倍，半天即可发酸变质发臭。", "difficulty": "easy"}, {"id": 24, "type": "single", "question": "制作传统法式千层蛋糕（Crepe Cake）的夹心馅料时，将打发动物淡奶油与煮好的卡士达酱按比例轻柔翻拌融合，这种混合奶油馅称为：", "options": {"A": "纯工业沥青防水混合胶水泥浆，主要用于建筑工地的房屋外墙强力防水涂料", "B": "迪 diplomat 奶油馅（外交官奶油霜），口感极其轻盈柔滑细腻且奶香馥郁", "C": "高浓度医用消毒杀菌药膏，主要用于医院外科手术创伤大面积消炎止痛", "D": "中式凉拌菜专用的浓香芝麻酱料，主要用于拌凉皮和火锅蘸料调味食用"}, "answer": "B", "explanation": "烘焙经典组合：卡士达酱（Custard/Pastry Cream）醇厚浓稠、蛋香味浓，与打发的轻盈动物淡奶油（Chantilly）按比例轻柔折叠拌匀，即成为著名的外交官奶油（Diplomat Cream）。既有卡士达的浓醇柔润，又有淡奶油的轻柔云朵化口感，是法式泡芙和千层蛋糕的王牌夹心。", "difficulty": "easy"}, {"id": 26, "type": "single", "question": "如果在西点蛋糕烘烤出炉后，发现蛋糕表面颜色异常惨白发干、几乎没有任何诱人的金黄色泽，可能的原因常识排查不包括：", "options": {"A": "烘焙师在面糊中严格按照配方规定精确投放了适量的正品优质全脂鲜牛奶", "B": "烤箱实际烘烤上火温度偏低，或者烘烤加热时间严重不足尚未达到上色临界点", "C": "配方中错漏了糖分与乳制品，导致表皮缺乏足够的乳糖与蛋白质发生美拉德上色", "D": "配方中的糖分被烘焙师完全剔除，导致成品失去最核心的美拉德与焦糖化反应源"}, "answer": "A", "explanation": "乳制品（提供乳糖与乳蛋白）和糖是烘烤产生金黄美拉德褐变与焦糖化的物质基础，正常投放牛奶必然促进上色而非惨白；A、B、D都是导致成品惨白无色的真实工艺失误。", "difficulty": "easy"}, {"id": 30, "type": "single", "question": "如果在烘烤重乳酪蛋糕时，刚烤好出炉就迫不及待地立刻拿刀进行切块脱模，最容易导致的惨烈外观结果是：", "options": {"A": "蛋糕会在切开的一瞬间自发膨胀变大为热气球并从厨房抽油烟机排气孔飞出", "B": "蛋糕内部高温乳酪尚未彻底冷却凝固成型，切开后内部如稀泥浆般软塌垮落碎裂", "C": "蛋糕无论如何切块内部都永远保持像干粉一样的完全干燥生粉末状态绝不粘连", "D": "烤盘中的金属原子会瞬间完全渗透进入乳酪内部使整个蛋糕呈现深黑色金属光泽"}, "answer": "B", "explanation": "芝士蛋糕的物理特性：刚出炉时中心温度高，奶油奶酪和黄油尚处于半液态软化状态，极其娇嫩脆弱。必须室温放凉后包保鲜膜放入冰箱彻底冷藏 4~6 小时以上，待乳脂完全结晶硬化定型，此时切块才能切出如大理石般光洁平整、棱角分明的完美切面。", "difficulty": "easy"}, {"id": 32, "type": "single", "question": "在家庭厨房中，开封后的天然动物淡奶油若一次性使用剩余半盒，最规范科学的短期冷藏保鲜常识是：", "options": {"A": "向剩余淡奶油中直接倒入半瓶高度医用浓酒精搅拌均匀以便在常温下防腐防霉", "B": "直接敞开大口放在常温厨房洗手池旁边潮湿角落处任由苍蝇小虫自然落入爬行", "C": "直接倒进塑料保鲜袋中放入零下二十度冰冻冷冻室结成硬冰块存放三年继续使用", "D": "将包装盒开口空气挤出并用密封夹夹紧盒口，置于冰箱冷藏室（4℃~7℃）数日内用完"}, "answer": "D", "explanation": "动物淡奶油营养丰富极易染菌，且严禁冷冻（冷冻即水油分离油水分层报废）。规范做法是：封口处用酒精棉片擦净，排净盒内空气，用封口夹严密夹紧封口，存放在冰箱冷藏室内部稳定低温区（4℃~7℃），并在 3~5 天内尽快用完。", "difficulty": "easy"}, {"id": 33, "type": "single", "question": "在制作传统法式千层酥皮点心时，配方中加入适量高浓度脱脂乳粉除了增添风味，对生面团在擀压操作中的重要常识作用是：", "options": {"A": "能使面皮在常温下瞬间硬化成如同钢板一样的坚硬硬壳完全无法用擀面杖擀开", "B": "能彻底消灭面团中所有的水分以使烘烤出炉的千层酥皮像干海绵一样完全无油", "C": "乳蛋白与矿物质能提高面团的机械耐剪切延展强度，减少面皮破皮漏油概率", "D": "将面粉中的全部直链淀粉成分在常温揉面时完全转化为高纯度的纯白砂糖晶体"}, "answer": "C", "explanation": "开酥面团需要经受反复擀折压薄的严苛机械拉伸。脱脂奶粉中的酪蛋白和钙盐能够有效强化面筋网韧性，增加面皮弹性与柔顺延展度，防止在包裹黄油反复三折时面皮破裂漏油，保证千层层次清晰分明。", "difficulty": "easy"}, {"id": 34, "type": "single", "question": "在后厨配方称量原料时，如果将配方明确规定的“全脂甜炼乳（Condensed Milk）”，自作主张直接替换成等重量的“普通纯鲜牛奶”，最常引发的烘烤问题是：", "options": {"A": "面糊中瞬间多出大量水分且严重缺乏糖分与浓郁乳脂，导致面糊过稀且成品不甜不香", "B": "面糊会在搅拌盆中自发与金属摩擦发生剧烈核聚变反应并释放出高强度紫外线", "C": "蛋糕面糊在烤箱中烘烤时会自动生成高浓度的纯天然食用级液态果葡糖浆淌出", "D": "无论如何调节烤箱旋钮温度烤箱发热管都永远无法发热且完全停止一切工作"}, "answer": "A", "explanation": "炼乳与纯牛奶是两码事：炼乳含水量仅约 26%，含糖量高达 45%，且乳脂极浓；而纯牛奶含水量高达 88%，几乎无糖。1:1替换会导致面糊瞬间水分泛滥成水浆、严重缺乏甜度和乳脂支撑，成品必定扁平软塌、无味失败。", "difficulty": "easy"}, {"id": 40, "type": "single", "question": "平时在厨房中，如果发现开封冷藏的整罐淡奶油倒出来时，表面浮着一层绿色霉菌斑且散发出一股严重的酸馊臭味，正确的处理方式是：", "options": {"A": "拿勺子把表面一层绿色霉斑轻轻刮掉，底下看起来完好的淡奶油继续用来做蛋糕抹面", "B": "把变质发霉的淡奶油放入冰箱冷冻室急冻三天杀死表面霉菌后，拿来制作家庭冰淇淋", "C": "在变质淡奶油中加入大量高度白酒搅拌均匀，然后放入烤箱高温加热两小时食用", "D": "果断将整盒变质淡奶油彻底密封丢弃，并对接触过的容器进行严格的高温清洗消毒"}, "answer": "D", "explanation": "液体和软质乳制品（如淡奶油、酸奶、软奶酪）一旦肉眼看到表面长霉，肉眼难见的霉菌菌丝早已在液体中全面扩散渗透并释放出危险的真菌毒素。刮掉表面根本无济于事，绝不能为了节约小钱而诱发急性真菌毒素中毒，必须坚决彻底废弃。", "difficulty": "easy"}]}, {"chapter_id": 15, "chapter_title": "第15课｜酵母与发酵 (Yeast & Fermentation)", "intro": "高一厨艺理论基础：认识新鲜酵母与干酵母、发酵温湿度、充气膨胀与酵母活性（生活常识版）", "questions": [{"id": 1, "type": "single", "question": "做面包融化或激活干酵母粉时，倒入干酵母中的温水最适宜的生活常识温度是：", "options": {"A": "加入高浓度消毒漂白粉并带有强烈氯气味的自来水", "B": "刚从燃气灶上烧开沸腾的一百摄氏度滚烫开水冲泡", "C": "装满大量冰块且温度在零度以下的极度冰冷冰水", "D": "接近人体体温、手摸温热不烫手的温水（约35℃~38℃）"}, "answer": "D", "explanation": "酵母是活的单细胞真菌。35℃~38℃温水能迅速唤醒休眠的干酵母细胞；若用超过55℃~60℃的沸水，酵母菌体内的蛋白质会变性凝固，活菌在几秒内被彻底烫死灭活，面团永远无法发酵。", "difficulty": "easy"}, {"id": 2, "type": "single", "question": "如果在做面包时，不小心误用了刚烧开的 100℃ 滚烫沸水来溶解干酵母，最直接的糟糕结果是：", "options": {"A": "酵母菌发酵产气速度瞬间加快五百倍把面盆完全撑爆", "B": "面团中的蛋白质会自发发生核聚变并释放出超强辐射热", "C": "面团会在开水作用下瞬间自发变成极度透明的水晶果冻", "D": "酵母菌被高温彻底烫死灭活，面团完全瘫软死硬无法发酵膨胀"}, "answer": "D", "explanation": "酵母菌的耐热极限是 55℃~60℃。沸水（100℃）会瞬间烫死所有酵母细胞，使其彻底丧失代谢呼吸能力。揉好的面团毫无产气能力，在烤箱中烤出一块又死又硬的“面疙瘩死面块”。", "difficulty": "easy"}, {"id": 4, "type": "single", "question": "酵母菌在温暖湿润的面团中进行发酵呼吸代谢时，产生使面团膨胀长高并散发天然麦香的核心产物是：", "options": {"A": "能将不锈钢搅拌盆完全腐蚀穿孔的纯工业无水合成氢氟酸", "B": "二氧化碳气体（撑起蜂窝气孔）与微量乙醇酒精（带来麦香）", "C": "具有强烈刺激性恶臭气味的工业用高纯度强腐蚀性浓硫酸", "D": "常温下极易结冰凝结成坚硬岩石且完全不透明的纯金属矿渣"}, "answer": "B", "explanation": "酵母在厌氧和微氧条件下分解面团中的单糖，进行发酵反应生成二氧化碳（CO2）和乙醇（Alcohol）。CO2被坚韧的面筋网兜住形成无数蜂窝气孔使面包膨胀松软，乙醇和有机酸则赋予面包迷人的天然麦香发酵风味。", "difficulty": "easy"}, {"id": 6, "type": "single", "question": "在家庭烘焙中，制作高糖甜面包（如菠萝包、豆沙包，配方糖量占面粉 8% 以上）时，应选用的酵母类型是：", "options": {"A": "只能在完全无糖环境中才能勉强生存的超低糖专用野生酵母", "B": "具备强耐高渗透压能力、高糖下仍活跃的耐高糖酵母（Gold Pack）", "C": "专门用于制作中餐红烧肉增稠上色且带有酱油香味的纯红曲粉", "D": "主要用于制作中式凉拌菜且带有浓厚石灰碱味的传统皮蛋碱水"}, "answer": "B", "explanation": "高糖面团（糖量>7%~8%）周围产生巨大渗透压，会夺取普通酵母细胞水分抑制其发酵。耐高糖干酵母（通常为金色包装）具有适应高渗透压的特殊细胞膜与糖转化系统，在高糖环境下依然产气强劲。", "difficulty": "easy"}, {"id": 9, "type": "single", "question": "如果在发酵面包时彻底忘记了时间，面团在三十多度常温下发酵了整整八个小时，最常出现的发酵缺陷现象是：", "options": {"A": "面团内部所有的面粉淀粉会自动转化成高纯度的食用级液态果葡糖浆", "B": "面团会在发酵盆中自发膨胀变大为热气球并从厨房烟道直接飞出室外", "C": "面团发酸变馊带有刺鼻酸味，面筋断裂软烂塌陷，烤出面包发酸发黑扁平", "D": "面团无论烘烤多长时间颜色都永远保持纯白透明且质地坚硬如同钻石"}, "answer": "C", "explanation": "发酵严重过度（发过头）：杂菌（乳酸菌、醋酸菌）疯狂繁殖产生大量有机酸，面团散发强烈酸馊酒气；酸性过高导致面筋网络软化水解断裂，无法兜住气体，面团像烂泥般瘫软塌陷；面团中糖分被酵母消耗殆尽，烤出的面包表皮惨白且口感酸涩发硬。", "difficulty": "easy"}, {"id": 10, "type": "single", "question": "在后厨配方称量原料时，如果将“耐高糖即发干酵母粉”与“食盐”称在一起，最规范的操作常识原则是：", "options": {"A": "先将食盐用开水完全煮熟成坚硬大盐块后再丢入干酵母堆中直接揉面", "B": "必须将食盐与干酵母用小锤子大力研磨捣碎充分混合接触放置三小时", "C": "必须向食盐与干酵母混合物中倒入浓硫酸充分搅拌至剧烈沸腾冒烟", "D": "干酵母与食盐应分放在搅拌盆的不同对角角落，严禁高浓度直接亲密堆叠"}, "answer": "D", "explanation": "高浓度的盐具有极强的脱水杀菌作用。食盐与未被面粉稀释的干酵母直接堆叠接触，极高的局部渗透压会迅速杀死脆弱的酵母菌细胞，使酵母大幅失活。规范做法是：盐、糖与酵母分放于面粉两端，搅拌时借助干面粉缓冲阻隔。", "difficulty": "easy"}, {"id": 12, "type": "single", "question": "做家庭手工面包时，将基础发酵好的大面团倒在案板上用手掌轻轻按压拍打排气，主要的生活常识目的是：", "options": {"A": "为了让面团中的蛋白质在手掌物理拍击摩擦下直接达到熟化可以立即生吃", "B": "彻底把面团中所有的水分全部拍打挤出，使面团变得像石头砖块一样坚硬", "C": "排出粗大不均二氧化碳大泡，引入新鲜氧气激活酵母，使内部气孔更均匀细腻", "D": "把面团拍打成完全透明像玻璃纸一样的超薄大薄片以便于直接夹入三明治"}, "answer": "C", "explanation": "轻拍排气（Degassing/Punching down）：排出过度膨胀发酸的粗大气泡，将大空洞打碎为无数微细小气室；同时引入新鲜空气（氧气），激活酵母菌的新陈代谢，使最后发酵膨胀更均匀，烤出的面包组织如云朵般细腻无大空洞。", "difficulty": "easy"}, {"id": 14, "type": "single", "question": "在面包配方中，适量添加 1%~2% 的食盐除了赋予基础咸香风味，对发酵和面筋最关键的常识控制是：", "options": {"A": "能使面团中的所有酵母菌瞬间完全死亡以使面包停止一切膨胀保持微小体型", "B": "能将面粉中的淀粉成分彻底转化为高纯度的食用级液态果葡糖浆淌满烤盘", "C": "调节控制酵母发酵速度防止过度产气发酸，并紧缩强化面筋增加面团弹性", "D": "无论加入多少食盐对面团发酵速度与面筋结构没有任何物理化学影响"}, "answer": "C", "explanation": "盐在烘焙中是“刹车片与骨架强化剂”：适量的盐产生适度渗透压，温和抑制酵母菌防止其狂躁发酵产酸；同时盐离子与面筋蛋白结合强化盐键骨架，使面筋坚韧紧致不瘫软，面团弹性与操作耐受力大幅增强。", "difficulty": "easy"}, {"id": 16, "type": "single", "question": "做面包最后发酵（二次醒发/Final Proofing）时，专业醒发箱最推荐的温湿度环境常识标准是：", "options": {"A": "将面团直接丢在无遮无盖的常温空调直吹出风口下任由强风持续猛吹三小时", "B": "温度在一百摄氏度沸水温度，相对湿度零度，直接在醒发箱中把面团烤成干面包", "C": "温度在零下十度深度结冰冷冻，相对湿度一百度，让面团彻底结冰成硬石头", "D": "温度在 35℃~38℃ 左右，相对湿度在 75%~85% 左右，保持温暖湿润不风干"}, "answer": "D", "explanation": "二次醒发标准环境：35℃~38℃（略高于一发，促使酵母全力冲刺产气，但不能超过40℃避免黄油融化跑油）；湿度75%~85%（保持面团表皮柔软湿润不结硬皮，否则烘烤时表皮硬化阻碍面团长高开裂）。", "difficulty": "easy"}, {"id": 17, "type": "single", "question": "如果做面包发酵时，面团表面没有覆盖保鲜膜也没有喷水保湿，直接暴露在干燥通风的空气中，最容易导致的缺陷是：", "options": {"A": "面团会在干燥通风环境中自发膨胀变大为热气球并从厨房烟道直接飞出室外", "B": "面团表皮严重风干结出一层又厚又干的硬硬干皮，限制烘烤膨胀且烤出厚死皮", "C": "面团内部所有的面粉淀粉会自动转化成高纯度的食用级液态果葡糖浆淌满烤盘", "D": "面团无论烘烤多长时间颜色都永远保持纯白透明且质地坚硬如同钻石"}, "answer": "B", "explanation": "面团表皮一旦接触干燥空气，水分迅速蒸发结成硬干壳（Crusting）。进烤箱后硬壳失去延展弹性，阻碍面团内部气体膨胀，导致面包体积矮小、烘烤时表皮撕裂破口粗糙，出炉后表皮又干又厚如同老树皮。", "difficulty": "easy"}, {"id": 18, "type": "single", "question": "家庭厨房检验手头放置了半年的干酵母粉是否还有生命活性，最省时可靠的生活常识检验法是：", "options": {"A": "把干酵母粉倒入一百度滚烫开水中煮沸半小时看它是否会变成一整块硬豆腐", "B": "拿放大镜在太阳光下照射干酵母粉，看它是否会在案板上像小虫子一样到处爬动", "C": "温水（约35℃）加半勺糖化开干酵母静置十分钟，观察表面是否冒出丰富细密泡沫", "D": "把干酵母直接扔进点燃的酒精灯火焰中看它是否会剧烈燃烧释放出五彩火花"}, "answer": "C", "explanation": "酵母活力自检法：在小半碗35℃~38℃温水中加入一小勺细砂糖溶化，撒入半茶匙干酵母轻轻拌匀静置5~10分钟。若酵母具有活性，会迅速摄取糖分发酵，碗面会浮起一层厚厚如卡布奇诺奶沫般细腻活跃的气泡并伴有麦香；若水面平如死水毫无动静，证明酵母已完全死绝失效，应立即弃用换新。", "difficulty": "easy"}, {"id": 20, "type": "single", "question": "在冬天寒冷干燥的室内（室温仅 15℃ 左右），家庭制作面包发酵极其缓慢迟钝，最安全实用的物理保温催发酵常识技巧是：", "options": {"A": "直接把装有生面团的塑料盆放在烧得滚烫通红的电磁炉上通大火直接猛烈干烧五分钟", "B": "将面团装入大碗盖上保鲜膜，放入未通电的微波炉或烤箱中，旁边放置一碗冒蒸汽的热水", "C": "将新鲜面团直接丢进盛满滚烫沸水的保温杯中盖紧盖子常温剧烈摇晃三十分钟", "D": "将生面团直接放入点燃的电暖气片出风口上用八百度高温热风直接正面猛烈烘烤"}, "answer": "B", "explanation": "家庭自制发酵箱巧思：烤箱或微波炉内腔密封性好，放入一碗冒蒸汽的热开水（约60℃~80℃），水汽自然蒸发释放温和热量并提供充足湿度，内部温度维持在舒适的 28℃~32℃、湿度75%以上，能营造安全理想的发酵温湿度小环境。", "difficulty": "easy"}, {"id": 22, "type": "single", "question": "在制作传统法式硬欧包或酸面包时，配方中通常完全不加白糖或者仅加极微量糖，酵母菌在发酵中赖以生存的能量来源主要是：", "options": {"A": "面粉中自带的天然淀粉在淀粉酶水解催化下持续转化释放出的麦芽糖和葡萄糖", "B": "自来水中的高浓度消毒漂白粉渗入面粉内部所引发的强碱性氧化还原沉淀物质", "C": "烤箱内部金属烤管涂抹的黄色防锈油漆受热融化渗入生面团内部的化学稀释剂", "D": "在无菌实验室中使用重金属元素人工合成的不可食用的剧毒化学工业合成溶剂"}, "answer": "A", "explanation": "无糖法包的生化奥秘：面粉自身含有约 70% 的淀粉，并天然含有微量游离淀粉酶（α-和β-淀粉酶）。加水揉面后，淀粉酶水解破损淀粉产生麦芽糖和游离糖，源源不断为酵母提供“粮食”，维持长达数小时的平稳发酵。", "difficulty": "easy"}, {"id": 24, "type": "single", "question": "做家庭手工面包进行“二次擀卷整型”操作时，如果擀开面皮时面团回缩严重、紧绷像弹簧一样怎么也擀不开，最实用的后厨常识应对技巧是：", "options": {"A": "立刻拿起菜刀将紧绷的面团彻底切成细小肉馅碎末状然后用手强行捏合成团", "B": "盖上保鲜膜将面团在案板上静置松弛十分钟，让面筋张力自然释放后再轻松擀开", "C": "把紧绷的面团丢进盛满开水的大锅里煮熟五分钟破坏全部面筋后再拿出来擀压", "D": "向紧绷的面团中直接倒入大量工业用高浓度酿造白米醋强行将其面筋彻底溶解"}, "answer": "B", "explanation": "面筋松弛（Resting/Relaxation）常识：面团在经过分割、揉圆后，蛋白质内部分子链处于极度紧绷蓄力状态，弹性极高、延展性极低。强行擀开会撕裂面筋；只需盖好静置松弛（中间醒发/Bench Rest）10~15分钟，内应力自然释放消解，面团变得柔顺顺从，便能轻松顺畅地擀长擀薄。", "difficulty": "easy"}, {"id": 26, "type": "single", "question": "在西点面包制作中，如果配方中酵母粉投放量过少（例如仅有配方规定用量的四分之一），常温发酵可能发生的最直接常识问题是：", "options": {"A": "面团会在发酵盆中自发膨胀变大为热气球并从厨房烟道直接飞出室外逃跑", "B": "发酵极其极其缓慢、耗时长数倍甚至完全发不起来，面团容易过干或发酸", "C": "面团内部所有的面粉淀粉会自动转化成高纯度的食用级液态果葡糖浆淌出", "D": "面团无论烘烤多长时间颜色都永远保持纯白透明且质地坚硬如同钻石块"}, "answer": "B", "explanation": "酵母是面团产气的发动机。用量过低产气迟缓，若环境不够温暖，面团需要数倍时间才能勉强膨胀；而长时间暴露极易被杂菌（酸败乳酸菌）抢占先机，导致发酸变馊，且表皮易风干开裂，入炉后无力膨胀长高。", "difficulty": "easy"}, {"id": 30, "type": "single", "question": "如果在烘烤吐司面包时，面团在最后发酵箱中发酵严重过度（发到了模具顶部一倍以上且表面布满大水泡），出炉后通常会：", "options": {"A": "面筋被过度拉扯变薄断裂，烘烤或出炉后剧烈回缩塌陷下陷，组织粗糙掉渣发酸", "B": "面包会在出炉瞬间自发膨胀变大为热气球并从厨房抽油烟机排气孔飞出室外", "C": "面包无论烘烤多长时间颜色都永远保持纯白透明且质地坚硬如同天然钻石块", "D": "烤盘中的金属原子会瞬间完全渗透进入面包内部使整个吐司呈现深黑金属光泽"}, "answer": "A", "explanation": "二发过度后果：气孔壁被撑得过薄失去支撑弹性骨架，入炉受热瞬间顶破气囊泄气；出炉遇到冷空气因无内部骨架支撑而发生灾难性的“大缩水塌腰（Collapse）”；同时残糖被耗尽导致表皮苍白，内部散发酵母死菌发馊酸味，组织空洞粗糙掉屑。", "difficulty": "easy"}, {"id": 32, "type": "single", "question": "做家庭手工面包整型时，如果面团在案板上极其黏手湿软难以成型，最合理的科学操作应对原则是：", "options": {"A": "拿起高浓度工业强酸消毒水直接喷洒在生面团表面以强行使面团脱水凝固硬化", "B": "直接向面团中疯狂倒入两大碗生干面粉使劲揉和，哪怕彻底打乱配方水粉科学平衡", "C": "在手上或操作台上涂抹极微量植物油或轻撒极薄手粉，切忌疯狂狂撒大量生干面粉", "D": "将极其黏手的生面团直接扔进微波炉高火加热五分钟把生面粉彻底烤干后再整型"}, "answer": "C", "explanation": "手粉使用规范：高水份面团口感更柔嫩湿润。黏手时手指轻沾微量手粉（防粘干粉）或薄油即可，若盲目倒入大量干粉揉入面团，会严重稀释吸收面团水分，使水粉比失衡，烤出的面包干硬死板丧失松软品质。", "difficulty": "easy"}, {"id": 33, "type": "single", "question": "在制作传统法式硬欧包或酸面包时，生坯在割包后送入烤箱，若烤箱完全不具备喷蒸汽功能，后厨常识中最常用的替代蒸汽方案是：", "options": {"A": "在烤箱门内侧用喷火枪持续不断喷火五分钟以取代烤箱内部蒸汽加热与发热管", "B": "预热时在烤箱底部放一个盛有烘焙石子或铸铁块的烤盘，入炉后瞬间倒入半碗开水关门", "C": "在生面团表面涂抹厚厚一层未经稀释的高浓度生酱油和生老抽酱油汁直接烘烤", "D": "直接将一整盒带有大量冰块的冰镇纯牛奶瞬间直接泼洒在通电的烤箱发热管表面"}, "answer": "B", "explanation": "家庭自制蒸汽妙法（Lava Stones）：高温烘烤石（如烘焙火山石/派石/铸铁煎锅）蓄热能力极高，在230℃高温预热后，入炉瞬间将50~100ml沸腾热水倒入石子盘中并迅速紧闭炉门，水滴撞击超高温石子瞬间爆发出海量滚烫蒸汽弥漫内腔，完美模拟商业烘焙蒸汽炉效果。", "difficulty": "easy"}, {"id": 34, "type": "single", "question": "做家庭面包面团时，如果在揉面初期就将干酵母直接倒入盛有高浓度纯食盐的干粉堆中直接搅拌，最常造成的后果是：", "options": {"A": "高浓度食盐的强渗透压迅速夺取酵母细胞水分导致活菌大量休克失活，发酵极其困难", "B": "食盐晶体会在面团中自发与金属摩擦发生剧烈核聚变反应并释放出高强度紫外线", "C": "面团在常温搅拌缸内部会自动生成高浓度的纯天然食用级液态果葡糖浆淌出桌面", "D": "无论如何调节烤箱旋钮温度烤箱发热管都永远无法发热且完全停止一切加温工作"}, "answer": "A", "explanation": "盐是脱水剂。直接与盐堆放在一起，酵母接触超高浓度盐液瞬间脱水质壁分离而大面积死亡，发酵发动机严重受损。规范操作是：盐与酵母分别放在面粉两侧，搅拌机运转让面粉缓冲稀释后再交融。", "difficulty": "easy"}, {"id": 40, "type": "single", "question": "平时在厨房中，如果发现开封使用的干酵母粉在温水糖液中静置十五分钟后，完全没有任何气泡产生、水面死气沉沉且沉淀在碗底，最妥善的处理方式是：", "options": {"A": "继续向死水碗中倒入两勺食盐搅拌，然后倒进三斤面粉中继续强行制作家庭吐司", "B": "证实这包干酵母已经完全死绝失效，坚决彻底丢弃并开封一包全新保质期内干酵母", "C": "在死水碗中加入大量高度白酒搅拌均匀，然后放入烤箱高温加热两小时食用", "D": "把失效干酵母倒入面团中揉成面团后，放在零下二十度急冻三天即可自然复活"}, "answer": "B", "explanation": "温水加糖15分钟无任何起泡发泡，是不容置疑的“酵母已死”铁证。继续使用必然导致昂贵的面粉、黄油、鸡蛋和数小时辛劳彻底化为死面疙瘩报废，必须果断淘汰扔掉，更换新鲜活跃的酵母使用。", "difficulty": "easy"}]}, {"chapter_id": 16, "chapter_title": "第16课｜化学膨大剂 (Chemical Leavening Agents)", "intro": "高一厨艺理论核心：掌握小苏打、双效泡打粉与臭粉的产气反应原理、后厨应用禁忌及活性鉴别（20易+15中+5难标准卷）", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "在家庭厨房烘焙制作美式松饼或红丝绒蛋糕时，常用的小苏打化学名称是：", "options": {"A": "食用无水氯化钙粉", "B": "纯天然氢氧化钠粉", "C": "结晶硫酸亚铁晶体", "D": "食用碳酸氢钠粉末"}, "answer": "D", "explanation": "小苏打的化学通用名为碳酸氢钠（NaHCO3），呈白色微细晶体，在常温水中呈弱碱性，是西点中常用的碱性化学膨松原料。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "如果在制作原味香草蛋糕时，不小心将配方中的泡打粉过量放了三倍以上，烤出的蛋糕最容易出现的口感问题是：", "options": {"A": "散发极浓烈焦香甜味", "B": "内部完全变成透明液体", "C": "蛋糕质地变得如同石块", "D": "蛋糕带有明显苦涩碱味"}, "answer": "D", "explanation": "化学膨大剂（如泡打粉和小苏打）含有钠盐及碱性矿物质化合物，过量添加（超过面粉重的2.5%~3%）会导致反应残留物超标，赋予蛋糕强烈的金属皂苦味与涩口感。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "在没有精密仪器的厨房中，想要快速检测抽屉里开封半年的泡打粉是否依然具有起泡活性，最直观的生活常识检验法是：", "options": {"A": "放入冷冻室冷冻观察三天", "B": "倒在白纸上用紫外线灯照射", "C": "撒在铁板上用烈火灼烧观察", "D": "取半茶匙投入温热水中观察"}, "answer": "D", "explanation": "泡打粉活性快检法：取半茶匙泡打粉倒入半碗60℃~70℃的温热水中。若酸碱成分迅速受热溶化反应，会立即剧烈翻滚冒出大量密集白色二氧化碳气泡，证明活性良好；若水面平缓微弱冒泡，则说明已吸潮失效。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "现代烘焙行业普遍使用的“双效泡打粉”（Double-Acting Baking Powder），其“双效”指的是它能在哪两个不同阶段释放膨胀气体？", "options": {"A": "搅拌冷藏期与脱模冷却期", "B": "常温搅拌期与烤箱烘烤期", "C": "面粉研磨期与包装封口期", "D": "面团发酵期与常温静置期"}, "answer": "B", "explanation": "双效泡打粉含有两种产气酸：第一效快酸（如MCP）在常温接触水分时释放20%~30%气泡（促使面糊起发）；第二效慢酸（如SAPP或SAS）必须在烤箱高温受热达55℃~60℃以上才爆发式释放70%~80%气泡，从而保障烘烤顶起高度。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "下列关于厨房化学膨松剂与生物酵母在烘焙应用中的对比叙述，哪些是正确的？\nⅠ. 泡打粉（Baking Powder）遇水和受热瞬间反应产气迅速，常用于玛芬蛋糕（Muffin）与英式司康\nⅡ. 酵母菌发酵产气缓慢且伴随复杂的有机酸发酵风味，更适合需要面筋网络的吐司面包\nⅢ. 泡打粉开封后必须紧闭密封盖并存放于阴凉干燥处，受潮会导致酸碱成分提前反应失活\nⅣ. 小苏打在烘烤受热后产气释放出的全部气体均为具有芳香果味的乙酸乙酯气体", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅰ、Ⅲ、Ⅳ", "D": "Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "【考点解析】：小苏打（碳酸氢钠）受热分解产生的是水蒸气、二氧化碳气体（CO2）和碳酸钠碱性残留物，绝不是乙酸乙酯气体，故Ⅳ错误；Ⅰ、Ⅱ、Ⅲ叙述完全正确。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "中式传统点心“桃酥”或北方经典“开口笑”之所以拥有极其酥脆松散的蜂窝组织，传统配方中常加入的化学膨大剂“臭粉”，其化学成分是：", "options": {"A": "纯天然药用氯化铵结晶", "B": "农业用高浓度硝酸铵粉", "C": "工业生产级硫酸铵颗粒", "D": "高纯度食品级碳酸氢铵"}, "answer": "D", "explanation": "臭粉的化学名称是碳酸氢铵（NH4HCO3），在烘烤受热至60℃以上时会彻底分解为氨气、二氧化碳气体和水蒸气，无任何固体盐类残留，能使干性面团产生极度干爽酥脆的裂纹结构。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "如果在制作水分含量极高的日式轻乳酪蛋糕或清淡戚风蛋糕时错误加入了臭粉（碳酸氢铵），出炉后蛋糕最容易出现的致命缺陷是：", "options": {"A": "蛋糕整体完全无法凝固定型", "B": "带有浓烈刺鼻氨气尿骚味", "C": "表皮自发生成厚厚黑色油层", "D": "蛋糕内部完全脱水变得干燥"}, "answer": "B", "explanation": "臭粉受热分解产生的氨气（NH3）极易溶于水分形成碱性氨水。在高水分、组织厚重的戚风或乳酪蛋糕中，氨气无法像在薄脆饼干中那样散失挥发，被完全锁在湿润组织内，导致成品带有强烈的刺鼻刺眼氨气尿骚味，且组织发青变灰。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "在调配配方含有小苏打的美式巧克力饼干面团时，通常配方中都会同时搭配哪种天然微酸性材料以促使小苏打完全反应？", "options": {"A": "高纯度食用苛性烧碱溶液", "B": "经过脱酸处理的精致精盐", "C": "天然红糖或微酸性可可粉", "D": "完全中性的食用纯液态水"}, "answer": "C", "explanation": "小苏打（碳酸氢钠）是碱性盐，单独受热产气率仅有50%且会残留苦涩的碳酸钠；必须依靠面糊中的酸性成分（如未碱化的天然可可粉、红糖微酸、酪乳酸奶等）与之发生酸碱中和，才能完全释放出二氧化碳并消除碱味。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "市售优质食用泡打粉通常会在配方原料表中注明包含少量的“食用玉米淀粉”，这部分干淀粉在罐装泡打粉中的首要物理保护功能是：", "options": {"A": "加速罐内化学酸碱剧烈反应", "B": "隔绝酸碱微粒吸潮提前失效", "C": "增加泡打粉自身的甜美风味", "D": "使泡打粉在水中瞬间结成块"}, "answer": "B", "explanation": "玉米淀粉在泡打粉中充当“填充剂”与“隔离防潮剂”。它将极微细的碳酸氢钠碱性颗粒与酸性盐微粒机械隔开，并优先吸收罐内空气中的微量湿气，防止二者在未开封或储存期内受潮提前发生中和反应导致失效。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "制作玛芬蛋糕（Muffin）时，将所有湿性原料与干性原料（含泡打粉）倒在一起后，烘焙师叮嘱“翻拌至看不见干粉即可停手，切忌过度搅拌”，其核心原因是：", "options": {"A": "翻拌时间越长蛋糕表皮颜色就会越黑", "B": "搅拌会使泡打粉的化学成分完全蒸发", "C": "过度翻拌会导致面筋形成且气体跑光", "D": "搅拌会使面糊中的油脂完全发生自燃"}, "answer": "C", "explanation": "玛芬蛋糕讲究粗粝松软质地。过度长时间搅打一方面会使低筋面粉起筋导致成品坚韧起胶、内部形成长条隧道孔洞（Tunneling）；另一方面会机械打破第一效酸刚产生的密集微气泡，导致气体流失、成品出炉塌陷。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "将小苏打撒入盛有白醋（醋酸溶液）的玻璃杯中，杯内会瞬间剧烈翻腾出大量透明气泡，这些气泡的主要化学成分是：", "options": {"A": "具有剧烈可燃性的高纯氢气", "B": "纯天然高纯度水蒸气气流", "C": "微细浓缩的食用级二氧化碳", "D": "带有刺激气味的天然二氧化硫"}, "answer": "C", "explanation": "小苏打与醋酸反应属于典型的酸碱中和反应：NaHCO3 + CH3COOH -> CH3COONa + H2O + CO2↑，瞬间释放出大量无毒、无味的二氧化碳气体。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "在烘烤戚风蛋糕卷的面糊配方中，如果面粉称量非常精确，但错误添加了过量两倍的泡打粉，烘烤过程中蛋糕最常出现的物理反常现象是：", "options": {"A": "面糊在八十度时会自动融化成稀薄液体", "B": "在烤盘中完全平整如镜面丝毫不起发", "C": "蛋糕表面会析出大量纯白色糖霜结晶", "D": "在烤箱内急剧鼓包膨起出炉后迅速塌陷"}, "answer": "D", "explanation": "膨松剂过量会导致烘烤初期产生过量二氧化碳，薄弱的面筋与鸡蛋气泡壁承受不住巨大内压而被胀破合并；出炉离开热源后，破损的气孔骨架无法支撑自身重量，导致蛋糕中心迅速发生凹陷塌落回缩。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "小苏打（碳酸氢钠 Baking Soda）在烘焙中的特性与应用，下列哪些叙述是正确的？\nⅠ. 属于碱性无机盐，如果配方中缺乏足够的酸性原料中和，成品会残留明显的苦涩碱味\nⅡ. 碱性环境能促使美拉德反应速度大幅加快，赋予美式巧克力曲奇更加深沉浓郁的色泽\nⅢ. 纯小苏打单独使用时，常需搭配天然酸性原料（如可可粉、蜂蜜、红糖、酸奶）共同使用\nⅣ. 小苏打遇水在 0℃ 冰水中就会 100% 剧烈爆燃并释放出大量浓烟与明火", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅰ、Ⅲ、Ⅳ", "D": "Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "【考点解析】：小苏打在冰水中仅发生缓慢微弱溶解，完全没有可燃性或爆炸性（常作为灭火器灭火原料），故Ⅳ错误；Ⅰ、Ⅱ、Ⅲ符合食品化学事实。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "日常烘焙中所说的“无铝泡打粉”（Aluminum-Free Baking Powder），指的是配方中不含有以下哪种容易导致残留涩味的酸性成分？", "options": {"A": "天然提炼的无水碳酸钠化合物", "B": "含有金属铝元素的硫酸铝钾盐类", "C": "纯天然发酵生成的微细乳酸菌", "D": "从海藻中提炼提取的天然海藻糖"}, "answer": "B", "explanation": "传统传统老式泡打粉常采用硫酸铝钾或硫酸铝铵（明矾类）作为耐热慢酸，长期摄入过量铝对人体健康不利且残留金属苦涩味。现代高品质烘焙统一采用无铝配方（如改用焦磷酸二氢二钠 SAPP 等无铝酸盐）。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "中式点心“红糖发糕”如果在调制面糊时单纯只加入了小苏打而没有加入足够酸性调料，出炉后发糕颜色与风味最常表现为：", "options": {"A": "颜色雪白通透且带有果香味", "B": "表面结成一层透明的果冻硬胶皮", "C": "组织呈现坚硬致密的大理石状", "D": "颜色暗黄泛黑且带有明显苦涩碱味"}, "answer": "D", "explanation": "小苏打在碱性环境下会加剧类黑精形成使红糖发糕色泽发黑变暗，且多余的小苏打受热残留强碱性碳酸钠，带来明显的皂涩味与发苦回味。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "在烘焙配方中，泡打粉通常的推荐添加比例一般占面粉总重量的：", "options": {"A": "百分之十到百分之十五左右", "B": "百分之一到百分之二点五左右", "C": "百分之二十到百分之三十左右", "D": "百分之零点零一至微克级水平"}, "answer": "B", "explanation": "常规西点面糊中泡打粉的标准安全用量为面粉重的 1.0%~2.5%。用量过低膨胀不足组织扎实，用量超过3%~4%则导致组织气孔粗大如火山口且产生苦涩碱味。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "如果想要制作纯白如雪、组织极其细腻的高档“天使蛋糕”（Angel Food Cake），在膨大剂的选择上正确的常识是：", "options": {"A": "加入大比例小苏打使其碱性泛黄", "B": "必须加入大剂量臭粉促进发白", "C": "完全不加任何小苏打且仅靠蛋白起泡", "D": "加入工业级双氧水溶液进行漂白"}, "answer": "C", "explanation": "天使蛋糕只使用蛋清、细砂糖与低筋面粉，依靠蛋清蛋白打发的物理充气膨胀，绝对不能加入小苏打（碱性会使蛋清变黄且破坏蛋白网），通常还会加入少许酸性塔塔粉使成品更加雪白。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "如果烘焙学徒在做美式软曲奇时不小心用手抓了一把干燥的生石灰粉当成了小苏打投入面糊，该行为最严重的危害是：", "options": {"A": "曲奇饼干只会颜色稍微变淡", "B": "完全没有任何影响且更加酥脆", "C": "生石灰强腐蚀放热严重危及生命", "D": "曲奇饼干散发出淡淡的玫瑰香"}, "answer": "C", "explanation": "食品安全底线：生石灰为氧化钙（CaO），具有极强的化学腐蚀性，遇水剧烈放热灼伤消化道，属于绝对非食用的危险化学品，任何白粉原料入料前必须严加核对品名标签。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "日常烘烤英式司康饼（Scone）时，通常在面粉中筛入泡打粉，烘烤后司康饼侧面会自然裂开一条美丽的“狼口”缝隙，这主要是因为：", "options": {"A": "烤箱温度太低面团被冻裂", "B": "司康饼内部的黄油全部蒸发", "C": "泡打粉受热释放气体冲破面筋层", "D": "面团中所有的水分变成了冰块"}, "answer": "C", "explanation": "司康饼依靠叠被子折叠形成的层次，面团中泡打粉在入炉高温下迅速释放大量二氧化碳，与黄油层蒸发产生的水蒸气协同推顶，在面团延展最薄弱处向上顶裂开标志性的饱满水平裂缝。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "小苏打和双效泡打粉这两种化学膨大剂在外观形态上的普遍共同生活特征是：", "options": {"A": "具有浓烈刺激性大蒜味的红颗粒", "B": "无臭无味或微碱味的白色细微粉末", "C": "具有极强黏稠度的黄色液体胶状", "D": "坚硬如小石子一般的透明大方晶"}, "answer": "B", "explanation": "二者在常温下均为外观极相似的纯白色精细粉末，肉眼极难直接分辨，因此在后厨储存时必须在料桶表面粘贴清晰的品名与保质期标签以免误用。"}]}, {"chapter_id": 17, "chapter_title": "第17课｜乳化剂与乳化作用 (Emulsifiers & Emulsification)", "intro": "高一厨艺理论核心：掌握两亲分子界面机理、天然与合成乳化剂、O/W与W/O体系及后厨油水分离急救SOP（20易+15中+5难标准卷）", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "在家庭厨房制作经典蛋黄酱（美乃滋 Mayonnaise）时，能将植物油与食醋牢牢结合成浓稠乳状液的关键天然乳化剂是：", "options": {"A": "白砂糖溶解形成的高浓度纯蔗糖", "B": "食盐结晶中的纯无机氯化钠离子", "C": "新鲜鸡蛋黄中的天然卵磷脂成分", "D": "面粉研磨过程中残留的微细麦麸"}, "answer": "C", "explanation": "蛋黄中含有丰富的天然卵磷脂（Lecithin），其分子一端亲水、一端亲油，能有效包裹微细油滴分散在醋水中，防止油水分层，是经典的天然水包油（O/W）乳化剂。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "平时在厨房中将纯大豆油和自来水倒入同一个玻璃杯中用力摇晃，静置数秒后最直观的物理现象是：", "options": {"A": "两者立即永久融合成完全透明的单一液体", "B": "液体会自动产生剧烈沸腾并释放出大量浓烟", "C": "杯底会自发析出大量坚硬如同石块的结晶", "D": "油水迅速重新分层且密度较小的油浮在水上"}, "answer": "D", "explanation": "油和水由于极性差异互不相溶，且两相界面张力极大。在没有外加乳化剂的情况下，剧烈震荡形成的临时小油滴会因热力学不稳定而迅速聚结，重新分离成油在上、水在下的两层。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "制作重油磅蛋糕进行“黄油加蛋液”乳化打发时，如果刚从冰箱拿出的冰冷鸡蛋（约4℃）直接倒入打软的黄油中，最容易导致的翻车现象是：", "options": {"A": "面糊颜色立即自发转化为如同墨汁一般的深黑色", "B": "黄油在打蛋盆内瞬间自发融化成滚烫的透明清油", "C": "黄油瞬间受冷变硬结块且析出水珠造成油水分离", "D": "打蛋盆内壁会析出大量坚硬的高纯度食用精盐晶体"}, "answer": "C", "explanation": "冰蛋液温度极低，会使原本室温软化的黄油结晶硬化；黄油失去塑性包裹力，无法吸纳蛋液中的水分，导致水油彻底破乳分层，形成如同豆腐渣般的粗糙破裂混合物。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "为了防止烘烤磅蛋糕面糊在搅拌时发生严重的油水分离，西点主厨最强调的加蛋实操规范是：", "options": {"A": "将冰冻蛋液一次性整盆猛烈倒入黄油中高速搅拌", "B": "必须向黄油中加入大量滚烫开水搅拌至完全沸腾", "C": "蛋液提前回温至室温且分多次少量加入并充分搅匀", "D": "将新鲜鸡蛋连同坚硬外壳一起打碎直接投入黄油"}, "answer": "C", "explanation": "打发黄油加蛋液的黄金法则：鸡蛋必须提前取出回温至室温（20℃~25℃），并分4~5次微量加入。每次加入后必须用打蛋器彻底搅打至蛋液完全被黄油乳化吸收、质地顺滑光亮，方可加入下一次。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "关于食品乳化剂（Emulsifiers）的两亲性分子结构与乳化机理，下列哪些叙述是正确的？\nⅠ. 乳化剂分子内部同时具备亲水基团（Hydrophilic Group）和亲油基团（Lipophilic Group）\nⅡ. 在油-水两相共存体系中，乳化剂能定向排列在油水界面上，显著降低油水界面的表面张力\nⅢ. 蛋黄中的卵磷脂（Lecithin）是天然优异的食品乳化剂，常用于蛋黄酱（Mayonnaise）的制作\nⅣ. 乳化剂能直接将纯水分子通过常温化学键合反应彻底永久转化为纯脂肪甘油三酯", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅰ、Ⅲ、Ⅳ", "D": "Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "【考点解析】：乳化剂是物理界面活性物质，绝不可能把水变成油，两者仅是微观微滴分散悬浮关系，故Ⅳ错误；Ⅰ、Ⅱ、Ⅲ准确阐述了乳化剂的分子特征与应用。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "在商业海绵蛋糕或瑞士卷生产中，蛋糕师傅常加入一种半透明膏状的“蛋糕油”（SP乳化膏），其最直观的工艺便利是：", "options": {"A": "完全替代烤箱的加热功能使面糊在常温下直接熟化", "B": "能使蛋糕在常温下放置十年丝毫没有任何风干变质", "C": "可将鸡蛋、糖、水与面粉全部倒入一步法直接快速打发", "D": "能使蛋糕在搅拌盆中自发膨胀为原本体积的一百倍大"}, "answer": "C", "explanation": "传统海绵蛋糕需要严谨的全蛋打发或分蛋打发，极易消泡。加入复合乳化起泡剂“蛋糕油”（SP）能急剧降低气-液和油-水表面张力，允许全原料（蛋、糖、水、油、粉）同时倒入打蛋缸“一步法（All-in-one）”高速搅打，快速充气成细腻稳定的蛋糕面糊。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "如果在后厨打发黄油加蛋液时不慎加急了，面糊刚开始出现轻微豆腐渣状出水（破乳初期），最实用的现场物理急救SOP是：", "options": {"A": "直接向打蛋盆中倒入一整瓶工业用纯白醋强行降温", "B": "将打蛋盆底放入40℃左右温水浴中坐浴数秒回软并快速搅打", "C": "将整盆打发材料倒入洗水槽中彻底冲洗丢弃全部报废", "D": "向盆中投入大把干冰碎块进行强力冷冻搅拌使黄油硬化"}, "answer": "B", "explanation": "温差失衡型破乳急救：将打蛋盆底部短暂浸入约40℃温水中5~10秒（切忌过热烫成清油），让盆壁硬化凝固的黄油微微回软恢复塑性，迅速离水全速搅打，硬化的黄油重新变软包裹水珠，面糊即可奇迹般恢复顺滑细腻。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "乳化剂分子之所以能够像桥梁一样连接互不相溶的油脂和水分，是因为其单分子结构同时具备：", "options": {"A": "完全由纯结晶无水蔗糖分子组成的高密度糖链结构", "B": "两个完全排斥水分且排斥油脂的特殊金属原子结构", "C": "能在高温下一百摄氏度自发分解为纯氢气的活性结构", "D": "一个喜好水分的亲水基团与一个喜好油脂的亲油基团"}, "answer": "D", "explanation": "乳化剂是典型的“两亲性分子”（Amphiphilic molecule），头部为极性亲水基（朝向水相），尾部为非极性长碳链亲油基（伸入油相），像无数微小锚爪一样将油水两相在界面处牢牢拉结锁定。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "家庭制作“法式油醋汁”（Vinaigrette）配蔬菜沙拉时，为了让橄榄油与红酒醋能保持更长时间的乳化不分层，常加入的西餐天然乳化调料是：", "options": {"A": "纯净高浓度的食用工业漂白脱色冰醋酸浓溶液", "B": "含有丰富天然植物黏胶与硫苷的大藏芥末酱（Dijon）", "C": "经过高温长时间油炸后研磨成粉的酥脆干面包糠", "D": "完全不含任何极性基团的高纯度食用液态石蜡油"}, "answer": "B", "explanation": "大藏芥末酱（第戎芥末酱）含有丰富的天然植物黏胶（Mucilage）和复合磷脂多糖，在法式油醋汁中充当绝佳的天然乳化稳定剂，能有效吸附在橄榄油滴表面延缓油水分层。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "在烘焙工业界的面包配方中添加适量食品级单甘酯（单硬脂酸甘油酯），对刚出炉吐司面包的核心货架期改善常识是：", "options": {"A": "将吐司面包的表皮厚度完全增加为原本厚度的十倍以上", "B": "能使吐司面包在常温烘烤时完全散发出纯巧克力的香味", "C": "与淀粉螺旋结合有效延缓面包在数天内变干变硬老化", "D": "能彻底消灭面粉中所有的水分使吐司面包内部完全干燥"}, "answer": "C", "explanation": "单甘酯是烘焙业应用最广的面包改良抗老化剂。其亲油直链能伸入直链淀粉的螺旋空腔内部形成稳定的复合物，有效阻止烘烤后淀粉分子的重新排列重结晶（Retrogradation），从而使吐司在数天内保持松软拉丝、延缓老化硬化。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "如果打发黄油加蛋液时由于水份加得过多发生严重“豆腐渣出水”破乳，且温水浴急救无效，此时最科学的“食材吸水挽救法”是：", "options": {"A": "将打蛋盆直接放在燃气灶上用大火直接猛烈干烧五分钟", "B": "直接向打蛋盆中加入大半瓶工业医用纯酒精搅拌挥发", "C": "用吸水海绵伸入面糊中将多余的蛋液与水分全部吸干", "D": "筛入原配方中保留的一至两汤匙低筋面粉辅助吸水搅匀"}, "answer": "D", "explanation": "水分过剩型破乳挽救：筛入配方中原有的少量低筋面粉（约1~2大勺），面粉中未糊化的天然淀粉与小麦蛋白具有极强的吸水膨润性能，能迅速锁住面糊中的游离水滴，强行将面糊恢复为均匀抱团的稳定乳状体。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "在冰淇淋工业生产中，如果不添加任何乳化剂，冰淇淋在冷冻库中储存数周后最容易出现的恶劣口感质地是：", "options": {"A": "冰淇淋在零下二十度急冻库中自发融化成滚烫热液体", "B": "内部结成粗大冰晶颗粒且入口出现糊嘴油腻分层感", "C": "冰淇淋表面完全结成透明坚硬如金刚石般的大晶体", "D": "冰淇淋内部所有的油脂分子自发彻底转化为可燃气体"}, "answer": "B", "explanation": "乳化剂在冰淇淋中起到促进脂肪部分聚结、包裹微细气泡、均匀分散微细冰晶的关键作用。若缺乏乳化剂，水分会聚集成粗大尖锐的冰茬（冰晶感粗糙），脂肪球无法稳固包裹空气，融化时水油脱节、口感粗硬油腻。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "食品乳状液主要分为水包油（O/W）与油包水（W/O）两种经典类型，下列关于生活常识归类哪些是正确的？\nⅠ. 鲜牛奶、淡奶油、蛋黄酱（Mayonnaise）均属于经典的水包油（O/W）型乳状液\nⅡ. 天然黄油（Butter）与植物人造玛琪琳属于经典的油包水（W/O）型乳状液\nⅢ. 水包油（O/W）型体系以外部水相为连续相，通常可直接与水无限互溶稀释\nⅣ. 天然黄油是水包油型体系，因此将一整块冷冻黄油丢入冰水中能瞬间完全溶解成清澈透明纯水", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅰ、Ⅲ、Ⅳ", "D": "Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "【考点解析】：黄油是典型的油包水（W/O）型乳状液，连续相是油脂（约82%），不溶于水，故Ⅳ错误；Ⅰ、Ⅱ、Ⅲ完全符合食品物性学分类。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "天然纯黑巧克力在生产精炼过程中，为了降低可可脂在调温浇模时的极高黏度、改善流动性与顺滑光泽，通常添加的微量乳化剂（约0.3%~0.5%）是：", "options": {"A": "纯天然提炼的无水碳酸钙矿物石粉末", "B": "高纯度食品级大豆卵磷脂（Soy Lecithin）", "C": "工业生产用的高浓度液态硅胶润滑剂", "D": "完全脱水干燥的高纯度工业氯化钠结晶"}, "answer": "B", "explanation": "大豆卵磷脂是巧克力工业的灵魂乳化剂：添加极微量（0.3%~0.5%）就能有效覆盖在微细糖粉和可可固形物微粒表面，极大降低固体微粒在液态可可脂中的摩擦阻力，使熔融巧克力浆料顺滑如丝、极易浇模。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "在制作戚风蛋糕的蛋黄糊时，先将蛋黄、细砂糖、纯牛奶和植物油充分用手动打蛋器搅打至浑然一体成“米汤状”，该搅拌操作的生化目的是：", "options": {"A": "将牛奶中的所有水分通过高速旋转彻底甩出打蛋盆外", "B": "使植物油与牛奶在打蛋盆内瞬间发生剧烈化学中和反应", "C": "借助蛋黄卵磷脂使油脂和水分彻底完成预乳化包裹油滴", "D": "使蛋黄中的胆固醇成分彻底转化为高纯度的食用葡萄糖"}, "answer": "C", "explanation": "戚风蛋黄糊预乳化：液体油和牛奶水相在蛋黄卵磷脂作用下被剪切分散为无数微细油滴，形成稳定的乳化液。若预乳化不彻底，烘烤入炉后游离油脂浮在面糊表面，会直接侵蚀蛋白霜气泡导致蛋糕严重塌陷出油布丁层。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "市售植物黄油（人造奶油 Margarine）是通过将氢化植物油、水和乳化剂高速乳化均质制成的，其微观物理乳状液类型通常是：", "options": {"A": "水作为连续外相、微细油滴分散于内部的水包油型（O/W）", "B": "油作为连续外相、微细水分散于内部的油包水型（W/O）", "C": "完全由纯干燥矿物固体压制而成的不含任何水分的固体", "D": "在常温状态下完全由高压二氧化碳气体组成的纯气溶胶"}, "answer": "B", "explanation": "无论是天然动物黄油还是人造植物人造黄油，其宏观上都是油脂包裹微细水珠，连续相（外相）为固态结晶油脂，分散相（内相）为微细液滴，因此属于标准的油包水（W/O, Water-in-Oil）型结构。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "如果想要制作口感极度蓬松、体积超大且气孔如云朵般均一的商业瑞士卷蛋糕，在面糊中适量加入蛋糕油（SP）后，烘焙师观察到最显著的蛋糊打发变化是：", "options": {"A": "打蛋头在旋转过程中会自动吸附蛋糊使搅拌缸完全变空", "B": "蛋糊在常温搅拌缸内会瞬间自动硬化成坚硬如铁的生面团", "C": "蛋糊在五秒钟内完全自发脱色变成如同透明清水的液体", "D": "全蛋糊能更快速充气且打出的泡沫极其细腻稳定不易消泡"}, "answer": "D", "explanation": "蛋糕油（SP）极具表面活性，能大幅降低气-水界面的表面张力。打发时不仅极易卷入大量空气形成微细气泡，而且在气泡表面形成坚韧的单分子保护膜，使全蛋泡沫耐剪切、持气持久、静置半小时也极不易消泡化水。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "在家庭厨房日常清洗装过重油面糊的打蛋盆时，用冷清水很难洗净油腻，但挤上一滴洗洁精轻轻一擦油污即刻被水冲走，洗洁精去污的生活常识原理是：", "options": {"A": "洗洁精与油脂发生了剧烈剧毒反应使油脂彻底蒸发在空气中", "B": "洗洁精中表面活性剂的两亲结构将油脂乳化成小油滴随水冲走", "C": "洗洁精将水温瞬间加热到了一百度彻底将油脂熔化分解", "D": "洗洁精促使不锈钢打蛋盆表面自发脱落了一层金属纳米保护膜"}, "answer": "B", "explanation": "洗洁精的核心有效成分是人工合成表面活性剂（本质就是强效乳化剂）：亲油端深入顽固油污，亲水端朝向自来水，在揉搓冲洗中将大块油污撕裂包裹成微米级乳化油滴胶束，轻松被流水冲刷带走。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "在烘烤曲奇饼干的面团搅拌中，如果将配方中原本需要的天然生鸡蛋黄完全去掉，仅使用纯清水来调节面团湿度，曲奇在烘烤出炉后的最显著常识差异是：", "options": {"A": "曲奇饼干内部的所有黄油成分完全消失变成了纯天然食盐", "B": "曲奇饼干会在烤箱内发生剧烈爆裂并弹飞出烤箱玻璃观察窗", "C": "缺少了蛋黄卵磷脂乳化与天然蛋香，口感松脆化渣度明显下降", "D": "烤盘中的面团在烘烤中会自发合成大量高浓度的液体乙醇"}, "answer": "C", "explanation": "蛋黄在曲奇中兼具“高效天然乳化剂”与“风味酥松增效剂”双重神效。蛋黄卵磷脂能使黄油与少量水分完美乳化，烘烤时油脂微细均匀分散包裹面筋，烤出酥松化渣的口感；若纯换清水，水油无法良好乳化，面筋易起胶变硬、口感发艮。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "下列哪种天然植物原料在食品加工中常被提取制成广泛使用的大豆卵磷脂（Soy Lecithin）？", "options": {"A": "纯天然海盐经海水阳光暴晒后残留的纯无机氯化钠晶体", "B": "深山老林中砍伐的老松树树皮表面渗出的天然松香树脂", "C": "高山天然雪水融化沉淀后底部的纯净天然细沙石微粒", "D": "农田种植收获的大豆大豆榨油后的优质天然副产物"}, "answer": "D", "explanation": "商业大豆卵磷脂是天然大豆在压榨精炼大豆色拉油过程中的“水化脱胶”副产物，经过脱水精制而成，富含磷脂酰胆碱（PC）、磷脂酰乙醇胺（PE）等优质天然两亲磷脂分子。"}]}, {"chapter_id": 18, "chapter_title": "第18课｜胶冻类材料 (Gelling Agents)", "intro": "高一厨艺理论核心：掌握吉利丁、琼脂、吉利T与果胶的温区特性、热带水果蛋白酶破坏机理及镜面慕斯凝固控制（20易+15中+5难标准卷）", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "制作法式慕斯蛋糕或奶酪布丁时最常用、具有“入口即化”丝滑口感的动物性胶冻材料是：", "options": {"A": "纯天然海盐在阳光下暴晒结晶生成的无机氯化钠", "B": "纯天然蔗糖经长时间高温熬煮制成的干燥白砂糖", "C": "从小麦面粉中反复洗出的高韧性纯生面筋蛋白质", "D": "从动物皮骨胶原提炼的吉利丁片或粉（Gelatin）"}, "answer": "D", "explanation": "吉利丁（明胶 Gelatin）是从猪皮、牛骨等结缔组织中的胶原蛋白提炼制成的纯动物性蛋白质凝胶剂，其凝胶融化温度恰好在35℃~37℃（与人体口腔体温完美契合），因此具有独一无二的“入口即化”奢华质感。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "在家庭厨房使用干燥的片状吉利丁（明胶片）之前，第一步必须进行的标准软化预处理操作是：", "options": {"A": "将吉利丁片放在切菜板上用大菜刀切成细微粉末直接拌入", "B": "直接丢入刚烧开的一百度沸水锅中用大火猛烈煮沸一小时", "C": "将吉利丁片放入家用微波炉中用最高火力连续加热二十分钟", "D": "放入足量冰凉纯净水中充分浸泡数分钟直至完全吸水变软"}, "answer": "D", "explanation": "片状吉利丁泡发铁律：必须浸入大量冰水（低于10℃）中泡发5~10分钟使其充分吸水吸胀软化。若用温水或热水泡发，吉利丁片边缘会在水中直接溶解化水流失，造成用量大幅缩水导致慕斯无法凝固。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "如果想要制作传统的“杏仁豆腐”或红豆凉糕，常使用从红藻类海草中提炼、在常温下就能坚挺凝固且口感脆硬的凝胶原料是：", "options": {"A": "纯天然深海鱼皮熬制提炼的高纯度液态鱼油", "B": "具有高耐热性且质地脆硬的洋菜或琼脂（Agar-Agar）", "C": "从大豆中经过高温压榨提取的浓缩食用大豆磷脂", "D": "从天然橡胶树树干表面割取的纯天然生乳胶液体"}, "answer": "B", "explanation": "琼脂（洋菜 Agar-Agar）是从石花菜、江蓠等红藻中提取的海藻多糖。其凝固点约在35℃~40℃（常温即可坚挺凝结，无需冷藏），融化点高达85℃~95℃，口感脆韧爽口、不化口，是中式点心经典凝胶材料。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "如果在制作法式草莓吉利丁慕斯时，将融化的吉利丁液放在炉火上直接加热到“100℃剧烈沸腾翻滚五分钟”，这会导致慕斯最终：", "options": {"A": "锅内的所有水分在受热过程中自发转化为了纯天然液态植物油", "B": "吉利丁在锅内自发凝结成坚硬如生铁的岩石块且无法用刀切开", "C": "慕斯颜色在锅中瞬间转化为如同墨汁一般的浓黑深色染料", "D": "蛋白质胶原长链受过度高温破坏断裂，慕斯完全无法结冻凝固"}, "answer": "D", "explanation": "吉利丁对高温极其敏感：其融化温度仅需50℃~60℃。若将其长时间直接高温煮沸（>80℃~100℃），其胶原多肽链骨架会被高温不可逆热变性水解断裂，丧失三维网状交联锁水能力，导致慕斯冷藏几天也依然是稀薄汤水。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "吉利丁（明胶 Gelatin）与琼脂（洋菜 Agar-Agar）在西点中对比，下列哪些叙述是正确的？\nⅠ. 吉利丁源自纯动物骨皮胶原蛋白，而琼脂则是从海藻类（红藻）中提取的植物多糖\nⅡ. 吉利丁凝胶熔点极低（约 25℃~35℃），接近人体口腔体温，带来入口即化的丝滑慕斯口感\nⅢ. 琼脂凝胶熔点极高（需 85℃~95℃ 才能融化），常温下质地脆硬、缺乏弹性，不易融化\nⅣ. 吉利丁片必须直接丢入 100℃ 滚烫开水中长时间猛火沸煮三小时以激发最大凝胶力", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅰ、Ⅲ、Ⅳ", "D": "Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "【考点解析】：吉利丁片必须先用冰水泡软，融化温度一般严控在 50℃~60℃ 温水浴中，高温（超过 80℃~100℃）长时间剧烈沸煮会导致蛋白质水解变性，彻底丧失凝胶结冻能力，故Ⅳ错误；Ⅰ、Ⅱ、Ⅲ正确。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "学徒在制作“新鲜菠萝果冻”时，将切碎的生菠萝肉直接拌入温热的吉利丁液体中放入冰箱冷藏一整夜，第二天发现果冻完全没有凝固成型，导致此翻车事故的核心原因是因为生菠萝中含有：", "options": {"A": "能将吉利丁中的所有水分瞬间化学分解为可燃氢气的酵素", "B": "能直接切断吉利丁蛋白质肽链的活性菠萝蛋白水解酶", "C": "极高浓度的食用精盐矿物质直接中和了所有的胶原分子", "D": "纯天然酒精成分促使吉利丁在常温下完全发生了酒精发酵"}, "answer": "B", "explanation": "生热带水果禁忌：生菠萝富含强效的“菠萝蛋白酶”（Bromelain）。吉利丁本质是纯蛋白质，生菠萝中的蛋白酶会像无数把微型剪刀一样迅速将吉利丁蛋白质长链剪切成极短的多肽和氨基酸，彻底摧毁其凝胶网络，导致果冻永远是烂稀水。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "为了让新鲜菠萝、生木瓜或新鲜猕猴桃可以安全加入吉利丁慕斯中且正常凝固定型，最科学有效的厨房前处理SOP是：", "options": {"A": "将生水果放在太阳底下暴晒十天使其表面完全干燥脱水", "B": "将生水果切块放入零下二十度急冻室冷冻三天后直接拌入", "C": "向切好的生水果块中喷洒大量高度医用消毒纯酒精进行杀菌", "D": "将水果果肉与少许糖水加热煮沸至85℃以上煮透灭活蛋白酶"}, "answer": "D", "explanation": "高温灭酶法：水果中的蛋白水解酶本质也是蛋白质，具有热不稳定性。只要将新鲜菠萝或木瓜块与糖水一同放入锅中加热煮沸（内部中心温度>85℃）持续1~2分钟，酶蛋白受热彻底变性失活，失去切断能力后放凉再与吉利丁结合，慕斯即可完美凝固（或直接选用罐头水果，因罐头出厂时已经过高温灭菌）。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "在家庭制作慕斯蛋糕时，将泡软沥干的吉利丁片隔热水完全融化后，正确的拌入打发淡奶油的操作规范是：", "options": {"A": "刚离火将滚烫的一百度吉利丁液一股脑直接泼在冰冷淡奶油上", "B": "待吉利丁液放凉至室温微温（约30℃~35℃）再分次慢速拌入", "C": "将吉利丁液放入冰箱冷冻室结成坚硬冰块后用刨冰机刨碎拌入", "D": "将吉利丁液与未稀释的高浓度工业浓硫酸按一比一混合拌入"}, "answer": "B", "explanation": "慕斯调配温差控制：吉利丁液若过烫（>50℃）直接倒入冰淡奶油，会瞬间把淡奶油中的打发脂肪球烫化成黄油清油，导致消泡塌陷；若过冷（<25℃），吉利丁在接触冰淡奶油的一瞬间会凝结成一粒粒坚硬的橡皮胶粒（结粒破乳）。因此必须晾至30℃~35℃微温、与体温相仿时轻柔翻拌。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "在制作传统法式水果软糖（Pâte de Fruits）或高档水果果酱时，能使浓缩果汁在糖和酸的作用下凝结成果冻状的天然植物胶体是：", "options": {"A": "从纯净自来水中经长期高温沉淀析出的纯无机白色水垢微粒", "B": "从深山老林枯木表面人工收集的高浓度天然真菌毒素黏液", "C": "从苹果皮或柑橘果皮中提取提炼出的天然高酯果胶（Pectin）", "D": "从精炼植物食用大豆油中经低温析出的完全硬化纯植物蜡质"}, "answer": "C", "explanation": "果胶（Pectin）广泛存在于植物细胞壁与中胶层中（尤其苹果皮与柑橘皮中含量极高）。在烘焙中，高酯果胶在高糖分（可溶性固形物>60%~65%）和适宜酸度（pH 2.8~3.5）的环境下能形成晶莹剔透、果香纯正的耐高温软糖凝胶。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "市售常用于制作“果冻花”或台湾Q弹晶球果冻的“吉利T”（Jelly T / 植物果冻粉），其原料来源与常温物理凝固特性通常是：", "options": {"A": "在常温状态下永远呈现为纯透明水样液体必须加入强碱才凝固", "B": "由纯动物猪皮经强酸长时间高温蒸煮熬制而成的纯浓缩动物胶", "C": "由海藻抽出物与植物豆胶复配而成，常温约40℃左右即可迅速凝结", "D": "由纯干燥食用精盐经过高压压制而成的完全不吸水坚硬方块"}, "answer": "C", "explanation": "吉利T（又称果冻粉）是海藻提取物（如卡拉胶）与植物豆胶（如槐豆胶、魔芋胶）的协同复配产物。它兼具海藻胶的高凝固温度（约40℃常温即凝）与豆胶的Q弹软糯韧性，透明度极佳，成品无腥味，适合制作常温保存的透明晶亮果冻。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "在家庭厨房使用琼脂条（洋菜条）制作红豆糕时，如果仅仅像泡吉利丁一样用冷水泡软后不经加热直接拌入红豆汤，红豆汤最容易出现的结果是：", "options": {"A": "红豆汤会自发发生剧烈化学沸腾并释放出高浓度的纯氧气气流", "B": "整盆红豆汤会在常温状态下瞬间自发转化为纯结晶干燥粉末", "C": "琼脂根本未真正溶解，红豆汤在冰箱冷藏后依然是一盆稀薄散水", "D": "红豆汤表面会自动生成一层坚硬且完全无法用勺子敲破的金属壳"}, "answer": "C", "explanation": "琼脂溶解极限温区：琼脂在冷水中仅能吸水溶胀，其熔化溶解温度必须达到85℃~95℃（通常建议直接置于液体中加热煮沸翻滚1~2分钟至完全化成透明液体）。未彻底煮沸融化的琼脂分子链无法舒展交联，冷却后丝毫没有成胶能力。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "烘焙师傅在制作法式慕斯蛋糕表面亮晶晶的“镜面淋面”（Glaze）时，通常在配方中加入吉利丁和细砂糖，其赋予蛋糕表面的核心视觉效果是：", "options": {"A": "使蛋糕表皮在常温下呈现如同干旱沙漠土地一般的严重龟裂粗糙", "B": "形成光滑平整如镜面般光可鉴人且能清晰倒映出人影的晶莹光泽", "C": "使淋面在两秒钟内彻底渗入蛋糕内部使蛋糕变成纯白色生面团", "D": "促使蛋糕在转盘上旋转时自发产生强烈的纯天然蓝色荧光效果"}, "answer": "B", "explanation": "镜面淋面（Mirror Glaze）利用吉利丁的凝胶网络、水饴葡萄糖浆的高折射率与炼乳/巧克力的遮盖力，在蛋糕表面凝结成一层极度平滑、张力饱满、高光高折射率的透明或彩色保护层，视觉效果如同大理石大漆般光彩夺目。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "关于生鲜水果与吉利丁结合制作果冻慕斯时的相克禁忌，下列哪些叙述是正确的？\nⅠ. 生菠萝（凤梨）、生猕猴桃（奇异果）、生木瓜中富含高活性的蛋白酶（Protease）\nⅡ. 蛋白酶会将吉利丁的胶原蛋白质长链彻底水解切断成短肽，导致果冻永远无法凝结成型\nⅢ. 将这类水果提前加热沸煮熟化（或使用巴氏杀菌水果罐头），破坏蛋白酶活性后即可正常凝胶\nⅣ. 水果越新鲜、蛋白酶活性越强，吉利丁在生菠萝汁中凝结成的果冻硬度就会越高越弹韧", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅰ、Ⅲ、Ⅳ", "D": "Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "【考点解析】：新鲜生菠萝的蛋白酶会彻底破坏吉利丁蛋白质长链，导致其永远呈一滩液体状态无法凝胶，必须经过高温灭活蛋白酶才能使用，故Ⅳ错误；Ⅰ、Ⅱ、Ⅲ叙述完全正确。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "如果想要制作纯素食主义者（Vegan）完全可食用的植物性水果果冻，下列凝胶原料中绝对不能使用的是：", "options": {"A": "从天然深海红藻类海草中萃取精制提炼的天然琼脂粉末", "B": "从猪皮或牛骨骼纯动物结缔组织提炼的传统吉利丁片（明胶）", "C": "从柑橘类水果果皮中提取加工精制而成的纯天然苹果果胶", "D": "从天然魔芋植物块茎中提炼出的天然膳食纤维魔芋纯精粉"}, "answer": "B", "explanation": "素食与宗教禁忌：吉利丁（Gelatin）是100%纯动物来源（绝大部分由生猪皮或牛皮骨水解加工），严格素食者（Vegetarian/Vegan）及清真（Halal，非清真认证猪源明胶）严禁食用；素食者应选用琼脂、吉利T、果胶或卡拉胶等海藻与植物来源胶体。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "在家庭烘焙中，如果手头没有吉利丁片而只有“吉利丁粉”（明胶粉），在加水浸泡泡发时的标准水量配比通常是：", "options": {"A": "吉利丁粉重量的 100 倍滚烫开水", "B": "吉利丁粉重量的 5 到 6 倍冷纯净水", "C": "吉利丁粉重量的 0.1 倍高纯度酒精", "D": "完全不需要任何水分直接干粉撒入"}, "answer": "B", "explanation": "吉利丁粉泡发黄金比：粉末必须按 1:5 ~ 1:6 的比例加入冰纯净水（例如10g吉利丁粉加50g~60g冰水）。静置5~10分钟让粉末颗粒均匀吸胀成透明晶冻，随后再隔水加热融化加入面糊中连同水分一起计入配方水相。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "当法式慕斯蛋糕在4℃冰箱中充分冷藏6小时彻底凝固定型后，烘焙师使用喷枪在模具外壁轻轻快速转圈加热数秒，其主要目的是：", "options": {"A": "促使蛋糕表皮在高温下迅速发生美拉德反应呈现出烤面包的金黄色", "B": "利用高温烈火将模具内壁的不锈钢彻底烧红以杀死表皮所有的细菌", "C": "使慕斯蛋糕内部的所有水分完全蒸发以防止蛋糕出模后发生坍塌", "D": "微热使贴紧模具内壁的极薄一层吉利丁融化，便于蛋糕丝滑脱模"}, "answer": "D", "explanation": "慕斯热力脱模规范：吉利丁在35℃即可融化。用热毛巾敷模具或用小喷枪在外壁微热一圈（仅需2~3秒），贴合模具内壁的纳米级慕斯表层微融脱水，慕斯瞬间失去与模壁的附着阻力，轻轻一顶即可脱出棱角分明、光洁如镜的完美蛋糕体。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "做好的琼脂红豆冻如果在常温盘子里放置大半天，经常会看到盘底渗出一圈清澈的水液，这种在食品胶体学中极为常见的自然析水老化现象称为：", "options": {"A": "红豆淀粉在常温状态下与空气中的氧气发生自燃的现象", "B": "琼脂多糖在常温状态下彻底水解为纯气体的气化现象", "C": "凝胶网架脱水收缩析水（Syneresis / 离水现象）", "D": "盘子表面的陶瓷釉料吸收空气中的水分自发滴漏的现象"}, "answer": "C", "explanation": "凝胶离水现象（Syneresis）：琼脂形成的双螺旋多糖网架刚性强、弹性差。久置或受温度波动时，刚性多糖链在热力学驱动下进一步紧密靠拢聚合，网孔收缩挤压，将原本包裹在空隙中的自由水挤出析出在表面，宏观上表现为“渗水离水”。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "在调制草莓慕斯糊时，如果吉利丁液尚未放凉（温度高达65℃），学徒就急急忙忙倒入刚打发到六分发的冰冷淡奶油中，淡奶油最先产生的直观物理变化是：", "options": {"A": "打蛋盆内壁会析出大量高浓度的工业级医用双氧水消毒液体", "B": "淡奶油会在打蛋盆内瞬间自发结成坚硬如生铁的巨大大理石块", "C": "高温直接融化了冰奶油中的微细脂肪球支架导致面糊瞬间消泡变稀", "D": "面糊在两秒钟内颜色彻底褪色变成完全透明无色的纯水状态"}, "answer": "C", "explanation": "打发淡奶油的微观结构极其脆弱，完全依靠微细脂肪球融合成网包裹空气。过热的液体（>45℃~50℃）倒入会使固态结晶脂肪瞬间化为液态流体，气泡壁破裂，大量空气逸散，打好的奶油糊瞬间塌陷融化成一摊稀水，无法挽回。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "常用于高档法式烘焙淋面、耐反复加热融化且具有极强抗凝胶离水特性的高级果胶品种是：", "options": {"A": "从天然生橡胶树汁中经高温硫化加工制成的纯固体生橡胶", "B": "纯天然提炼的无水碳酸钙石粉与高纯度工业建筑级石膏粉", "C": "从深海鲨鱼软骨中经过强酸熬制而成的纯浓缩鱼胶原蛋白", "D": "通过钙离子交联成胶的特种果胶（NH果胶 / Pectine NH）"}, "answer": "D", "explanation": "NH果胶（Pectine NH）是专为烘焙研发的改性低酯果胶（LM）。普通高酯果胶成胶后不可逆（加热即破坏）；而NH果胶是热可逆的（Thermo-reversible），加热至80℃完全融化流动，冷却后重新凝固且光泽饱满，可反复加热淋面使用，是高端法式西点淋面的标配。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "将一块完全凝固的吉利丁慕斯蛋糕放在炎热夏天的户外野餐阳光下暴晒（环境温度达到38℃~40℃），蛋糕在半小时内最常出现的自然物理变化是：", "options": {"A": "蛋糕表皮会自动生成一层厚厚的纯结晶无水天然食盐硬结晶壳", "B": "蛋糕整体会在阳光下自发膨胀为原本体积的一百倍热气球飞起", "C": "内部吉利丁胶原网络受热完全液化融化坍塌成一滩奶油果泥水", "D": "蛋糕内部的所有蛋白质在常温下瞬间分解消失得完全无影无踪"}, "answer": "C", "explanation": "吉利丁凝胶热敏极限：吉利丁的溶融温度临界线通常在35℃左右。一旦外界环境温度突破35℃~38℃（超过人体体温），三螺旋胶原氢键网络彻底解体断裂，固体凝胶自发转化为流动溶胶，慕斯彻底软塌垮塌成水状。"}]}, {"chapter_id": 19, "chapter_title": "第19课｜塔塔粉 (Cream of Tartar)", "intro": "高一厨艺理论核心：掌握酒石酸氢钾生化特性、蛋白等电点微调、抗消泡稳泡机理及柠檬汁白醋应急代换（20易+15中+5难标准卷）", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "在家庭烘焙打发戚风蛋糕或天使蛋糕的蛋清时，为了让蛋白霜更稳定细腻，常加入的白色酸性粉末“塔塔粉”，其化学通用名称是：", "options": {"A": "纯天然发酵生成的微细乳酸菌群", "B": "高纯度食品级无水碳酸氢钠粉末", "C": "天然提炼的食用酒石酸氢钾盐类", "D": "纯天然海藻提炼精制的琼脂多糖"}, "answer": "C", "explanation": "塔塔粉（Cream of Tartar）的化学名称是酒石酸氢钾（Potassium Bitartrate），呈白色酸性微细晶体粉末，是葡萄酒酿造发酵过程中木桶壁析出的天然副产物，属于食品级弱酸盐。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "新鲜鸡蛋的蛋清（蛋白）由于溶解了微量二氧化碳并在储存中挥发，其天然的酸碱度通常呈现为：", "options": {"A": "具有极强强酸性（pH值通常在1.0~2.0之间）", "B": "具有微弱碱性（pH值通常在7.6~9.2之间）", "C": "具有极强强碱性（pH值通常在13~14之间）", "D": "完全绝对不含任何氢离子的纯中性水相"}, "answer": "B", "explanation": "鸡蛋产出后，蛋清中的碳酸随时间通过蛋壳气孔缓慢挥发散失，使蛋白逐渐呈弱碱性（pH值常在7.6~9.2之间）。在偏碱性环境下，蛋白黏度大但气泡壁缺乏延展弹性，极易脆裂消泡。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "如果在后厨准备打发戚风蛋糕蛋白霜时发现抽屉里的塔塔粉刚好用完了，最安全方便、效果最接近的生活常识应急替代品是：", "options": {"A": "等重量两至三倍的无水高纯度药用医用纯酒精", "B": "等重量两至三倍的高浓度工业强酸硫酸溶液", "C": "等重量两至三倍的纯天然纯碱碳酸钠水溶液", "D": "等重量两至三倍的新鲜柠檬汁或食用纯白醋"}, "answer": "D", "explanation": "塔塔粉的核心作用是提供酸性氢离子（H+）。在缺乏塔塔粉时，可使用鲜榨柠檬汁或食用白醋（以1g塔塔粉 ≈ 2~3g柠檬汁/白醋折算），既天然安全又能达到调节酸碱度的完美稳泡效果。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "在烘焙配方中，打发蛋白霜时塔塔粉的标准推荐添加量通常占蛋白（蛋清）总重量的：", "options": {"A": "百分之二十至百分之三十左右（20%~30%）", "B": "千分之五至百分之一左右（0.5%~1.0%）", "C": "百分之五十至百分之六十左右（50%~60%）", "D": "微克级水平且必须使用高精度电子显微镜"}, "answer": "B", "explanation": "塔塔粉用量极省，通常为蛋清重量的0.5%~1%（例如100g蛋清只需添加约0.5g~1.0g塔塔粉）。过少起不到稳泡效果，过多则会导致成品带有明显的尖锐酸涩味。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "塔塔粉（Cream of Tartar）在西点烘焙中的功能，下列哪些叙述是正确的？\nⅠ. 化学名称为酒石酸氢钾（Potassium Hydrogen Tartrate），属于天然弱酸性盐\nⅡ. 降低蛋白霜的碱性 pH 值，使其接近蛋白质等电点（pI 约 4.6~4.8），增强气泡壁的韧性与耐热性\nⅢ. 使烤出的戚风蛋糕组织洁白细腻，消除蛋清由于碱性微环境产生的暗黄与蛋腥味\nⅣ. 塔塔粉属于强腐蚀性剧毒化学品，在后厨使用时必须佩戴防毒面具与防化服", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅰ、Ⅲ、Ⅳ", "D": "Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "【考点解析】：塔塔粉是葡萄酿酒过程中析出的天然食品级有机弱酸盐，安全无毒，常用于家庭烘焙，故Ⅳ错误；Ⅰ、Ⅱ、Ⅲ正确阐明了其核心理化功能。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "在制作纯白如雪的传统“天使蛋糕”（Angel Food Cake）时，加入塔塔粉除了稳定蛋白泡沫，最直观的视觉色泽改善功能是：", "options": {"A": "使蛋糕表皮在烤箱内自动呈现出如同木炭一般乌黑发亮的光泽", "B": "抑制天然色素在碱性下的泛黄，使蛋糕内部呈现出纯洁雪白的高级质感", "C": "促使蛋糕在脱模时表皮自发生成一层坚硬且完全不透光的金属纯外壳", "D": "使蛋糕在出炉切开时能够自发释放出微弱的纯天然蓝色荧光效果"}, "answer": "B", "explanation": "酸性增白效应：面粉中的类黄酮色素在碱性环境中会呈现暗淡微黄色；加入弱酸性塔塔粉将面糊pH调至微酸性，色素分子结构改变发生无色化转变，使天使蛋糕内部组织呈现出如初雪般圣洁纯白的高雅色泽。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "在家庭厨房熬制法式太妃糖或熬煮糖浆拉糖丝时，师傅常往纯白糖水中滴入少许柠檬汁或加入微量塔塔粉，该操作的核心物理防翻车原理是：", "options": {"A": "使熬煮中的糖浆温度在常温常压状态下瞬间下降至零下二十度急冻", "B": "利用强酸将锅内的所有水分完全化学分解为可燃纯氢气以加速收汁", "C": "酸性催化蔗糖部分水解为转化糖（葡萄糖与果糖），强力阻断蔗糖结晶返砂", "D": "促使不锈钢雪平锅内壁的金属原子与糖分子发生剧烈化学化合反应"}, "answer": "C", "explanation": "熬糖防返砂（Inversion）：纯蔗糖溶液在熬煮浓缩时极易析出粗糙白色糖晶（返砂）。加入酸性塔塔粉能催化蔗糖微量水解生成转化糖（等量葡萄糖与果糖）。转化糖溶解度高且分子形态不一，能极大破坏蔗糖晶格排列，使熬出的糖浆晶莹透亮、永远不返砂。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "在家庭紧急情况下，如果手头没有现成的双效泡打粉，烘焙师可以用哪三种厨房常见原料按比例调配出自制单效简易泡打粉？", "options": {"A": "10份纯白砂糖 + 5份食用精盐 + 1份纯天然植物油", "B": "2份塔塔粉 + 1份食用小苏打 + 1份食用玉米淀粉", "C": "3份高筋面粉 + 2份工业生石灰 + 1份纯天然食用白醋", "D": "5份干酵母粉 + 5份工业臭粉 + 1份纯高浓度医用酒精"}, "answer": "B", "explanation": "经典自制泡打粉配比：2份酸性塔塔粉（提供酸源）+ 1份小苏打（碳酸氢钠，提供碱源与CO2）+ 1份玉米淀粉（吸潮防结块）。三者混合均匀即成简易泡打粉，遇水立即发生酸碱中和反应产生丰富气泡。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "如果在烘烤戚风蛋糕时完全忘记添加塔塔粉或柠檬汁，且使用的是碱度偏高的新鲜鸡蛋，最容易在烘烤出炉倒扣时出现的灾难性翻车现象是：", "options": {"A": "蛋糕表皮呈现出像镜子一样纯金色的金属反光且完全无法用刀切开", "B": "蛋糕会在烤箱内部发生剧烈爆裂并弹飞出烤箱门外砸碎地面瓷砖", "C": "蛋糕内部的所有水分完全转化为纯天然液态植物油溢满整个烤盘", "D": "蛋白霜消泡导致内部骨架薄弱支撑不足，倒扣时蛋糕滑脱坠模或中心塌陷"}, "answer": "D", "explanation": "戚风塌陷事故链：缺乏酸性调节的蛋白霜气泡壁厚而脆，在与蛋黄糊翻拌时极易消泡化水；入炉膨胀受热后由于气孔膜缺乏韧性容易胀破破裂；出炉倒扣时，脆弱的骨架无法承受自身重力，极易发生中心塌顶、缩腰甚至整块从模具内滑脱摔碎。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "如果在打发蛋白时不慎手抖加入了过量5倍的塔塔粉，烤出的戚风蛋糕在品尝时最显著的恶劣风味缺陷是：", "options": {"A": "蛋糕完全没有任何味道如同在嘴里咀嚼完全干燥的纯天然塑料", "B": "入口带有非常尖锐刺鼻的明显酸涩味且蛋糕体积略微矮小扁平", "C": "蛋糕在接触舌头唾液的一瞬间会散发出极其浓烈的大蒜辛辣味", "D": "蛋糕体颜色会自发转化为如同墨汁一般的浓黑深色且剧烈发烫"}, "answer": "B", "explanation": "塔塔粉过量危害：1. 弱酸盐过量残留会赋予蛋糕明显的酸尖涩口怪味；2. 过酸（pH<4.5）使蛋白质变性过早凝固硬化，蛋白泡延展性过早锁死，入炉后受热膨胀力受到压制，导致烤出的蛋糕体积偏矮小。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "在家庭烘焙中，打发蛋白霜加入细砂糖与塔塔粉的规范时机通常是：", "options": {"A": "将塔塔粉和细砂糖一起放入炒菜锅中用大火干炒成黑色焦炭后再倒入蛋清", "B": "必须在戚风蛋糕已经放入烤箱烘烤二十分钟后开炉门直接干撒入面糊表面", "C": "蛋清打出鱼眼粗大泡或细密微泡时加入塔塔粉，细砂糖分三次逐步加入", "D": "将所有的塔塔粉直接倒入蛋黄盆中与液体植物油一起油炸至完全焦糊"}, "answer": "C", "explanation": "打发蛋白加料SOP：先用低速打散蛋清至粗大“鱼眼泡”阶段，此时加入塔塔粉（或柠檬汁）立即调节pH、降低表面张力；随着气泡逐渐密集细腻，分2~3次加入细砂糖逐步稳固水膜，可打出质地最坚挺细腻、光泽如丝缎的优质蛋白霜。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "天然塔塔粉（酒石酸氢钾）在外观形态与触感上的直观生活常识特征是：", "options": {"A": "坚硬如钻石一般且完全不溶于任何液体的纯透明大方结晶体", "B": "带有浓烈刺鼻臭鸡蛋气味的深黑色粗大坚硬矿石块颗粒", "C": "常温状态下呈现为具有极强黏稠度的亮黄色纯天然油脂液体", "D": "纯白色干燥无臭的微细粉末，指尖搓揉细腻且尝起来有淡淡酸味"}, "answer": "D", "explanation": "塔塔粉是白色结晶性微细粉末，无特殊异味，具有纯正柔和的果酸微酸味，在后厨储存时通常置于密封防潮罐内常温保存。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "在后厨没有现成塔塔粉时，关于寻找替代品的实操常识，下列哪些叙述是正确的？\nⅠ. 可用天然酸性柠檬汁（Lemon Juice）或白醋（White Vinegar）按比例等酸效替代\nⅡ. 通常 1 份塔塔粉可用约 2~3 份新鲜柠檬汁或白醋进行替代\nⅢ. 加入过量酸（pH 过低）会导致蛋白质过度收缩变性，析出水分并使蛋白霜发生凝结粗糙\nⅣ. 无论做任何蛋糕，均可使用洗洁精或强碱性肥皂水完美替代塔塔粉打发蛋白", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅰ、Ⅲ、Ⅳ", "D": "Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "【考点解析】：洗洁精和肥皂水属于不可食用的工业洗涤剂，含剧毒表面活性剂，严禁用于任何食品原料，故Ⅳ错误；Ⅰ、Ⅱ、Ⅲ符合后厨替代常识。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "在制作传统法式马卡龙（Macaron）打发意式或法式蛋白霜时，加入少许塔塔粉对挤出的马卡龙外壳品质的核心保障是：", "options": {"A": "使马卡龙外壳在常温状态下瞬间硬化成如同钢筋混凝土一般的纯无机外壳", "B": "增强蛋白气泡弹性韧性，防止面糊在结皮与烘烤时表面爆裂或裙边翻车", "C": "将杏仁粉中所有的天然植物油脂彻底水解为易燃的纯乙醇酒精液体", "D": "使马卡龙在出炉后能够在空气中自发悬浮漂浮在烘焙操作台上空"}, "answer": "B", "explanation": "马卡龙外壳抗裂保护：马卡龙面糊含糖量极高且需经受高温下热空气的猛烈顶起。塔塔粉使蛋白霜气泡壁极具柔韧延展性，翻拌杏仁粉时不易过度消泡，挤出晾皮后表皮结膜坚固，烘烤时蒸汽从模具底部均匀释放、顶出标志性的饱满美丽裙边。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "如果烘焙学徒误将一整勺食用精盐（氯化钠）当成塔塔粉加入了蛋清中打发，最先出现的直观打发障碍是：", "options": {"A": "蛋清表面会自动生成一层厚厚的高纯度纯天然大理石坚硬岩石外壳", "B": "蛋清会在打蛋盆内瞬间自发融化成清澈透明的纯植物食用色拉油", "C": "打蛋头在旋转过程中会自动吸附所有的蛋清使打蛋盆瞬间彻底变空", "D": "过量盐分增加离子强度抑制起泡，蛋白霜很难打发膨起且带有咸涩苦味"}, "answer": "D", "explanation": "盐对起泡的抑制：微量盐可调味，但若大剂量盐误入，过高的无机盐离子强度会破坏蛋白质水化层并阻碍蛋白质在界面的展开吸附，导致蛋清极难打起大泡，充气率锐减，且成品咸苦无法入口。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "在储存开封后的桶装食品级塔塔粉时，后厨管理规范最强调的环境要求是：", "options": {"A": "倒入塑料袋中直接挂在厨房燃气灶正上方用烈火长期烘烤熏黑", "B": "敞开大口摆放在厨房洗碗池旁边潮湿水汽重的地方任由水花飞溅", "C": "盖紧密封盖置于阴凉干燥避光处，严防潮气侵入结块变质", "D": "向桶内倒入大量纯净水搅拌均匀做成稀薄泥浆在阳光下暴晒保存"}, "answer": "C", "explanation": "塔塔粉是结晶弱酸盐，极易吸收空气中的水分受潮结块，因此必须密封防潮储存以保证粉末松散、称量精确。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "家庭制作“舒芙蕾松饼”（Soufflé Pancake）时，蛋白霜的稳定性决定了松饼的高度。加少许塔塔粉的主要直观效果是：", "options": {"A": "松饼在常温状态下会自动硬化成坚硬如铁饼一样的纯生面团块", "B": "面糊在平底锅中煎制时能长时间保持云朵般厚实挺拔而不快速软塌化水", "C": "松饼表皮在锅内两秒钟内会自发转化为纯结晶无水白砂糖颗粒", "D": "锅内的食用植物油会自动转化为透明的纯净水并产生剧烈沸腾"}, "answer": "B", "explanation": "舒芙蕾高度维持：舒芙蕾含粉量极低，完全依靠充气蛋白霜支撑。塔塔粉使气泡膜紧密坚韧、延缓自由水外渗（抗消泡化水），面糊舀入低温煎锅中能层层堆叠挺立，煎出如云朵般轻盈蓬松的厚松饼。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "酒石酸氢钾（塔塔粉）天然析出的源头——葡萄酒酿造过程中，其产生的自然现象是：", "options": {"A": "葡萄皮表面附着的泥沙杂质在阳光暴晒下自动聚合形成的干燥泥块", "B": "葡萄酒发酵过程中由人工向木桶内注入高浓度液态硫酸生成的化学沉淀", "C": "葡萄汁中的天然酒石酸与钾离子在橡木桶低温熟化陈酿时析出的酒石结晶", "D": "木桶内部不锈钢螺丝钉在酒精腐蚀下脱落生成的金属铁锈氧化微粒"}, "answer": "C", "explanation": "塔塔粉的天然身世：葡萄中含有丰富的天然酒石酸。葡萄酒在橡木桶低温陈酿时，酒石酸与矿物质钾结合生成溶解度极低的酒石酸氢钾微晶，沉淀附着在桶壁上（俗称酒石 Wine Diamonds），收集经过提纯精制后即为烘焙塔塔粉。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "如果想要制作外脆内软的经典美式“帕夫洛娃蛋糕”（Pavlova蛋白霜蛋糕），在打发大量蛋清时加入塔塔粉和少许玉米淀粉的黄金组合作用是：", "options": {"A": "将蛋白霜中的所有天然蛋白质在烤箱中瞬间完全水解为纯氮气气体", "B": "促使蛋白霜在九十度低温烘烤时彻底融化成一汪清澈透明的纯植物油", "C": "塔塔粉巩固蛋白气泡壁，玉米淀粉吸收游离水分，烘出外壳酥脆内里棉花糖般的梦幻质感", "D": "使蛋白霜蛋糕表面结成一层厚度达到十厘米以上的极厚坚硬金属外壳"}, "answer": "C", "explanation": "帕夫洛娃（Pavlova）双重稳固核心：塔塔粉下调pH强化蛋白分子膜延展弹性，玉米淀粉胶体糊化锁住内部游离水分，经低温（100℃~120℃）长时间慢烘，形成外层薄如蛋壳酥脆、内部如棉花糖般轻柔湿润的标志性绝妙口感。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "关于食品级塔塔粉与厨房常见“小苏打”在酸碱性质上的本质生活常识区别叙述，正确的是：", "options": {"A": "两者在接触水分时都会自发发生剧烈核裂变并产生强烈刺眼强光", "B": "塔塔粉和纯小苏打是同一种纯碱成分且在配方中可以完全随意乱用", "C": "塔塔粉呈极强强碱性，而小苏打在水中溶解后呈极强的高危强酸性", "D": "塔塔粉是酸性原料用来稳定蛋白，小苏打是碱性原料用来中和产气"}, "answer": "D", "explanation": "酸碱两极辨析：塔塔粉是酸（水溶液pH约3.5~4.0），用于下调蛋白碱度、稳定起泡；小苏打是碱（水溶液pH约8.5），用于提供碱源中和产气。二者属性完全相反，绝不可混淆调换。"}]}, {"chapter_id": 20, "chapter_title": "第20课｜烘焙百分比与材料用量 (Baker's Percentage & Calculations)", "intro": "高一厨艺理论核心：掌握面粉100%基准、实际百分比辨析、四大工艺损耗率及生坯熟重逆向倒推计算（20易+15中+5难标准卷）", "questions": [{"id": 1, "difficulty": "easy", "type": "single", "question": "在烘焙专业计算体系中，“烘焙百分比”（Baker's Percentage）永远固定作为绝对 100% 基准的原料是：", "options": {"A": "配方中称量的白砂糖总重", "B": "配方中加入的纯清水总重", "C": "面团搅拌出炉后的总重量", "D": "配方中使用的面粉总重量"}, "answer": "D", "explanation": "烘焙百分比（Baker's Percentage）的国际行业定义：以配方中“面粉的总重量”作为唯一的绝对100%基准（若有多种面粉则取所有面粉总和为100%），其余所有配料（水、酵母、盐、糖、油）的重量均折算为占面粉重量的相对百分比。"}, {"id": 2, "difficulty": "easy", "type": "single", "question": "如果一个吐司配方的烘焙百分比显示：面粉100%、水65%、酵母1%、盐2%、细砂糖10%、黄油8%，那么该配方的“总烘焙百分比”是：", "options": {"A": "百分之一百整（100%）", "B": "百分之一百八十六（186%）", "C": "百分之九十整（90%）", "D": "百分之五十整（50%）"}, "answer": "B", "explanation": "总烘焙百分比计算：将所有原料的烘焙百分比直接相加：100%（面粉）+ 65%（水）+ 1%（酵母）+ 2%（盐）+ 10%（糖）+ 8%（黄油）= 186%。由于面粉自身已占100%，因此面包面团的总烘焙百分比必然大于100%。"}, {"id": 3, "difficulty": "easy", "type": "single", "question": "烘焙行业之所以普遍采用“烘焙百分比”而不是日常生活中的“实际百分比”，最主要的核心实操便利是：", "options": {"A": "使用烘焙百分比能让烤箱在烘烤时完全不需要通电也能正常加热熟化", "B": "烘焙百分比能使面粉在常温状态下自动吸收周围空气中的所有水分", "C": "任意增减面粉量时其余材料可直接乘比例，极易按生产订单放大缩小", "D": "烘焙百分比能将所有的植物油成分在常温搅拌时彻底转化为纯白细砂糖"}, "answer": "C", "explanation": "烘焙百分比的两大实操神效：1. 极易判断面团物理特性（例如一看“水65%”就知道面团软硬度，“糖20%”就知道是高糖甜面包）；2. 极其便于配方缩放（Scaling），不管今天要揉1kg面粉还是100kg面粉，只需面粉重乘以固定百分比即可秒出各项用料，无需重新计算复杂的全相总分母。"}, {"id": 4, "difficulty": "easy", "type": "single", "question": "某面包配方中高筋面粉用量为 500 克，配方标明食盐的烘焙百分比为 2%，那么烘焙师称量食盐时的精确重量应为：", "options": {"A": "两克整（2g）", "B": "一百克整（100g）", "C": "五十克整（50g）", "D": "十克整（10g）"}, "answer": "D", "explanation": "基础顺推公式：材料重量 = 面粉总重量 × 该材料的烘焙百分比。本题中食盐重量 = 500g × 2% = 500 × 0.02 = 10g。"}, {"id": 5, "difficulty": "easy", "type": "combination", "question": "下列关于“烘焙百分比”（Baker's Percentage）国际通用准则的叙述，哪些是正确的？\nⅠ. 烘焙百分比以配方中所有面粉的总重量恒定设定为基准 100%\nⅡ. 配方中其他所有原料（水、糖、盐、酵母、油脂等）的百分比均以面粉总重为分母换算\nⅢ. 配方中各项原料百分比的总和通常显著大于 100%（例如某吐司配方总百分比为 185%）\nⅣ. 烘焙百分比与实际重量百分比相同，配方所有原料百分比相加之和永远必须严格等于 100%", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅰ、Ⅲ、Ⅳ", "D": "Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "【考点解析】：烘焙百分比以面粉为 100%，配方总百分比必然超过 100%；只有“实际百分比”（以面团总重为分母）的总和才等于 100%，故Ⅳ错误；Ⅰ、Ⅱ、Ⅲ为烘焙百分比核心定义。"}, {"id": 6, "difficulty": "easy", "type": "single", "question": "如果配方中面粉称量为 1000 克，水的烘焙百分比为 68%，即需要 680 克水。如果烘焙师想将配方面粉缩小为 200 克，此时所需的水量应为：", "options": {"A": "六百八十克（680g）", "B": "一百三十六克（136g）", "C": "五十克整（50g）", "D": "三百克整（300g）"}, "answer": "B", "explanation": "比例恒定计算：烘焙百分比在配方缩放时保持绝对恒定。新水量 = 新面粉重 × 水的烘焙百分比 = 200g × 68% = 136g。"}, {"id": 7, "difficulty": "easy", "type": "single", "question": "在面包制作全流程中，生面团送入烤箱烘烤直到出炉，由于高温导致水分大量蒸发散失，这种重量减少的自然现象称为：", "options": {"A": "面粉淀粉的常温核裂变损耗", "B": "烘烤蒸发损耗（Baking Loss）", "C": "面团被烤箱内壁吸收的损耗", "D": "食盐结晶自发升华的气体损耗"}, "answer": "B", "explanation": "烘烤损耗（Baking Loss / 烧减率）：生面团在烤箱高温受热时，水分剧烈蒸发汽化，同时伴随微量酒精与挥发性有机物散失，导致刚出炉的热熟面包重量显著轻于入炉前的生面团重量，是后厨四大损耗中占比最大的一项（通常为8%~12%）。"}, {"id": 8, "difficulty": "easy", "type": "single", "question": "某面包学徒需要制作一个出炉合格熟重为 450 克（1磅）的标准白吐司。如果已知该吐司在烘烤过程中的烘烤损耗率为 10%，该学徒分割入模的“生面团生坯重量”应大约为：", "options": {"A": "六百克整（600g）", "B": "四百零五克（405g）", "C": "四百五十克（450g）", "D": "五百克整（500g）"}, "answer": "D", "explanation": "熟重逆推生重经典公式：生面团重量 = 目标熟重 ÷ (1 - 烘烤损耗率) = 450g ÷ (1 - 0.10) = 450 ÷ 0.90 = 500g。（常见错误算法：450 × 1.1 = 495g，会因少5g导致出炉缺重）。"}, {"id": 9, "difficulty": "easy", "type": "single", "question": "如果某烘焙店主由于粗心大意，误把出炉“熟面包目标净重450克”直接当成了“生面团分割重量450克”去入模烘烤，出炉后最严重的商业合规后果是：", "options": {"A": "吐司面包出炉后内部会自动生成大量坚硬如石块的高浓度纯无机食用精盐", "B": "吐司面包在烤箱中会自发膨胀为原本体积的一百倍大并卡死在烤箱腔体内", "C": "面包出炉水分蒸发后仅剩405克左右，因商品缺重面临消费者投诉与执法罚款", "D": "烤盘表面的特氟龙涂层会被生面团彻底吸收使面包呈现出纯黑色的金属光泽"}, "answer": "C", "explanation": "缺重商业事故：450g生面团烤完缩水10%后只剩约405g！若包装袋标明450g净含量，此行为属于严重的“短斤少两/虚标净重”违法行为，在商业烘焙中会遭遇全批次下架退货、工商重罚并严重砸坏品牌声誉。"}, {"id": 10, "difficulty": "easy", "type": "single", "question": "在称量原料时，如果将配方明确标注的“烘焙百分比 2% 食盐”，荒唐地错看成了“实际百分比 20%”，直接称了原本十倍的食盐倒入面团，面团最致命的翻车结果是：", "options": {"A": "生面团在常温搅拌缸内会自动彻底融化成清澈透明的纯植物食用色拉油", "B": "面团发酵膨胀速度会比正常面团瞬间加快一百倍以上在五分钟内爆满打蛋缸", "C": "极高渗透压瞬间彻底脱水杀死酵母菌导致完全无法发酵，且咸如海水报废", "D": "面团表皮在常温下会自发释放出大量纯净无害的纯氧气气流使周围空气清新"}, "answer": "C", "explanation": "盐过量灾难：盐的标准烘焙百分比为1.8%~2.2%。若加到20%（超标10倍），极强的高渗透压会瞬间吸干酵母细胞内的水分使其质壁分离彻底脱水灭绝，面团完全停止产气发酵成死面坨，且咸度爆表直接废弃报废。"}, {"id": 11, "difficulty": "easy", "type": "single", "question": "在烘焙生产全流程中，生面团在经历打面机搅拌粘缸、分割桌面残留、发酵周转箱附着等环节导致的微量损耗总称为：", "options": {"A": "自来水蒸发产生的高温燃烧损耗", "B": "面粉蛋白质自然氧化消失损耗", "C": "烘焙学徒在后厨偷吃面团的损耗", "D": "加工操作机械损耗（Handling Loss）"}, "answer": "D", "explanation": "机械操作损耗（Handling/Processing Loss）：指原料在称量飞粉、打面粘钩粘缸壁、分割滚圆粘案板、发酵布附着等物理转移过程中产生的不可避免的微小损失（通常综合损耗在1%~3%之间）。"}, {"id": 12, "difficulty": "easy", "type": "single", "question": "某甜面包配方中，面粉总重量为 2000 克，配方标明酵母的烘焙百分比为 1.5%，那么所需干酵母的精确称量克数应为：", "options": {"A": "三克整（3g）", "B": "十五克整（15g）", "C": "三十克整（30g）", "D": "一百五十克（150g）"}, "answer": "C", "explanation": "顺推乘法计算：干酵母重量 = 面粉重量 × 酵母百分比 = 2000g × 1.5% = 2000 × 0.015 = 30g。"}, {"id": 13, "difficulty": "easy", "type": "combination", "question": "在后厨进行精准称量与配方计算的实操规范，下列哪些叙述是正确的？\nⅠ. 电子秤使用前必须放置在坚固平稳的水平桌面上，并确保气流不过度直吹秤盘\nⅡ. 放置盛装容器后必须先按下“去皮/清零键（Tare/Zero）”，然后再进行原料称量\nⅢ. 烘焙中微量原料（如酵母、食盐、改良剂）称量误差对成品品质影响极大，宜使用精确到 0.1g 的微量秤\nⅣ. 为了节省时间，称量面粉和黄油时可以用普通家用汤匙随意舀取，完全无需电子秤精准计量", "options": {"A": "Ⅰ、Ⅱ、Ⅲ", "B": "Ⅰ、Ⅱ、Ⅳ", "C": "Ⅰ、Ⅲ、Ⅳ", "D": "Ⅱ、Ⅲ、Ⅳ"}, "answer": "A", "explanation": "【考点解析】：烘焙是一门精密的食品化学科学，容积勺称量误差高达 20%~50%，极易导致翻车，必须严格使用电子秤称量重量，故Ⅳ错误；Ⅰ、Ⅱ、Ⅲ叙述完全正确。"}, {"id": 14, "difficulty": "easy", "type": "single", "question": "在烘焙工业界生产法式长棍面包（Baguette）时，配方中通常只包含面粉、水、酵母和盐四种原料，若水的烘焙百分比为70%，代表的含义是：", "options": {"A": "在整个法棍面团的总重量中水分占到了70%", "B": "每使用100克面粉，需要对应加入70克纯净水", "C": "烤出的法棍面包出炉切开内部有70%是液体水", "D": "面粉在揉面搅拌过程中有70%彻底融化成了水"}, "answer": "B", "explanation": "烘焙百分比的核心基准读法：任何材料的百分比均直接相对于面粉总重量。水的烘焙百分比70%，即意味着水重与粉重之比为 70:100，即每100g面粉对应加70g水（形成高吸水率高水合面团）。"}, {"id": 15, "difficulty": "easy", "type": "single", "question": "如果烘焙坊需要临时赶制订单，将原定只做 10 个面包的原料配方，等比例放大制作 50 个完全相同的面包，此时各项原料的烘焙百分比：", "options": {"A": "食盐的烘焙百分比自动变为零，白砂糖的烘焙百分比自动变为一百倍", "B": "各项原料的烘焙百分比必须强行乘以五倍以使面团变得五倍更硬", "C": "各项原料的烘焙百分比保持绝对不变，各项实际称量重量同步放大5倍", "D": "所有的面粉和水在放大后会自动在搅拌缸内转化为纯固态干燥石膏"}, "answer": "C", "explanation": "配方缩放比例不变性：烘焙百分比反映的是食材之间的内在平衡比例关系。无论是做1个还是做1000个面包，烘焙百分比数值恒定不变，只需将每项原料的绝对实际投料重量按比例系数（Scaling Factor）同步放大即可。"}, {"id": 16, "difficulty": "easy", "type": "single", "question": "在西点蛋糕制作中，如果配方表明细砂糖的烘焙百分比为 80%（以低筋面粉100%为基准），那么如果使用了 250 克低筋面粉，所需细砂糖的重量为：", "options": {"A": "二十克整（20g）", "B": "八十克整（80g）", "C": "三百克整（300g）", "D": "两百克整（200g）"}, "answer": "D", "explanation": "直接乘法计算：细砂糖重量 = 面粉重量 × 糖的烘焙百分比 = 250g × 80% = 250 × 0.8 = 200g。"}, {"id": 17, "difficulty": "easy", "type": "single", "question": "某吐司面包在常温出炉后，冷却至室温（中心温度约30℃）方可进行机械切片包装，在冷却与切片过程中水分继续散失及碎屑脱落导致的损耗率通常约为：", "options": {"A": "百分之五十至百分之六十左右（50%~60%）", "B": "百分之一至百分之二左右（1%~2%）", "C": "百分之八十至百分之九十左右（80%~90%）", "D": "完全没有任何损耗且重量会自发增加两倍"}, "answer": "B", "explanation": "冷却切片损耗（Cooling & Slicing Loss）：刚出炉的面包温度高达95℃以上，在冷却架上放凉时多余水汽继续缓慢向干燥空气扩散蒸发（损耗约1%~1.5%），加上切片机刀片切割产生的细微面包屑损失（约0.5%），综合损耗通常在1%~2%左右。"}, {"id": 18, "difficulty": "easy", "type": "single", "question": "制作重油曲奇饼干时，配方为：低筋面粉100%、黄油60%、糖粉40%、蛋液20%，如果今天后厨刚好剩下 300 克黄油需要全部用完，那么需要配比称量的低筋面粉总重量应为：", "options": {"A": "一百八十克（180g）", "B": "三百克整（300g）", "C": "五百克整（500g）", "D": "一千克整（1000g）"}, "answer": "C", "explanation": "基准面粉逆推公式：面粉重量 = 已知材料重量 ÷ 该材料烘焙百分比。本题中低筋面粉 = 黄油重量 ÷ 黄油百分比 = 300g ÷ 60% = 300 ÷ 0.6 = 500g。"}, {"id": 19, "difficulty": "easy", "type": "single", "question": "如果某配方总烘焙百分比为 180%，烘焙师傅称量了 500 克面粉并按比例配齐了所有辅料搅拌成面团，在不考虑任何粘缸损耗的理论状态下，该生面团的总重量为：", "options": {"A": "一千八百克（1800g）", "B": "五百克整（500g）", "C": "九百克整（900g）", "D": "三百六十克（360g）"}, "answer": "C", "explanation": "总面团重计算：理论总面团重量 = 面粉重量 × 总烘焙百分比 = 500g × 180% = 500 × 1.80 = 900g。"}, {"id": 20, "difficulty": "easy", "type": "single", "question": "关于食品配料称量中“净重”（Net Weight）与“毛重”（Gross Weight）的生活常识区别叙述，正确的是：", "options": {"A": "净重是食材连同大铁盆的总重量，毛重是扣除大铁盆后的纯食材重量", "B": "净重是扣除包装碗后的食材实际纯重量，毛重是食材连同包装碗的总重量", "C": "净重和毛重在法律与商业上完全没有任何区别且两者数值绝对永远相等", "D": "毛重必须使用显微镜测定，而净重只能通过肉眼猜测估计得出数值"}, "answer": "B", "explanation": "称量常识：净重（Net Weight）= 毛重（Gross Weight）- 皮重（Tare Weight，即盛装容器的自身重量）。在烘焙配方称量时，必须将量盆去皮，所有配方记录的克数必须100%为食材的净重。"}]}]
+      },
+      senior2: {
+        id: 'senior2',
+        grade_num: '02',
+        grade_name: '高二：蛋糕、面包与西餐理论',
+        badge: '进阶高二·题库编排中',
+        sub: '蛋糕分类与烘烤·面包二次发酵工艺·西餐烹调技巧与经典菜肴',
+        chapters: [] // Future Senior 2 questions can be plugged in here directly!
+      },
+      senior3: {
+        id: 'senior3',
+        grade_num: '03',
+        grade_name: '高三：西式点心、酱汁与亚洲烹调',
+        badge: '高阶高三·题库编排中',
+        sub: '高级法式点心·经典母酱制作·亚洲风味烹调与董总统考鉴定冲刺',
+        chapters: [] // Future Senior 3 questions can be plugged in here directly!
+      }
+    };
+
+    // State
+    let currentGrade = 'senior1';
+    let rawData = [];
+    let currentFilter = 'all';
+    let currentDifficulty = 'all'; // 'all', 'easy', 'medium', 'hard', 'mistakes'
+    let searchQuery = '';
+    let userAnswers = {}; // key: `uid`, value: { chosen: 'A', correct: true/false }
+    let allQuestions = [];
+
+    // Render questions - High-Performance Batch HTML
+    
+    function setDiffFilter(diff) {
+      currentDifficulty = diff;
+      document.querySelectorAll('.diff-tab-btn').forEach(btn => btn.classList.remove('active'));
+      if (diff === 'all') document.getElementById('tabAll').classList.add('active');
+      else if (diff === 'easy') document.getElementById('tabEasy').classList.add('active');
+      else if (diff === 'medium') document.getElementById('tabMed').classList.add('active');
+      else if (diff === 'hard') document.getElementById('tabHard').classList.add('active');
+      else if (diff === 'mistakes') document.getElementById('tabMistakes').classList.add('active');
+      render();
+    }
+
+    function updateDiffCounts() {
+      // Base questions by current chapter filter
+      let base = allQuestions;
+      if (currentFilter !== 'all') {
+        base = allQuestions.filter(q => q.chapter_id == currentFilter);
+      }
+      const countAll = base.length;
+      const countEasy = base.filter(q => q.difficulty === 'easy').length;
+      const countMed = base.filter(q => q.difficulty === 'medium').length;
+      const countHard = base.filter(q => q.difficulty === 'hard').length;
+      const countMistakes = base.filter(q => {
+        const rec = userAnswers[q.uid];
+        return rec && !rec.correct;
+      }).length;
+
+      const elAll = document.getElementById('badgeAll');
+      const elEasy = document.getElementById('badgeEasy');
+      const elMed = document.getElementById('badgeMed');
+      const elHard = document.getElementById('badgeHard');
+      const elMistakes = document.getElementById('badgeMistakes');
+
+      if (elAll) elAll.textContent = countAll;
+      if (elEasy) elEasy.textContent = countEasy;
+      if (elMed) elMed.textContent = countMed;
+      if (elHard) elHard.textContent = countHard;
+      if (elMistakes) elMistakes.textContent = countMistakes;
+    }
+
+    function render() {
+      const container = document.getElementById('questionsContainer');
+
+      let filtered = allQuestions.filter(q => {
+        // Filter by Chapter
+        if (currentFilter !== 'all') {
+          if (q.chapter_id != currentFilter) return false;
+        }
+
+        // Filter by Difficulty or Mistakes
+        if (currentDifficulty === 'mistakes') {
+          const rec = userAnswers[q.uid];
+          if (!rec || rec.correct) return false;
+        } else if (currentDifficulty === 'easy') {
+          if (q.difficulty !== 'easy') return false;
+        } else if (currentDifficulty === 'medium') {
+          if (q.difficulty !== 'medium') return false;
+        } else if (currentDifficulty === 'hard') {
+          if (q.difficulty !== 'hard') return false;
+        }
+
+        // Search query
+        if (searchQuery.trim() !== '') {
+          const qText = (q.question + q.options.A + q.options.B + q.options.C + q.options.D + q.explanation).toLowerCase();
+          if (!qText.includes(searchQuery.toLowerCase())) return false;
+        }
+
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div style="text-align:center; padding: 60px 20px; background:white; border-radius:12px; border:1px solid #E2E8F0;">
+            <div style="font-size: 2.5rem; margin-bottom: 12px;">🎉</div>
+            <h3 style="color:#334155; margin-bottom:6px;">没有找到匹配的题目</h3>
+            <p style="color:#64748B; font-size:0.92rem;">${currentFilter === 'mistakes' ? '太棒了！目前还没有做错任何题目，或者错题已被清除。' : '试试调整搜索关键词或选择其他课时。'}</p>
+          </div>
+        `;
+        updateHUD();
+      updateDiffCounts();
+        return;
+      }
+
+      let cardsHtml = '';
+      filtered.forEach((q) => {
+        const isRoman = q.type === 'combination' || q.type === 'roman';
+        const tagText = isRoman ? '乙组·罗马组合题' : '甲组·单项选择题';
+        const tagClass = isRoman ? 'q-tag roman' : 'q-tag';
+
+        const rec = userAnswers[q.uid];
+        const isAnswered = !!rec;
+
+        let optionsHtml = '';
+        ['A', 'B', 'C', 'D'].forEach(letter => {
+          let itemClass = 'option-item';
+          if (isAnswered) {
+            itemClass += ' locked';
+            if (rec.chosen === letter) {
+              itemClass += rec.correct ? ' correct' : ' wrong';
+            } else if (!rec.correct && q.answer === letter) {
+              itemClass += ' should-have-chosen';
+            }
+          }
+
+          optionsHtml += `
+            <div class="${itemClass}" onclick="handleOptionClick('${q.uid}', '${letter}')">
+              <span class="opt-letter">${letter}</span>
+              <span class="opt-text">${q.options[letter]}</span>
+            </div>
+          `;
+        });
+
+        const expShowClass = isAnswered ? 'explanation-box show' : 'explanation-box';
+
+        let diffBadge = '';
+        if (q.difficulty === 'easy') {
+          diffBadge = '<span class="diff-tag" style="background:#DCFCE7; color:#15803D; font-size:0.75rem; padding:3px 8px; border-radius:6px; font-weight:700; margin-left:6px;">【容易】</span>';
+        } else if (q.difficulty === 'medium') {
+          diffBadge = '<span class="diff-tag" style="background:#FEF9C3; color:#A16207; font-size:0.75rem; padding:3px 8px; border-radius:6px; font-weight:700; margin-left:6px;">【中等】</span>';
+        } else if (q.difficulty === 'hard') {
+          diffBadge = '<span class="diff-tag" style="background:#FEE2E2; color:#B91C1C; font-size:0.75rem; padding:3px 8px; border-radius:6px; font-weight:700; margin-left:6px;">【较难】</span>';
+        }
+
+        cardsHtml += `
+          <div class="question-card" id="card-${q.uid}">
+            <div class="q-header">
+              <div>
+                <span class="${tagClass}">${tagText}</span>
+                ${diffBadge}
+              </div>
+              <span class="q-chapter-badge">${q.chapter_title} · 第 ${q.id} 题</span>
+            </div>
+            <div class="q-title">${q.question}</div>
+            <div class="options-grid">
+              ${optionsHtml}
+            </div>
+            <div class="${expShowClass}" id="exp-${q.uid}">
+              <div class="exp-title">💡 生活常识与烘焙机理解析【正确答案：${q.answer}】</div>
+              <div class="exp-body">${q.explanation}</div>
+            </div>
+          </div>
+        `;
+      });
+
+      container.innerHTML = cardsHtml;
+      updateHUD();
+      updateDiffCounts();
+    }
+
+    // Instant Zero-Lag Option Click
+    window.handleOptionClick = function(uid, chosenLetter) {
+      if (userAnswers[uid]) return; // already answered
+
+      const q = allQuestions.find(item => item.uid === uid);
+      if (!q) return;
+
+      const isCorrect = (chosenLetter === q.answer);
+      
+      userAnswers[uid] = { chosen: chosenLetter, correct: isCorrect };
+      try {
+        localStorage.setItem('uec_quiz_answers_' + currentGrade, JSON.stringify(userAnswers));
+      } catch (e) {
+        console.warn('LocalStorage save failed:', e);
+      }
+
+
+      // Update targeted card DOM directly for instantaneous response
+      const card = document.getElementById(`card-${uid}`);
+      if (card) {
+        const optionItems = card.querySelectorAll('.option-item');
+        const letters = ['A', 'B', 'C', 'D'];
+        optionItems.forEach((item, idx) => {
+          item.classList.add('locked');
+          const letter = letters[idx];
+          if (chosenLetter === letter) {
+            item.classList.add(isCorrect ? 'correct' : 'wrong');
+          } else if (!isCorrect && q.answer === letter) {
+            item.classList.add('should-have-chosen');
+          }
+        });
+        const expBox = document.getElementById(`exp-${uid}`);
+        if (expBox) expBox.classList.add('show');
+      }
+
+      updateHUD();
+      updateDiffCounts();
+    };
+
+    // Update HUD stats
+    function updateHUD() {
+      const answeredKeys = Object.keys(userAnswers);
+      const answeredCount = answeredKeys.length;
+      let correctCount = 0;
+      answeredKeys.forEach(k => {
+        if (userAnswers[k].correct) correctCount++;
+      });
+      const wrongCount = answeredCount - correctCount;
+      const acc = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+
+      document.getElementById('hudAnswered').innerText = `${answeredCount} / ${allQuestions.length}`;
+      document.getElementById('hudAccuracy').innerText = `${acc}%`;
+      document.getElementById('hudCorrect').innerText = correctCount;
+      document.getElementById('hudWrong').innerText = wrongCount;
+    }
+
+    // Reset All
+    window.resetAll = function() {
+      if (confirm('确定要清空当前的做题记录重新开始吗？')) {
+        userAnswers = {};
+        render();
+      }
+    };
+
+    // Grade Selection & Portal Logic
+    window.selectGrade = function(gradeKey) {
+      if (!quizDatabase[gradeKey]) return;
+      currentGrade = gradeKey;
+      const gradeData = quizDatabase[gradeKey];
+
+      // Update header info
+      document.getElementById('headerTitleText').innerText = `2026 UEC ${gradeData.grade_name}`;
+      document.getElementById('headerBadge').innerText = gradeData.badge;
+      document.getElementById('headerSub').innerText = gradeData.sub;
+      document.getElementById('currentGradeTag').innerText = `切换年段 (${gradeData.grade_name.split('：')[0]})`;
+
+      rawData = gradeData.chapters || [];
+      userAnswers = {};
+      currentFilter = 'all';
+      searchQuery = '';
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) searchInput.value = '';
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) clearBtn.style.display = 'none';
+
+      // Flatten questions
+      allQuestions = [];
+      rawData.forEach(ch => {
+        ch.questions.forEach(q => {
+          allQuestions.push({
+            chapter_id: ch.chapter_id,
+            chapter_title: ch.chapter_title,
+            uid: `${ch.chapter_id}-${q.id}`,
+            ...q
+          });
+        });
+      });
+
+      // Hide portal screen
+      document.getElementById('gradePortal').classList.add('hidden');
+
+      const container = document.getElementById('questionsContainer');
+      const controlPanel = document.querySelector('.control-panel');
+
+      if (rawData.length === 0) {
+        if (controlPanel) controlPanel.style.display = 'none';
+        container.innerHTML = `
+          <div style="background:white; border-radius:18px; padding:64px 24px; text-align:center; border:2px dashed #CBD5E1; margin-top:20px;">
+            <div style="font-size:3.5rem; margin-bottom:16px;">${gradeKey === 'senior2' ? '🎂' : '👨‍🍳'}</div>
+            <h2 style="font-size:1.6rem; font-weight:800; color:#1E293B; margin-bottom:12px;">${gradeData.grade_name} 题库架构已就绪</h2>
+            <p style="color:#64748B; font-size:1.02rem; max-width:620px; margin:0 auto 24px; line-height:1.7;">
+              <strong>${gradeData.grade_name}</strong> 专属题库正在系统编排整理中，敬请期待！
+            </p>
+            <div style="display:flex; justify-content:center; gap:14px; flex-wrap:wrap;">
+              <button onclick="selectGrade('senior1')" style="padding:12px 24px; background:linear-gradient(135deg, #92400E 0%, #78350F 100%); color:white; border:none; border-radius:10px; font-weight:700; cursor:pointer; font-size:1rem; box-shadow:0 4px 12px rgba(120,53,15,0.2);">
+                🥐 进入高一题库 (800题完整可用)
+              </button>
+              <button onclick="showPortal()" style="padding:12px 24px; background:#F1F5F9; color:#475569; border:1px solid #CBD5E1; border-radius:10px; font-weight:700; cursor:pointer; font-size:1rem;">
+                🎓 返回年级选择门户
+              </button>
+            </div>
+          </div>
+        `;
+        document.getElementById('hudAnswered').innerText = `0 / 0`;
+        document.getElementById('hudAccuracy').innerText = `0%`;
+        document.getElementById('hudCorrect').innerText = '0';
+        document.getElementById('hudWrong').innerText = '0';
+        return;
+      }
+
+      if (controlPanel) controlPanel.style.display = 'grid';
+      initControls();
+      render();
+    };
+
+    window.showPortal = function() {
+      document.getElementById('gradePortal').classList.remove('hidden');
+    };
+
+    // Initialize Chapter Dropdown Selector & Search
+    function initControls() {
+      const select = document.getElementById('chapterSelect');
+      let html = `<option value="all">🌟 全部课时 (全套 ${allQuestions.length} 题)</option>`;
+      html += `<option value="mistakes">⚠️ 错题专练本 (仅练错题)</option>`;
+      html += `<option disabled>────────── 独立课时 ──────────</option>`;
+      rawData.forEach(ch => {
+        const cleanTitle = ch.chapter_title.replace(/\(.*?\)/g, '').replace(/\s*\|/g, ' ·').replace(/\s+/g, ' ').trim();
+        html += `<option value="${ch.chapter_id}">${cleanTitle} (${ch.questions.length}题)</option>`;
+      });
+      select.innerHTML = html;
+
+      select.onchange = (e) => {
+        currentFilter = e.target.value;
+        render();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
+      const searchInput = document.getElementById('searchInput');
+      const clearBtn = document.getElementById('clearSearchBtn');
+
+      searchInput.oninput = (e) => {
+        searchQuery = e.target.value;
+        if (clearBtn) clearBtn.style.display = searchQuery ? 'flex' : 'none';
+        render();
+      };
+
+      window.clearSearch = function() {
+        searchInput.value = '';
+        searchQuery = '';
+        if (clearBtn) clearBtn.style.display = 'none';
+        render();
+        searchInput.focus();
+      };
+    }
+
+    // Initial render: load Senior 1 and show login/selection portal
+    selectGrade('senior1');
+    document.getElementById('gradePortal').classList.remove('hidden');
+  </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+{
+  "pageId": "3cb138c5-b398-811f-8439-ead314363ad8",
+  "children": [
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "五、2026独中统考重点：埃斯考菲耶（Escoffier）西方厨房编制与岗位职责"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "icon": {
+          "emoji": "👨‍🍳"
+        },
+        "color": "blue_background",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "【统考教研重点：西餐现代后厨层级（Brigade de Cuisine）与职责对应】\n法国烹饪传奇奥古斯特·埃斯考菲耶（Auguste Escoffier）创立了高度军事化协同的厨房岗位制度：\n1. 行政主厨（Executive Chef）：厨房最高管理者，负责全厨运营监督、成本控制、菜单设计与人员考评，主要精力在经营管理而非临灶烹饪。\n2. 行政副主厨（Executive Sous Chef）：协助行政主厨执行日常运营管理，协调各部门工作。\n3. 西餐主厨（Chef de Cuisine）：各独立餐厅的厨房主管，负责该部门日常菜品生产准备。\n4. 部门主管厨师（Chef de Partie / Line Cook）：核心工段负责人，下设关键专业分工：\n   • 沙司厨师（Saucier / Sauce Chef）：地位极高，负责所有基础高汤（Stock）及五大母酱、调味汁制作与热开胃菜。\n   • 汤菜厨师（Potager / Soup Chef）：负责清汤、奶油浓汤、杂烩汤等各类西式汤品制作。\n   • 冷菜/冷膳厨师（Garde Manger）：负责冷菜间管理、冷调味汁、沙拉、冷开胃菜、水果拼盘及冷盘装饰展台。\n   • 烤扒厨师（Rôtisseur / Grillardin）：负责烤肉、扒炉串烧及烤禽类菜肴制作。\n   • 加工间厨师（Butcher Chef / Boucher）：负责蔬菜、海鲜、肉类等原材料的初步分级、去骨、分割及品质验收管理。\n5. 西饼房厨师（Pastry & Bakery Chef）：独立负责面包、蛋糕、派塔、餐后甜点制作。\n6. 助理厨师（Commis Chef）：刚完成专业学业的初级学徒厨师，协助各部门厨师执行基础备料。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "六、统考量化必考：三槽式餐具洗涤法与有效杀菌温湿度标准"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "toggle",
+      "toggle": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "📌 统考必考参数 1：三槽洗涤消毒标准流程与温水状态"
+            }
+          }
+        ],
+        "children": [
+          {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "• 第一槽【洗涤槽】：加入洗洁剂（洗涤剂），使用毛刷或海绵擦洗，水温严格控制在 43℃ ~ 49℃（水温过低油脂无法乳化溶解，水温过高会导致蛋白质凝固粘附餐具表面难以洗净）。\n• 第二槽【冲洗槽】：水流必须保持【流动状、满水位】，目的为持续将残留的洗洁剂彻底冲刷稀释排出，水温约 45℃~50℃。\n• 第三槽【消毒槽】：\n  - 热水杀菌法：浸入 80℃ 以上洁净热水，完全浸泡 2 分钟以上；\n  - 氯液杀菌法：加入有效氯浓度 200 ppm 的消毒液，浸泡 2 分钟以上；\n  - 洗涤消毒完成后，餐具严禁使用未经灭菌的普通抹布擦干，必须置于沥水架上【自然晾干】或放入紫外线消毒烘干柜！"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "toggle",
+      "toggle": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "📌 统考必考参数 2：食品中毒致病菌、传染媒介与天然毒素对应表"
+            }
+          }
+        ],
+        "children": [
+          {
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "• 金黄色葡萄球菌（Staphylococcus aureus）：厨师手部有【化脓伤口】、受感染皮疹若未经防护直接接触食物，该菌产生的耐热肠毒素引发剧烈呕吐与腹痛。\n• 沙门氏菌（Salmonella）：主要源自【未彻底煮熟的家禽肉、生鸡蛋】及被污染的案板交叉感染。\n• 肠炎弧菌（Vibrio parahaemolyticus）：嗜盐性致病菌，主要传染媒介为【生鲜海鲜（牡蛎、贝类、生鱼）】。预防核心方法：生熟分开，且生鲜海产不可使用生水乱冲，宜用盐水清洗抑制其异常繁殖，并彻底加热。\n• 肉毒杆菌（Clostridium botulinum）：厌氧菌，多滋生于【低酸性缺氧罐头、密封真空腌制品】中，产生神经剧毒，可致命。\n• 仙人掌杆菌（Bacillus cereus）：多见于室温下长时间放置的【熟米饭、炒面】中。\n• 天然毒素：\n  - 发芽马铃薯：富含【龙葵碱（Solanine）】，引起溶血与神经中毒；\n  - 毒性水产：河豚毒素（神经毒）、麻痹性贝类毒素（藻类毒素富集）。"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
