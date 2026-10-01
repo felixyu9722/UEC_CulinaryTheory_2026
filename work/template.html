@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>2026年统考厨艺（烘焙理论与西餐）全套1,400题互动答题总系统（高一+高二完整版）</title>
+  <title>2026年统考厨艺理论 全套1,720题互动答题总系统（高一+高二+高三完整统考版）</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
@@ -979,8 +979,8 @@
     <div class="portal-container">
       <div class="portal-hero">
         <div class="portal-badge">2026 马来西亚华文独中高中统考（UEC）</div>
-        <h1 class="portal-title">高中厨艺（烘焙理论）互动答题总系统</h1>
-        <p class="portal-desc">全套校内考点与统考大纲精选试题库 · 智能评分与机理解析系统</p>
+        <h1 class="portal-title">高中厨艺理论 互动答题总系统</h1>
+        <p class="portal-desc">高一·高二·高三全学段1,720题统考大纲精选试题库 · 智能评分与机理解析系统</p>
       </div>
 
       <div class="grade-cards-grid">
@@ -1021,22 +1021,22 @@
         </div>
 
         <!-- Grade 3: Senior 3 -->
-        <div class="grade-card" onclick="selectGrade('senior3')">
-          <div class="card-status-badge badge-pending">🟣 扩展架构已就绪 · 题库编排中</div>
+        <div class="grade-card ready" onclick="selectGrade('senior3')">
+          <div class="card-status-badge badge-ready">🟢 320题已就绪 · 立即练习</div>
           <div class="card-icon">👨‍🍳</div>
           <div class="grade-num">03 | 高三年级</div>
           <h2 class="grade-name">西式点心、酱汁与亚洲烹调</h2>
           <div class="grade-tags">
             <span>全8单元</span>
-            <span>法式点心与派塔</span>
-            <span>五大经典母酱</span>
-            <span>亚洲特色烹饪</span>
-            <span>统考实作冲刺</span>
+            <span>320道精选</span>
+            <span>法式点心与母酱</span>
+            <span>亚洲烹调与火候</span>
+            <span>ABCD均等分布</span>
           </div>
           <p class="grade-summary">
-            深度解析法式泡芙与酥皮折叠、经典西餐母酱调配、亚洲风味烹调工艺与独中董总总技术鉴定统考冲刺题型。
+            涵盖西式饼干工艺与延展率、胶冻与慕斯淋面、塔派开酥与盲烤、泡芙蒸汽爆破、松饼比萨道纳司、法式五大母酱与乳化、亚洲上浆挂糊与滑油、烹饪热传导与火候判断。
           </p>
-          <button class="grade-action-btn btn-secondary">进入高三专属题库</button>
+          <button class="grade-action-btn btn-active">🚀 进入高三练习 (320题)</button>
         </div>
       </div>
     </div>
@@ -1045,7 +1045,7 @@
     <div class="portal-screen-footer">
       <div class="tiny-line-1">
         <span>⚖️ 版权保护声明：© 2026 尤老师 ｜ 亚罗士打新民独中 ｜ 互动答题总系统</span>
-        <span class="tiny-ver">v2026.10-Build.02</span>
+        <span class="tiny-ver">v2026.10-Build.03</span>
       </div>
       <div class="tiny-line-2">
         欢迎分享本网页链接供学习使用；未经许可，不得复制、转载网页内的文字、题目及答案，不得公开发布于其他网站，亦不得用于商业销售。
@@ -1128,7 +1128,7 @@
     <footer class="portal-screen-footer" style="margin: 40px auto 10px; border-top: 1px dashed rgba(148, 163, 184, 0.35); max-width: 900px;">
       <div class="tiny-line-1">
         <span>⚖️ 版权保护声明：© 2026 尤老师 ｜ 亚罗士打新民独中 ｜ 互动答题总系统</span>
-        <span class="tiny-ver">v2026.10-Build.02</span>
+        <span class="tiny-ver">v2026.10-Build.03</span>
       </div>
       <div class="tiny-line-2">
         欢迎分享本网页链接供学习使用；未经许可，不得复制、转载网页内的文字、题目及答案，不得公开发布于其他网站，亦不得用于商业销售。
@@ -1159,9 +1159,9 @@
         id: 'senior3',
         grade_num: '03',
         grade_name: '高三：西式点心、酱汁与亚洲烹调',
-        badge: '高阶高三·题库编排中',
-        sub: '高级法式点心·经典母酱制作·亚洲风味烹调与董总统考鉴定冲刺',
-        chapters: [] // Future Senior 3 questions can be plugged in here directly!
+        badge: '全套320题·统考全覆盖',
+        sub: '高三全套8单元（法式高级西点·经典母酱·亚洲烹调艺术·统考火候评定）',
+        chapters: __SENIOR3_QUESTIONS_DATA_PLACEHOLDER__
       }
     };
 
