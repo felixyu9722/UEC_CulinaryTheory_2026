@@ -922,12 +922,183 @@ footer a:hover {{
   to {{ opacity: 1; transform: scale(1); }}
 }}
 
+.hide-mobile {{ display: inline; }}
+.show-mobile-only {{ display: none; }}
+
 @media (max-width: 640px) {{
-  .question-card {{ padding: 18px 16px; }}
-  .pb-title {{ font-size: 1.25rem; }}
-  .opt-btn {{ min-height: 48px; padding: 10px 14px; }}
-  .opt-badge {{ width: 28px; height: 28px; font-size: 0.88rem; margin-right: 10px; }}
-  .opt-txt {{ font-size: 0.95rem; }}
+  .hide-mobile {{ display: none !important; }}
+  .show-mobile-only {{ display: inline !important; }}
+
+  header {{
+    padding: 6px 10px;
+  }}
+  .hdr-wrap {{
+    gap: 4px;
+  }}
+  .hdr-left {{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    width: 100%;
+  }}
+  .hdr-back {{
+    padding: 2px 6px;
+    font-size: 0.70rem;
+    border-radius: 6px;
+    gap: 2px;
+  }}
+  .hdr-title-box {{
+    width: 100%;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }}
+  .hdr-brand {{
+    font-size: 0.86rem;
+    font-weight: 800;
+    gap: 6px;
+  }}
+  .hdr-paper-badge {{
+    font-size: 0.62rem;
+    padding: 1px 6px;
+  }}
+  .hdr-sub {{
+    display: none !important;
+  }}
+
+  .hdr-hud {{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+    margin-top: 2px;
+  }}
+  .mode-switch {{
+    padding: 1px;
+  }}
+  .mode-btn {{
+    padding: 2px 6px;
+    font-size: 0.68rem;
+  }}
+  .hud-pill {{
+    padding: 2px 6px;
+    font-size: 0.70rem;
+    gap: 3px;
+  }}
+  .hud-val {{
+    font-size: 0.80rem;
+  }}
+
+  /* Main & Paper Banner */
+  .main-wrap {{
+    margin: 10px auto;
+    padding: 0 10px;
+  }}
+  .paper-banner {{
+    padding: 12px 14px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+  }}
+  .pb-title {{
+    font-size: 1.08rem;
+    margin-bottom: 4px;
+  }}
+  .pb-desc {{
+    font-size: 0.80rem;
+    line-height: 1.45;
+  }}
+  .pb-meta {{
+    margin-top: 8px;
+    gap: 4px;
+  }}
+  .pb-meta-item {{
+    font-size: 0.70rem;
+    padding: 2px 6px;
+  }}
+
+  /* Section Nav */
+  .section-nav {{
+    margin-bottom: 14px;
+    gap: 6px;
+  }}
+  .sec-tab-btn {{
+    font-size: 0.90rem;
+    padding: 6px 12px;
+  }}
+
+  /* Question Palette */
+  .palette-card {{
+    padding: 12px 10px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+  }}
+  .palette-grid {{
+    grid-template-columns: repeat(auto-fill, minmax(32px, 1fr));
+    gap: 4px;
+  }}
+  .pal-btn {{
+    width: 32px;
+    height: 32px;
+    font-size: 0.75rem;
+    border-radius: 6px;
+  }}
+
+  /* Question Card */
+  .question-card {{
+    padding: 14px 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+  }}
+  .q-top {{
+    margin-bottom: 8px;
+    gap: 4px;
+  }}
+  .q-num-pill {{
+    font-size: 0.72rem;
+    padding: 2px 7px;
+  }}
+  .q-group-tag {{
+    font-size: 0.68rem;
+    padding: 2px 6px;
+  }}
+  .q-title {{
+    font-size: 1.02rem;
+    line-height: 1.45;
+    margin-bottom: 12px;
+  }}
+  .opt-btn {{
+    min-height: 42px;
+    padding: 8px 10px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    gap: 8px;
+  }}
+  .opt-badge {{
+    width: 26px;
+    height: 26px;
+    font-size: 0.82rem;
+    margin-right: 6px;
+  }}
+  .opt-txt {{
+    font-size: 0.92rem;
+    line-height: 1.38;
+  }}
+  .exp-box {{
+    margin-top: 10px;
+    padding: 12px 14px;
+  }}
+  .exp-title {{
+    font-size: 0.85rem;
+  }}
+  .exp-body {{
+    font-size: 0.86rem;
+    line-height: 1.55;
+  }}
 }}
 </style>
 </head>
@@ -936,23 +1107,23 @@ footer a:hover {{
 <header>
   <div class="hdr-wrap">
     <div class="hdr-left">
-      <a class="hdr-back" href="模拟考场主页.html">← 模拟考场总览</a>
+      <a class="hdr-back" href="模拟考场主页.html">← <span class="hide-mobile">模拟考场</span>总览</a>
       {config['nav_links_html']}
-      <a class="hdr-back" href="index.html">🏠 练习系统主页</a>
+      <a class="hdr-back" href="index.html">🏠 <span class="hide-mobile">练习系统</span>主页</a>
       <div class="hdr-title-box">
         <div class="hdr-brand">
           <span>{config['paper_title']}</span>
-          <span class="hdr-paper-badge">{config['badge_text']}</span>
+          <span class="hdr-paper-badge hide-mobile">{config['badge_text']}</span>
         </div>
-        <div class="hdr-sub">{config['paper_subtitle']}</div>
+        <div class="hdr-sub hide-mobile">{config['paper_subtitle']}</div>
       </div>
     </div>
 
     <div class="hdr-hud">
       <!-- Mode Switch -->
       <div class="mode-switch">
-        <button class="mode-btn active" id="btnModeInstant" onclick="setMode('instant')">⚡ 随刷即查</button>
-        <button class="mode-btn" id="btnModeExam" onclick="setMode('exam')">⏱️ 模考计时</button>
+        <button class="mode-btn active" id="btnModeInstant" onclick="setMode('instant')">⚡ <span class="hide-mobile">随刷</span>即查</button>
+        <button class="mode-btn" id="btnModeExam" onclick="setMode('exam')">⏱️ 模考<span class="hide-mobile">计时</span></button>
       </div>
 
       <div class="hud-pill" id="hudTimerBox" style="display:none;">
@@ -967,7 +1138,7 @@ footer a:hover {{
         <span>正确率</span><span class="hud-val" id="hudAccuracy">0%</span>
       </div>
 
-      <button class="hdr-back" onclick="resetAll()" title="重置本卷答题记录" style="cursor:pointer;border:none;">🔄 重置</button>
+      <button class="hdr-back" onclick="resetAll()" title="重置本卷答题记录" style="cursor:pointer;border:none;">🔄 <span class="hide-mobile">重置</span></button>
     </div>
   </div>
 </header>
@@ -1494,7 +1665,7 @@ configA = {
     'mcq_code': paperA_mcq_code,
     'written_code': paperA_written_code,
     'out_filename': '模拟卷A_历届高频真题精选卷.html',
-    'nav_links_html': '<a class="hdr-back" href="模拟卷B_2026前瞻预测试题卷.html">🔮 模拟卷 B</a><a class="hdr-back" href="模拟卷C_2026统考短选项实战冲刺卷.html">⚡ 模拟卷 C</a>'
+    'nav_links_html': '<a class="hdr-back" href="模拟卷B_2026前瞻预测试题卷.html">🔮 <span class="hide-mobile">模拟</span>卷 B</a><a class="hdr-back" href="模拟卷C_2026统考短选项实战冲刺卷.html">⚡ <span class="hide-mobile">模拟</span>卷 C</a>'
 }
 pathA = os.path.join(ROOT_DIR, configA['out_filename'])
 with open(pathA, 'w', encoding='utf-8') as f:
@@ -1511,7 +1682,7 @@ configB = {
     'mcq_code': paperB_mcq_code,
     'written_code': paperB_written_code,
     'out_filename': '模拟卷B_2026前瞻预测试题卷.html',
-    'nav_links_html': '<a class="hdr-back" href="模拟卷A_历届高频真题精选卷.html">📄 模拟卷 A</a><a class="hdr-back" href="模拟卷C_2026统考短选项实战冲刺卷.html">⚡ 模拟卷 C</a>'
+    'nav_links_html': '<a class="hdr-back" href="模拟卷A_历届高频真题精选卷.html">📄 <span class="hide-mobile">模拟</span>卷 A</a><a class="hdr-back" href="模拟卷C_2026统考短选项实战冲刺卷.html">⚡ <span class="hide-mobile">模拟</span>卷 C</a>'
 }
 pathB = os.path.join(ROOT_DIR, configB['out_filename'])
 with open(pathB, 'w', encoding='utf-8') as f:
@@ -1528,7 +1699,7 @@ configC = {
     'mcq_code': paperC_mcq_code,
     'written_code': paperC_written_code,
     'out_filename': '模拟卷C_2026统考短选项实战冲刺卷.html',
-    'nav_links_html': '<a class="hdr-back" href="模拟卷A_历届高频真题精选卷.html">📄 模拟卷 A</a><a class="hdr-back" href="模拟卷B_2026前瞻预测试题卷.html">🔮 模拟卷 B</a>'
+    'nav_links_html': '<a class="hdr-back" href="模拟卷A_历届高频真题精选卷.html">📄 <span class="hide-mobile">模拟</span>卷 A</a><a class="hdr-back" href="模拟卷B_2026前瞻预测试题卷.html">🔮 <span class="hide-mobile">模拟</span>卷 B</a>'
 }
 pathC = os.path.join(ROOT_DIR, configC['out_filename'])
 with open(pathC, 'w', encoding='utf-8') as f:
