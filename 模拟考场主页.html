@@ -177,16 +177,75 @@ footer{border-top:1px solid var(--border);padding:28px 24px;
   text-align:center;font-size:12px;color:var(--muted);}
 footer a{color:var(--accent);text-decoration:none;font-weight:600;}
 footer a:hover{text-decoration:underline;}
+
+.hide-mobile{display:inline;}
+.show-mobile-only{display:none;}
+.desktop-only-table{display:block;}
+.mobile-only-p2{display:none;}
+.yr-pill{background:#FEF3C7;color:#92400E;padding:2px 7px;border-radius:6px;font-size:11px;font-family:'Outfit',sans-serif;}
+
+@media(max-width:680px){
+  .hide-mobile{display:none!important;}
+  .show-mobile-only{display:inline!important;}
+  .desktop-only-table{display:none!important;}
+  .mobile-only-p2{display:flex!important;flex-direction:column;gap:10px;}
+
+  header{padding:6px 12px;}
+  .hdr{gap:6px;justify-content:space-between;}
+  .hdr-title{font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .hdr-back{padding:3px 8px;font-size:11px;}
+  .hdr-badge{padding:2px 6px;font-size:10px;}
+
+  .hero{padding:28px 14px 20px;}
+  .hero-title{font-size:24px;}
+  .hero-sub{font-size:12px;line-height:1.5;}
+
+  .stats-row{gap:8px;padding:0 10px;margin-bottom:24px;}
+  .stat-pill{padding:8px 12px;min-width:130px;gap:8px;}
+  .stat-icon{font-size:18px;}
+  .stat-text .num{font-size:16px;}
+
+  .analysis-section{padding:24px 12px;margin-bottom:24px;}
+  .full-card{padding:14px 12px;margin-bottom:14px;}
+  
+  .p2-m-card{
+    background:#FAF8F5;border:1px solid var(--border);border-left:4px solid var(--accent);
+    border-radius:12px;padding:12px 12px;
+  }
+  .p2-m-header{
+    display:flex;justify-content:space-between;align-items:center;
+    margin-bottom:8px;padding-bottom:6px;border-bottom:1px dashed var(--border);
+  }
+  .p2-m-yr{
+    font-family:'Outfit',sans-serif;font-weight:800;font-size:13.5px;color:var(--primary);
+  }
+  .p2-m-tag{
+    font-size:10px;font-weight:700;background:#FEF3C7;color:#92400E;
+    padding:1px 6px;border-radius:4px;
+  }
+  .p2-m-block{margin-bottom:8px;}
+  .p2-m-block:last-child{margin-bottom:0;}
+  .p2-m-lbl{font-size:11px;font-weight:700;color:var(--muted);margin-bottom:3px;}
+  .p2-m-val.highlight{
+    font-size:12px;font-weight:700;color:#1E293B;background:#FFFFFF;
+    border:1px solid var(--border);padding:5px 8px;border-radius:6px;display:inline-block;
+  }
+  .p2-m-chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px;}
+  .p2-chip{
+    font-size:11px;background:#FFFFFF;border:1px solid #CBD5E1;
+    color:#334155;padding:2px 7px;border-radius:6px;line-height:1.4;
+  }
+}
 </style>
 </head>
 <body>
 
 <header>
   <div class="hdr">
-    <div class="hdr-title">📚 2026统考厨艺理论 · 历届全真模拟考场</div>
-    <div style="display:flex;align-items:center;gap:12px;">
-      <a class="hdr-back" href="index.html">← 返回练习系统</a>
-      <div class="hdr-badge">v2026.10-Build.04</div>
+    <div class="hdr-title"><span class="hide-mobile">📚 2026统考厨艺理论 · 历届全真模拟考场</span><span class="show-mobile-only">📚 2026统考 · 历届模拟考场</span></div>
+    <div style="display:flex;align-items:center;gap:8px;">
+      <a class="hdr-back" href="index.html">← <span class="hide-mobile">返回</span>练习系统</a>
+      <div class="hdr-badge">v2026.10</div>
     </div>
   </div>
 </header>
@@ -261,18 +320,158 @@ footer a:hover{text-decoration:underline;}
 
   <div class="wrap" style="padding:0;">
     <div class="full-card">
-      <h3>📄 试卷二（作答题）历届出题规律</h3>
-      <table class="dtable">
-        <thead><tr><th style="width:60px;">年份</th><th style="width:200px;">甲组必答题（10%）</th><th>乙组选答常见考点</th></tr></thead>
-        <tbody>
-          <tr><td><strong>2025</strong></td><td>中餐调味料五项及作用</td><td>Maillard反应、意式蛋白霜、麸质(Gluten)、搅拌机三大配件、法式洋葱汤、牛肉部位、中餐刀工五法、粮食制品储存</td></tr>
-          <tr><td><strong>2024</strong></td><td>烘焙百分比计算（蛋糕配方）</td><td>菜肴盛盘要求、厨房卫生四大原则、马铃薯挑选、烹调方法温度、牛排熟度四级、食材中英对照</td></tr>
-          <tr><td><strong>2023</strong></td><td>（无原文，推测为五大母酱）</td><td>搅拌机配件、高汤类型、刀工五法、食品安全HACCP</td></tr>
-          <tr><td><strong>2022</strong></td><td>（无原文）</td><td>烤箱使用三大注意、巧克力蛋糕配方计算、宴会小点三重点、法国菜城市、菜肴起源省份</td></tr>
-          <tr><td><strong>2021</strong></td><td>专有名词解释（Paprika/Salami/Striped sandwich）</td><td>蛋糕三大分类、烤箱三重点、烘焙百分比计算、宴会小点、法国菜、菜肴起源省份、麒麟蒸鱼</td></tr>
-          <tr><td><strong>2020</strong></td><td>（推测题型类似）</td><td>香草知识、高汤储存、西餐技法、中餐刀工</td></tr>
-        </tbody>
-      </table>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;flex-wrap:wrap;gap:8px;">
+        <h3 style="margin-bottom:0;">📄 试卷二（作答题）历届出题规律</h3>
+        <span style="font-size:11px;color:var(--muted);background:#F1F5F9;padding:2px 8px;border-radius:6px;border:1px solid var(--border);">2020~2025 统考真题归纳</span>
+      </div>
+
+      <!-- Desktop View: Spacious Table -->
+      <div class="desktop-only-table">
+        <table class="dtable">
+          <thead><tr><th style="width:65px;">年份</th><th style="width:230px;">甲组必答题（10%）</th><th>乙组选答常见考点</th></tr></thead>
+          <tbody>
+            <tr><td><strong class="yr-pill">2025</strong></td><td><strong style="color:#1E293B;">中餐调味料五项及作用</strong></td><td>Maillard反应、意式蛋白霜、麸质(Gluten)、搅拌机三大配件、法式洋葱汤、牛肉部位、中餐刀工五法、粮食制品储存</td></tr>
+            <tr><td><strong class="yr-pill">2024</strong></td><td><strong style="color:#1E293B;">烘焙百分比计算（蛋糕配方）</strong></td><td>菜肴盛盘要求、厨房卫生四大原则、马铃薯挑选、烹调方法温度、牛排熟度四级、食材中英对照</td></tr>
+            <tr><td><strong class="yr-pill">2023</strong></td><td><strong style="color:#1E293B;">五大母酱体系与衍生酱汁</strong></td><td>搅拌机配件、高汤类型、刀工五法、食品安全HACCP</td></tr>
+            <tr><td><strong class="yr-pill">2022</strong></td><td><strong style="color:#1E293B;">烘焙度量衡与原料称量</strong></td><td>烤箱使用三大注意、巧克力蛋糕配方计算、宴会小点三重点、法国菜城市、菜肴起源省份</td></tr>
+            <tr><td><strong class="yr-pill">2021</strong></td><td><strong style="color:#1E293B;">专有名词解释（Paprika/Salami等）</strong></td><td>蛋糕三大分类、烤箱三重点、烘焙百分比计算、宴会小点、法国菜、菜肴起源省份、麒麟蒸鱼</td></tr>
+            <tr><td><strong class="yr-pill">2020</strong></td><td><strong style="color:#1E293B;">食品安全与低温冷链控温</strong></td><td>香草知识、高汤储存、西餐技法、中餐刀工、比萨面团分类</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Mobile View: Modern Clean Card List -->
+      <div class="mobile-only-p2">
+        <div class="p2-m-card">
+          <div class="p2-m-header">
+            <span class="p2-m-yr">📅 2025 年真题</span>
+            <span class="p2-m-tag">最新统考</span>
+          </div>
+          <div class="p2-m-block">
+            <div class="p2-m-lbl">🎯 甲组必答题 (10%)</div>
+            <div class="p2-m-val highlight">中餐调味料五项及作用</div>
+          </div>
+          <div class="p2-m-block">
+            <div class="p2-m-lbl">📝 乙组选答常见考点</div>
+            <div class="p2-m-chips">
+              <span class="p2-chip">Maillard 反应</span>
+              <span class="p2-chip">意式蛋白霜</span>
+              <span class="p2-chip">麸质 (Gluten)</span>
+              <span class="p2-chip">搅拌机配件</span>
+              <span class="p2-chip">法式洋葱汤</span>
+              <span class="p2-chip">牛肉部位</span>
+              <span class="p2-chip">中餐刀工五法</span>
+              <span class="p2-chip">粮食制品储存</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p2-m-card">
+          <div class="p2-m-header">
+            <span class="p2-m-yr">📅 2024 年真题</span>
+            <span class="p2-m-tag">历届高频</span>
+          </div>
+          <div class="p2-m-block">
+            <div class="p2-m-lbl">🎯 甲组必答题 (10%)</div>
+            <div class="p2-m-val highlight">烘焙百分比计算（蛋糕配方）</div>
+          </div>
+          <div class="p2-m-block">
+            <div class="p2-m-lbl">📝 乙组选答常见考点</div>
+            <div class="p2-m-chips">
+              <span class="p2-chip">菜肴盛盘要求</span>
+              <span class="p2-chip">厨房卫生四大原则</span>
+              <span class="p2-chip">马铃薯挑选</span>
+              <span class="p2-chip">烹调方法温度</span>
+              <span class="p2-chip">牛排熟度四级</span>
+              <span class="p2-chip">食材中英对照</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p2-m-card">
+          <div class="p2-m-header">
+            <span class="p2-m-yr">📅 2023 年真题</span>
+            <span class="p2-m-tag">历届高频</span>
+          </div>
+          <div class="p2-m-block">
+            <div class="p2-m-lbl">🎯 甲组必答题 (10%)</div>
+            <div class="p2-m-val highlight">五大母酱体系与衍生酱汁</div>
+          </div>
+          <div class="p2-m-block">
+            <div class="p2-m-lbl">📝 乙组选答常见考点</div>
+            <div class="p2-m-chips">
+              <span class="p2-chip">搅拌机配件</span>
+              <span class="p2-chip">高汤类型</span>
+              <span class="p2-chip">刀工五法</span>
+              <span class="p2-chip">食品安全 HACCP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p2-m-card">
+          <div class="p2-m-header">
+            <span class="p2-m-yr">📅 2022 年真题</span>
+            <span class="p2-m-tag">历届高频</span>
+          </div>
+          <div class="p2-m-block">
+            <div class="p2-m-lbl">🎯 甲组必答题 (10%)</div>
+            <div class="p2-m-val highlight">烘焙度量衡与原料称量</div>
+          </div>
+          <div class="p2-m-block">
+            <div class="p2-m-lbl">📝 乙组选答常见考点</div>
+            <div class="p2-m-chips">
+              <span class="p2-chip">烤箱使用三大注意</span>
+              <span class="p2-chip">巧克力蛋糕配方计算</span>
+              <span class="p2-chip">宴会小点三重点</span>
+              <span class="p2-chip">法国菜城市</span>
+              <span class="p2-chip">菜肴起源省份</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p2-m-card">
+          <div class="p2-m-header">
+            <span class="p2-m-yr">📅 2021 年真题</span>
+            <span class="p2-m-tag">历届高频</span>
+          </div>
+          <div class="p2-m-block">
+            <div class="p2-m-lbl">🎯 甲组必答题 (10%)</div>
+            <div class="p2-m-val highlight">专有名词解释（Paprika/Salami等）</div>
+          </div>
+          <div class="p2-m-block">
+            <div class="p2-m-lbl">📝 乙组选答常见考点</div>
+            <div class="p2-m-chips">
+              <span class="p2-chip">蛋糕三大分类</span>
+              <span class="p2-chip">烤箱三重点</span>
+              <span class="p2-chip">烘焙百分比计算</span>
+              <span class="p2-chip">宴会小点</span>
+              <span class="p2-chip">法国菜</span>
+              <span class="p2-chip">麒麟蒸鱼</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p2-m-card">
+          <div class="p2-m-header">
+            <span class="p2-m-yr">📅 2020 年真题</span>
+            <span class="p2-m-tag">历届高频</span>
+          </div>
+          <div class="p2-m-block">
+            <div class="p2-m-lbl">🎯 甲组必答题 (10%)</div>
+            <div class="p2-m-val highlight">食品安全与低温冷链控温</div>
+          </div>
+          <div class="p2-m-block">
+            <div class="p2-m-lbl">📝 乙组选答常见考点</div>
+            <div class="p2-m-chips">
+              <span class="p2-chip">香草知识</span>
+              <span class="p2-chip">高汤储存</span>
+              <span class="p2-chip">西餐技法</span>
+              <span class="p2-chip">中餐刀工</span>
+              <span class="p2-chip">比萨面团分类</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
