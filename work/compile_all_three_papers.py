@@ -25,7 +25,9 @@ def extract_js_array(varname, text):
     return m.group(1)
 
 paperA_mcq_code = extract_js_array('paperA_mcq', mock_src)
-paperB_mcq_code = extract_js_array('paperB_mcq', mock_src)
+with open(r'work\paperB_balanced.json', 'r', encoding='utf-8') as f:
+    paperB_balanced_list = json.load(f)
+paperB_mcq_code = json.dumps(paperB_balanced_list, ensure_ascii=False)
 paperA_written_code = extract_js_array('paperA_written', mock_src)
 paperB_written_code = extract_js_array('paperB_written', mock_src)
 
