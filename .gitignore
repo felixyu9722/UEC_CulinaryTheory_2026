@@ -36,4 +36,17 @@ yu 01 新增资料/
 简报及信息图生成/
 work/qa_word/
 OCT 2026 资料增加/
+work/*_outliers_raw.txt
+work/dump_*.py
+work/fix_*.py
+work/patch_*.py
+work/inspect_*.py
+work/check_*.py
+work/verify_*.py
+work/rename_*.py
+work/test_*.py
+work/validate_*.py
+work/list_*.py
+work/standardize_*.py
+
 
